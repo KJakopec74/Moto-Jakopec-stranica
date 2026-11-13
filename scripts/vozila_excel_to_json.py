@@ -74,6 +74,39 @@ def parse_value(val):
         return stripped if stripped else None
     return val
 
+def formatiraj_cijenu(val) -> str:
+    """
+    Pretvara cijenu u jednak oblik za sva vozila: "10.275 €".
+
+    Primjeri:
+      10275          → "10.275 €"
+      10275.5        → "10.275,50 €"
+      "10275"        → "10.275 €"
+      "15.263 €"     → "15.263 €"   (već je dobro, ostaje isto)
+      "Cijena na upit" → "Cijena na upit"
+    """
+    if val is None:
+        return ""
+
+    # Ako je tekst koji je zapravo samo broj (npr. "10275"), pretvori ga u broj
+    if isinstance(val, str):
+        tekst = val.strip()
+        if tekst.replace(" ", "").isdigit():
+            val = int(tekst.replace(" ", ""))
+        else:
+            return tekst  # već formatirano ili "Cijena na upit"
+
+    # Broj → hrvatski format: točka za tisućice, zarez za decimale
+    if isinstance(val, (int, float)):
+        if float(val).is_integer():
+            s = f"{int(val):,}".replace(",", ".")
+        else:
+            s = f"{val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        return f"{s} €"
+
+    return str(val)
+
+
 # ── Glavni dio ────────────────────────────────────────────────────────────────
 def mape_iz_postojeceg_jsona() -> dict:
     """
@@ -159,7 +192,7 @@ def main():
             "category":         parse_value(row_dict.get("category")) or "",
             "license_category": parse_value(row_dict.get("license_category")) or "",
             "is_new":           parse_bool(row_dict.get("is_new", False)),
-            "price":            parse_value(row_dict.get("price")) or "",
+            "price":            formatiraj_cijenu(parse_value(row_dict.get("price"))),
             "description":      parse_value(row_dict.get("description")) or "",
             "images":           images,
         }
