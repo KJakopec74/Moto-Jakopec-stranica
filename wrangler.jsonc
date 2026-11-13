@@ -1,0 +1,13 @@
+// Postavke za Cloudflare Workers (statična stranica, bez serverskog koda).
+// "npm run build" napravi gotove HTML datoteke u mapi "out/",
+// a "npx wrangler deploy" ih objavi na Cloudflare.
+{
+  "name": "moto-jakopec",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    // Mapa s gotovom stranicom (rezultat statičnog izvoza)
+    "directory": "./out",
+    // Nepostojeće adrese prikazuju našu 404 stranicu
+    "not_found_handling": "404-page"
+  }
+}
