@@ -68,7 +68,7 @@ export default function ProductCard({ product }: Props) {
             {product.price}
           </span>
           <a
-            href={`mailto:moto.jakopec@gmail.com?subject=Upit: ${encodeURIComponent(product.name)}`}
+            href={`/kontakt?model=${encodeURIComponent(product.name)}`}
             className="text-xs flex items-center gap-1 transition-colors hover:underline"
             style={{ color: "var(--muted)" }}
           >

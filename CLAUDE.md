@@ -5,7 +5,9 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ## Tehnologije
 
 - **Next.js 14** App Router, TypeScript, Tailwind CSS
-- **Vercel** hosting, automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
+- **Cloudflare Pages** hosting (besplatno), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
+- Statični izvoz (`output: "export"` u next.config.mjs) — build ide u mapu `out/`, nema servera ni API ruta
+- **Web3Forms** za slanje upita s forme (`src/components/UpitForma.tsx`), ključ u varijabli `NEXT_PUBLIC_WEB3FORMS_KEY`
 - **Python + openpyxl** za upravljanje podacima (lokalno, ne deployaju se)
 
 ## Struktura podataka
@@ -122,6 +124,16 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 
 - Website čita SAMO `models.json`, `products.json` i `brands.json` — Excel i Python su lokalni alati
 - `vozila.xlsx` i `proizvodi.xlsx` su u `.gitignore` — ne commitaju se
-- Slike moraju biti u `public/images/` da bi Next.js Image ih servirao
+- Slike moraju biti u `public/images/`; optimizacija slika je isključena (`unoptimized: true`) jer nema servera
+- Gumbi "Pošalji upit" vode na `/kontakt?model=<naziv>` pa se polje Model popuni automatski
 - `SPECIAL_CATEGORIES = ["Quad", "Mule", "Jet Ski"]` — ove kategorije idu u posebne nav linkove, ne pod "Motocikli"
 - Scraper `vozila_scraper_dks.py` koristi HR prijevode iz SL_HR rječnika — jednom u JSON-u, sve je na hrvatskom
+
+## Cloudflare Pages postavke
+
+| Postavka | Vrijednost |
+|----------|------------|
+| Framework preset | Next.js (Static HTML Export) |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Varijabla okruženja | `NEXT_PUBLIC_WEB3FORMS_KEY` = ključ s web3forms.com |

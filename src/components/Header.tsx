@@ -72,7 +72,7 @@ function HeaderInner() {
           {/* Phone + CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:0013371059"
+              href="tel:+38513371059"
               className="text-sm flex items-center gap-1 transition-colors"
               style={{ color: "var(--muted)" }}
               onMouseEnter={e => (e.currentTarget.style.color = "var(--green-dk)")}

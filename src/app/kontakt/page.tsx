@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import UpitForma from "@/components/UpitForma";
 
 export const metadata: Metadata = {
   title: "Kontakt",
@@ -27,7 +29,7 @@ const INFO = [
     ),
     label: "Tel/Fax",
     value: "01/3371-059",
-    href: "tel:0013371059",
+    href: "tel:+38513371059",
   },
   {
     icon: (
@@ -107,97 +109,10 @@ export default function KontaktPage() {
         {/* Contact form */}
         <div className="card p-6">
           <h2 className="font-bold text-xl mb-6" style={{ color: "var(--text)" }}>Pošalji upit</h2>
-          <form
-            action="mailto:moto.jakopec@gmail.com"
-            method="get"
-            className="space-y-4"
-          >
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Ime i prezime</label>
-                <input
-                  name="name"
-                  type="text"
-                  required
-                  placeholder="Ivan Horvat"
-                  className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
-                  style={{
-                    background: "var(--bg2)",
-                    border: "1px solid var(--line)",
-                    color: "var(--text)",
-                  }}
-                />
-              </div>
-              <div>
-                <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Telefon</label>
-                <input
-                  name="phone"
-                  type="tel"
-                  placeholder="+385 9x xxx xxxx"
-                  className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
-                  style={{
-                    background: "var(--bg2)",
-                    border: "1px solid var(--line)",
-                    color: "var(--text)",
-                  }}
-                />
-              </div>
-            </div>
-
-            <div>
-              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Email</label>
-              <input
-                name="email"
-                type="email"
-                required
-                placeholder="ivan@email.com"
-                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
-                style={{
-                  background: "var(--bg2)",
-                  border: "1px solid var(--line)",
-                  color: "var(--text)",
-                }}
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Model koji vas zanima</label>
-              <input
-                name="model"
-                type="text"
-                placeholder="npr. Kawasaki Z900"
-                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors"
-                style={{
-                  background: "var(--bg2)",
-                  border: "1px solid var(--line)",
-                  color: "var(--text)",
-                }}
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Poruka</label>
-              <textarea
-                name="body"
-                required
-                rows={4}
-                placeholder="Vaša poruka..."
-                className="w-full rounded-lg px-4 py-3 text-sm focus:outline-none transition-colors resize-none"
-                style={{
-                  background: "var(--bg2)",
-                  border: "1px solid var(--line)",
-                  color: "var(--text)",
-                }}
-              />
-            </div>
-
-            <button type="submit" className="btn-primary w-full justify-center">
-              Pošalji upit
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </button>
-          </form>
+          {/* Forma je klijentska komponenta; Suspense je potreban jer čita ?model= iz adrese */}
+          <Suspense fallback={null}>
+            <UpitForma />
+          </Suspense>
         </div>
       </div>
     </div>
