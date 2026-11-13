@@ -5,7 +5,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ## Tehnologije
 
 - **Next.js 14** App Router, TypeScript, Tailwind CSS
-- **Vercel** hosting, automatski deploy iz GitHub (`kknez2504/moto-jakopec`)
+- **Vercel** hosting, automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
 - **Python + openpyxl** za upravljanje podacima (lokalno, ne deployaju se)
 
 ## Struktura podataka
