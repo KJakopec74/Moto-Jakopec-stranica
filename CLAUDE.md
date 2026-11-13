@@ -5,7 +5,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ## Tehnologije
 
 - **Next.js 14** App Router, TypeScript, Tailwind CSS
-- **Cloudflare Pages** hosting (besplatno), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
+- **Cloudflare** hosting (besplatno; Pages ili Workers + `wrangler.jsonc`), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
 - Statični izvoz (`output: "export"` u next.config.mjs) — build ide u mapu `out/`, nema servera ni API ruta
 - **Web3Forms** za slanje upita s forme (`src/components/UpitForma.tsx`), javni ključ upisan u komponentu (račun moto.jakopec@gmail.com)
 - **Python + openpyxl** za upravljanje podacima (lokalno, ne deployaju se)
@@ -36,6 +36,7 @@ public/images/
 | `kreiraj_excel_predlozak.py` | Dodaje sheetove Brendovi u proizvodi.xlsx |
 | `proizvodi_json_to_excel.py` | products.json → proizvodi.xlsx (inicijalizacija) |
 | `proizvodi_excel_to_json.py` | proizvodi.xlsx → products.json + brands.json |
+| `slike_smanji.py` | Smanjuje JPG slike (kvaliteta 80) — pokrenuti nakon dodavanja novih slika |
 
 ## Excel datoteke (.gitignore)
 
@@ -96,7 +97,7 @@ Početna | Motocikli | Quad | Mule | Jet Ski | Oprema | Dijelovi | Kontakt
 2. Popuni red u sheetu "Proizvodi" (category mora biti `Oprema` ili `Dijelovi`)
 3. Stavi slike u `public/images/oprema/{image_folder}/` ili `public/images/dijelovi/{image_folder}/`
 4. Stavi logo brenda u `public/images/brendovi/{brand_id}.png`
-5. Pokreni: `py -X utf8 scripts/proizvodi_excel_to_json.py`
+5. Pokreni: `py -X utf8 scripts/proizvodi_excel_to_json.py` i `py -X utf8 scripts/slike_smanji.py`
 6. `git add . && git commit -m "Dodan proizvod" && git push`
 
 ## Tijek rada — ažuriranje vozila
@@ -136,3 +137,5 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 | Framework preset | Next.js (Static HTML Export) |
 | Build command | `npm run build` |
 | Build output directory | `out` |
+
+Alternativa (Workers): Build command `npm run build`, Deploy command `npx wrangler deploy` — koristi `wrangler.jsonc`.
