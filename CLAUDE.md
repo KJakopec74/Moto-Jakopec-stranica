@@ -7,7 +7,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 - **Next.js 14** App Router, TypeScript, Tailwind CSS
 - **Cloudflare Pages** hosting (besplatno), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
 - Statični izvoz (`output: "export"` u next.config.mjs) — build ide u mapu `out/`, nema servera ni API ruta
-- **Web3Forms** za slanje upita s forme (`src/components/UpitForma.tsx`), ključ u varijabli `NEXT_PUBLIC_WEB3FORMS_KEY`
+- **Web3Forms** za slanje upita s forme (`src/components/UpitForma.tsx`), javni ključ upisan u komponentu (račun moto.jakopec@gmail.com)
 - **Python + openpyxl** za upravljanje podacima (lokalno, ne deployaju se)
 
 ## Struktura podataka
@@ -136,4 +136,3 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 | Framework preset | Next.js (Static HTML Export) |
 | Build command | `npm run build` |
 | Build output directory | `out` |
-| Varijabla okruženja | `NEXT_PUBLIC_WEB3FORMS_KEY` = ključ s web3forms.com |

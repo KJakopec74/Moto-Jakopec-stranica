@@ -6,9 +6,9 @@
 // Upit se šalje preko servisa Web3Forms (https://web3forms.com), koji poruku
 // automatski proslijedi na naš email (moto.jakopec@gmail.com).
 //
-// Pristupni ključ (access key) upisuje se u Cloudflare Pages kao varijabla
-// okruženja NEXT_PUBLIC_WEB3FORMS_KEY. Ključ nije tajna — smije biti vidljiv
-// u pregledniku, on samo određuje na koji email stiže poruka.
+// Pristupni ključ (access key) je javan — smije biti vidljiv u pregledniku,
+// on samo određuje na koji email stiže poruka. Ključ je napravljen na
+// web3forms.com s računom moto.jakopec@gmail.com.
 // =============================================================================
 
 import { useState } from "react";
@@ -17,8 +17,10 @@ import { useSearchParams } from "next/navigation";
 // Adresa Web3Forms servisa na koju šaljemo podatke iz forme
 const WEB3FORMS_ADRESA = "https://api.web3forms.com/submit";
 
-// Pristupni ključ čitamo iz varijable okruženja (postavlja se pri buildu)
-const PRISTUPNI_KLJUC = process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "";
+// Pristupni ključ forme "Upit - Moto Jakopec" na Web3Forms.
+// (Može se nadjačati varijablom okruženja NEXT_PUBLIC_WEB3FORMS_KEY.)
+const PRISTUPNI_KLJUC =
+  process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "d693c9a6-f17a-409d-8098-1a4d7970798f";
 
 // Moguća stanja forme
 type StanjeForme = "uređivanje" | "slanje" | "poslano" | "greška";
