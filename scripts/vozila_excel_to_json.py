@@ -75,6 +75,27 @@ def parse_value(val):
     return val
 
 # ── Glavni dio ────────────────────────────────────────────────────────────────
+def mape_iz_postojeceg_jsona() -> dict:
+    """
+    Iz postojećeg models.json čita koja mapa slika pripada kojem vozilu (po id-u).
+    Koristi se kao rezerva ako je u Excelu stupac image_folder prazan ili kriv.
+    """
+    mape = {}
+    if not os.path.exists(JSON_PATH):
+        return mape
+    with open(JSON_PATH, encoding="utf-8") as f:
+        stari_modeli = json.load(f)
+    for m in stari_modeli:
+        slike = m.get("images", [])
+        if not slike:
+            continue
+        # "/images/vozila/52-kx-112/img_01.jpg" → "52-kx-112"
+        dijelovi = slike[0].split("/")
+        if len(dijelovi) >= 5 and dijelovi[2] == "vozila":
+            mape[m.get("id")] = dijelovi[3]
+    return mape
+
+
 def main():
     if not os.path.exists(EXCEL_PATH):
         print(f"GREŠKA: Datoteka nije pronađena: {EXCEL_PATH}")
@@ -102,6 +123,9 @@ def main():
     models = []
     skipped = 0
 
+    # Rezervne mape slika iz postojećeg models.json (ako je image_folder u Excelu kriv)
+    rezervne_mape = mape_iz_postojeceg_jsona()
+
     for row_idx, row in enumerate(rows[1:], start=2):
         row_dict = {headers[i]: row[i] for i in range(len(headers)) if headers[i]}
 
@@ -118,12 +142,20 @@ def main():
         except (ValueError, TypeError):
             model_id = row_idx - 1
 
-        image_folder = parse_value(row_dict.get("image_folder")) or ""
+        image_folder = str(parse_value(row_dict.get("image_folder")) or "")
+
+        # Ako mapa iz Excela ne postoji (prazno ili npr. "vozila"), uzmi mapu iz starog JSON-a
+        if not os.path.isdir(os.path.join(IMG_DIR, image_folder)) or image_folder in ("", "vozila"):
+            image_folder = rezervne_mape.get(model_id, "")
+
         images = get_images(image_folder)
+        if not images:
+            print(f"  UPOZORENJE: nema slika za '{name}' (image_folder = '{image_folder}')")
 
         model = {
             "id":               model_id,
             "name":             name,
+            "brand":            "Kawasaki",  # sva vozila su Kawasaki
             "category":         parse_value(row_dict.get("category")) or "",
             "license_category": parse_value(row_dict.get("license_category")) or "",
             "is_new":           parse_bool(row_dict.get("is_new", False)),

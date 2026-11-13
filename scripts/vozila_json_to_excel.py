@@ -74,9 +74,12 @@ def main():
         image_folder = ""
         images = m.get("images", [])
         if images:
-            # Npr. "/images/01-ninja-h2r/img_01.jpg" → "01-ninja-h2r"
+            # Npr. "/images/vozila/01-ninja-h2r/img_01.jpg" → "01-ninja-h2r"
+            # (stara struktura "/images/01-ninja-h2r/img_01.jpg" → isto "01-ninja-h2r")
             parts = images[0].split("/")
-            if len(parts) >= 3:
+            if len(parts) >= 5 and parts[2] == "vozila":
+                image_folder = parts[3]
+            elif len(parts) >= 3:
                 image_folder = parts[2]
 
         row_data = {
