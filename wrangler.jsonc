@@ -4,6 +4,10 @@
 {
   "name": "moto-jakopec",
   "compatibility_date": "2026-11-01",
+  // Adresa moto-jakopec.moto-jakopec.workers.dev ostaje uključena
+  "workers_dev": true,
+  // Ne trebaju nam posebne adrese za pregled svake verzije
+  "preview_urls": false,
   "assets": {
     // Mapa s gotovom stranicom (rezultat statičnog izvoza)
     "directory": "./out",

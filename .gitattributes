@@ -1,0 +1,2 @@
+# .bat datoteke moraju imati Windows završetke redaka
+*.bat text eol=crlf

@@ -38,10 +38,10 @@ function HeaderInner() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <Image
-              src="/logo-jakopec.jpg"
+              src="/logo-jakopec.png"
               alt="Moto Jakopec"
               width={140}
-              height={48}
+              height={49}
               className="h-10 w-auto object-contain"
               priority
             />

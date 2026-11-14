@@ -150,7 +150,8 @@ export default function UpitForma() {
       <label className="flex items-start gap-2 text-sm" style={{ color: "var(--muted)" }}>
         <input name="privola" type="checkbox" required value="Da" className="mt-1" />
         <span>
-          Slažem se da Moto Jakopec koristi moje podatke isključivo kako bi odgovorio na ovaj upit.
+          Slažem se da Moto Jakopec koristi moje podatke isključivo kako bi odgovorio na ovaj upit
+          (<a href="/privatnost" target="_blank" className="underline">politika privatnosti</a>).
         </span>
       </label>
 

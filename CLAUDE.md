@@ -5,7 +5,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ## Tehnologije
 
 - **Next.js 14** App Router, TypeScript, Tailwind CSS
-- **Cloudflare** hosting (besplatno; Pages ili Workers + `wrangler.jsonc`), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
+- **Cloudflare Workers** hosting (besplatno, `wrangler.jsonc`; adresa moto-jakopec.moto-jakopec.workers.dev, kasnije www.moto-jakopec.com), automatski deploy iz GitHub (`KJakopec74/Moto-Jakopec-stranica`)
 - Statični izvoz (`output: "export"` u next.config.mjs) — build ide u mapu `out/`, nema servera ni API ruta
 - **Web3Forms** za slanje upita s forme (`src/components/UpitForma.tsx`), javni ključ upisan u komponentu (račun moto.jakopec@gmail.com)
 - **Python + openpyxl** za upravljanje podacima (lokalno, ne deployaju se)
@@ -105,7 +105,7 @@ Početna | Motocikli | Quad | Mule | Jet Ski | Oprema | Dijelovi | Kontakt
 1. `py -X utf8 scripts/vozila_json_to_excel.py` (samo jednom za inicijalizaciju)
 2. Uredi `vozila.xlsx`
 3. `py -X utf8 scripts/vozila_excel_to_json.py`
-4. `git add src/data/models.json && git commit -m "Ažurirana vozila" && git push`
+4. ili samo dvoklik na `objavi.bat`
 
 ## Dizajn sistem (globals.css)
 
@@ -130,12 +130,25 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - `SPECIAL_CATEGORIES = ["Quad", "Mule", "Jet Ski"]` — ove kategorije idu u posebne nav linkove, ne pod "Motocikli"
 - Scraper `vozila_scraper_dks.py` koristi HR prijevode iz SL_HR rječnika — jednom u JSON-u, sve je na hrvatskom
 
-## Cloudflare Pages postavke
+## Cloudflare Workers postavke
 
 | Postavka | Vrijednost |
 |----------|------------|
-| Framework preset | Next.js (Static HTML Export) |
 | Build command | `npm run build` |
-| Build output directory | `out` |
+| Deploy command | `npx wrangler deploy` (čita `wrangler.jsonc`, objavljuje mapu `out/`) |
 
-Alternativa (Workers): Build command `npm run build`, Deploy command `npx wrangler deploy` — koristi `wrangler.jsonc`.
+(Pages je zbog Cloudflareove greške napušten — stari Pages projekt treba obrisati.)
+
+## SEO i ostalo
+
+- `src/lib/stranica.ts` — adresa stranice (`ADRESA_STRANICE`) i podaci o firmi; koriste ih layout (JSON-LD MotorcycleDealer), sitemap i robots
+- `src/app/sitemap.ts`, `src/app/robots.ts` — generiraju se pri buildu (`dynamic = "force-static"`)
+- `src/app/icon.png`, `apple-icon.png`, `opengraph-image.png` — ikona i slika za dijeljenje
+- `public/logo-jakopec.png` — logo s prozirnom pozadinom (bijelo pretvoreno u prozirno)
+- `/privatnost` — politika privatnosti (GDPR), link u footeru i u formi
+
+## Datoteke za korisnika (Windows)
+
+- `objavi.bat` — git pull → Excel → JSON → smanjivanje slika → commit → push
+- `pokreni_stranicu.bat` — npm install (prvi put) + npm run dev + otvara localhost:3000
+- `UPUTE.md` — upute za održavanje na hrvatskom

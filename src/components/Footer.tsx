@@ -13,10 +13,10 @@ export default function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/logo-jakopec.jpg"
+                src="/logo-jakopec.png"
                 alt="Moto Jakopec"
                 width={140}
-                height={48}
+                height={49}
                 className="h-10 w-auto object-contain"
               />
             </div>
@@ -33,6 +33,8 @@ export default function Footer() {
               {[
                 { href: "/",          label: "Početna" },
                 { href: "/motocikli", label: "Motocikli" },
+                { href: "/oprema",    label: "Oprema" },
+                { href: "/dijelovi",  label: "Dijelovi" },
                 { href: "/kontakt",   label: "Kontakt" },
               ].map((l) => (
                 <li key={l.href}>
@@ -83,7 +85,10 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs border-t" style={{ color: "var(--muted)", borderColor: "var(--line)" }}>
           <p>© {new Date().getFullYear()} Moto Jakopec. Sva prava pridržana.</p>
-          <p>Ovlašteni Kawasaki zastupnik</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privatnost" className="hover:underline">Politika privatnosti</Link>
+            <span>Ovlašteni Kawasaki zastupnik</span>
+          </div>
         </div>
       </div>
     </footer>

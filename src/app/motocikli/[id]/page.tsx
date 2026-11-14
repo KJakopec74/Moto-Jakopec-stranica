@@ -19,9 +19,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
   const bike = models.find((m) => m.id === Number(id));
   if (!bike) return { title: "Model nije pronađen" };
+  // Naslov npr. "Kawasaki Z900 — cijena i specifikacije | Moto Jakopec Samobor"
   return {
-    title: bike.name,
-    description: bike.description,
+    title: `${bike.name} — cijena i specifikacije`,
+    description: `${bike.description} Cijena: ${bike.price}. Moto Jakopec, ovlašteni Kawasaki zastupnik u Samoboru.`,
+    openGraph: {
+      title: bike.name,
+      description: bike.description,
+      images: bike.images?.[0] ? [bike.images[0]] : undefined,
+    },
   };
 }
 

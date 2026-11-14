@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ADRESA_STRANICE, FIRMA } from "@/lib/stranica";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,18 +11,46 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  // Osnovna adresa — potrebna da linkovi na slike za dijeljenje budu potpuni
+  metadataBase: new URL(ADRESA_STRANICE),
   title: {
-    default: "Moto Jakopec — Kawasaki specijalist",
-    template: "%s | Moto Jakopec",
+    default: "Moto Jakopec — ovlašteni Kawasaki zastupnik, Samobor",
+    template: "%s | Moto Jakopec Samobor",
   },
-  description:
-    "Ovlašteni Kawasaki zastupnik. Prodaja motocikala, rezervnih dijelova i opreme. Posjetite nas u Samoboru.",
-  keywords: ["kawasaki", "motocikli", "moto jakopec", "samobor", "prodaja motocikala"],
+  description: FIRMA.opis,
+  keywords: ["kawasaki", "motocikli", "moto jakopec", "samobor", "zagreb", "prodaja motocikala", "quad", "jet ski", "mule", "servis motocikala"],
   openGraph: {
     type: "website",
     locale: "hr_HR",
     siteName: "Moto Jakopec",
   },
+};
+
+// Podaci o firmi u obliku koji Google razumije (prikaz adrese, telefona i
+// radnog vremena uz rezultate pretrage) — https://schema.org/MotorcycleDealer
+const PODACI_ZA_GOOGLE = {
+  "@context": "https://schema.org",
+  "@type": "MotorcycleDealer",
+  name: FIRMA.naziv,
+  description: FIRMA.opis,
+  url: ADRESA_STRANICE,
+  logo: `${ADRESA_STRANICE}/logo-jakopec.png`,
+  image: `${ADRESA_STRANICE}/opengraph-image.png`,
+  telephone: FIRMA.telefon,
+  email: FIRMA.email,
+  brand: { "@type": "Brand", name: "Kawasaki" },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: FIRMA.ulica,
+    postalCode: FIRMA.postanskiBroj,
+    addressLocality: FIRMA.grad,
+    addressCountry: FIRMA.drzava,
+  },
+  // Radno vrijeme: pon i sri 10–18, uto, čet i pet 8–16
+  openingHoursSpecification: [
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Wednesday"], opens: "10:00", closes: "18:00" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek: ["Tuesday", "Thursday", "Friday"], opens: "08:00", closes: "16:00" },
+  ],
 };
 
 export default function RootLayout({
@@ -32,6 +61,10 @@ export default function RootLayout({
   return (
     <html lang="hr" className={inter.variable}>
       <body className="min-h-screen flex flex-col" style={{background:"var(--bg)"}}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(PODACI_ZA_GOOGLE) }}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
