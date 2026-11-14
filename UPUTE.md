@@ -72,7 +72,11 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
 3. Stupac `specifikacije` — tehnički podaci u obliku `Ključ: vrijednost; Ključ: vrijednost`
    (npr. `Promjer klipa: 95,97 mm; Kompresija: 12,5:1`) — na stranici se prikažu kao tablica
 4. `price` — broj (`129`) ili ostavi prazno za "Cijena na upit"
-5. Slike stavi u `public\images\oprema\<image_folder>\` ili `public\images\dijelovi\<image_folder>\` (naziv mape je u stupcu `image_folder`)
+5. **Slike** — preuzmi sliku sa stranice proizvođača (desni klik → *Spremi sliku kao…* → u mapu **Preuzimanja**)
+   i u stupac `slike` upiši njezin naziv, npr. `aviator3.png`.
+   - više slika odvoji točka-zarezom: `aviator3.png; aviator3-bok.png` — **prva je glavna**
+   - slika s drugog mjesta: upiši cijelu putanju (u Exploreru *Shift + desni klik → Kopiraj kao putanju*)
+   - `objavi.bat` slike sam kopira u pravu mapu, smanji ih i objavi; nakon toga ih iz Preuzimanja smiješ obrisati
 6. Spremi, zatvori, dvoklik na **`objavi.bat`**
 
 > Ako `objavi.bat` javi da je **products.json noviji od Excela**, netko je promijenio proizvode na GitHubu.

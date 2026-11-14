@@ -46,7 +46,9 @@ public/images/
 ### Struktura proizvodi.xlsx
 
 **Sheet "Proizvodi"** stupci:
-`id | name | category | subcategory | price | description | image_folder | is_new | brand | specifikacije`
+`id | name | category | subcategory | price | description | image_folder | slike | is_new | brand | specifikacije`
+
+- `slike`: nazivi (traže se u ~/Downloads, ~/Desktop, mapi projekta) ili pune putanje, odvojeni `;` → skripta kopira u `public/images/<kat>/<image_folder>/img_NN.<ext>` (max 1600 px, JPG/PNG/WebP); već kopirane slike se ne traže ponovno
 
 - `specifikacije`: `Ključ: vrijednost; Ključ: vrijednost` → u JSON-u `specs` (objekt), prikazuje se kao tablica na kartici
 - `price`: broj → "1.234 €", prazno → "Cijena na upit"

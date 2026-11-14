@@ -263,6 +263,18 @@ def write_brand_sheet(wb, sheet_name, brendovi, color):
     print(f"  Sheet '{sheet_name}': {len(brendovi)} brendova")
 
 # ── brand stupac u Proizvodi ──────────────────────────────────────────────────
+def ensure_slike_column(ws):
+    """Dodaje stupac 'slike' u postojeći Excel ako ga nema (na kraj)."""
+    headers = [ws.cell(row=1, column=c).value for c in range(1, ws.max_column + 1)]
+    if "slike" in headers:
+        return
+    next_col = ws.max_column + 1
+    fill, font, center, border = header_style("1B5E20")
+    cell = ws.cell(row=1, column=next_col, value="slike")
+    cell.font = font; cell.fill = fill; cell.alignment = center; cell.border = border
+    ws.column_dimensions[get_column_letter(next_col)].width = 40
+    print(f"  Stupac 'slike' dodan u Proizvodi (kolona {get_column_letter(next_col)})")
+
 def ensure_brand_column(ws):
     headers = [ws.cell(row=1, column=c).value for c in range(1, ws.max_column + 1)]
     if "brand" in headers:
@@ -280,10 +292,10 @@ def ensure_brand_column(ws):
 
 # ── Kreira Proizvodi sheet (učita xlsx ili regenerira iz products.json) ────────
 PROD_HEADERS = ["id","name","category","subcategory","price",
-                "description","image_folder","is_new","brand","specifikacije"]
+                "description","image_folder","slike","is_new","brand","specifikacije"]
 PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":18,
                    "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14,
-                   "specifikacije":90}
+                   "specifikacije":90, "slike":40}
 
 def specs_u_tekst(specs) -> str:
     """{"Kompresija": "12,5:1", "Šifra": "X"} → "Kompresija: 12,5:1; Šifra: X" """
@@ -313,6 +325,7 @@ def _fill_from_json(ws, products):
             "price":        p.get("price", ""),
             "description":  p.get("description", ""),
             "image_folder": p.get("image_folder", ""),
+            "slike":        "",
             "is_new":       p.get("is_new", False),
             "brand":        p.get("brand", ""),
             "specifikacije": specs_u_tekst(p.get("specs")),
@@ -391,6 +404,7 @@ def ensure_upute(wb):
         ("price",        "Cijena npr: 149,90 €  ili  Cijena na upit"),
         ("description",  "Kratki opis (1-2 rečenice)"),
         ("image_folder", "Naziv mape — slike u public/images/oprema/ ili /dijelovi/"),
+        ("slike",        "Preuzete slike: naziv iz mape Preuzimanja (npr. aviator3.png) ili puna putanja; više slika odvoji s ;  — prva je glavna"),
         ("is_new",       "TRUE = prikazuje badge NOVO,  FALSE = ne"),
         ("brand",        "Padajući izbornik → brand_id (npr. airoh, motul)"),
         ("specifikacije", "Tehnički podaci: Ključ: vrijednost; Ključ: vrijednost  (npr. Promjer klipa: 95,97 mm; Kompresija: 12,5:1)"),
@@ -435,6 +449,7 @@ def main():
     if "Proizvodi" in wb.sheetnames:
         ws_prod = wb["Proizvodi"]
         ensure_brand_column(ws_prod)
+        ensure_slike_column(ws_prod)
         add_autofilter(ws_prod)
     else:
         ws_prod = None
