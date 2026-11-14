@@ -15,7 +15,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ```
 src/data/
   models.json     ← sva vozila (78 Kawasaki modela)
-  products.json   ← oprema i dijelovi (24 proizvoda, offroad, cijena na upit, bez slika)
+  products.json   ← oprema (10 modela) i dijelovi (10 skupina po brendu: klipovi, klipnjače, kvačilo…), cijena na upit
   brands.json     ← brendovi { "oprema": [...], "dijelovi": [...] }
 
 public/images/
@@ -164,3 +164,4 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 
 - Podaci (dimenzije, kompatibilnost, šifre) provjereni u trgovinama/distributerima (studeni 2026.); bez slika — kartica tada prikazuje siluetu loga brenda i "Slika uskoro"
 - Slike: `public/images/{oprema|dijelovi}/{image_folder}/img_01.jpg` → `proizvodi_excel_to_json.py` ih sam pokupi
+- Dijelovi su SKUPINE (npr. Pro-X Klipni kompleti), ne proizvod po modelu motora — modeli i primjeri dimenzija su u specs; kupac šalje upit s modelom

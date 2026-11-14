@@ -58,7 +58,7 @@ PODKATEGORIJE_OPREMA = [
 ]
 
 PODKATEGORIJE_DIJELOVI = [
-    "Klipovi", "Plastika", "Guverneri", "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
+    "Klipovi", "Klipnjače", "Kvačilo", "Ventili", "Plastika", "Guverneri", "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
     "Kočnice", "Svjećice", "Amortizeri", "Ovjesi", "Električni dijelovi",
     "Motor", "Ostalo",
 ]

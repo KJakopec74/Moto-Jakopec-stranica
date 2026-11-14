@@ -1,279 +1,194 @@
 [
   {
     "id": 1,
-    "name": "Klipni komplet KX450 (2019–2023)",
+    "name": "Klipni kompleti",
     "category": "Dijelovi",
     "subcategory": "Klipovi",
     "price": "Cijena na upit",
-    "description": "Zamjenski klipni komplet u OEM specifikaciji za Kawasaki KX450. Isporučuje se u tri veličine (A/B/C) prema izmjeri cilindra.",
-    "image_folder": "prox-klip-kx450-2019",
+    "description": "Zamjenski klipni kompleti u OEM specifikaciji za dvotaktne i četverotaktne motore. Za Nikasil cilindre klip se bira prema izmjeri cilindra.",
+    "image_folder": "prox-klipni-kompleti",
     "brand": "prox",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX450 2019–2023, KX450X 2021–2023",
-      "Šifra": "01.4429.A / .B / .C",
-      "Promjer klipa": "95,97 / 95,98 / 95,99 mm",
-      "Promjer cilindra": "96,00 mm",
-      "Kompresija": "12,5:1",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Sadržaj": "klip, karike, osovinica, osigurači",
+      "Veličine": "A / B / C — u koracima od 0,01 mm",
+      "Kawasaki modeli": "KX65, KX85, KX125, KX250, KX250F, KX450F, KX450, KX450X",
+      "Primjer — KX450 2019–2023": "Ø 95,97–95,99 mm, cilindar 96,00 mm, kompresija 12,5:1",
+      "Primjer — KX250 2021–2022": "Ø 77,96–77,98 mm, cilindar 78,00 mm, kompresija 14,1:1",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 2,
-    "name": "Klipni komplet KX450 (2024–2026)",
+    "name": "Klipnjače",
     "category": "Dijelovi",
-    "subcategory": "Klipovi",
+    "subcategory": "Klipnjače",
     "price": "Cijena na upit",
-    "description": "Klipni komplet za najnoviju generaciju KX450 motora. Precizno CNC obrađen, s karikama iz OEM tvornica.",
-    "image_folder": "prox-klip-kx450-2024",
+    "description": "Kompleti klipnjače za remont donjeg dijela motora — sve potrebne komponente u jednom pakiranju.",
+    "image_folder": "prox-klipnjace",
     "brand": "prox",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX450 2024–2026, KX450X 2024–2026",
-      "Šifra": "01.4424.A / .B / .C",
-      "Promjer klipa": "95,97 / 95,98 / 95,99 mm",
-      "Promjer cilindra": "96,00 mm",
-      "Kompresija": "12,5:1",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Sadržaj": "klipnjača, osovina koljena (crankpin), ležaj velikog i malog oka, podloške",
+      "Primjer": "KX450 / KX450X 2019–2021 (šifra 03.4419)",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 3,
-    "name": "Klipni komplet KX250 (2021–2022)",
+    "name": "Kvačilo — setovi lamela i opruga",
     "category": "Dijelovi",
-    "subcategory": "Klipovi",
+    "subcategory": "Kvačilo",
     "price": "Cijena na upit",
-    "description": "Klipni komplet za KX250 i KX250X. Nikasil cilindri se ne buše — klip se bira prema izmjeri (A/B/C).",
-    "image_folder": "prox-klip-kx250-2021",
+    "description": "Kompletni setovi za zamjenu istrošenog kvačila. Lamele izrađuju vodeće OEM tvornice, uglavnom u Japanu, prema točnim OEM specifikacijama.",
+    "image_folder": "prox-kvacilo",
     "brand": "prox",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX250 2021–2022, KX250X 2021–2022",
-      "Šifra": "01.4351.A / .B / .C",
-      "Promjer klipa": "77,96 / 77,97 / 77,98 mm",
-      "Promjer cilindra": "78,00 mm",
-      "Kompresija": "14,1:1",
-      "Osovinica": "Ø 16,00 mm",
-      "Visina klipa": "35,20 mm"
+      "Sadržaj": "tarne lamele, čelične lamele, opruge",
+      "Opruge": "oko 10 % tvrđe od serijskih",
+      "Kawasaki modeli": "KX85, KX100, KX112, KX125, KX250, KX250F, KX450F, KX450",
+      "Primjer": "KX450 2019–2020 (šifra 16.CPS44019)",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 4,
-    "name": "Komplet klipnjače KX450 (2019–2021)",
+    "name": "Ventili i opruge ventila",
     "category": "Dijelovi",
-    "subcategory": "Motor",
+    "subcategory": "Ventili",
     "price": "Cijena na upit",
-    "description": "Kompletna klipnjača za remont donjeg dijela motora KX450 — sve što treba za zamjenu na jednom mjestu.",
-    "image_folder": "prox-klipnjaca-kx450-2019",
+    "description": "Čelični ventili s ojačanim oprugama kao izdržljivija zamjena za tvorničke titanske ventile. Ugrađuju se s originalnim držačima i brtvama.",
+    "image_folder": "prox-ventili",
     "brand": "prox",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX450 / KX450X 2019–2021",
-      "Šifra": "03.4419",
-      "Sadržaj": "klipnjača, osovina koljena (crankpin), ležaj velikog i malog oka, podloške"
+      "Sadržaj": "set čeličnih usisnih ili ispušnih ventila + opruge",
+      "Ventili": "čelični, nitrirani (tvrda, glatka površina)",
+      "Opruge": "krom-vanadijev čelik",
+      "Kawasaki modeli": "KX250F, KX450F",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 5,
-    "name": "Kovani klipni komplet KX450 (2019–2021)",
+    "name": "Klipni kompleti",
     "category": "Dijelovi",
     "subcategory": "Klipovi",
     "price": "Cijena na upit",
-    "description": "Kovani klip povišene kompresije za više snage. Kovan i strojno obrađen u SAD-u (Mentor, Ohio).",
-    "image_folder": "wiseco-klip-kx450-2019",
+    "description": "Kovani klipovi američkog proizvođača Wiseco — kovani i strojno obrađeni u SAD-u (Mentor, Ohio). Standardna i povišena kompresija te natjecateljska Racer Elite linija.",
+    "image_folder": "wiseco-klipni-kompleti",
     "brand": "wiseco",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX450 2019–2021",
-      "Šifra": "40230M09600",
-      "Promjer cilindra": "96,00 mm",
-      "Kompresija": "13,5:1",
+      "Sadržaj": "klip, karike, osovinica, osigurači",
       "Izrada": "kovani aluminij",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Linije": "Forged Series, ArmorGlide, Racer Elite (billet)",
+      "Primjer — KX450 2019–2021": "cilindar 96,00 mm, kompresija 13,5:1",
+      "Primjer — KX250 2021–2022": "cilindar 78,00 mm",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 6,
-    "name": "Kovani klipni komplet KX250 (2021–2022)",
+    "name": "Kvačilo — košare, glavine i kompleti",
     "category": "Dijelovi",
-    "subcategory": "Klipovi",
+    "subcategory": "Kvačilo",
     "price": "Cijena na upit",
-    "description": "Wiseco 4T Forged Series klip za standardni promjer cilindra KX250. Kovan i obrađen u SAD-u.",
-    "image_folder": "wiseco-klip-kx250-2021",
+    "description": "Kovane košare kvačila, unutarnje glavine i potisne ploče, te kompleti lamela i opruga. Košare su tvrdo eloksirane i teflonski premazane protiv trošenja.",
+    "image_folder": "wiseco-kvacilo",
     "brand": "wiseco",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX250 / KX250X 2021–2022",
-      "Šifra": "40273M07800",
-      "Promjer cilindra": "78,00 mm",
-      "Izrada": "kovani aluminij",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Ponuda": "košara, unutarnja glavina, potisna ploča, Clutch Pack kit (lamele + opruge), Performance Clutch kit (s kovanom košarom)",
+      "Izrada": "kovano i obrađeno u SAD-u",
+      "Primjer": "KX450F 2006–2018 (Performance Clutch Kit PCK011)",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 7,
-    "name": "Racer Elite klipni komplet KX250 (2021–2022)",
+    "name": "Klipni kompleti",
     "category": "Dijelovi",
     "subcategory": "Klipovi",
     "price": "Cijena na upit",
-    "description": "Natjecateljski klip visoke kompresije, u potpunosti strojno izrađen iz punog materijala (billet), s poboljšanim podmazivanjem osovinice.",
-    "image_folder": "wiseco-racer-elite-kx250-2021",
-    "brand": "wiseco",
+    "description": "Kovani klipovi Vertex u tri linije — replica u originalnom obliku, visoka kompresija i natjecateljska GP Racer's Choice.",
+    "image_folder": "vertex-klipni-kompleti",
+    "brand": "vertex",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX250 / KX250X 2021–2022",
-      "Šifra": "RE828M07800",
-      "Promjer cilindra": "78,00 mm",
-      "Namjena": "utrke, visoka kompresija",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Sadržaj": "klip, karike, osovinica, osigurači",
+      "Linije": "Replica (OE oblik), visoka kompresija (HC), GP Racer's Choice",
+      "Primjer — KX450 2019–2020 (HC)": "Ø 95,97 mm, kompresija 13,5:1",
+      "Primjer — KX250 2021–2022 (GP)": "Ø 77,97 mm, kompresija 15,05:1",
+      "Primjer — KX250F 2015–2016 (Replica)": "Ø 76,97 mm, kovani aluminij 2618",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 8,
-    "name": "Kovani klip visoke kompresije KX450 (2019–2020)",
+    "name": "Kompleti plastike",
     "category": "Dijelovi",
-    "subcategory": "Klipovi",
+    "subcategory": "Plastika",
     "price": "Cijena na upit",
-    "description": "Kovani klip povišene kompresije marke Vertex, za više snage u odnosu na serijski klip.",
-    "image_folder": "vertex-klip-kx450-2019",
-    "brand": "vertex",
+    "description": "Talijanski kompleti plastike unaprijed izbušeni za montažu na tvorničke točke s originalnim vijcima. U OEM ili 'works' bojama.",
+    "image_folder": "ufo-kompleti-plastike",
+    "brand": "ufo",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX450 2019–2020",
-      "Šifra": "24376B",
-      "Promjer klipa": "95,97 mm",
-      "Promjer cilindra": "96,00 mm",
-      "Kompresija": "13,5:1",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
+      "Sadržaj (ovisno o kompletu)": "prednji i stražnji blatobran, maske hladnjaka, bočne tablice, prednja tablica, štitnici vilice",
+      "Kawasaki — primjeri": "KX250/KX450 2019–2024, KX250 2025–2026 i KX450 2024–2026, KX450F 2013–2015",
+      "Proizvodnja": "Italija",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 9,
-    "name": "GP Racer's Choice klip KX250 (2021–2022)",
+    "name": "Pojedinačni plastični dijelovi",
     "category": "Dijelovi",
-    "subcategory": "Klipovi",
+    "subcategory": "Plastika",
     "price": "Cijena na upit",
-    "description": "Vrhunski natjecateljski klip iz Vertex GP linije, za maksimalne performanse na stazi.",
-    "image_folder": "vertex-gp-kx250-2021",
-    "brand": "vertex",
+    "description": "Zamjenski plastični dijelovi kad ne treba cijeli komplet — unaprijed izbušeni za laku montažu.",
+    "image_folder": "ufo-plasticni-dijelovi",
+    "brand": "ufo",
     "is_new": false,
     "images": [],
     "specs": {
-      "Kompatibilnost": "KX250 2021–2022",
-      "Šifra": "24515B",
-      "Promjer klipa": "77,97 mm (B)",
-      "Promjer cilindra": "78,00 mm",
-      "Kompresija": "15,05:1"
+      "Ponuda": "prednji blatobran, stražnji blatobran, bočne maske, maske hladnjaka, prednja tablica, štitnici vilice",
+      "Proizvodnja": "Italija",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   },
   {
     "id": 10,
-    "name": "Kovani replica klip KX250F (2015–2016)",
-    "category": "Dijelovi",
-    "subcategory": "Klipovi",
-    "price": "Cijena na upit",
-    "description": "Kovani zamjenski klip u originalnom (OE) obliku, s karikama u OEM specifikaciji.",
-    "image_folder": "vertex-replica-kx250f-2015",
-    "brand": "vertex",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Kompatibilnost": "KX250F 2015–2016",
-      "Šifra": "24020C",
-      "Promjer klipa": "76,97 mm",
-      "Promjer cilindra": "77,00 mm",
-      "Materijal": "kovani aluminij 2618",
-      "Sadržaj": "klip, karike, osovinica, osigurači"
-    }
-  },
-  {
-    "id": 11,
-    "name": "Komplet plastike KX250 / KX450",
-    "category": "Dijelovi",
-    "subcategory": "Plastika",
-    "price": "Cijena na upit",
-    "description": "Talijanski komplet plastike istih dimenzija kao original — montira se na tvorničke nosače bez prepravki.",
-    "image_folder": "ufo-plastika-kx-2019",
-    "brand": "ufo",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Kompatibilnost": "KX450 2019–2023, KX250 2021–2024, KX250X 2021–2024",
-      "Šifra": "KAKIT227",
-      "Sadržaj": "prednji i stražnji blatobran, maske hladnjaka, bočne maske, prednja tablica",
-      "Proizvodnja": "Italija"
-    }
-  },
-  {
-    "id": 12,
-    "name": "Komplet plastike KX450F (2013–2015)",
-    "category": "Dijelovi",
-    "subcategory": "Plastika",
-    "price": "Cijena na upit",
-    "description": "Komplet za osvježenje izgleda starijeg KX450F, s unaprijed izbušenim provrtima za laku montažu.",
-    "image_folder": "ufo-plastika-kx450f-2013",
-    "brand": "ufo",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Kompatibilnost": "KX450F 2013–2015",
-      "Šifra": "KAKIT220",
-      "Sadržaj": "prednji i stražnji blatobran, bočne maske, prednja tablica",
-      "Proizvodnja": "Italija"
-    }
-  },
-  {
-    "id": 13,
-    "name": "Taper-X guvernal 28,6 mm (WD-9203)",
+    "name": "Guverneri",
     "category": "Dijelovi",
     "subcategory": "Guverneri",
     "price": "Cijena na upit",
-    "description": "Konusni guvernal od aluminija 7075-T6, razvijen s MXGP vozačima. Isporučuje se sa spužvom za prečku.",
-    "image_folder": "wrp-taper-x-wd9203",
+    "description": "Konusni Taper-X guverneri od aluminija 7075-T6, razvijeni s MXGP vozačima, te Pro-Bar guverneri. Taper-X dolazi sa spužvom za prečku.",
+    "image_folder": "wrp-guverneri",
     "brand": "wrp",
     "is_new": false,
     "images": [],
     "specs": {
       "Promjer na nosaču": "28,6 mm",
-      "Širina": "802 mm",
-      "Povlačenje (sweep)": "54 mm",
-      "Masa": "oko 0,84 kg",
       "Materijal": "aluminij 7075-T6, anodiziran",
+      "Oblici": "više savijanja, npr. WD-9203 (širina 802 mm, povlačenje 54 mm), WD-9205 (širina 805 mm, visina 93 mm)",
+      "Masa": "oko 0,83–0,84 kg",
       "Boje": "crna, plava, crvena, titan",
       "Proizvodnja": "Italija"
     }
   },
   {
-    "id": 14,
-    "name": "Taper-X guvernal 28,6 mm (WD-9205)",
-    "category": "Dijelovi",
-    "subcategory": "Guverneri",
-    "price": "Cijena na upit",
-    "description": "Taper-X guvernal višeg oblika, s laserskom mrežom za precizno postavljanje i nazubljenjem ispod lijeve ručke.",
-    "image_folder": "wrp-taper-x-wd9205",
-    "brand": "wrp",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Promjer na nosaču": "28,6 mm",
-      "Širina": "805 mm",
-      "Visina": "93 mm",
-      "Pomak (offset)": "54 mm",
-      "Masa": "0,83 kg",
-      "Materijal": "aluminij 7075-T6",
-      "Boja": "crna"
-    }
-  },
-  {
-    "id": 15,
+    "id": 11,
     "name": "Aviator 3",
     "category": "Oprema",
     "subcategory": "Kacige",
@@ -295,7 +210,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 12,
     "name": "Twist 3",
     "category": "Oprema",
     "subcategory": "Kacige",
@@ -317,7 +232,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 13,
     "name": "Wraaap",
     "category": "Oprema",
     "subcategory": "Kacige",
@@ -338,7 +253,7 @@
     }
   },
   {
-    "id": 18,
+    "id": 14,
     "name": "Skyline dres",
     "category": "Oprema",
     "subcategory": "Dresovi",
@@ -355,7 +270,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 15,
     "name": "Proton hlače",
     "category": "Oprema",
     "subcategory": "Hlače",
@@ -373,7 +288,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 16,
     "name": "Skyline rukavice",
     "category": "Oprema",
     "subcategory": "Rukavice",
@@ -391,7 +306,7 @@
     }
   },
   {
-    "id": 21,
+    "id": 17,
     "name": "Ninja neoprenske rukavice",
     "category": "Oprema",
     "subcategory": "Rukavice",
@@ -408,7 +323,7 @@
     }
   },
   {
-    "id": 22,
+    "id": 18,
     "name": "X-Concept štitnik prsa",
     "category": "Oprema",
     "subcategory": "Zaštita",
@@ -425,7 +340,7 @@
     }
   },
   {
-    "id": 23,
+    "id": 19,
     "name": "Reactor štitnik prsa",
     "category": "Oprema",
     "subcategory": "Zaštita",
@@ -442,7 +357,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 20,
     "name": "Ultralight Evo Wrap zaštitna majica",
     "category": "Oprema",
     "subcategory": "Zaštita",

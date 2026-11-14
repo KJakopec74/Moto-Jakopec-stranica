@@ -38,7 +38,7 @@ export default function OpremaBrend({ params }: Props) {
     acc[key].push(p);
     return acc;
   }, {});
-  const subcategories = Object.keys(groups).sort();
+  const subcategories = Object.keys(groups);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -97,17 +97,10 @@ export default function OpremaBrend({ params }: Props) {
           </a>
         </div>
       ) : (
-        <div className="space-y-12">
-          {subcategories.map(sub => (
-            <section key={sub}>
-              <h2 className="text-lg font-semibold mb-5 pb-2 border-b" style={{ color: "var(--text)", borderColor: "var(--line)" }}>
-                {sub}
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-                {groups[sub].map(p => <ProductCard key={p.id} product={p} />)}
-              </div>
-            </section>
-          ))}
+        // Sve kartice brenda u jednoj mreži (skupina piše na svakoj kartici),
+        // poredane po skupinama kako su upisane u Excelu
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          {subcategories.flatMap(sub => groups[sub]).map(p => <ProductCard key={p.id} product={p} />)}
         </div>
       )}
     </div>

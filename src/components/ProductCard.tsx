@@ -50,8 +50,8 @@ export default function ProductCard({ product }: Props) {
           // Dok proizvod nema sliku: logo brenda (ili naziv brenda) i natpis
           <div className="w-full h-full flex flex-col items-center justify-center gap-3 p-6">
             {brend?.logo ? (
-              // Logo kao tamna silueta — vidljiv i kad je originalni logo bijel
-              <div className="relative w-2/3 h-1/2" style={{ filter: "grayscale(1) brightness(0)", opacity: 0.22 }}>
+              // Logo sivo i prigušeno, s tankim obrubom — vidljiv i kad je originalni logo bijel
+              <div className="relative w-2/3 h-1/2" style={{ filter: "grayscale(1) drop-shadow(0 0 0.6px rgba(0,0,0,.8))", opacity: 0.45 }}>
                 <Image
                   src={brend.logo}
                   alt={brend.name}
