@@ -11,4 +11,6 @@ export interface Product {
   brand?: string;    // brand_id iz brands.json (npr. "airoh", "motul")
   images: string[];
   is_new?: boolean;
+  // Tehnički podaci, npr. { "Kompatibilnost": "KX450 2019–2023", "Promjer klipa": "95,97 mm" }
+  specs?: Record<string, string>;
 }

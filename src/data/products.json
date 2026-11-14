@@ -1,30 +1,464 @@
 [
   {
     "id": 1,
-    "name": "kaciga",
-    "category": "Oprema",
-    "subcategory": "Jakne",
-    "price": 5,
-    "description": "Bla bla bla",
-    "image_folder": "01 kaciga",
-    "brand": "airoh",
-    "is_new": true,
-    "images": [
-      "/images/oprema/01 kaciga/img_01.jpg"
-    ]
+    "name": "Klipni komplet KX450 (2019–2023)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Zamjenski klipni komplet u OEM specifikaciji za Kawasaki KX450. Isporučuje se u tri veličine (A/B/C) prema izmjeri cilindra.",
+    "image_folder": "prox-klip-kx450-2019",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 2019–2023, KX450X 2021–2023",
+      "Šifra": "01.4429.A / .B / .C",
+      "Promjer klipa": "95,97 / 95,98 / 95,99 mm",
+      "Promjer cilindra": "96,00 mm",
+      "Kompresija": "12,5:1",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
   },
   {
     "id": 2,
-    "name": "zupcanik",
+    "name": "Klipni komplet KX450 (2024–2026)",
     "category": "Dijelovi",
-    "subcategory": "Ulja i maziva",
-    "price": 5,
-    "description": "Bla bla bla",
-    "image_folder": "01 zupcanik",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Klipni komplet za najnoviju generaciju KX450 motora. Precizno CNC obrađen, s karikama iz OEM tvornica.",
+    "image_folder": "prox-klip-kx450-2024",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 2024–2026, KX450X 2024–2026",
+      "Šifra": "01.4424.A / .B / .C",
+      "Promjer klipa": "95,97 / 95,98 / 95,99 mm",
+      "Promjer cilindra": "96,00 mm",
+      "Kompresija": "12,5:1",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Klipni komplet KX250 (2021–2022)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Klipni komplet za KX250 i KX250X. Nikasil cilindri se ne buše — klip se bira prema izmjeri (A/B/C).",
+    "image_folder": "prox-klip-kx250-2021",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX250 2021–2022, KX250X 2021–2022",
+      "Šifra": "01.4351.A / .B / .C",
+      "Promjer klipa": "77,96 / 77,97 / 77,98 mm",
+      "Promjer cilindra": "78,00 mm",
+      "Kompresija": "14,1:1",
+      "Osovinica": "Ø 16,00 mm",
+      "Visina klipa": "35,20 mm"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Komplet klipnjače KX450 (2019–2021)",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "price": "Cijena na upit",
+    "description": "Kompletna klipnjača za remont donjeg dijela motora KX450 — sve što treba za zamjenu na jednom mjestu.",
+    "image_folder": "prox-klipnjaca-kx450-2019",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 / KX450X 2019–2021",
+      "Šifra": "03.4419",
+      "Sadržaj": "klipnjača, osovina koljena (crankpin), ležaj velikog i malog oka, podloške"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Kovani klipni komplet KX450 (2019–2021)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Kovani klip povišene kompresije za više snage. Kovan i strojno obrađen u SAD-u (Mentor, Ohio).",
+    "image_folder": "wiseco-klip-kx450-2019",
     "brand": "wiseco",
-    "is_new": true,
-    "images": [
-      "/images/dijelovi/01 zupcanik/img_01.jpg"
-    ]
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 2019–2021",
+      "Šifra": "40230M09600",
+      "Promjer cilindra": "96,00 mm",
+      "Kompresija": "13,5:1",
+      "Izrada": "kovani aluminij",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Kovani klipni komplet KX250 (2021–2022)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Wiseco 4T Forged Series klip za standardni promjer cilindra KX250. Kovan i obrađen u SAD-u.",
+    "image_folder": "wiseco-klip-kx250-2021",
+    "brand": "wiseco",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX250 / KX250X 2021–2022",
+      "Šifra": "40273M07800",
+      "Promjer cilindra": "78,00 mm",
+      "Izrada": "kovani aluminij",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Racer Elite klipni komplet KX250 (2021–2022)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Natjecateljski klip visoke kompresije, u potpunosti strojno izrađen iz punog materijala (billet), s poboljšanim podmazivanjem osovinice.",
+    "image_folder": "wiseco-racer-elite-kx250-2021",
+    "brand": "wiseco",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX250 / KX250X 2021–2022",
+      "Šifra": "RE828M07800",
+      "Promjer cilindra": "78,00 mm",
+      "Namjena": "utrke, visoka kompresija",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kovani klip visoke kompresije KX450 (2019–2020)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Kovani klip povišene kompresije marke Vertex, za više snage u odnosu na serijski klip.",
+    "image_folder": "vertex-klip-kx450-2019",
+    "brand": "vertex",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 2019–2020",
+      "Šifra": "24376B",
+      "Promjer klipa": "95,97 mm",
+      "Promjer cilindra": "96,00 mm",
+      "Kompresija": "13,5:1",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 9,
+    "name": "GP Racer's Choice klip KX250 (2021–2022)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Vrhunski natjecateljski klip iz Vertex GP linije, za maksimalne performanse na stazi.",
+    "image_folder": "vertex-gp-kx250-2021",
+    "brand": "vertex",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX250 2021–2022",
+      "Šifra": "24515B",
+      "Promjer klipa": "77,97 mm (B)",
+      "Promjer cilindra": "78,00 mm",
+      "Kompresija": "15,05:1"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kovani replica klip KX250F (2015–2016)",
+    "category": "Dijelovi",
+    "subcategory": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Kovani zamjenski klip u originalnom (OE) obliku, s karikama u OEM specifikaciji.",
+    "image_folder": "vertex-replica-kx250f-2015",
+    "brand": "vertex",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX250F 2015–2016",
+      "Šifra": "24020C",
+      "Promjer klipa": "76,97 mm",
+      "Promjer cilindra": "77,00 mm",
+      "Materijal": "kovani aluminij 2618",
+      "Sadržaj": "klip, karike, osovinica, osigurači"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Komplet plastike KX250 / KX450",
+    "category": "Dijelovi",
+    "subcategory": "Plastika",
+    "price": "Cijena na upit",
+    "description": "Talijanski komplet plastike istih dimenzija kao original — montira se na tvorničke nosače bez prepravki.",
+    "image_folder": "ufo-plastika-kx-2019",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450 2019–2023, KX250 2021–2024, KX250X 2021–2024",
+      "Šifra": "KAKIT227",
+      "Sadržaj": "prednji i stražnji blatobran, maske hladnjaka, bočne maske, prednja tablica",
+      "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Komplet plastike KX450F (2013–2015)",
+    "category": "Dijelovi",
+    "subcategory": "Plastika",
+    "price": "Cijena na upit",
+    "description": "Komplet za osvježenje izgleda starijeg KX450F, s unaprijed izbušenim provrtima za laku montažu.",
+    "image_folder": "ufo-plastika-kx450f-2013",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "KX450F 2013–2015",
+      "Šifra": "KAKIT220",
+      "Sadržaj": "prednji i stražnji blatobran, bočne maske, prednja tablica",
+      "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Taper-X guvernal 28,6 mm (WD-9203)",
+    "category": "Dijelovi",
+    "subcategory": "Guverneri",
+    "price": "Cijena na upit",
+    "description": "Konusni guvernal od aluminija 7075-T6, razvijen s MXGP vozačima. Isporučuje se sa spužvom za prečku.",
+    "image_folder": "wrp-taper-x-wd9203",
+    "brand": "wrp",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Promjer na nosaču": "28,6 mm",
+      "Širina": "802 mm",
+      "Povlačenje (sweep)": "54 mm",
+      "Masa": "oko 0,84 kg",
+      "Materijal": "aluminij 7075-T6, anodiziran",
+      "Boje": "crna, plava, crvena, titan",
+      "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Taper-X guvernal 28,6 mm (WD-9205)",
+    "category": "Dijelovi",
+    "subcategory": "Guverneri",
+    "price": "Cijena na upit",
+    "description": "Taper-X guvernal višeg oblika, s laserskom mrežom za precizno postavljanje i nazubljenjem ispod lijeve ručke.",
+    "image_folder": "wrp-taper-x-wd9205",
+    "brand": "wrp",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Promjer na nosaču": "28,6 mm",
+      "Širina": "805 mm",
+      "Visina": "93 mm",
+      "Pomak (offset)": "54 mm",
+      "Masa": "0,83 kg",
+      "Materijal": "aluminij 7075-T6",
+      "Boja": "crna"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Aviator 3",
+    "category": "Oprema",
+    "subcategory": "Kacige",
+    "price": "Cijena na upit",
+    "description": "Airohova vrhunska motocross kaciga od HPC karbona, razvijena u vlastitom zračnom tunelu, s integriranim sustavom za hidrataciju.",
+    "image_folder": "airoh-aviator-3",
+    "brand": "airoh",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Školjka": "HPC Carbon",
+      "Veličine školjke": "4 (XS–S, M, L, XL–XXL)",
+      "Masa": "1330 g ± 50 g",
+      "Homologacija": "ECE 22.06",
+      "Zatvaranje": "dvostruki D-prsten",
+      "Veličine": "XS (53–54 cm) do XXL (63 cm)",
+      "Sigurnost": "AMS2 Plus, AEFR (brzo skidanje jastučića)",
+      "Unutrašnjost": "skidljiva, periva"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Twist 3",
+    "category": "Oprema",
+    "subcategory": "Kacige",
+    "price": "Cijena na upit",
+    "description": "Lagana motocross/enduro kaciga od dvoslojnog termoplasta, pripremljena za Bluetooth komunikator.",
+    "image_folder": "airoh-twist-3",
+    "brand": "airoh",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Školjka": "dvoslojni HRT termoplast",
+      "Veličine školjke": "2 (XS–M, L–XXL)",
+      "Masa": "1330 g ± 50 g",
+      "Homologacija": "ECE 22.06",
+      "Zatvaranje": "dvostruki D-prsten",
+      "Veličine": "XS (53–54 cm) do XXL (63–64 cm)",
+      "Sigurnost": "ASN, AEFR",
+      "Bluetooth": "pripremljena (Airoh AWC2 / AWC4)"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Wraaap",
+    "category": "Oprema",
+    "subcategory": "Kacige",
+    "price": "Cijena na upit",
+    "description": "Pristupačna motocross kaciga u tri veličine školjke — od najmlađih vozača (XXS) do odraslih.",
+    "image_folder": "airoh-wraaap",
+    "brand": "airoh",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Školjka": "HRT termoplast",
+      "Veličine školjke": "3 (XXS–XS, S–M, L–XXL)",
+      "Masa": "oko 1260 g ± 50 g",
+      "Homologacija": "ECE 22.06",
+      "Zatvaranje": "dvostruki D-prsten",
+      "Veličine": "XXS (51–52 cm) do XXL (63 cm)",
+      "Unutrašnjost": "skidljiva, periva, hipoalergena"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Skyline dres",
+    "category": "Oprema",
+    "subcategory": "Dresovi",
+    "price": "Cijena na upit",
+    "description": "Motocross dres iz Skyline linije od rastezljivog, prozračnog materijala koji drži tijelo suhim.",
+    "image_folder": "ufo-skyline-dres",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Materijal": "100 % poliester",
+      "Kroj": "rastezljiv (stretch fit)",
+      "Šifra": "JE13003"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Proton hlače",
+    "category": "Oprema",
+    "subcategory": "Hlače",
+    "price": "Cijena na upit",
+    "description": "Premium motocross hlače otporne na habanje, s rastezljivim umetcima i mrežastim dijelovima za ventilaciju.",
+    "image_folder": "ufo-proton-hlace",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Materijal": "100 % poliester",
+      "Umetci": "spandex (pokretljivost), Airnet (ventilacija)",
+      "Štitnici koljena": "kompatibilne s ortozama za koljena",
+      "Proizvodnja": "100 % Italija"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Skyline rukavice",
+    "category": "Oprema",
+    "subcategory": "Rukavice",
+    "price": "Cijena na upit",
+    "description": "Lagane rukavice bez šavova na vrhovima prstiju, za maksimalan osjećaj na ručkama.",
+    "image_folder": "ufo-skyline-rukavice",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dlan": "Cinco AX, perforiran",
+      "Gornji dio": "elastan, prozračan",
+      "Ojačanje": "protiv žuljeva s unutarnje strane palca",
+      "Zatvaranje": "čičak"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Ninja neoprenske rukavice",
+    "category": "Oprema",
+    "subcategory": "Rukavice",
+    "price": "Cijena na upit",
+    "description": "Rukavice za hladnije dane — izrađene u potpunosti od neoprena koji zadržava toplinu.",
+    "image_folder": "ufo-ninja-rukavice",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Materijal": "neopren",
+      "Namjena": "hladno vrijeme",
+      "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 22,
+    "name": "X-Concept štitnik prsa",
+    "category": "Oprema",
+    "subcategory": "Zaštita",
+    "price": "Cijena na upit",
+    "description": "Štitnik prsa i leđa bez naramenica, s bočnim osloncima — za zaštitu i udobnost i na dužim vožnjama.",
+    "image_folder": "ufo-x-concept",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Leđa": "CE-EN1621-2, razina 2",
+      "Prsa": "CE-EN1621-3, razina 2",
+      "Izvedba": "bez naramenica, bočni oslonci"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Reactor štitnik prsa",
+    "category": "Oprema",
+    "subcategory": "Zaštita",
+    "price": "Cijena na upit",
+    "description": "Štitnik prsa projektiran za nošenje zajedno s krutim štitnikom vrata (neck brace).",
+    "image_folder": "ufo-reactor",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Veličina": "jedna veličina (odrasli)",
+      "Kompatibilnost": "kruti štitnik vrata",
+      "Zatvaranje": "remeni s brzim kopčanjem"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Ultralight Evo Wrap zaštitna majica",
+    "category": "Oprema",
+    "subcategory": "Zaštita",
+    "price": "Cijena na upit",
+    "description": "Ultralagana zaštitna majica sa SAS-TEC štitnicima, izrađena od prozračnog Airnet materijala.",
+    "image_folder": "ufo-ultralight-evo-wrap",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Leđa": "CE-EN1621-2, razina 2",
+      "Prsa": "CE-EN1621-3, razina 2",
+      "Ramena i laktovi": "CE-EN1621-1",
+      "Materijal": "Airnet, poliesterska mreža",
+      "Održavanje": "štitnici se vade radi pranja",
+      "Proizvodnja": "Italija"
+    }
   }
 ]

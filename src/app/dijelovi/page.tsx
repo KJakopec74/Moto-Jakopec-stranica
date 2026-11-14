@@ -30,7 +30,7 @@ export default function DijeloviPage() {
       {/* Header */}
       <div className="mb-10">
         <h1 className="section-title">Dijelovi</h1>
-        <p className="section-subtitle">Originalni Kawasaki dijelovi i potrošni materijal</p>
+        <p className="section-subtitle">Dijelovi vodećih proizvođača za offroad — klipovi, dijelovi motora, plastika i guverneri</p>
       </div>
 
       {/* Brendovi */}

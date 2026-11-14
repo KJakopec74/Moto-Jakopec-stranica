@@ -28,8 +28,9 @@ DD_SHEET    = "Drop Down"   # naziv sheeta s listama za padajuće izbornike
 
 # ── Podaci brendova ──────────────────────────────────────────────────────────
 BRENDOVI_OPREMA = [
-    ("wind",      "WIND Raceware", "wind",      "wind-raceware.com",  True),
     ("airoh",     "Airoh",         "airoh",      "airoh.com",          True),
+    ("ufo",       "UFO Plast",     "ufo",        "",                   True),
+    ("wind",      "WIND Raceware", "wind",      "wind-raceware.com",  True),
     ("progrip",   "Progrip",       "progrip",    "progrip.it",         True),
     ("mitas",     "Mitas",         "mitas",      "mitas-moto.com",     True),
     ("motul",     "Motul",         "motul",      "motul.com",          True),
@@ -39,9 +40,11 @@ BRENDOVI_OPREMA = [
 BRENDOVI_DIJELOVI = [
     ("prox",   "Pro-X Racing Parts", "prox",   "pro-x.com",          True),
     ("wiseco", "Wiseco",             "wiseco",  "wiseco.com",         True),
+    ("vertex", "Vertex",             "vertex",  "",                   True),
+    ("ufo",    "UFO Plast",          "ufo",     "",                   True),
     ("wrp",    "WRP",                "wrp",     "wrp-racing.com",     True),
     ("cht",    "CHT Sprockets",      "cht",     "cht-sprockets.com",  True),
-    ("rk",     "RK Chains",          "rk",      "rk-chain.com",       True),
+    ("rk",     "RK Chains",          "",      "rk-chain.com",       True),
     ("trw",    "TRW Lucas",          "trw",     "trwaftermarket.com", True),
     ("denso",  "Denso",              "denso",   "denso.com",          True),
 ]
@@ -50,12 +53,12 @@ KATEGORIJE = ["Oprema", "Dijelovi"]
 
 # Odvojene liste — korisnik dodaje ispod zadnjeg reda u odgovarajući stupac
 PODKATEGORIJE_OPREMA = [
-    "Kacige", "Jakne", "Hlače", "Rukavice", "Čizme",
+    "Kacige", "Dresovi", "Jakne", "Hlače", "Rukavice", "Čizme",
     "Odijela", "Zaštita", "Prsluk", "Termo rublje", "Ostalo",
 ]
 
 PODKATEGORIJE_DIJELOVI = [
-    "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
+    "Klipovi", "Plastika", "Guverneri", "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
     "Kočnice", "Svjećice", "Amortizeri", "Ovjesi", "Električni dijelovi",
     "Motor", "Ostalo",
 ]
@@ -277,9 +280,14 @@ def ensure_brand_column(ws):
 
 # ── Kreira Proizvodi sheet (učita xlsx ili regenerira iz products.json) ────────
 PROD_HEADERS = ["id","name","category","subcategory","price",
-                "description","image_folder","is_new","brand"]
+                "description","image_folder","is_new","brand","specifikacije"]
 PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":18,
-                   "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14}
+                   "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14,
+                   "specifikacije":90}
+
+def specs_u_tekst(specs) -> str:
+    """{"Kompresija": "12,5:1", "Šifra": "X"} → "Kompresija: 12,5:1; Šifra: X" """
+    return "; ".join(f"{k}: {v}" for k, v in (specs or {}).items())
 
 def _write_prod_headers(ws):
     fill, font, center, border = header_style("1B5E20")
@@ -307,6 +315,7 @@ def _fill_from_json(ws, products):
             "image_folder": p.get("image_folder", ""),
             "is_new":       p.get("is_new", False),
             "brand":        p.get("brand", ""),
+            "specifikacije": specs_u_tekst(p.get("specs")),
         }
         for ci, col in enumerate(PROD_HEADERS, start=1):
             c = ws.cell(row=row_idx, column=ci, value=row_data[col])
@@ -314,7 +323,36 @@ def _fill_from_json(ws, products):
             c.alignment = Alignment(vertical="center")
         ws.row_dimensions[row_idx].height = 18
 
+def stari_excel_u_arhivu(razlog):
+    """Preimenuje postojeći Excel u proizvodi_stari.xlsx (ili _stari2, _stari3...)."""
+    baza = EXCEL_PATH.replace(".xlsx", "_stari")
+    novo_ime = baza + ".xlsx"
+    broj = 2
+    while os.path.exists(novo_ime):
+        novo_ime = f"{baza}{broj}.xlsx"
+        broj += 1
+    os.replace(EXCEL_PATH, novo_ime)
+    print(f"  {razlog}")
+    print(f"  Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
+
 def ensure_workbook():
+    # Ako postojeći Excel nema stupac "specifikacije" ili je stariji od
+    # products.json, arhiviraj ga i napravi novi iz najnovijih podataka.
+    if os.path.exists(EXCEL_PATH):
+        try:
+            stari = openpyxl.load_workbook(EXCEL_PATH, read_only=True)
+            zaglavlje = []
+            if "Proizvodi" in stari.sheetnames:
+                zaglavlje = [c.value for c in next(stari["Proizvodi"].iter_rows(max_row=1))]
+            stari.close()
+        except PermissionError:
+            print("ZATVORI Excel pa pokreni skriptu ponovo.")
+            raise SystemExit(1)
+        if "specifikacije" not in zaglavlje:
+            stari_excel_u_arhivu("Excel je stari predložak (nema stupac 'specifikacije').")
+        elif os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > os.path.getmtime(EXCEL_PATH) + 2:
+            stari_excel_u_arhivu("products.json je noviji od Excela (promjene s GitHuba).")
+
     if os.path.exists(EXCEL_PATH):
         wb = openpyxl.load_workbook(EXCEL_PATH)
         print(f"Učitan: {EXCEL_PATH}")
@@ -355,6 +393,7 @@ def ensure_upute(wb):
         ("image_folder", "Naziv mape — slike u public/images/oprema/ ili /dijelovi/"),
         ("is_new",       "TRUE = prikazuje badge NOVO,  FALSE = ne"),
         ("brand",        "Padajući izbornik → brand_id (npr. airoh, motul)"),
+        ("specifikacije", "Tehnički podaci: Ključ: vrijednost; Ključ: vrijednost  (npr. Promjer klipa: 95,97 mm; Kompresija: 12,5:1)"),
         ("", ""),
         ("DODAVANJE NOVE PODKATEGORIJE", ""),
         ("1.", f"Otvori sheet '{DD_SHEET}' → kolona B (Podkategorija)"),

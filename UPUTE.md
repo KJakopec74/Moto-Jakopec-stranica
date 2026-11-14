@@ -69,8 +69,15 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
 
 1. Otvori **`proizvodi.xlsx`**, sheet **Proizvodi**
 2. `category` mora biti točno `Oprema` ili `Dijelovi`, `brand` npr. `airoh`, `motul`
-3. Slike stavi u `public\images\oprema\<image_folder>\` ili `public\images\dijelovi\<image_folder>\`
-4. Spremi, zatvori, dvoklik na **`objavi.bat`**
+3. Stupac `specifikacije` — tehnički podaci u obliku `Ključ: vrijednost; Ključ: vrijednost`
+   (npr. `Promjer klipa: 95,97 mm; Kompresija: 12,5:1`) — na stranici se prikažu kao tablica
+4. `price` — broj (`129`) ili ostavi prazno za "Cijena na upit"
+5. Slike stavi u `public\images\oprema\<image_folder>\` ili `public\images\dijelovi\<image_folder>\` (naziv mape je u stupcu `image_folder`)
+6. Spremi, zatvori, dvoklik na **`objavi.bat`**
+
+> Ako `objavi.bat` javi da je **products.json noviji od Excela**, netko je promijenio proizvode na GitHubu.
+> Pokreni `py -X utf8 scripts/kreiraj_excel_predlozak.py` — napravi novi Excel s najnovijim podacima
+> (stari ostaje kao `proizvodi_stari.xlsx`), pa ponovi izmjenu i `objavi.bat`.
 
 ---
 

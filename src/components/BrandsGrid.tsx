@@ -49,6 +49,8 @@ export default function BrandsGrid({ category }: Props) {
                   unoptimized={/\.(svg|ico)$/.test(brand.logo)}
                   className="object-contain"
                   sizes="40px"
+                  // tanki tamni obrub — da se vide i bijeli logotipi (npr. Airoh, Mitas)
+                  style={{ filter: "drop-shadow(0 0 0.6px rgba(0,0,0,.8)) drop-shadow(0 0 0.6px rgba(0,0,0,.8))" }}
                 />
               </div>
             ) : (

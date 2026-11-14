@@ -30,7 +30,7 @@ export default function OpremaPage() {
       {/* Header */}
       <div className="mb-10">
         <h1 className="section-title">Oprema</h1>
-        <p className="section-subtitle">Kawasaki zaštitna i vozačka oprema</p>
+        <p className="section-subtitle">Kacige, odjeća i zaštitna oprema za motocross i enduro</p>
       </div>
 
       {/* Brendovi */}

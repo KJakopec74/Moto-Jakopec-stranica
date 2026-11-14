@@ -1,16 +1,33 @@
 "use client";
 
+// =============================================================================
+// ProductCard — kartica jednog proizvoda (oprema ili dijelovi)
+// -----------------------------------------------------------------------------
+// Prikazuje sliku (ili logo brenda dok slika ne postoji), naziv, kratki opis,
+// tehničke podatke (specs) i gumb "Pošalji upit" koji vodi na formu.
+// =============================================================================
+
 import Link from "next/link";
 import Image from "next/image";
 import type { Product } from "@/types/product";
+import type { BrandsData } from "@/types/brand";
+import brandsData from "@/data/brands.json";
 
 interface Props {
   product: Product;
 }
 
+// Pronađi brend proizvoda (za logo i naziv) u odgovarajućoj listi
+function pronadiBrend(product: Product) {
+  const svi = brandsData as unknown as BrandsData;
+  const lista = product.category === "Oprema" ? svi.oprema : svi.dijelovi;
+  return (lista ?? []).find((b) => b.brand_id === product.brand);
+}
+
 export default function ProductCard({ product }: Props) {
   const imageSrc = product.images?.[0] ?? null;
-  const href = `/katalog/${product.category.toLowerCase()}/${product.id}`;
+  const brend = pronadiBrend(product);
+  const specifikacije = Object.entries(product.specs ?? {});
 
   return (
     <div
@@ -19,7 +36,7 @@ export default function ProductCard({ product }: Props) {
       onMouseEnter={e => (e.currentTarget.style.boxShadow = "0 8px 30px rgba(55,182,58,.18)")}
       onMouseLeave={e => (e.currentTarget.style.boxShadow = "0 4px 20px rgba(0,0,0,.06)")}
     >
-      {/* Image */}
+      {/* Slika */}
       <div className="relative aspect-[4/3] overflow-hidden" style={{ background: "var(--bg2)" }}>
         {imageSrc ? (
           <Image
@@ -30,15 +47,30 @@ export default function ProductCard({ product }: Props) {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center">
-            <svg className="w-16 h-16" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ color: "var(--muted)" }}>
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1}
-                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-            </svg>
+          // Dok proizvod nema sliku: logo brenda (ili naziv brenda) i natpis
+          <div className="w-full h-full flex flex-col items-center justify-center gap-3 p-6">
+            {brend?.logo ? (
+              // Logo kao tamna silueta — vidljiv i kad je originalni logo bijel
+              <div className="relative w-2/3 h-1/2" style={{ filter: "grayscale(1) brightness(0)", opacity: 0.22 }}>
+                <Image
+                  src={brend.logo}
+                  alt={brend.name}
+                  fill
+                  unoptimized={/\.(svg|ico)$/.test(brend.logo)}
+                  className="object-contain"
+                  sizes="200px"
+                />
+              </div>
+            ) : (
+              <span className="text-2xl font-black tracking-wide opacity-50" style={{ color: "var(--text)" }}>
+                {brend?.name ?? ""}
+              </span>
+            )}
+            <span className="text-xs" style={{ color: "var(--muted)" }}>Slika uskoro</span>
           </div>
         )}
 
-        {/* Badges */}
+        {/* Oznake */}
         <div className="absolute top-3 left-3 flex gap-2">
           {product.is_new && (
             <span className="text-white text-xs font-bold px-2 py-1 rounded" style={{ background: "var(--green)" }}>
@@ -53,30 +85,51 @@ export default function ProductCard({ product }: Props) {
         </div>
       </div>
 
-      {/* Content */}
+      {/* Sadržaj */}
       <div className="p-4 flex flex-col flex-1">
-        <h3 className="font-bold text-base leading-tight mb-2 transition-colors" style={{ color: "var(--text)" }}>
+        {brend && (
+          <span className="text-xs font-semibold uppercase tracking-wide mb-1" style={{ color: "var(--green-dk)" }}>
+            {brend.name}
+          </span>
+        )}
+        <h3 className="font-bold text-base leading-tight mb-2" style={{ color: "var(--text)" }}>
           {product.name}
         </h3>
 
-        <p className="text-sm line-clamp-2 flex-1 mb-4" style={{ color: "var(--muted)" }}>
+        <p className="text-sm mb-3" style={{ color: "var(--muted)" }}>
           {product.description}
         </p>
 
+        {/* Tehnički podaci */}
+        {specifikacije.length > 0 && (
+          <dl className="text-xs mb-4 rounded-lg overflow-hidden border" style={{ borderColor: "var(--line)" }}>
+            {specifikacije.map(([kljuc, vrijednost], i) => (
+              <div
+                key={kljuc}
+                className="grid grid-cols-[40%_60%] gap-2 px-3 py-1.5"
+                style={{ background: i % 2 === 0 ? "var(--bg)" : "var(--surface)" }}
+              >
+                <dt style={{ color: "var(--muted)" }}>{kljuc}</dt>
+                <dd className="font-medium" style={{ color: "var(--text)" }}>{vrijednost}</dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
         <div className="flex items-center justify-between mt-auto pt-3 border-t" style={{ borderColor: "var(--line)" }}>
-          <span className="font-bold text-lg" style={{ color: "var(--green-dk)" }}>
-            {product.price}
+          <span className="font-bold text-base" style={{ color: "var(--green-dk)" }}>
+            {product.price || "Cijena na upit"}
           </span>
-          <a
-            href={`/kontakt?model=${encodeURIComponent(product.name)}`}
-            className="text-xs flex items-center gap-1 transition-colors hover:underline"
-            style={{ color: "var(--muted)" }}
+          <Link
+            href={`/kontakt?model=${encodeURIComponent((brend ? brend.name + " " : "") + product.name)}`}
+            className="text-xs font-semibold flex items-center gap-1 px-3 py-1.5 rounded-full transition-colors"
+            style={{ background: "var(--green)", color: "white" }}
           >
             Pošalji upit
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

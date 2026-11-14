@@ -15,7 +15,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ```
 src/data/
   models.json     ← sva vozila (78 Kawasaki modela)
-  products.json   ← oprema i dijelovi (prazno dok se ne popuni)
+  products.json   ← oprema i dijelovi (24 proizvoda, offroad, cijena na upit, bez slika)
   brands.json     ← brendovi { "oprema": [...], "dijelovi": [...] }
 
 public/images/
@@ -46,7 +46,11 @@ public/images/
 ### Struktura proizvodi.xlsx
 
 **Sheet "Proizvodi"** stupci:
-`id | name | category | subcategory | price | description | image_folder | is_new | brand`
+`id | name | category | subcategory | price | description | image_folder | is_new | brand | specifikacije`
+
+- `specifikacije`: `Ključ: vrijednost; Ključ: vrijednost` → u JSON-u `specs` (objekt), prikazuje se kao tablica na kartici
+- `price`: broj → "1.234 €", prazno → "Cijena na upit"
+- Zaštita: `proizvodi_excel_to_json.py` odbija raditi ako je products.json noviji od Excela ili Excel nema stupac `specifikacije`; `kreiraj_excel_predlozak.py` tada arhivira stari Excel (`proizvodi_stari.xlsx`) i radi novi iz JSON-a
 
 - `category`: mora biti točno `Oprema` ili `Dijelovi`
 - `brand`: brand_id iz sheeta Brendovi_Oprema / Brendovi_Dijelovi (npr. `airoh`, `motul`)
@@ -62,8 +66,9 @@ public/images/
 ### Oprema
 | brand_id | Naziv |
 |----------|-------|
-| wind | WIND Raceware |
 | airoh | Airoh |
+| ufo | UFO Plast (bez loga) |
+| wind | WIND Raceware |
 | progrip | Progrip |
 | mitas | Mitas |
 | motul | Motul |
@@ -74,9 +79,11 @@ public/images/
 |----------|-------|
 | prox | Pro-X Racing Parts |
 | wiseco | Wiseco |
+| vertex | Vertex (bez loga) |
+| ufo | UFO Plast (bez loga) |
 | wrp | WRP |
 | cht | CHT Sprockets |
-| rk | RK Chains |
+| rk | RK Chains (bez loga — stari je bio krivi) |
 | trw | TRW Lucas |
 | denso | Denso |
 
@@ -152,3 +159,8 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - `objavi.bat` — git pull → Excel → JSON → smanjivanje slika → commit → push
 - `pokreni_stranicu.bat` — npm install (prvi put) + npm run dev + otvara localhost:3000
 - `UPUTE.md` — upute za održavanje na hrvatskom
+
+## Proizvodi — napomene
+
+- Podaci (dimenzije, kompatibilnost, šifre) provjereni u trgovinama/distributerima (studeni 2026.); bez slika — kartica tada prikazuje siluetu loga brenda i "Slika uskoro"
+- Slike: `public/images/{oprema|dijelovi}/{image_folder}/img_01.jpg` → `proizvodi_excel_to_json.py` ih sam pokupi

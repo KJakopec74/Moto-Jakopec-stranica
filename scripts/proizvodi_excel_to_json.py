@@ -5,6 +5,13 @@ Pretvara proizvodi.xlsx u:
 
 Pokreni nakon svake izmjene u Excelu:
     py -X utf8 scripts/proizvodi_excel_to_json.py
+
+Stupac "specifikacije" piše se ovako (parovi odvojeni točka-zarezom):
+    Kompatibilnost: KX450 2019–2023; Promjer klipa: 95,97 mm; Kompresija: 12,5:1
+
+ZAŠTITA: ako je products.json noviji od Excela (npr. netko je na GitHubu
+dodao proizvode), skripta NEĆE ništa prepisati, nego traži da se Excel
+ponovno napravi iz najnovijih podataka (kreiraj_excel_predlozak.py).
 """
 
 import json, os, re
@@ -28,8 +35,8 @@ def find_logo_path(logo_folder: str) -> str:
         path = os.path.join(BRENDOVI_DIR, f"{logo_folder}{ext}")
         if os.path.exists(path):
             return f"/images/brendovi/{logo_folder}{ext}"
-    # Fallback: SVG placeholder
-    return f"/images/brendovi/{logo_folder}.svg"
+    # Logo ne postoji → prazno (stranica tada prikaže naziv brenda)
+    return ""
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
@@ -60,6 +67,40 @@ def parse_val(val):
         s = val.strip()
         return s if s else None
     return val
+
+def parse_specs(val) -> dict:
+    """
+    "Kompatibilnost: KX450 2019–2023; Kompresija: 12,5:1"
+      → {"Kompatibilnost": "KX450 2019–2023", "Kompresija": "12,5:1"}
+    Dijeli se samo na PRVOJ dvotočki, pa "12,5:1" ostaje cijelo.
+    """
+    specs = {}
+    if not val:
+        return specs
+    for dio in str(val).split(";"):
+        if ":" not in dio:
+            continue
+        kljuc, vrijednost = dio.split(":", 1)
+        kljuc, vrijednost = kljuc.strip(), vrijednost.strip()
+        if kljuc and vrijednost:
+            specs[kljuc] = vrijednost
+    return specs
+
+def formatiraj_cijenu(val) -> str:
+    """Broj → "1.234 €", prazno → "Cijena na upit", tekst ostaje kakav jest."""
+    if val is None or (isinstance(val, str) and not val.strip()):
+        return "Cijena na upit"
+    if isinstance(val, str):
+        t = val.strip()
+        if t.replace(" ", "").isdigit():
+            val = int(t.replace(" ", ""))
+        else:
+            return t
+    if isinstance(val, (int, float)):
+        if float(val).is_integer():
+            return f"{int(val):,}".replace(",", ".") + " €"
+        return f"{val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") + " €"
+    return str(val)
 
 # ── Čitanje brendova iz sheeta ───────────────────────────────────────────────
 def read_brands(wb, sheet_name, category_key):
@@ -105,7 +146,28 @@ def main():
         print("Pokreni prvo: py -X utf8 scripts/kreiraj_excel_predlozak.py")
         return
 
+    # ── 0. Zaštita od starog Excela ─────────────────────────────────────────
+    # Nakon svakog uspješnog pokretanja products.json dobije isto vrijeme
+    # izmjene kao Excel. Ako je JSON noviji, promijenio ga je netko drugi
+    # (npr. stigao je s GitHuba) i Excel više ne sadrži najnovije proizvode.
+    vrijeme_excela = os.path.getmtime(EXCEL_PATH)
+    if os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > vrijeme_excela + 2:
+        print("PAŽNJA: products.json je noviji od proizvodi.xlsx!")
+        print("  Na GitHubu su u međuvremenu promijenjeni proizvodi, a tvoj Excel je star.")
+        print("  Ništa nije prepisano. Napravi novi Excel iz najnovijih podataka:")
+        print("      py -X utf8 scripts/kreiraj_excel_predlozak.py")
+        print("  (stari Excel bit će sačuvan kao proizvodi_stari.xlsx)")
+        raise SystemExit(2)   # kod greške → objavi.bat se zaustavi
+
     wb = openpyxl.load_workbook(EXCEL_PATH)
+
+    # Excel mora imati stupac "specifikacije" (novi predložak)
+    if "Proizvodi" in wb.sheetnames:
+        zaglavlje = [str(c.value).strip() if c.value else "" for c in wb["Proizvodi"][1]]
+        if "specifikacije" not in zaglavlje:
+            print("PAŽNJA: proizvodi.xlsx je stari predložak (nema stupac 'specifikacije').")
+            print("  Ništa nije prepisano. Pokreni:  py -X utf8 scripts/kreiraj_excel_predlozak.py")
+            raise SystemExit(2)
 
     # ── 1. Brendovi ──────────────────────────────────────────────────────────
     oprema_brands   = read_brands(wb, "Brendovi_Oprema",   "oprema")
@@ -171,18 +233,22 @@ def main():
             "name":         name,
             "category":     category,
             "subcategory":  subcategory,
-            "price":        parse_val(d.get("price")) or "",
+            "price":        formatiraj_cijenu(parse_val(d.get("price"))),
             "description":  parse_val(d.get("description")) or "",
             "image_folder": image_folder,
             "brand":        brand,
             "is_new":       parse_bool(d.get("is_new", False)),
             "images":       images,
+            "specs":        parse_specs(d.get("specifikacije")),
         }
         products.append(product)
 
     os.makedirs(os.path.dirname(JSON_PATH), exist_ok=True)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
+
+    # Izjednači vrijeme izmjene JSON-a s Excelom (vidi zaštitu na početku)
+    os.utime(JSON_PATH, (vrijeme_excela, vrijeme_excela))
 
     oprema   = sum(1 for p in products if p["category"] == "Oprema")
     dijelovi = sum(1 for p in products if p["category"] == "Dijelovi")

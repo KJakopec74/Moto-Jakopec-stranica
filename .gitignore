@@ -38,3 +38,5 @@ next-env.d.ts
 vozila.xlsx
 
 proizvodi.xlsx
+proizvodi_stari*.xlsx
+vozila_stari*.xlsx
