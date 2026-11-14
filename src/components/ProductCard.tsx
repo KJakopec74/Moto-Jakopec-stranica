@@ -7,8 +7,10 @@
 // tehničke podatke (specs) i gumb "Pošalji upit" koji vodi na formu.
 // =============================================================================
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Galerija from "@/components/Galerija";
 import type { Product } from "@/types/product";
 import type { BrandsData } from "@/types/brand";
 import brandsData from "@/data/brands.json";
@@ -25,7 +27,12 @@ function pronadiBrend(product: Product) {
 }
 
 export default function ProductCard({ product }: Props) {
-  const imageSrc = product.images?.[0] ?? null;
+  const slike = product.images ?? [];
+  const imageSrc = slike[0] ?? null;
+
+  // Galerija: je li otvorena i koja je slika prikazana
+  const [galerijaOtvorena, postaviGalerijaOtvorena] = useState(false);
+  const [aktivnaSlika, postaviAktivnuSliku] = useState(0);
   const brend = pronadiBrend(product);
   const specifikacije = Object.entries(product.specs ?? {});
 
@@ -39,13 +46,32 @@ export default function ProductCard({ product }: Props) {
       {/* Slika */}
       <div className="relative aspect-[4/3] overflow-hidden" style={{ background: "var(--bg2)" }}>
         {imageSrc ? (
-          <Image
-            src={imageSrc}
-            alt={product.name}
-            fill
-            className="object-contain group-hover:scale-105 transition-transform duration-500 p-2"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+          // Klik na sliku otvara galeriju sa svim slikama proizvoda
+          <button
+            type="button"
+            className="absolute inset-0 w-full h-full cursor-zoom-in"
+            onClick={() => { postaviAktivnuSliku(0); postaviGalerijaOtvorena(true); }}
+            aria-label={`Otvori slike: ${product.name}`}
+          >
+            <Image
+              src={imageSrc}
+              alt={product.name}
+              fill
+              className="object-contain group-hover:scale-105 transition-transform duration-500 p-2"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+            {/* Oznaka broja slika (samo ako ih ima više) */}
+            {slike.length > 1 && (
+              <span className="absolute bottom-3 right-3 flex items-center gap-1 text-white text-xs font-semibold px-2 py-1 rounded-full"
+                style={{ background: "rgba(0,0,0,.55)" }}>
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                {slike.length}
+              </span>
+            )}
+          </button>
         ) : (
           // Dok proizvod nema sliku: logo brenda (ili naziv brenda) i natpis
           <div className="w-full h-full flex flex-col items-center justify-center gap-3 p-6">
@@ -71,7 +97,7 @@ export default function ProductCard({ product }: Props) {
         )}
 
         {/* Oznake */}
-        <div className="absolute top-3 left-3 flex gap-2">
+        <div className="absolute top-3 left-3 flex gap-2 pointer-events-none">
           {product.is_new && (
             <span className="text-white text-xs font-bold px-2 py-1 rounded" style={{ background: "var(--green)" }}>
               NOVO
@@ -132,6 +158,17 @@ export default function ProductCard({ product }: Props) {
           </Link>
         </div>
       </div>
+
+      {/* Galerija preko cijelog ekrana */}
+      {galerijaOtvorena && (
+        <Galerija
+          slike={slike}
+          naziv={product.name}
+          aktivna={aktivnaSlika}
+          promijeniAktivnu={postaviAktivnuSliku}
+          zatvori={() => postaviGalerijaOtvorena(false)}
+        />
+      )}
     </div>
   );
 }

@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 import Image from "next/image";
+import Galerija from "@/components/Galerija";
 
 interface Props {
   images: string[];
@@ -15,16 +16,6 @@ export default function BikeGallery({ images, name }: Props) {
   const prev = useCallback(() => setActive((i) => (i - 1 + images.length) % images.length), [images.length]);
   const next = useCallback(() => setActive((i) => (i + 1) % images.length), [images.length]);
 
-  useEffect(() => {
-    if (!lightbox) return;
-    const handler = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft") prev();
-      if (e.key === "ArrowRight") next();
-      if (e.key === "Escape") setLightbox(false);
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [lightbox, prev, next]);
 
   if (images.length === 0) {
     return (
@@ -42,20 +33,23 @@ export default function BikeGallery({ images, name }: Props) {
     <>
       {/* Main image */}
       <div className="relative aspect-video rounded-xl overflow-hidden border mb-3 group" style={{ background: "var(--bg2)", borderColor: "var(--line)" }}>
-        <Image
-          key={active}
-          src={images[active]}
-          alt={`${name} - slika ${active + 1}`}
-          fill
-          className="object-contain transition-opacity duration-200"
-          sizes="(max-width: 1024px) 100vw, 50vw"
-          priority={active === 0}
-        />
+        {/* Klik na glavnu sliku otvara galeriju preko cijelog ekrana */}
+        <button type="button" className="absolute inset-0 w-full h-full cursor-zoom-in" onClick={() => setLightbox(true)} aria-label="Povećaj sliku">
+          <Image
+            key={active}
+            src={images[active]}
+            alt={`${name} - slika ${active + 1}`}
+            fill
+            className="object-contain transition-opacity duration-200"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            priority={active === 0}
+          />
+        </button>
 
         {/* Zoom button */}
         <button
           onClick={() => setLightbox(true)}
-          className="absolute top-3 right-3 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"
+          className="absolute top-3 right-3 text-white p-2 rounded-lg md:opacity-0 md:group-hover:opacity-100 transition-opacity"
           style={{ background: "rgba(0,0,0,.5)" }}
           title="Povećaj"
         >
@@ -70,7 +64,7 @@ export default function BikeGallery({ images, name }: Props) {
           <>
             <button
               onClick={prev}
-              className="absolute left-3 top-1/2 -translate-y-1/2 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-white p-2 rounded-lg md:opacity-0 md:group-hover:opacity-100 transition-opacity"
               style={{ background: "rgba(0,0,0,.5)" }}
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -79,7 +73,7 @@ export default function BikeGallery({ images, name }: Props) {
             </button>
             <button
               onClick={next}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white p-2 rounded-lg md:opacity-0 md:group-hover:opacity-100 transition-opacity"
               style={{ background: "rgba(0,0,0,.5)" }}
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,7 +85,7 @@ export default function BikeGallery({ images, name }: Props) {
 
         {/* Counter */}
         {images.length > 1 && (
-          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-white text-xs px-2 py-1 rounded-full" style={{ background: "rgba(0,0,0,.5)" }}>
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-white text-xs px-2 py-1 rounded-full pointer-events-none" style={{ background: "rgba(0,0,0,.5)" }}>
             {active + 1} / {images.length}
           </div>
         )}
@@ -116,67 +110,15 @@ export default function BikeGallery({ images, name }: Props) {
         </div>
       )}
 
-      {/* Lightbox */}
+      {/* Galerija preko cijelog ekrana */}
       {lightbox && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center"
-          style={{ background: "rgba(0,0,0,.92)" }}
-          onClick={() => setLightbox(false)}
-        >
-          {/* Close */}
-          <button
-            className="absolute top-4 right-4 text-white p-2 rounded-lg"
-            style={{ background: "rgba(255,255,255,.1)" }}
-            onClick={() => setLightbox(false)}
-          >
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {/* Arrows */}
-          {images.length > 1 && (
-            <>
-              <button
-                className="absolute left-4 top-1/2 -translate-y-1/2 text-white p-3 rounded-lg"
-                style={{ background: "rgba(255,255,255,.1)" }}
-                onClick={(e) => { e.stopPropagation(); prev(); }}
-              >
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-              </button>
-              <button
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-white p-3 rounded-lg"
-                style={{ background: "rgba(255,255,255,.1)" }}
-                onClick={(e) => { e.stopPropagation(); next(); }}
-              >
-                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
-            </>
-          )}
-
-          {/* Image */}
-          <div
-            className="relative w-full max-w-5xl max-h-[85vh] mx-16"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image
-              src={images[active]}
-              alt={`${name} - slika ${active + 1}`}
-              width={1280}
-              height={720}
-              className="object-contain w-full h-full max-h-[85vh]"
-            />
-          </div>
-
-          {/* Counter */}
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-sm" style={{ color: "rgba(255,255,255,.6)" }}>
-            {active + 1} / {images.length}
-          </div>
-        </div>
+        <Galerija
+          slike={images}
+          naziv={name}
+          aktivna={active}
+          promijeniAktivnu={setActive}
+          zatvori={() => setLightbox(false)}
+        />
       )}
     </>
   );
