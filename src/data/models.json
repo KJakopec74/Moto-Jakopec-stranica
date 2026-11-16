@@ -658,11 +658,11 @@
       "Masa spremna za vožnju": "267 kg",
       "Spremnik goriva": "19 litara",
       "Potrošnja goriva": "5,4 /100km",
+      "Emisija CO2": "122 g/km",
       "Tehnologije": "TFT zaslon u boji, ACC adaptivni radarski tempomat, FCW upozorenje na sudar sprijeda, BSD nadzor mrtvog kuta u retrovizorima, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KECS elektronički upravljan ovjes, KLCM kontrola pokretanja, VHA sustav zadržavanja vozila, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla, ESS signal naglog kočenja, KIPASS pametni ključ, TPMS nadzor tlaka u gumama, SPIN infotainment (kontakti, telefon, karte, glazba, kalendar, navigacija…), AHB automatska duga svjetla",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran",
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe",
       "Emisijski razred": "Euro 5+",
-      "Emisija CO2": "122 g/km",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, ispušni lonac Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran"
     }
   },
@@ -717,11 +717,11 @@
       "Masa spremna za vožnju": "266 kg",
       "Spremnik goriva": "19 litara",
       "Potrošnja goriva": "5,4 /100km",
+      "Emisija CO2": "122 g/km",
       "Tehnologije": "TFT zaslon u boji, ACC adaptivni radarski tempomat, FCW upozorenje na sudar sprijeda, BSD nadzor mrtvog kuta u retrovizorima, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KLCM kontrola pokretanja, VHA sustav zadržavanja vozila, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla, ESS signal naglog kočenja, KIPASS pametni ključ, TPMS nadzor tlaka u gumama, SPIN infotainment (kontakti, telefon, karte, glazba, kalendar, navigacija…), AHB automatska duga svjetla",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran",
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe",
       "Emisijski razred": "Euro 5+",
-      "Emisija CO2": "122 g/km",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, ispušni lonac Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran"
     }
   },
@@ -1312,10 +1312,10 @@
       "Masa spremna za vožnju": "239 kg",
       "Spremnik goriva": "19 litara",
       "Potrošnja goriva": "6,0 /100km",
+      "Emisija CO2": "134 g/km",
       "Tehnologije": "TFT zaslon u boji, ECC elektronički tempomat, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KLCM kontrola pokretanja, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla",
       "Paket Performance": "Ispušni lonac (titan) Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva",
-      "Emisijski razred": "Euro 5+",
-      "Emisija CO2": "134 g/km"
+      "Emisijski razred": "Euro 5+"
     }
   },
   {
@@ -1374,10 +1374,10 @@
       "Masa spremna za vožnju": "239 kg",
       "Spremnik goriva": "19 litara",
       "Potrošnja goriva": "6,0 /100km",
+      "Emisija CO2": "134 g/km",
       "Tehnologije": "TFT zaslon u boji, ECC elektronički tempomat, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KLCM kontrola pokretanja, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla",
       "Paket Performance": "Ispušni lonac (titan) Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva",
-      "Emisijski razred": "Euro 5+",
-      "Emisija CO2": "134 g/km"
+      "Emisijski razred": "Euro 5+"
     }
   },
   {
@@ -2257,8 +2257,8 @@
       "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
       "Paket Performance": "Ispušni sustav Euro 5+ Arrow, fiksni Cafe zatamnjeni vjetrobran s fiksnim nosačem",
       "Paket Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, veliki vjetrobran s fiksnim nosačima",
-      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN",
-      "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima"
+      "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima",
+      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN"
     }
   },
   {
@@ -2329,8 +2329,8 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "Digitalni LCD instrumenti, ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, USB utičnica",
       "Paket Performance": "Ispušni sustav Euro 5+, Cafe zatamnjeni vjetrobran s fiksnim nosačem, zaštita spremnika goriva, zaštita motora",
-      "Naziv modela": "EL450BSFNN; BTFNN",
-      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora"
+      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora",
+      "Naziv modela": "EL450BSFNN; BTFNN"
     }
   },
   {
@@ -2395,8 +2395,8 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, digitalni LCD instrumenti, KSC povezivost s pametnim telefonom",
       "Paket Performance": "Ispušni sustav Euro 5+, Cafe zatamnjeni vjetrobran s fiksnim nosačem, zaštita spremnika goriva, zaštita motora",
-      "Naziv modela": "EL450ASFNN; ATNN, ATFAN",
-      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora"
+      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora",
+      "Naziv modela": "EL450ASFNN; ATNN, ATFAN"
     }
   },
   {
