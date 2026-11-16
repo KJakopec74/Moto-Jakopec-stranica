@@ -41,3 +41,4 @@ proizvodi.xlsx
 proizvodi_stari*.xlsx
 vozila_stari*.xlsx
 __pycache__/
+.excel_sinkronizacija.json

@@ -176,3 +176,9 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 
 - Nazivi i vrijednosti specifikacija u `models.json` ručno su prevedeni sa slovenskog (dks.si) na hrvatski (studeni 2026.).
 - `vozila_scraper_dks.py` daje slovenske nazive — ako se ponovo pokrene, prijevod treba ponoviti (ili ne prepisivati specs).
+
+## Usklađivanje Excel ↔ JSON (excel_sinkronizacija.py)
+
+- Nakon objave pamti se mtime Excela u `.excel_sinkronizacija.json` (gitignore), a JSON dobije isti mtime.
+- Ako je JSON noviji (stigao s GitHuba), a Excel nije diran → `*_excel_to_json.py` sam napravi Excel iznova (stari → `*_stari.xlsx`) i izađe s 0.
+- Ako su i Excel i JSON mijenjani → SystemExit(2) s uputama. Kad mijenjaš JSON izravno, korisnik ne mora ništa ručno.

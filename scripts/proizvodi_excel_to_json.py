@@ -64,6 +64,8 @@ def get_images(image_folder: str, category: str) -> list:
 
 # ── Kopiranje slika iz stupca "slike" (zajednički modul) ────────────────────
 from slike_kopiranje import kopiraj_slike as _kopiraj_u_mapu
+from excel_sinkronizacija import osvjezi_ako_treba, zapamti
+from kreiraj_excel_predlozak import main as napravi_proizvodi_excel
 
 def kopiraj_slike(unos_slika, image_folder: str, category: str, naziv: str):
     """Kopira slike proizvoda u public/images/<oprema|dijelovi>/<image_folder>/."""
@@ -164,18 +166,11 @@ def main():
         print("Pokreni prvo: py -X utf8 scripts/kreiraj_excel_predlozak.py")
         return
 
-    # ── 0. Zaštita od starog Excela ─────────────────────────────────────────
-    # Nakon svakog uspješnog pokretanja products.json dobije isto vrijeme
-    # izmjene kao Excel. Ako je JSON noviji, promijenio ga je netko drugi
-    # (npr. stigao je s GitHuba) i Excel više ne sadrži najnovije proizvode.
+    # ── 0. Ako su s GitHuba stigli promijenjeni proizvodi, a Excel nije diran
+    #       od zadnje objave → Excel se sam napravi iznova (excel_sinkronizacija.py)
+    if osvjezi_ako_treba(EXCEL_PATH, JSON_PATH, napravi_proizvodi_excel, "proizvodi.xlsx"):
+        return
     vrijeme_excela = os.path.getmtime(EXCEL_PATH)
-    if os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > vrijeme_excela + 2:
-        print("PAŽNJA: products.json je noviji od proizvodi.xlsx!")
-        print("  Na GitHubu su u međuvremenu promijenjeni proizvodi, a tvoj Excel je star.")
-        print("  Ništa nije prepisano. Napravi novi Excel iz najnovijih podataka:")
-        print("      py -X utf8 scripts/kreiraj_excel_predlozak.py")
-        print("  (stari Excel bit će sačuvan kao proizvodi_stari.xlsx)")
-        raise SystemExit(2)   # kod greške → objavi.bat se zaustavi
 
     wb = openpyxl.load_workbook(EXCEL_PATH)
 
@@ -184,8 +179,10 @@ def main():
         zaglavlje = [str(c.value).strip() if c.value else "" for c in wb["Proizvodi"][1]]
         if "specifikacije" not in zaglavlje or "skupina" not in zaglavlje:
             print("PAŽNJA: proizvodi.xlsx je stari predložak (nema stupac 'specifikacije' ili 'skupina').")
-            print("  Ništa nije prepisano. Pokreni:  py -X utf8 scripts/kreiraj_excel_predlozak.py")
-            raise SystemExit(2)
+            print("  Excel se automatski radi iznova po novom predlošku...")
+            napravi_proizvodi_excel()
+            zapamti(EXCEL_PATH, JSON_PATH)
+            return
 
     # ── 1. Brendovi ──────────────────────────────────────────────────────────
     oprema_brands   = read_brands(wb, "Brendovi_Oprema",   "oprema")
@@ -268,8 +265,8 @@ def main():
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(products, f, ensure_ascii=False, indent=2)
 
-    # Izjednači vrijeme izmjene JSON-a s Excelom (vidi zaštitu na početku)
-    os.utime(JSON_PATH, (vrijeme_excela, vrijeme_excela))
+    # Zapamti da su Excel i JSON usklađeni (vidi excel_sinkronizacija.py)
+    zapamti(EXCEL_PATH, JSON_PATH)
 
     oprema   = sum(1 for p in products if p["category"] == "Oprema")
     dijelovi = sum(1 for p in products if p["category"] == "Dijelovi")

@@ -6,6 +6,7 @@ Pokreni: py -X utf8 scripts/json_to_excel.py
 
 import json, os, re
 import openpyxl
+from excel_sinkronizacija import zapamti
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
@@ -174,7 +175,8 @@ def main():
         print(f"Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
 
     wb.save(EXCEL_PATH)
-    print(f"Saved: {EXCEL_PATH}")
+    zapamti(EXCEL_PATH, JSON_PATH)   # Excel i models.json su sada usklađeni
+    print(f"Spremljeno: {EXCEL_PATH}")
     print(f"  Vozila: {len(models)}")
     print(f"  Spec stupci: {len(all_spec_keys)}")
     print(f"  Ukupno stupaca: {total_cols}")

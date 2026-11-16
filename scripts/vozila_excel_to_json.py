@@ -15,6 +15,8 @@ Pokreni nakon svake izmjene u Excelu:
 import json, os, re
 import openpyxl
 from slike_kopiranje import kopiraj_slike
+from excel_sinkronizacija import osvjezi_ako_treba, zapamti
+from vozila_json_to_excel import main as napravi_vozila_excel
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
@@ -136,18 +138,11 @@ def main():
         print("Pokreni prvo: py -X utf8 scripts/vozila_json_to_excel.py")
         return
 
-    # ── Zaštita od starog Excela ─────────────────────────────────────────────
-    # Nakon svakog uspješnog pokretanja models.json dobije isto vrijeme izmjene
-    # kao Excel. Ako je JSON noviji, promijenjen je na GitHubu (npr. novi modeli)
-    # i Excel više ne sadrži najnovije podatke.
+    # ── Ako su s GitHuba stigla promijenjena vozila, a Excel nije diran od
+    #    zadnje objave → Excel se sam napravi iznova (vidi excel_sinkronizacija.py)
+    if osvjezi_ako_treba(EXCEL_PATH, JSON_PATH, napravi_vozila_excel, "vozila.xlsx"):
+        return
     vrijeme_excela = os.path.getmtime(EXCEL_PATH)
-    if os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > vrijeme_excela + 2:
-        print("PAŽNJA: models.json je noviji od vozila.xlsx!")
-        print("  Na GitHubu su u međuvremenu promijenjena vozila, a tvoj Excel je star.")
-        print("  Ništa nije prepisano. Napravi novi Excel iz najnovijih podataka:")
-        print("      py -X utf8 scripts/vozila_json_to_excel.py")
-        print("  (stari Excel bit će sačuvan kao vozila_stari.xlsx)")
-        raise SystemExit(2)   # kod greške → objavi.bat se zaustavi
 
     wb = openpyxl.load_workbook(EXCEL_PATH)
     if "Vozila" not in wb.sheetnames:
@@ -236,8 +231,8 @@ def main():
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(models, f, ensure_ascii=False, indent=2)
 
-    # Izjednači vrijeme izmjene JSON-a s Excelom (vidi zaštitu na početku)
-    os.utime(JSON_PATH, (vrijeme_excela, vrijeme_excela))
+    # Zapamti da su Excel i JSON usklađeni (vidi excel_sinkronizacija.py)
+    zapamti(EXCEL_PATH, JSON_PATH)
     print(f"Spremljeno: {JSON_PATH}")
     print(f"  Vozila: {len(models)}")
     if skipped:

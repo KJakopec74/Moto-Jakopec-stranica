@@ -110,9 +110,10 @@ Novi brendovi (JUST1, Alpinestars, THOR, FMF…) još nemaju logo — dok ga nem
 Spremi logo (najbolje `.png` s prozirnom pozadinom ili `.svg`) kao `public\images\brendovi\<brand_id>.png`
 (npr. `alpinestars.png`), u listu *Brendovi_…* u stupac `logo_folder` upiši `alpinestars` i pokreni `objavi.bat`.
 
-> Ako `objavi.bat` javi da je **products.json noviji od Excela** ili da je Excel **stari predložak**, netko je promijenio proizvode na GitHubu.
-> Pokreni `py -X utf8 scripts/kreiraj_excel_predlozak.py` — napravi novi Excel s najnovijim podacima
-> (stari ostaje kao `proizvodi_stari.xlsx`), pa ponovi izmjenu i `objavi.bat`.
+> **Excel se nikad ne radi ručno iznova.** Isti Excel koristiš stalno — za cijene, opise, slike, nove proizvode.
+> Ako se podaci promijene na GitHubu (npr. kad ih ja dopunim), `objavi.bat` to sam primijeti i Excel
+> automatski osvježi (prethodni ostaje kao `*_stari.xlsx`). Staje samo ako si u međuvremenu i ti mijenjao Excel —
+> tada ispiše što napraviti, da se ništa ne izgubi.
 
 ---
 
@@ -128,7 +129,7 @@ Stranica se sama osvježava kad nešto promijeniš. Za gašenje zatvori crni pro
 | Problem | Rješenje |
 |---------|----------|
 | `objavi.bat` javi grešku kod Excela | Excel mora biti **zatvoren** |
-| **PAŽNJA: models.json je noviji od vozila.xlsx** | Na GitHubu su promijenjena vozila (npr. dodani novi modeli). Zatvori Excel i pokreni `py -X utf8 scripts/vozila_json_to_excel.py` — stari Excel ostaje sačuvan kao `vozila_stari.xlsx`. Zatim ponovo `objavi.bat` |
+| **PAŽNJA: i vozila.xlsx (ili proizvodi.xlsx) i podaci na GitHubu promijenjeni su** | Rijetko: netko je mijenjao podatke na GitHubu dok si ti mijenjao Excel. Slijedi upute koje ispiše `objavi.bat` |
 | Na stranici nema slika vozila | Provjeri da mapa u `public\images\vozila\` postoji i ima slike |
 | Promjena nije online ni nakon 5 min | Cloudflare → Workers & Pages → moto-jakopec → **Deployments** — pogledaj je li build pao |
 | Upiti s forme ne stižu | Provjeri spam u Gmailu; na web3forms.com provjeri postavke forme |

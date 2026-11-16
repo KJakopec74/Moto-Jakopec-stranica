@@ -15,6 +15,7 @@ NAPOMENA o padajućim izbornicima:
 
 import os, json
 import openpyxl
+from excel_sinkronizacija import zapamti
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -24,7 +25,8 @@ SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR    = os.path.join(SCRIPT_DIR, "..")
 EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
 JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
-DD_SHEET    = "Drop Down"   # naziv sheeta s listama za padajuće izbornike
+DD_SHEET    = "Drop Down"
+NOVI_EXCEL  = False   # True kad se Excel radi iznova iz products.json   # naziv sheeta s listama za padajuće izbornike
 
 # ── Brendovi i kategorije čitaju se iz JSON datoteka u src/data/ ─────────────
 # brands.json     → sheetovi Brendovi_Oprema / Brendovi_Dijelovi (kad se Excel radi iznova)
@@ -344,7 +346,11 @@ def stari_excel_u_arhivu(razlog):
     while os.path.exists(novo_ime):
         novo_ime = f"{baza}{broj}.xlsx"
         broj += 1
-    os.replace(EXCEL_PATH, novo_ime)
+    try:
+        os.replace(EXCEL_PATH, novo_ime)
+    except PermissionError:
+        print("ZATVORI proizvodi.xlsx pa pokreni ponovo.")
+        raise SystemExit(1)
     print(f"  {razlog}")
     print(f"  Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
 
@@ -366,6 +372,8 @@ def ensure_workbook():
         elif os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > os.path.getmtime(EXCEL_PATH) + 2:
             stari_excel_u_arhivu("products.json je noviji od Excela (promjene s GitHuba).")
 
+    global NOVI_EXCEL
+    NOVI_EXCEL = not os.path.exists(EXCEL_PATH)
     if os.path.exists(EXCEL_PATH):
         wb = openpyxl.load_workbook(EXCEL_PATH)
         print(f"Učitan: {EXCEL_PATH}")
@@ -482,7 +490,11 @@ def main():
             print(f"\nSačuvano: {EXCEL_PATH}")
         except PermissionError:
             print(f"\nZATVORI Excel pa pokreni skriptu ponovo.")
-            return
+            raise SystemExit(1)
+
+    # Excel napravljen iznova iz JSON-a → zapamti da su usklađeni
+    if NOVI_EXCEL:
+        zapamti(EXCEL_PATH, JSON_PATH)
 
     print(f"\nOtvori Excel — sheet '{DD_SHEET}' ima sve padajuće liste.")
     print("Dodaj novi red u bilo koji stupac → automatski se pojavljuje u dropdownu.")
