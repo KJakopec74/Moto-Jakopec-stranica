@@ -45,6 +45,35 @@ def find_logo_path(logo_folder: str) -> str:
     # Logo ne postoji → prazno (stranica tada prikaže naziv brenda)
     return ""
 
+def _normaliziraj(tekst: str) -> str:
+    """'RK Chains' → 'rkchains', 'pro-circuit' → 'procircuit' (za usporedbu imena)."""
+    return "".join(z for z in str(tekst).lower() if z.isalnum())
+
+def pronadi_logo(brand_id: str, naziv: str, logo_folder: str) -> str:
+    """
+    Pronađi logo brenda u public/images/brendovi/:
+      1. datoteka iz stupca logo_folder (npr. airoh.png)
+      2. datoteka nazvana po brand_id (npr. thor.png)
+      3. datoteka nazvana slično brendu, npr. "RK Chains.png", "UFO plast.png",
+         "Kite.png" — takva se automatski preimenuje u brand_id (rk.png, ufo.png,
+         kite.png), jer web poslužitelj razlikuje velika i mala slova.
+    """
+    nadeno = find_logo_path(logo_folder) or find_logo_path(brand_id)
+    if nadeno or not os.path.isdir(BRENDOVI_DIR):
+        return nadeno
+    trazeno_id, trazeno_ime = _normaliziraj(brand_id), _normaliziraj(naziv)
+    for datoteka in sorted(os.listdir(BRENDOVI_DIR)):
+        ime, ext = os.path.splitext(datoteka)
+        if ext.lower() not in LOGO_EXTS:
+            continue
+        n = _normaliziraj(ime)
+        if n in (trazeno_id, trazeno_ime) or (len(trazeno_id) >= 3 and n.startswith(trazeno_id)):
+            novo = f"{brand_id}{ext.lower()}"
+            os.rename(os.path.join(BRENDOVI_DIR, datoteka), os.path.join(BRENDOVI_DIR, novo))
+            print(f"  Logo preimenovan: {datoteka}  →  {novo}")
+            return f"/images/brendovi/{novo}"
+    return ""
+
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
 
 def natural_sort_key(s):
@@ -154,7 +183,7 @@ def read_brands(wb, sheet_name, category_key):
             "name":     name,
             # Logo: naziv iz stupca logo_folder, a ako je prazan (ili te datoteke
             # nema) traži se datoteka nazvana po brendu, npr. brendovi/thor.png
-            "logo":     find_logo_path(logo_folder) or find_logo_path(str(brand_id)),
+            "logo":     pronadi_logo(str(brand_id), str(name), logo_folder),
             "website":  website or "",
             "active":   active,
         })
