@@ -580,7 +580,11 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Ninja H2 vraća se u Europu za 2027. — motor 998 cc s kompresorom i 209 KS, za cestovnu vožnju.",
-    "images": [],
+    "images": [
+      "/images/vozila/83-ninja-h2/h21.png",
+      "/images/vozila/83-ninja-h2/h22.png",
+      "/images/vozila/83-ninja-h2/h23.png"
+    ],
     "specs": {
       "Radni obujam": "998 cm³",
       "Najveća snaga": "209 KS"
@@ -1328,9 +1332,6 @@
     "price": "19.391 €",
     "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "images": [
-      "/images/vozila/18-z-h2/h21.png",
-      "/images/vozila/18-z-h2/h22.png",
-      "/images/vozila/18-z-h2/h23.png",
       "/images/vozila/18-z-h2/img_01.jpg",
       "/images/vozila/18-z-h2/img_02.jpg",
       "/images/vozila/18-z-h2/img_03.jpg",
