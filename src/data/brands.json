@@ -10,7 +10,7 @@
     {
       "brand_id": "ufo",
       "name": "UFO Plast",
-      "logo": "",
+      "logo": "/images/brendovi/ufo.png",
       "website": "ufoplast.com",
       "active": true
     },
@@ -59,14 +59,14 @@
     {
       "brand_id": "wind",
       "name": "WIND Raceware",
-      "logo": "/images/brendovi/wind.svg",
+      "logo": "",
       "website": "wind-raceware.com",
       "active": false
     },
     {
       "brand_id": "mitas",
       "name": "Mitas",
-      "logo": "/images/brendovi/mitas.svg",
+      "logo": "",
       "website": "mitas-moto.com",
       "active": false
     }
@@ -82,35 +82,35 @@
     {
       "brand_id": "wiseco",
       "name": "Wiseco",
-      "logo": "/images/brendovi/wiseco.svg",
+      "logo": "/images/brendovi/wiseco.png",
       "website": "wiseco.com",
       "active": true
     },
     {
       "brand_id": "vertex",
       "name": "Vertex",
-      "logo": "",
+      "logo": "/images/brendovi/vertex.png",
       "website": "vertexpistons.com",
       "active": true
     },
     {
       "brand_id": "hotrods",
       "name": "Hot Rods",
-      "logo": "",
+      "logo": "/images/brendovi/hotrods.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "athena",
       "name": "Athena",
-      "logo": "",
+      "logo": "/images/brendovi/athena.png",
       "website": "athena.eu",
       "active": true
     },
     {
       "brand_id": "koyo",
       "name": "KOYO",
-      "logo": "",
+      "logo": "/images/brendovi/koyo.png",
       "website": "",
       "active": true
     },
@@ -131,161 +131,161 @@
     {
       "brand_id": "ipone",
       "name": "Ipone",
-      "logo": "",
+      "logo": "/images/brendovi/ipone.png",
       "website": "ipone.com",
       "active": true
     },
     {
       "brand_id": "castrol",
       "name": "Castrol",
-      "logo": "",
+      "logo": "/images/brendovi/castrol.png",
       "website": "castrol.com",
       "active": true
     },
     {
       "brand_id": "valvoline",
       "name": "Valvoline",
-      "logo": "/images/brendovi/valvoline.ico",
+      "logo": "/images/brendovi/valvoline.png",
       "website": "valvoline.com",
       "active": true
     },
     {
       "brand_id": "hiflofiltro",
       "name": "HifloFiltro",
-      "logo": "",
+      "logo": "/images/brendovi/hiflofiltro.jpg",
       "website": "hiflofiltro.com",
       "active": true
     },
     {
       "brand_id": "meiwa",
       "name": "Meiwa",
-      "logo": "",
+      "logo": "/images/brendovi/meiwa.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "fmf",
       "name": "FMF Racing",
-      "logo": "",
+      "logo": "/images/brendovi/fmf.png",
       "website": "fmfracing.com",
       "active": true
     },
     {
       "brand_id": "leovince",
       "name": "LeoVince",
-      "logo": "",
+      "logo": "/images/brendovi/leovince.jpg",
       "website": "leovince.com",
       "active": true
     },
     {
       "brand_id": "akrapovic",
       "name": "Akrapovič",
-      "logo": "",
+      "logo": "/images/brendovi/akrapovic.png",
       "website": "akrapovic.com",
       "active": true
     },
     {
       "brand_id": "procircuit",
       "name": "Pro Circuit",
-      "logo": "",
+      "logo": "/images/brendovi/procircuit.png",
       "website": "procircuit.com",
       "active": true
     },
     {
       "brand_id": "polisport",
       "name": "Polisport",
-      "logo": "",
+      "logo": "/images/brendovi/polisport.jpg",
       "website": "polisport.com",
       "active": true
     },
     {
       "brand_id": "ufo",
       "name": "UFO Plast",
-      "logo": "",
+      "logo": "/images/brendovi/ufo.png",
       "website": "ufoplast.com",
       "active": true
     },
     {
       "brand_id": "biketec",
       "name": "BikeTec",
-      "logo": "",
+      "logo": "/images/brendovi/biketec.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "wrp",
       "name": "WRP",
-      "logo": "/images/brendovi/wrp.svg",
+      "logo": "/images/brendovi/wrp.jpg",
       "website": "wrp-racing.com",
       "active": true
     },
     {
       "brand_id": "rtech",
       "name": "R-Tech",
-      "logo": "",
+      "logo": "/images/brendovi/rtech.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "blackbird",
       "name": "Blackbird Racing",
-      "logo": "",
+      "logo": "/images/brendovi/blackbird.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "rk",
       "name": "RK Chains",
-      "logo": "",
+      "logo": "/images/brendovi/rk.png",
       "website": "rk-chain.com",
       "active": true
     },
     {
       "brand_id": "did",
       "name": "D.I.D",
-      "logo": "",
+      "logo": "/images/brendovi/did.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "trw",
       "name": "TRW Lucas",
-      "logo": "/images/brendovi/trw.png",
+      "logo": "/images/brendovi/trw.jpg",
       "website": "trwaftermarket.com",
       "active": true
     },
     {
       "brand_id": "plews",
       "name": "Plews Tyres",
-      "logo": "",
+      "logo": "/images/brendovi/plews.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "pirelli",
       "name": "Pirelli",
-      "logo": "",
+      "logo": "/images/brendovi/pirelli.png",
       "website": "pirelli.com",
       "active": true
     },
     {
       "brand_id": "kite",
       "name": "Kite",
-      "logo": "",
+      "logo": "/images/brendovi/kite.png",
       "website": "",
       "active": true
     },
     {
       "brand_id": "cht",
       "name": "CHT Sprockets",
-      "logo": "/images/brendovi/cht.svg",
+      "logo": "",
       "website": "cht-sprockets.com",
       "active": false
     },
     {
       "brand_id": "denso",
       "name": "Denso",
-      "logo": "/images/brendovi/denso.svg",
+      "logo": "",
       "website": "denso.com",
       "active": false
     }
