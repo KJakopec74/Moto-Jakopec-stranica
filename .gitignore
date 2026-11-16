@@ -40,3 +40,4 @@ vozila.xlsx
 proizvodi.xlsx
 proizvodi_stari*.xlsx
 vozila_stari*.xlsx
+__pycache__/

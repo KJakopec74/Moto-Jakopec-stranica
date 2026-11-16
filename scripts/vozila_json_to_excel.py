@@ -4,7 +4,7 @@ Pretvara models.json u vozila.xlsx (jednom za inicijalizaciju).
 Pokreni: py -X utf8 scripts/json_to_excel.py
 """
 
-import json, os
+import json, os, re
 import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
@@ -16,7 +16,7 @@ EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Fiksni stupci (uvijek prisutni)
-FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "description", "image_folder"]
+FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "description", "image_folder", "slike"]
 
 def main():
     with open(JSON_PATH, encoding="utf-8") as f:
@@ -81,6 +81,11 @@ def main():
                 image_folder = parts[3]
             elif len(parts) >= 3:
                 image_folder = parts[2]
+        else:
+            # Vozilo još nema slika → predloži naziv mape (npr. "79-versys-900"),
+            # u nju će se kopirati slike upisane u stupac "slike"
+            kratko = re.sub(r"^kawasaki\s+", "", str(m.get("name", "")), flags=re.I)
+            image_folder = f"{m.get('id', 0):02d}-" + re.sub(r"[^a-z0-9]+", "-", kratko.lower()).strip("-")
 
         row_data = {
             "id":               m.get("id"),
@@ -91,6 +96,7 @@ def main():
             "price":            m.get("price", ""),
             "description":      m.get("description", ""),
             "image_folder":     image_folder,
+            "slike":            "",   # ovdje se upisuju nove slike (vidi UPUTE.md)
         }
         # Dodaj spec vrijednosti
         for k in all_spec_keys:
@@ -153,6 +159,19 @@ def main():
         ws2.cell(row=r, column=2, value=b)
     ws2.column_dimensions["A"].width = 25
     ws2.column_dimensions["B"].width = 70
+
+    # Postojeći Excel ne briši — sačuvaj ga kao vozila_stari.xlsx (ili _stari2 ...)
+    if os.path.exists(EXCEL_PATH):
+        baza = EXCEL_PATH.replace(".xlsx", "_stari")
+        novo_ime, broj = baza + ".xlsx", 2
+        while os.path.exists(novo_ime):
+            novo_ime, broj = f"{baza}{broj}.xlsx", broj + 1
+        try:
+            os.replace(EXCEL_PATH, novo_ime)
+        except PermissionError:
+            print("ZATVORI vozila.xlsx pa pokreni skriptu ponovo.")
+            raise SystemExit(1)
+        print(f"Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
 
     wb.save(EXCEL_PATH)
     print(f"Saved: {EXCEL_PATH}")

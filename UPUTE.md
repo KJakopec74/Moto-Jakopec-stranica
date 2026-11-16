@@ -62,6 +62,11 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
 - Prikazuju se **abecednim redom naziva** — **`img_01.jpg` je glavna slika** (na kartici)
 - Za promjenu redoslijeda preimenuj datoteke (`img_01`, `img_02`, …)
 - Nove slike samo ubaci u mapu — `objavi.bat` ih sam smanji
+- **Ili preko Excela:** u stupac **`slike`** u `vozila.xlsx` upiši nazive preuzetih slika
+  odvojene točka-zarezom (npr. `versys900_1.jpg; versys900_2.jpg`). Slike se traže u
+  *Preuzimanjima*, na *Radnoj površini* i u mapi projekta (može i puna putanja).
+  `objavi.bat` ih kopira u mapu iz stupca `image_folder` kao `img_01`, `img_02` …
+  i smanji. Nakon objave stupac `slike` možeš isprazniti.
 
 ---
 
@@ -97,6 +102,7 @@ Stranica se sama osvježava kad nešto promijeniš. Za gašenje zatvori crni pro
 | Problem | Rješenje |
 |---------|----------|
 | `objavi.bat` javi grešku kod Excela | Excel mora biti **zatvoren** |
+| **PAŽNJA: models.json je noviji od vozila.xlsx** | Na GitHubu su promijenjena vozila (npr. dodani novi modeli). Zatvori Excel i pokreni `py -X utf8 scripts/vozila_json_to_excel.py` — stari Excel ostaje sačuvan kao `vozila_stari.xlsx`. Zatim ponovo `objavi.bat` |
 | Na stranici nema slika vozila | Provjeri da mapa u `public\images\vozila\` postoji i ima slike |
 | Promjena nije online ni nakon 5 min | Cloudflare → Workers & Pages → moto-jakopec → **Deployments** — pogledaj je li build pao |
 | Upiti s forme ne stižu | Provjeri spam u Gmailu; na web3forms.com provjeri postavke forme |

@@ -14,6 +14,7 @@ Pokreni nakon svake izmjene u Excelu:
 
 import json, os, re
 import openpyxl
+from slike_kopiranje import kopiraj_slike
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
@@ -22,7 +23,7 @@ JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 FIXED_COLS = {"id", "name", "category", "license_category",
-              "is_new", "price", "description", "image_folder"}
+              "is_new", "price", "description", "image_folder", "slike"}
 
 # ── Sortiranje slika ──────────────────────────────────────────────────────────
 def img_sort_key(fname: str) -> str:
@@ -135,6 +136,19 @@ def main():
         print("Pokreni prvo: py -X utf8 scripts/vozila_json_to_excel.py")
         return
 
+    # ── Zaštita od starog Excela ─────────────────────────────────────────────
+    # Nakon svakog uspješnog pokretanja models.json dobije isto vrijeme izmjene
+    # kao Excel. Ako je JSON noviji, promijenjen je na GitHubu (npr. novi modeli)
+    # i Excel više ne sadrži najnovije podatke.
+    vrijeme_excela = os.path.getmtime(EXCEL_PATH)
+    if os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > vrijeme_excela + 2:
+        print("PAŽNJA: models.json je noviji od vozila.xlsx!")
+        print("  Na GitHubu su u međuvremenu promijenjena vozila, a tvoj Excel je star.")
+        print("  Ništa nije prepisano. Napravi novi Excel iz najnovijih podataka:")
+        print("      py -X utf8 scripts/vozila_json_to_excel.py")
+        print("  (stari Excel bit će sačuvan kao vozila_stari.xlsx)")
+        raise SystemExit(2)   # kod greške → objavi.bat se zaustavi
+
     wb = openpyxl.load_workbook(EXCEL_PATH)
     if "Vozila" not in wb.sheetnames:
         print("GREŠKA: Sheet 'Vozila' ne postoji u Excel datoteci!")
@@ -181,6 +195,15 @@ def main():
         if not os.path.isdir(os.path.join(IMG_DIR, image_folder)) or image_folder in ("", "vozila"):
             image_folder = rezervne_mape.get(model_id, "")
 
+        # Stupac "slike": kopiraj preuzete slike u mapu vozila.
+        # Ako vozilo još nema mapu, napravi je iz id-a i naziva (npr. "79-ninja-h2").
+        unos_slika = parse_value(row_dict.get("slike"))
+        if unos_slika:
+            if not image_folder:
+                kratko = re.sub(r"^kawasaki\s+", "", str(name), flags=re.I)
+                image_folder = f"{model_id:02d}-" + re.sub(r"[^a-z0-9]+", "-", kratko.lower()).strip("-")
+            kopiraj_slike(unos_slika, os.path.join(IMG_DIR, image_folder), name)
+
         images = get_images(image_folder)
         if not images:
             print(f"  UPOZORENJE: nema slika za '{name}' (image_folder = '{image_folder}')")
@@ -213,6 +236,8 @@ def main():
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(models, f, ensure_ascii=False, indent=2)
 
+    # Izjednači vrijeme izmjene JSON-a s Excelom (vidi zaštitu na početku)
+    os.utime(JSON_PATH, (vrijeme_excela, vrijeme_excela))
     print(f"Spremljeno: {JSON_PATH}")
     print(f"  Vozila: {len(models)}")
     if skipped:

@@ -14,7 +14,7 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 
 ```
 src/data/
-  models.json     ← sva vozila (78 Kawasaki modela)
+  models.json     ← sva vozila (84 Kawasaki modela, ponuda 2027.)
   products.json   ← oprema (10 modela) i dijelovi (10 skupina po brendu: klipovi, klipnjače, kvačilo…), cijena na upit
   brands.json     ← brendovi { "oprema": [...], "dijelovi": [...] }
 
