@@ -101,7 +101,16 @@
     "image_folder": "ufo-offroad-kacige",
     "brand": "ufo",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/ufo-offroad-kacige/ufo1.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo2.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo3.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo4.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo5.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo6.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo7.jpg",
+      "/images/oprema/ufo-offroad-kacige/ufo8.jpg"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
@@ -117,7 +126,9 @@
     "image_folder": "just1-offroad-kacige",
     "brand": "just1",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/just1-offroad-kacige/just1-j18-f-hexa-green-helmet.jpg"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
@@ -162,7 +173,19 @@
     "image_folder": "progrip-motocross-naocale",
     "brand": "progrip",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/progrip-motocross-naocale/progrip1.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip2.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip3.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip4.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip5.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip6.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip7.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip8.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip9.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip10.jpg",
+      "/images/oprema/progrip-motocross-naocale/progrip11.jpg"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
@@ -178,7 +201,16 @@
     "image_folder": "ufo-motocross-naocale",
     "brand": "ufo",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/ufo-motocross-naocale/ufonao1.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao2.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao3.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao4.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao5.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao6.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao7.jpg",
+      "/images/oprema/ufo-motocross-naocale/ufonao8.jpg"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
