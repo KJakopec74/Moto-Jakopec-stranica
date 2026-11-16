@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { ADRESA_STRANICE, FIRMA } from "@/lib/stranica";
+import { ADRESA_STRANICE, FIRMA, TELEFONI } from "@/lib/stranica";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -37,6 +37,10 @@ const PODACI_ZA_GOOGLE = {
   logo: `${ADRESA_STRANICE}/logo-jakopec.png`,
   image: `${ADRESA_STRANICE}/opengraph-image.png`,
   telephone: FIRMA.telefon,
+  // Mobiteli kao dodatni kontakti
+  contactPoint: TELEFONI.filter((t) => t.vrsta === "Mobitel").map((t) => ({
+    "@type": "ContactPoint", telephone: t.poziv, contactType: "sales",
+  })),
   email: FIRMA.email,
   brand: { "@type": "Brand", name: "Kawasaki" },
   address: {
@@ -46,7 +50,8 @@ const PODACI_ZA_GOOGLE = {
     addressLocality: FIRMA.grad,
     addressCountry: FIRMA.drzava,
   },
-  // Radno vrijeme: pon i sri 10–18, uto, čet i pet 8–16
+  // Radno vrijeme: pon i sri 10–18, uto, čet i pet 8–16, subotom i nedjeljom zatvoreno
+  // (dani koji nisu navedeni Google tumači kao neradne)
   openingHoursSpecification: [
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Wednesday"], opens: "10:00", closes: "18:00" },
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Tuesday", "Thursday", "Friday"], opens: "08:00", closes: "16:00" },

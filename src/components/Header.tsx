@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { TELEFONI } from "@/lib/stranica";
 import Image from "next/image";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useState, Suspense } from "react";
@@ -126,8 +127,12 @@ function HeaderInner() {
                 {link.label}
               </Link>
             ))}
-            <div className="pt-2 px-4 text-sm" style={{ color: "var(--muted)" }}>
-              01/3371-059
+            <div className="pt-2 px-4 text-sm space-y-1" style={{ color: "var(--muted)" }}>
+              {TELEFONI.map((t) => (
+                <a key={t.poziv} href={`tel:${t.poziv}`} className="block py-1" style={{ color: "var(--text)" }}>
+                  📞 {t.prikaz} <span className="text-xs" style={{ color: "var(--muted)" }}>{t.vrsta}</span>
+                </a>
+              ))}
             </div>
           </div>
         )}

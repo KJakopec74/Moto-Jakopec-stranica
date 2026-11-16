@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { TELEFONI, RADNO_VRIJEME } from "@/lib/stranica";
 import Image from "next/image";
 
 export default function Footer() {
@@ -63,14 +64,16 @@ export default function Footer() {
                 </svg>
                 Eugena Kvaternika 4, 10430 Samobor
               </li>
-              <li className="flex items-center gap-2">
-                <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ color: "var(--green)" }}>
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <a href="tel:+38513371059" className="transition-colors hover:text-green-700">
-                  01/3371-059
-                </a>
-              </li>
+              {TELEFONI.map((t) => (
+                <li key={t.poziv} className="flex items-center gap-2">
+                  <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ color: "var(--green)" }}>
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  <a href={`tel:${t.poziv}`} className="transition-colors hover:text-green-700">
+                    {t.prikaz}
+                  </a>
+                </li>
+              ))}
               <li className="flex items-center gap-2">
                 <svg className="w-4 h-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ color: "var(--green)" }}>
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -79,6 +82,14 @@ export default function Footer() {
                   moto.jakopec@gmail.com
                 </a>
               </li>
+            </ul>
+            <h3 className="font-semibold mt-6 mb-3" style={{ color: "var(--text)" }}>Radno vrijeme</h3>
+            <ul className="space-y-1 text-sm" style={{ color: "var(--muted)" }}>
+              {RADNO_VRIJEME.map((r) => (
+                <li key={r.dani}>
+                  {r.dani}: <span style={{ color: "var(--text)" }}>{r.sati}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

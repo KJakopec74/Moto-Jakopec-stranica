@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import UpitForma from "@/components/UpitForma";
+import { TELEFONI, RADNO_VRIJEME } from "@/lib/stranica";
 
 export const metadata: Metadata = {
   title: "Kontakt",
@@ -27,9 +28,10 @@ const INFO = [
           d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
       </svg>
     ),
-    label: "Tel/Fax",
-    value: "01/3371-059",
-    href: "tel:+38513371059",
+    label: "Telefon",
+    value: "",
+    href: null,
+    telefoni: true,
   },
   {
     icon: (
@@ -50,7 +52,7 @@ const INFO = [
       </svg>
     ),
     label: "Radno vrijeme",
-    value: "Ponedjeljak i srijeda: 10:00 – 18:00\nUtorak, četvrtak i petak: 8:00 – 16:00",
+    value: RADNO_VRIJEME.map((r) => `${r.dani}: ${r.sati}`).join("\n"),
     href: null,
   },
 ];
@@ -76,7 +78,19 @@ export default function KontaktPage() {
                 <div className="text-xs font-medium uppercase tracking-wide mb-1" style={{ color: "var(--muted)" }}>
                   {item.label}
                 </div>
-                {item.href ? (
+                {"telefoni" in item ? (
+                  // Svi brojevi — klik na broj na mobitelu odmah zove
+                  <ul className="space-y-1">
+                    {TELEFONI.map((t) => (
+                      <li key={t.poziv}>
+                        <a href={`tel:${t.poziv}`} className="font-medium transition-colors hover:underline" style={{ color: "var(--text)" }}>
+                          {t.prikaz}
+                        </a>
+                        <span className="text-xs ml-2" style={{ color: "var(--muted)" }}>{t.vrsta}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : item.href ? (
                   <a
                     href={item.href}
                     className="font-medium transition-colors hover:underline"

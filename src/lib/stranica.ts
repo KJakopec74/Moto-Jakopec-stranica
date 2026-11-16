@@ -17,3 +17,17 @@ export const FIRMA = {
   telefon: "+38513371059",
   email: "moto.jakopec@gmail.com",
 };
+
+// Brojevi telefona — prikazuju se u zaglavlju, podnožju i na stranici Kontakt
+export const TELEFONI = [
+  { prikaz: "01/3371-059",  poziv: "+38513371059",  vrsta: "Tel/Fax" },
+  { prikaz: "091/555-1655", poziv: "+385915551655", vrsta: "Mobitel" },
+  { prikaz: "091/583-8951", poziv: "+385915838951", vrsta: "Mobitel" },
+];
+
+// Radno vrijeme — prikazuje se u podnožju i na stranici Kontakt
+export const RADNO_VRIJEME = [
+  { dani: "Ponedjeljak i srijeda",       sati: "10:00 – 18:00" },
+  { dani: "Utorak, četvrtak i petak",    sati: "8:00 – 16:00" },
+  { dani: "Subota i nedjelja",           sati: "ne radimo" },
+];
