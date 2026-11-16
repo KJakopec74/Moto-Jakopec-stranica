@@ -152,7 +152,9 @@ def read_brands(wb, sheet_name, category_key):
         brands.append({
             "brand_id": brand_id,
             "name":     name,
-            "logo":     find_logo_path(logo_folder),
+            # Logo: naziv iz stupca logo_folder, a ako je prazan (ili te datoteke
+            # nema) traži se datoteka nazvana po brendu, npr. brendovi/thor.png
+            "logo":     find_logo_path(logo_folder) or find_logo_path(str(brand_id)),
             "website":  website or "",
             "active":   active,
         })
