@@ -339,7 +339,7 @@
     "name": "Kawasaki Ninja 650",
     "brand": "Kawasaki",
     "category": "Sport",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "8.449 €",
     "description": "Obnovljena Ninja 650 za 2027.: nove obrnute Showa vilice, radijalne kočnice s 4 klipa, novi 4,3\" TFT zaslon i quickshifter (KQS) kao dodatna oprema. Jak karakter i svakodnevna upotrebljivost.",
@@ -394,7 +394,8 @@
       "Paket Performance": "...ispušni lonac Euro 5+ Arrow",
       "Paket Tourer": "2 x 14 l polumeka kofera s nosačima, zaštita spremnika goriva, štitnici motora, viši vjetrobran, zaštita TFT zaslona",
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zaštita TFT zaslona, viši vjetrobran, nosač telefona",
-      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona"
+      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -1686,7 +1687,7 @@
     "name": "Kawasaki Z 650 S",
     "brand": "Kawasaki",
     "category": "Naked",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "7.910 €",
     "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
@@ -1750,7 +1751,8 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Akrapovič",
       "Paket Tourer": "2 x 14 l polumeka kofera s nosačima ...",
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zatamnjeni vjetrobran, zaštita spremnika goriva, zaštita TFT zaslona, nosač telefona",
-      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona"
+      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -1758,7 +1760,7 @@
     "name": "Kawasaki Z 650",
     "brand": "Kawasaki",
     "category": "Naked",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "7.812 €",
     "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
@@ -1806,7 +1808,8 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Arrow",
       "Paket Tourer": "2 x 14 l polumeka kofera s nosačima ...",
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zatamnjeni vjetrobran, zaštita spremnika goriva, zaštita TFT zaslona, nosač telefona",
-      "Paket Sport Pack": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona"
+      "Paket Sport Pack": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -2047,7 +2050,7 @@
     "name": "Kawasaki Z 650RS",
     "brand": "Kawasaki",
     "category": "Classic",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "8.441 €",
     "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju.",
@@ -2089,7 +2092,8 @@
       "Potrošnja goriva": "4,3 l/100km (4,5 l/100km)",
       "Emisija CO2": "107 g/km",
       "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "ABS, LED prednje svjetlo, pokazivači smjera i stop svjetlo, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa"
+      "Tehnologije": "ABS, LED prednje svjetlo, pokazivači smjera i stop svjetlo, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -2097,7 +2101,7 @@
     "name": "Kawasaki W 800",
     "brand": "Kawasaki",
     "category": "Classic",
-    "license_category": "",
+    "license_category": "A2",
     "is_new": false,
     "price": "9.868 €",
     "description": "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike.",
@@ -2278,7 +2282,7 @@
     "name": "Kawasaki Vulcan S",
     "brand": "Kawasaki",
     "category": "Cruiser",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "8.916 €",
     "description": "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
@@ -2325,7 +2329,8 @@
       "Paket Performance": "Ispušni sustav Euro 5+ Arrow, fiksni Cafe zatamnjeni vjetrobran s fiksnim nosačem",
       "Paket Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, veliki vjetrobran s fiksnim nosačima",
       "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima",
-      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN"
+      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN",
+      "A2 izvedba": "Za A2 dozvolu: komplet za smanjenje snage na 35 kW kod ovlaštenog Kawasaki zastupnika"
     }
   },
   {
@@ -2657,7 +2662,7 @@
     "name": "Kawasaki Versys 650",
     "brand": "Kawasaki",
     "category": "Adventure",
-    "license_category": "",
+    "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "8.937 €",
     "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
@@ -2724,7 +2729,8 @@
       "Emisijski razred": "Euro 5+",
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu",
-      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, unutarnja torba 47 l, nosiva ploča, 12 V utičnica, GPS nosač, viši vjetrobran, USB utičnica"
+      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, unutarnja torba 47 l, nosiva ploča, 12 V utičnica, GPS nosač, viši vjetrobran, USB utičnica",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
     }
   },
   {
