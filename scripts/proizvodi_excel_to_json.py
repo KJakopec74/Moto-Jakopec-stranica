@@ -200,7 +200,7 @@ def main():
     # ── 0. Ako su s GitHuba stigli promijenjeni proizvodi, a Excel nije diran
     #       od zadnje objave → Excel se sam napravi iznova (excel_sinkronizacija.py)
     if osvjezi_ako_treba(EXCEL_PATH, JSON_PATH, napravi_proizvodi_excel, "proizvodi.xlsx"):
-        return
+        pass   # Excel je osvježen — nastavi s pretvorbom (slike iz mapa, logotipi…)
     vrijeme_excela = os.path.getmtime(EXCEL_PATH)
 
     wb = openpyxl.load_workbook(EXCEL_PATH)
@@ -213,7 +213,7 @@ def main():
             print("  Excel se automatski radi iznova po novom predlošku...")
             napravi_proizvodi_excel()
             zapamti(EXCEL_PATH, JSON_PATH)
-            return
+            wb = openpyxl.load_workbook(EXCEL_PATH)
 
     # ── 1. Brendovi ──────────────────────────────────────────────────────────
     oprema_brands   = read_brands(wb, "Brendovi_Oprema",   "oprema")

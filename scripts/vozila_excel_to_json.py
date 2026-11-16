@@ -141,7 +141,7 @@ def main():
     # ── Ako su s GitHuba stigla promijenjena vozila, a Excel nije diran od
     #    zadnje objave → Excel se sam napravi iznova (vidi excel_sinkronizacija.py)
     if osvjezi_ako_treba(EXCEL_PATH, JSON_PATH, napravi_vozila_excel, "vozila.xlsx"):
-        return
+        pass   # Excel je osvježen — nastavi s pretvorbom (slike iz mapa, logotipi…)
     vrijeme_excela = os.path.getmtime(EXCEL_PATH)
 
     wb = openpyxl.load_workbook(EXCEL_PATH)

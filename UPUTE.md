@@ -89,7 +89,14 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
    - `objavi.bat` slike sam kopira u pravu mapu, smanji ih i objavi; nakon toga ih iz Preuzimanja smiješ obrisati
 6. Spremi, zatvori, dvoklik na **`objavi.bat`**
 
-### Kako dodati slike za sve proizvode — korak po korak
+### Najjednostavnije: slike samo ubaci u mapu proizvoda
+
+Svaki proizvod ima svoju mapu (naziv piše u Excelu, stupac `image_folder`):
+`public\images\oprema\<mapa>\` ili `public\images\dijelovi\<mapa>\` — npr. `public\images\oprema\airoh-aviator-3\`.
+Ubaci slike u nju (bilo koje ime) i pokreni `objavi.bat`. Slike se prikazuju abecednim redom imena —
+prva je glavna (za redoslijed ih nazovi `1.jpg`, `2.jpg`, …).
+
+### Ili preko Excela (stupac `slike`) — korak po korak
 
 1. U Excelu filtriraj stupac `brand` (strelica u zaglavlju) na jedan brend, npr. `alpinestars`
 2. Otvori stranicu proizvođača (adresa je u listu *Brendovi_Oprema* / *Brendovi_Dijelovi*, stupac `website`)
