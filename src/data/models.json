@@ -360,6 +360,7 @@
       "/images/vozila/12-ninja-650/img_14.jpg"
     ],
     "specs": {
+      "Boje": "Lime Green; Metallic Matte Graphenesteel Gray / Metallic Spark Black; Metallic Flat Spark Black / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
       "Provrt x hod": "83 x 60 mm",
@@ -393,8 +394,7 @@
       "Paket Performance": "...ispušni lonac Euro 5+ Arrow",
       "Paket Tourer": "2 x 14 l polumeka kofera s nosačima, zaštita spremnika goriva, štitnici motora, viši vjetrobran, zaštita TFT zaslona",
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zaštita TFT zaslona, viši vjetrobran, nosač telefona",
-      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona",
-      "Boje": "Lime Green; Metallic Matte Graphenesteel Gray / Metallic Spark Black; Metallic Flat Spark Black / Metallic Carbon Gray"
+      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona"
     }
   },
   {
@@ -587,6 +587,7 @@
       "/images/vozila/83-ninja-h2/h23.png"
     ],
     "specs": {
+      "Boje": "Mirror Coated Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični s kompresorom",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -615,8 +616,7 @@
       "Potrošnja goriva": "5,9 l/100 km",
       "Emisija CO2": "136 g/km",
       "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "ABS u zavojima, kontrola proklizavanja ovisna o nagibu, kontrola propinjanja, načini vožnje, quickshifter, kontrola kočenja motorom, tempomat, elektronički Öhlins amortizer upravljača, povezivost s pametnim telefonom (Rideology)",
-      "Boje": "Mirror Coated Spark Black"
+      "Tehnologije": "ABS u zavojima, kontrola proklizavanja ovisna o nagibu, kontrola propinjanja, načini vožnje, quickshifter, kontrola kočenja motorom, tempomat, elektronički Öhlins amortizer upravljača, povezivost s pametnim telefonom (Rideology)"
     }
   },
   {
@@ -628,8 +628,15 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Ninja H2 Carbon — izvedba s karbonskim dijelovima oplate, motor 998 cc s kompresorom i 209 KS.",
-    "images": [],
+    "images": [
+      "/images/vozila/84-ninja-h2-carbon/h2c1.png",
+      "/images/vozila/84-ninja-h2-carbon/h2c2.png",
+      "/images/vozila/84-ninja-h2-carbon/h2c3.png",
+      "/images/vozila/84-ninja-h2-carbon/h2c4.png",
+      "/images/vozila/84-ninja-h2-carbon/h2c5.png"
+    ],
     "specs": {
+      "Boje": "Mirror Coated Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični s kompresorom",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -658,8 +665,7 @@
       "Potrošnja goriva": "5,9 l/100 km",
       "Emisija CO2": "136 g/km",
       "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "ABS u zavojima, kontrola proklizavanja ovisna o nagibu, kontrola propinjanja, načini vožnje, quickshifter, kontrola kočenja motorom, tempomat, elektronički Öhlins amortizer upravljača, povezivost s pametnim telefonom (Rideology)",
-      "Boje": "Mirror Coated Spark Black"
+      "Tehnologije": "ABS u zavojima, kontrola proklizavanja ovisna o nagibu, kontrola propinjanja, načini vožnje, quickshifter, kontrola kočenja motorom, tempomat, elektronički Öhlins amortizer upravljača, povezivost s pametnim telefonom (Rideology)"
     }
   },
   {
@@ -2881,7 +2887,14 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Novi Versys 900 za 2027. — redni četverocilindraš 948 cc i 122 KS u novom čeličnom rešetkastom okviru, s kotačima od 17\" i spremnikom od 20 litara. Isporuka od travnja 2027.",
-    "images": [],
+    "images": [
+      "/images/vozila/79-versys-900/versys900-1.png",
+      "/images/vozila/79-versys-900/versys900-2.png",
+      "/images/vozila/79-versys-900/versys900-3.png",
+      "/images/vozila/79-versys-900/versys900-4.png",
+      "/images/vozila/79-versys-900/versys900-5.png",
+      "/images/vozila/79-versys-900/versys900-6.png"
+    ],
     "specs": {
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
@@ -2915,7 +2928,18 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Versys 900 SE — bogatija izvedba novog Versysa 900 (948 cc, 122 KS): grijane ručke, LED svjetla za maglu, štitnici ruku, zaštite motora i središnji stalak. Isporuka od travnja 2027.",
-    "images": [],
+    "images": [
+      "/images/vozila/80-versys-900-se/versys900se-1.png",
+      "/images/vozila/80-versys-900-se/versys900se-10.png",
+      "/images/vozila/80-versys-900-se/versys900se-2.png",
+      "/images/vozila/80-versys-900-se/versys900se-3.png",
+      "/images/vozila/80-versys-900-se/versys900se-4.png",
+      "/images/vozila/80-versys-900-se/versys900se-5.png",
+      "/images/vozila/80-versys-900-se/versys900se-6.png",
+      "/images/vozila/80-versys-900-se/versys900se-7.png",
+      "/images/vozila/80-versys-900-se/versys900se-8.png",
+      "/images/vozila/80-versys-900-se/versys900se-9.png"
+    ],
     "specs": {
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
@@ -2950,7 +2974,11 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Novi KLE650 za 2027. — adventure motocikl s provjerenim dvocilindričnim motorom 649 cc, za ceste i lakši teren.",
-    "images": [],
+    "images": [
+      "/images/vozila/81-kle-650/kle650-1.png",
+      "/images/vozila/81-kle-650/kle650-2.png",
+      "/images/vozila/81-kle-650/kle650-3.png"
+    ],
     "specs": {
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
@@ -2988,7 +3016,18 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "KLE650 SE — bogatije opremljena izvedba novog KLE650 s motorom 649 cc.",
-    "images": [],
+    "images": [
+      "/images/vozila/82-kle-650-se/kle650se-1.png",
+      "/images/vozila/82-kle-650-se/kle650se-10.png",
+      "/images/vozila/82-kle-650-se/kle650se-2.png",
+      "/images/vozila/82-kle-650-se/kle650se-3.png",
+      "/images/vozila/82-kle-650-se/kle650se-4.png",
+      "/images/vozila/82-kle-650-se/kle650se-5.png",
+      "/images/vozila/82-kle-650-se/kle650se-6.png",
+      "/images/vozila/82-kle-650-se/kle650se-7.png",
+      "/images/vozila/82-kle-650-se/kle650se-8.png",
+      "/images/vozila/82-kle-650-se/kle650se-9.png"
+    ],
     "specs": {
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
@@ -3012,10 +3051,10 @@
       "Međuosovinski razmak": "1.555 mm",
       "Udaljenost od tla": "185 mm",
       "Visina sjedala": "870 mm (niže sjedalo kao dodatna oprema: 840 mm)",
+      "Masa spremna za vožnju": "212 kg",
       "Spremnik goriva": "16 litara",
       "Emisijski razred (EU)": "Euro 5+",
-      "Kotači": "Žbičasti, bez zračnice (tubeless)",
-      "Masa spremna za vožnju": "212 kg"
+      "Kotači": "Žbičasti, bez zračnice (tubeless)"
     }
   },
   {
@@ -3631,21 +3670,25 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "Novi dvotaktni KX327 za 2027. — prvi veliki Kawasakijev dvotaktaš u više od 20 godina: 327 cc, ubrizgavanje goriva, elektropokretač i hidraulično kvačilo, za motocross.",
-    "images": [],
+    "images": [
+      "/images/vozila/85-kx-327/kx327-1.png",
+      "/images/vozila/85-kx-327/kx327-2.png",
+      "/images/vozila/85-kx-327/kx327-3.png"
+    ],
     "specs": {
+      "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
       "Radni obujam": "327 cm³",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 39 mm, dvije brizgaljke",
       "Usisni sustav": "Membranski usisni ventil (reed ventil)",
       "Podmazivanje": "Mješavina (gorivo i ulje)",
-      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "5 brzina (bliski omjeri)",
       "Kvačilo": "Hidraulično",
       "Okvir": "Obodni (perimetarski), aluminij",
-      "Boje": "Lime Green",
-      "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
-      "Mjenjač": "5 brzina (bliski omjeri)",
-      "Prednji ovjes": "Vilice KYB 48 mm s oprugama",
       "Stražnja guma": "19\" (Dunlop Geomax MX34)",
+      "Prednji ovjes": "Vilice KYB 48 mm s oprugama",
+      "Pokretanje": "Elektropokretač",
+      "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
       "Masa": "106 kg"
     }
   },
@@ -3658,19 +3701,23 @@
     "is_new": true,
     "price": "Cijena na upit",
     "description": "KX327X — cross-country izvedba novog dvotaktnog KX327: 6 brzina i zaštitna oprema za enduro i cross-country utrke.",
-    "images": [],
+    "images": [
+      "/images/vozila/86-kx-327x/kx327x-1.png",
+      "/images/vozila/86-kx-327x/kx327x-2.png",
+      "/images/vozila/86-kx-327x/kx327x-3.png"
+    ],
     "specs": {
+      "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
       "Radni obujam": "327 cm³",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 39 mm, dvije brizgaljke",
       "Usisni sustav": "Membranski usisni ventil (reed ventil)",
       "Podmazivanje": "Mješavina (gorivo i ulje)",
-      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "6 brzina",
       "Kvačilo": "Hidraulično",
       "Okvir": "Obodni (perimetarski), aluminij",
-      "Boje": "Lime Green",
+      "Pokretanje": "Elektropokretač",
       "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
-      "Mjenjač": "6 brzina",
       "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak"
     }
   },
