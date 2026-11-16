@@ -3736,7 +3736,34 @@
       "/images/vozila/56-brute-force-750-se/img_03.png",
       "/images/vozila/56-brute-force-750-se/img_04.png",
       "/images/vozila/56-brute-force-750-se/img_05.png"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni V2, SOHC",
+      "Radni obujam": "749 cm³",
+      "Provrt x hod": "85 x 66 mm",
+      "Kompresijski omjer": "9,3 : 1",
+      "Najveća snaga": "37 kW (50 KS) pri 6.750 o/min",
+      "Najveći okretni moment": "58 Nm pri 4.750 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 34 mm x 2",
+      "Mjenjač": "Automatski CVT (visoka/niska brzina, neutral, rikverc)",
+      "Pogon": "Kardan, 2WD/4WD po izboru, prednja blokada diferencijala s promjenjivom kontrolom",
+      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
+      "Prednja guma": "AT 25 x 8-12",
+      "Stražnja guma": "AT 25 x 10-12",
+      "Prednje kočnice": "Dva hidraulička diska 176 mm, dvoklipne čeljusti",
+      "Stražnje kočnice": "Zatvorena višelamelna kočnica u uljnoj kupki",
+      "D x Š x V": "2.184 x 1.171 x 1.209 mm",
+      "Međuosovinski razmak": "1.285 mm",
+      "Udaljenost od tla": "229 mm",
+      "Visina sjedala": "894 mm",
+      "Spremnik goriva": "19 litara",
+      "Vučna sila": "567 kg",
+      "Nosivost prtljažnika": "40 kg naprijed / 80 kg straga",
+      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Masa spremna za vožnju": "349 kg"
+    }
   },
   {
     "id": 57,
@@ -3773,7 +3800,34 @@
       "/images/vozila/57-brute-force-750/img_23.jpg",
       "/images/vozila/57-brute-force-750/img_24.jpg",
       "/images/vozila/57-brute-force-750/img_25.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni V2, SOHC",
+      "Radni obujam": "749 cm³",
+      "Provrt x hod": "85 x 66 mm",
+      "Kompresijski omjer": "9,3 : 1",
+      "Najveća snaga": "37 kW (50 KS) pri 6.750 o/min",
+      "Najveći okretni moment": "58 Nm pri 4.750 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 34 mm x 2",
+      "Mjenjač": "Automatski CVT (visoka/niska brzina, neutral, rikverc)",
+      "Pogon": "Kardan, 2WD/4WD po izboru, prednja blokada diferencijala s promjenjivom kontrolom",
+      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
+      "Prednja guma": "AT 25 x 8-12",
+      "Stražnja guma": "AT 25 x 10-12",
+      "Prednje kočnice": "Dva hidraulička diska 176 mm, dvoklipne čeljusti",
+      "Stražnje kočnice": "Zatvorena višelamelna kočnica u uljnoj kupki",
+      "D x Š x V": "2.184 x 1.171 x 1.209 mm",
+      "Međuosovinski razmak": "1.285 mm",
+      "Udaljenost od tla": "229 mm",
+      "Visina sjedala": "894 mm",
+      "Spremnik goriva": "19 litara",
+      "Vučna sila": "567 kg",
+      "Nosivost prtljažnika": "40 kg naprijed / 80 kg straga",
+      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Masa spremna za vožnju": "332 kg"
+    }
   },
   {
     "id": 58,
@@ -3803,7 +3857,34 @@
       "/images/vozila/58-brute-force-450-eps/img_16.jpg",
       "/images/vozila/58-brute-force-450-eps/img_17.jpg",
       "/images/vozila/58-brute-force-450-eps/img_18.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC",
+      "Radni obujam": "443 cm³",
+      "Provrt x hod": "89 x 71,2 mm",
+      "Kompresijski omjer": "9,1 : 1",
+      "Najveća snaga": "24 kW (32 KS) pri 7.000 o/min",
+      "Najveći okretni moment": "33,4 Nm pri 6.500 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm",
+      "Mjenjač": "Automatski CVT s centrifugalnim kvačilom (visoka/niska brzina, neutral, rikverc)",
+      "Pogon": "Kardan, 2WD/4WD po izboru, prednji diferencijal s dva načina rada",
+      "Okvir": "Dvostruka kolijevka, cijevni čelik visoke čvrstoće",
+      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
+      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
+      "Prednja guma": "AT 24 x 8-12",
+      "Stražnja guma": "AT 24 x 10-12",
+      "Prednje kočnice": "Dva diska 202 mm",
+      "Stražnje kočnice": "Disk 202 mm",
+      "D x Š x V": "2.035 x 1.100 x 1.185 mm",
+      "Međuosovinski razmak": "1.214 mm",
+      "Udaljenost od tla": "236 mm",
+      "Visina sjedala": "879 mm",
+      "Spremnik goriva": "16 litara",
+      "Vučna sila": "476 kg",
+      "Nosivost prtljažnika": "34 kg naprijed / 68 kg straga",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Tehnologije": "Električni servo upravljač (EPS)"
+    }
   },
   {
     "id": 59,
@@ -3846,7 +3927,34 @@
       "/images/vozila/59-brute-force-450/img_29.jpg",
       "/images/vozila/59-brute-force-450/img_30.jpg",
       "/images/vozila/59-brute-force-450/img_31.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC",
+      "Radni obujam": "443 cm³",
+      "Provrt x hod": "89 x 71,2 mm",
+      "Kompresijski omjer": "9,1 : 1",
+      "Najveća snaga": "24 kW (32 KS) pri 7.000 o/min",
+      "Najveći okretni moment": "33,4 Nm pri 6.500 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm",
+      "Mjenjač": "Automatski CVT s centrifugalnim kvačilom (visoka/niska brzina, neutral, rikverc)",
+      "Pogon": "Kardan, 2WD/4WD po izboru, prednji diferencijal s dva načina rada",
+      "Okvir": "Dvostruka kolijevka, cijevni čelik visoke čvrstoće",
+      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
+      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
+      "Prednja guma": "AT 24 x 8-12",
+      "Stražnja guma": "AT 24 x 10-12",
+      "Prednje kočnice": "Dva diska 202 mm",
+      "Stražnje kočnice": "Disk 202 mm",
+      "D x Š x V": "2.035 x 1.100 x 1.185 mm",
+      "Međuosovinski razmak": "1.214 mm",
+      "Udaljenost od tla": "236 mm",
+      "Visina sjedala": "879 mm",
+      "Spremnik goriva": "16 litara",
+      "Vučna sila": "476 kg",
+      "Nosivost prtljažnika": "34 kg naprijed / 68 kg straga",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Masa spremna za vožnju": "312 kg"
+    }
   },
   {
     "id": 60,
@@ -3869,7 +3977,33 @@
       "/images/vozila/60-kfx-90/img_09.jpg",
       "/images/vozila/60-kfx-90/img_10.jpg",
       "/images/vozila/60-kfx-90/img_11.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, SOHC, 2 ventila",
+      "Radni obujam": "90 cm³",
+      "Provrt x hod": "47 x 51,8 mm",
+      "Kompresijski omjer": "10,0 : 1",
+      "Najveća snaga": "4,8 kW (6,5 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "6,6 Nm pri 5.500 o/min",
+      "Dovod goriva": "Rasplinjač Keihin PTE16",
+      "Pokretanje": "Elektropokretač i nožni pokretač",
+      "Mjenjač": "Automatski CVT s centrifugalnim kvačilom",
+      "Pogon": "Lanac (2WD)",
+      "Okvir": "Dvostruka kolijevka, čelik",
+      "Prednji ovjes": "Jednostruko A-rame s dva amortizera, hod 71 mm",
+      "Stražnji ovjes": "Stražnja vilica s jednim amortizerom, hod 74 mm",
+      "Prednja guma": "AT 18 x 7-8",
+      "Stražnja guma": "AT 18 x 9-8",
+      "Prednje kočnice": "Dva mehanička bubnja",
+      "Stražnje kočnice": "Hidraulički disk",
+      "D x Š x V": "1.425 x 900 x 925 mm",
+      "Međuosovinski razmak": "965 mm",
+      "Udaljenost od tla": "100 mm",
+      "Visina sjedala": "650 mm",
+      "Masa spremna za vožnju": "122 kg",
+      "Spremnik goriva": "5,3 litara",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
+    }
   },
   {
     "id": 61,
@@ -3885,7 +4019,26 @@
       "/images/vozila/61-mule-pro-dxt/img_02.jpg",
       "/images/vozila/61-mule-pro-dxt/img_03.jpg",
       "/images/vozila/61-mule-pro-dxt/img_04.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni trocilindrični dizel, OHV",
+      "Radni obujam": "993 cm³",
+      "Provrt x hod": "74 x 77 mm",
+      "Kompresijski omjer": "23,5 : 1",
+      "Najveća snaga": "18 kW (24 KS) pri 3.600 o/min",
+      "Najveći okretni moment": "52 Nm pri 2.400 o/min",
+      "Dovod goriva": "Redna pumpa za ubrizgavanje",
+      "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
+      "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
+      "Okvir": "Ljestvičasti, cijevni čelik",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 222 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 217–220 mm",
+      "Vučna sila": "907 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Broj sjedala": "3 ili 6 (preklopni drugi red)",
+      "Teretni sanduk (D x Š x V)": "1.085 x 1.363 x 279 mm (3 osobe) / 560 x 1.363 x 279 mm (6 osoba)",
+      "Nosivost sanduka": "453 kg (3 osobe) / 158 kg (6 osoba)"
+    }
   },
   {
     "id": 62,
@@ -3908,7 +4061,25 @@
       "/images/vozila/62-mule-pro-dx/img_09.jpg",
       "/images/vozila/62-mule-pro-dx/img_10.jpg",
       "/images/vozila/62-mule-pro-dx/img_11.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni trocilindrični dizel, OHV",
+      "Radni obujam": "993 cm³",
+      "Provrt x hod": "74 x 77 mm",
+      "Kompresijski omjer": "23,5 : 1",
+      "Najveća snaga": "18 kW (24 KS) pri 3.600 o/min",
+      "Najveći okretni moment": "52 Nm pri 2.400 o/min",
+      "Dovod goriva": "Redna pumpa za ubrizgavanje",
+      "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
+      "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
+      "Okvir": "Ljestvičasti, cijevni čelik",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 222 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 217–220 mm",
+      "Vučna sila": "907 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Broj sjedala": "3",
+      "Ukupna nosivost": "714 kg"
+    }
   },
   {
     "id": 63,
@@ -3930,7 +4101,36 @@
       "/images/vozila/63-mule-pro-fx/img_08.jpg",
       "/images/vozila/63-mule-pro-fx/img_09.jpg",
       "/images/vozila/63-mule-pro-fx/img_11.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni trocilindrični, DOHC, benzinski",
+      "Radni obujam": "812 cm³",
+      "Provrt x hod": "72 x 66,5 mm",
+      "Kompresijski omjer": "9,5 : 1",
+      "Najveća snaga": "35 kW (48 KS) pri 5.500 o/min",
+      "Najveći okretni moment": "65 Nm pri 3.500 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 34 mm x 3",
+      "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
+      "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
+      "Okvir": "Ljestvičasti, cijevni čelik",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 222 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 217–220 mm",
+      "Prednja guma": "26 x 9-12, radijalna",
+      "Stražnja guma": "26 x 11-12, radijalna",
+      "Prednje kočnice": "Dva diska, dvoklipne čeljusti",
+      "Stražnje kočnice": "Dva diska, jednoklipne čeljusti",
+      "D x Š x V": "3.386 x 1.626 x 1.966 mm",
+      "Međuosovinski razmak": "2.344 mm",
+      "Udaljenost od tla": "264 mm",
+      "Spremnik goriva": "30 litara",
+      "Broj sjedala": "3",
+      "Teretni sanduk (D x Š x V)": "1.374 x 1.354 x 279 mm",
+      "Nosivost sanduka": "453 kg",
+      "Ukupna nosivost": "733 kg",
+      "Vučna sila": "907 kg",
+      "Masa spremna za vožnju": "840 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
+    }
   },
   {
     "id": 64,
@@ -3973,7 +4173,36 @@
       "/images/vozila/64-mule-pro-mx/img_29.jpg",
       "/images/vozila/64-mule-pro-mx/img_30.jpg",
       "/images/vozila/64-mule-pro-mx/img_31.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC, 4 ventila",
+      "Radni obujam": "695 cm³",
+      "Provrt x hod": "102 x 85 mm",
+      "Kompresijski omjer": "10,3 : 1",
+      "Najveća snaga": "31,1 kW (42 KS) pri 6.000 o/min",
+      "Najveći okretni moment": "57,3 Nm pri 5.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm",
+      "Mjenjač": "CVT s centrifugalnim kvačilom, visoka i niska brzina, rikverc",
+      "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
+      "Okvir": "Ljestvičasti, cijevni čelik",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 218 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 232 mm",
+      "Prednja guma": "25 x 8-12, radijalna",
+      "Stražnja guma": "25 x 10-12, radijalna",
+      "Prednje kočnice": "Dva diska 212 mm, dvoklipne čeljusti",
+      "Stražnje kočnice": "Dva diska 212 mm",
+      "D x Š x V": "2.794 x 1.524 x 1.890 mm",
+      "Međuosovinski razmak": "2.004 mm",
+      "Udaljenost od tla": "269 mm",
+      "Spremnik goriva": "36 litara",
+      "Broj sjedala": "2",
+      "Teretni sanduk (D x Š x V)": "848 x 1.120 x 231 mm",
+      "Nosivost sanduka": "317 kg",
+      "Ukupna nosivost": "544 kg",
+      "Vučna sila": "680 kg",
+      "Masa spremna za vožnju": "716 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
+    }
   },
   {
     "id": 65,
@@ -3988,7 +4217,35 @@
       "/images/vozila/65-mule-sx-4x4-fi/img_01.jpg",
       "/images/vozila/65-mule-sx-4x4-fi/img_02.jpg",
       "/images/vozila/65-mule-sx-4x4-fi/img_03.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
+      "Radni obujam": "401 cm³",
+      "Provrt x hod": "82 x 76 mm",
+      "Kompresijski omjer": "8,6 : 1",
+      "Najveća snaga": "9,9 kW (13,5 KS) pri 4.000 o/min",
+      "Najveći okretni moment": "29 Nm pri 2.400 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva",
+      "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
+      "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
+      "Prednji ovjes": "MacPherson, hod 79 mm",
+      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
+      "Prednja guma": "24 x 9-10",
+      "Stražnja guma": "24 x 11-10",
+      "Prednje kočnice": "Bubanj",
+      "Stražnje kočnice": "Bubanj",
+      "D x Š x V": "2.710 x 1.336 x 1.801 mm",
+      "Međuosovinski razmak": "1.781 mm",
+      "Udaljenost od tla": "170 mm",
+      "Spremnik goriva": "16 litara",
+      "Broj sjedala": "2",
+      "Teretni sanduk (D x Š x V)": "904 x 1.039 x 244 mm",
+      "Nosivost sanduka": "181 kg",
+      "Ukupna nosivost": "415 kg",
+      "Vučna sila": "499 kg (uz dodatnu kuku)",
+      "Masa spremna za vožnju": "468 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
+    }
   },
   {
     "id": 66,
@@ -4003,7 +4260,28 @@
       "/images/vozila/66-jet-ski-ultra-310lx/img_01.jpg",
       "/images/vozila/66-jet-ski-ultra-310lx/img_02.jpg",
       "/images/vozila/66-jet-ski-ultra-310lx/img_03.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "8,2 : 1",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
+      "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
+      "Najveći okretni moment": "286 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "D x Š x V": "3.579 x 1.194 x 1.240 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "516 kg",
+      "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, audio sustav JETSOUND 4s, kamera za vožnju unatrag, načini snage, launch control, KSRD"
+    }
   },
   {
     "id": 67,
@@ -4021,7 +4299,28 @@
       "/images/vozila/67-jet-ski-ultra-310lx-s/img_04.jpg",
       "/images/vozila/67-jet-ski-ultra-310lx-s/img_05.jpg",
       "/images/vozila/67-jet-ski-ultra-310lx-s/img_06.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "8,2 : 1",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
+      "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
+      "Najveći okretni moment": "286 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "D x Š x V": "3.579 x 1.194 x 1.240 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "509 kg",
+      "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, načini snage, launch control, KSRD"
+    }
   },
   {
     "id": 68,
@@ -4036,7 +4335,26 @@
       "/images/vozila/68-jet-ski-ultra-310x/img_01.jpg",
       "/images/vozila/68-jet-ski-ultra-310x/img_02.jpg",
       "/images/vozila/68-jet-ski-ultra-310x/img_03.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "8,2 : 1",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
+      "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
+      "Najveći okretni moment": "286 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "D x Š x V": "3.579 x 1.194 x 1.240 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3"
+    }
   },
   {
     "id": 69,
@@ -4058,7 +4376,28 @@
       "/images/vozila/69-jet-ski-ultra-160lx/img_08.jpg",
       "/images/vozila/69-jet-ski-ultra-160lx/img_09.jpg",
       "/images/vozila/69-jet-ski-ultra-160lx/img_10.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
+      "D x Š x V": "3.579 x 1.194 x 1.240 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "467 kg",
+      "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, audio sustav JETSOUND 4s, LED ukrasna svjetla, načini snage, pametni rikverc s usporavanjem (KSRD)"
+    }
   },
   {
     "id": 70,
@@ -4073,7 +4412,28 @@
       "/images/vozila/70-jet-ski-ultra-160lx-s/img_01.jpg",
       "/images/vozila/70-jet-ski-ultra-160lx-s/img_02.jpg",
       "/images/vozila/70-jet-ski-ultra-160lx-s/img_03.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
+      "D x Š x V": "3.579 x 1.194 x 1.181 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "456 kg",
+      "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, LED ukrasna svjetla"
+    }
   },
   {
     "id": 71,
@@ -4111,7 +4471,28 @@
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_24.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_25.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_26.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
+      "D x Š x V": "3.579 x 1.194 x 1.240 mm",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "479 kg",
+      "Tehnologije": "TFT zaslon u boji, Garmin ploter, oprema za ribolov s hladnjakom, tempomat, launch control, KSRD"
+    }
   },
   {
     "id": 72,
@@ -4144,7 +4525,27 @@
       "/images/vozila/72-jet-ski-stx-160lx/img_19.jpg",
       "/images/vozila/72-jet-ski-stx-160lx/img_20.jpg",
       "/images/vozila/72-jet-ski-stx-160lx/img_21.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa, aksijalna, jednostupanjska, rotor Ø 155 mm",
+      "D x Š x V": "3.420 x 1.185 x 1.145 mm",
+      "Masa spremna za vožnju": "443 kg",
+      "Spremnik goriva": "78 litara",
+      "Prtljažni prostor": "121,8 litara",
+      "Broj sjedala": "3",
+      "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering, audio sustav JETSOUND s Bluetoothom, LED ukrasna svjetla"
+    }
   },
   {
     "id": 73,
@@ -4165,7 +4566,21 @@
       "/images/vozila/73-jet-ski-stx-160r/img_07.jpg",
       "/images/vozila/73-jet-ski-stx-160r/img_08.jpg",
       "/images/vozila/73-jet-ski-stx-160r/img_09.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Broj sjedala": "3"
+    }
   },
   {
     "id": 74,
@@ -4188,7 +4603,24 @@
       "/images/vozila/74-jet-ski-stx-160x/img_09.jpg",
       "/images/vozila/74-jet-ski-stx-160x/img_10.jpg",
       "/images/vozila/74-jet-ski-stx-160x/img_11.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
+      "Masa spremna za vožnju": "425 kg",
+      "Broj sjedala": "3",
+      "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering"
+    }
   },
   {
     "id": 75,
@@ -4205,7 +4637,22 @@
       "/images/vozila/75-jet-ski-st-160x/img_03.png",
       "/images/vozila/75-jet-ski-st-160x/img_04.png",
       "/images/vozila/75-jet-ski-st-160x/img_05.png"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
+      "Tehnologije": "Elektronički tempomat, način 5 mph (bez valova), način za učenje (SLO), Kawasaki Smart Steering"
+    }
   },
   {
     "id": 76,
@@ -4223,6 +4670,20 @@
       "/images/vozila/76-jet-ski-st-160/img_04.jpg",
       "/images/vozila/76-jet-ski-st-160/img_05.jpg",
       "/images/vozila/76-jet-ski-st-160/img_06.jpg"
-    ]
+    ],
+    "specs": {
+      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
+      "Radni obujam": "1.498 cm³",
+      "Provrt x hod": "83 x 69,2 mm",
+      "Kompresijski omjer": "10,6 : 1",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
+      "Najveća snaga": "118 kW (160 KS) pri 7.500 o/min",
+      "Najveći okretni moment": "152 Nm pri 6.000 o/min",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
+      "Hlađenje": "Usisanom vodom",
+      "Podmazivanje": "Polusuho korito",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska"
+    }
   }
 ]
