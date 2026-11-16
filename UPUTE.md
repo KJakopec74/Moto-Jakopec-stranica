@@ -74,6 +74,11 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
 
 1. Otvori **`proizvodi.xlsx`**, sheet **Proizvodi**
 2. `category` mora biti točno `Oprema` ili `Dijelovi`, `brand` npr. `airoh`, `motul`
+   (proizvod može biti i bez brenda — npr. žmigavci, akumulatori)
+   - `subcategory` = **kategorija** na stranici (Kacige, Naočale… / Motor, Auspusi, Kočnice…) — odaberi iz padajućeg izbornika
+   - `skupina` = skupina unutar kategorije (npr. `Klipovi` u kategoriji Motor, `Pločice` u Kočnicama) —
+     popis skupina je na listu **Upute** u Excelu; može ostati prazno
+   - redoslijed i opisi kategorija te skupina upisani su u `src/data/kategorije.json`
 3. Stupac `specifikacije` — tehnički podaci u obliku `Ključ: vrijednost; Ključ: vrijednost`
    (npr. `Promjer klipa: 95,97 mm; Kompresija: 12,5:1`) — na stranici se prikažu kao tablica
 4. `price` — broj (`129`) ili ostavi prazno za "Cijena na upit"
@@ -84,7 +89,28 @@ U mapi `Desktop\Moto-Jakopec-stranica` sada su **`vozila.xlsx`** i **`proizvodi.
    - `objavi.bat` slike sam kopira u pravu mapu, smanji ih i objavi; nakon toga ih iz Preuzimanja smiješ obrisati
 6. Spremi, zatvori, dvoklik na **`objavi.bat`**
 
-> Ako `objavi.bat` javi da je **products.json noviji od Excela**, netko je promijenio proizvode na GitHubu.
+### Kako dodati slike za sve proizvode — korak po korak
+
+1. U Excelu filtriraj stupac `brand` (strelica u zaglavlju) na jedan brend, npr. `alpinestars`
+2. Otvori stranicu proizvođača (adresa je u listu *Brendovi_Oprema* / *Brendovi_Dijelovi*, stupac `website`)
+3. Nađi proizvod koji odgovara retku (npr. "Alpinestars motocross čizme" → neki njihov model čizama)
+4. Desni klik na sliku → **Spremi sliku kao…** → mapa **Preuzimanja**, kratko ime bez razmaka,
+   npr. `alpinestars-cizme.jpg` (ako se nudi `.webp`, i to je u redu)
+5. U taj redak, u stupac `slike`, upiši `alpinestars-cizme.jpg` (više slika: `a.jpg; b.jpg` — prva je glavna)
+6. Ponovi za ostale retke tog brenda, pa za sljedeći brend
+7. Spremi i zatvori Excel → dvoklik na **`objavi.bat`** — za par minuta slike su online
+8. Ako `objavi.bat` napiše *UPOZORENJE: slika ne postoji*, ime u Excelu ne odgovara imenu datoteke
+   (provjeri nastavak `.jpg` / `.png` / `.webp`)
+
+> Savjet: slika bijele ili prozirne pozadine izgleda najbolje. Ne treba je smanjivati — `objavi.bat` to radi sam.
+
+### Logotipi brendova
+
+Novi brendovi (JUST1, Alpinestars, THOR, FMF…) još nemaju logo — dok ga nemaju, na kartici piše naziv brenda.
+Spremi logo (najbolje `.png` s prozirnom pozadinom ili `.svg`) kao `public\images\brendovi\<brand_id>.png`
+(npr. `alpinestars.png`), u listu *Brendovi_…* u stupac `logo_folder` upiši `alpinestars` i pokreni `objavi.bat`.
+
+> Ako `objavi.bat` javi da je **products.json noviji od Excela** ili da je Excel **stari predložak**, netko je promijenio proizvode na GitHubu.
 > Pokreni `py -X utf8 scripts/kreiraj_excel_predlozak.py` — napravi novi Excel s najnovijim podacima
 > (stari ostaje kao `proizvodi_stari.xlsx`), pa ponovi izmjenu i `objavi.bat`.
 

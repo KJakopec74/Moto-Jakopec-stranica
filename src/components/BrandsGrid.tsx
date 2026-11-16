@@ -24,7 +24,7 @@ export default function BrandsGrid({ category }: Props) {
         {brands.map(brand => (
           <Link
             key={brand.brand_id}
-            href={`/${category}/${brand.brand_id}`}
+            href={`/${category}/brend/${brand.brand_id}`}
             className="group flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200"
             style={{
               background: "var(--surface)",

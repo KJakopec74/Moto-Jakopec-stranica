@@ -26,42 +26,38 @@ EXCEL_PATH  = os.path.join(ROOT_DIR, "proizvodi.xlsx")
 JSON_PATH   = os.path.join(ROOT_DIR, "src", "data", "products.json")
 DD_SHEET    = "Drop Down"   # naziv sheeta s listama za padajuće izbornike
 
-# ── Podaci brendova ──────────────────────────────────────────────────────────
-BRENDOVI_OPREMA = [
-    ("airoh",     "Airoh",         "airoh",      "airoh.com",          True),
-    ("ufo",       "UFO Plast",     "ufo",        "",                   True),
-    ("wind",      "WIND Raceware", "wind",      "wind-raceware.com",  True),
-    ("progrip",   "Progrip",       "progrip",    "progrip.it",         True),
-    ("mitas",     "Mitas",         "mitas",      "mitas-moto.com",     True),
-    ("motul",     "Motul",         "motul",      "motul.com",          True),
-    ("valvoline", "Valvoline",     "valvoline",  "valvoline.com",      True),
-]
+# ── Brendovi i kategorije čitaju se iz JSON datoteka u src/data/ ─────────────
+# brands.json     → sheetovi Brendovi_Oprema / Brendovi_Dijelovi (kad se Excel radi iznova)
+# kategorije.json → padajući izbornici za stupac subcategory (kategorija)
+BRANDS_JSON     = os.path.join(ROOT_DIR, "src", "data", "brands.json")
+KATEGORIJE_JSON = os.path.join(ROOT_DIR, "src", "data", "kategorije.json")
 
-BRENDOVI_DIJELOVI = [
-    ("prox",   "Pro-X Racing Parts", "prox",   "pro-x.com",          True),
-    ("wiseco", "Wiseco",             "wiseco",  "wiseco.com",         True),
-    ("vertex", "Vertex",             "vertex",  "",                   True),
-    ("ufo",    "UFO Plast",          "ufo",     "",                   True),
-    ("wrp",    "WRP",                "wrp",     "wrp-racing.com",     True),
-    ("cht",    "CHT Sprockets",      "cht",     "cht-sprockets.com",  True),
-    ("rk",     "RK Chains",          "",      "rk-chain.com",       True),
-    ("trw",    "TRW Lucas",          "trw",     "trwaftermarket.com", True),
-    ("denso",  "Denso",              "denso",   "denso.com",          True),
-]
+def _ucitaj_json(putanja, zadano):
+    if os.path.exists(putanja):
+        with open(putanja, encoding="utf-8") as f:
+            return json.load(f)
+    return zadano
+
+def _brendovi_iz_jsona(kljuc):
+    """[(brand_id, name, logo_folder, website, active), ...] iz brands.json."""
+    lista = []
+    for b in _ucitaj_json(BRANDS_JSON, {}).get(kljuc, []):
+        logo = b.get("logo") or ""
+        # "/images/brendovi/airoh.png" → "airoh"
+        logo_folder = os.path.splitext(os.path.basename(logo))[0] if logo else ""
+        lista.append((b["brand_id"], b.get("name", ""), logo_folder, b.get("website", ""), bool(b.get("active", True))))
+    return lista
+
+BRENDOVI_OPREMA   = _brendovi_iz_jsona("oprema")
+BRENDOVI_DIJELOVI = _brendovi_iz_jsona("dijelovi")
 
 KATEGORIJE = ["Oprema", "Dijelovi"]
 
-# Odvojene liste — korisnik dodaje ispod zadnjeg reda u odgovarajući stupac
-PODKATEGORIJE_OPREMA = [
-    "Kacige", "Dresovi", "Jakne", "Hlače", "Rukavice", "Čizme",
-    "Odijela", "Zaštita", "Prsluk", "Termo rublje", "Ostalo",
-]
-
-PODKATEGORIJE_DIJELOVI = [
-    "Klipovi", "Klipnjače", "Kvačilo", "Ventili", "Plastika", "Guverneri", "Filteri", "Ulja i maziva", "Lanci", "Zupčanici", "Gume",
-    "Kočnice", "Svjećice", "Amortizeri", "Ovjesi", "Električni dijelovi",
-    "Motor", "Ostalo",
-]
+_KAT = _ucitaj_json(KATEGORIJE_JSON, {})
+PODKATEGORIJE_OPREMA   = [k["naziv"] for k in _KAT.get("oprema", [])]
+PODKATEGORIJE_DIJELOVI = [k["naziv"] for k in _KAT.get("dijelovi", [])]
+# Popis skupina po kategoriji — za listu "Upute"
+SKUPINE = {k["naziv"]: k.get("skupine", []) for v in _KAT.values() for k in v}
 
 BRAND_HEADERS = ["brand_id", "name", "logo_folder", "website", "active"]
 
@@ -233,8 +229,11 @@ def add_autofilter(ws):
 
 # ── Brand sheet (Brendovi_Oprema / Brendovi_Dijelovi) ─────────────────────────
 def write_brand_sheet(wb, sheet_name, brendovi, color):
+    # Postojeći sheet brendova se NE dira — u njemu su tvoje izmjene.
+    # Novi se radi iz brands.json (npr. kad se Excel radi iznova).
     if sheet_name in wb.sheetnames:
-        del wb[sheet_name]
+        print(f"  Sheet '{sheet_name}' već postoji — ostaje kakav jest")
+        return
     ws = wb.create_sheet(sheet_name)
     fill, font, center, border = header_style(color)
     db = data_border()
@@ -291,9 +290,9 @@ def ensure_brand_column(ws):
     print(f"  Stupac 'brand' dodan u Proizvodi (kolona {get_column_letter(next_col)})")
 
 # ── Kreira Proizvodi sheet (učita xlsx ili regenerira iz products.json) ────────
-PROD_HEADERS = ["id","name","category","subcategory","price",
+PROD_HEADERS = ["id","name","category","subcategory","skupina","price",
                 "description","image_folder","slike","is_new","brand","specifikacije"]
-PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":18,
+PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":20,"skupina":24,
                    "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14,
                    "specifikacije":90, "slike":40}
 
@@ -322,6 +321,7 @@ def _fill_from_json(ws, products):
             "name":         p.get("name", ""),
             "category":     p.get("category", ""),
             "subcategory":  p.get("subcategory", ""),
+            "skupina":      p.get("skupina", ""),
             "price":        p.get("price", ""),
             "description":  p.get("description", ""),
             "image_folder": p.get("image_folder", ""),
@@ -361,8 +361,8 @@ def ensure_workbook():
         except PermissionError:
             print("ZATVORI Excel pa pokreni skriptu ponovo.")
             raise SystemExit(1)
-        if "specifikacije" not in zaglavlje:
-            stari_excel_u_arhivu("Excel je stari predložak (nema stupac 'specifikacije').")
+        if "specifikacije" not in zaglavlje or "skupina" not in zaglavlje:
+            stari_excel_u_arhivu("Excel je stari predložak (nema stupac 'specifikacije' ili 'skupina').")
         elif os.path.exists(JSON_PATH) and os.path.getmtime(JSON_PATH) > os.path.getmtime(EXCEL_PATH) + 2:
             stari_excel_u_arhivu("products.json je noviji od Excela (promjene s GitHuba).")
 
@@ -400,7 +400,8 @@ def ensure_upute(wb):
         ("id",           "Redni broj — NE mijenjaj!"),
         ("name",         "Naziv proizvoda"),
         ("category",     "Padajući izbornik → Oprema  ili  Dijelovi"),
-        ("subcategory",  "Padajući izbornik → ili slobodno upiši novu (npr. Kacige)"),
+        ("subcategory",  "KATEGORIJA na stranici — padajući izbornik (npr. Kacige, Motor, Kočnice); nova kategorija se može i upisati"),
+        ("skupina",      "Skupina unutar kategorije (npr. Klipovi u kategoriji Motor) — može ostati prazno; popis ispod"),
         ("price",        "Cijena npr: 149,90 €  ili  Cijena na upit"),
         ("description",  "Kratki opis (1-2 rečenice)"),
         ("image_folder", "Naziv mape — slike u public/images/oprema/ ili /dijelovi/"),
@@ -408,6 +409,9 @@ def ensure_upute(wb):
         ("is_new",       "TRUE = prikazuje badge NOVO,  FALSE = ne"),
         ("brand",        "Padajući izbornik → brand_id (npr. airoh, motul)"),
         ("specifikacije", "Tehnički podaci: Ključ: vrijednost; Ključ: vrijednost  (npr. Promjer klipa: 95,97 mm; Kompresija: 12,5:1)"),
+        ("", ""),
+        ("SKUPINE PO KATEGORIJAMA", "(redoslijed i opisi kategorija: src/data/kategorije.json)"),
+        *[(k, ", ".join(v)) for k, v in SKUPINE.items() if v],
         ("", ""),
         ("DODAVANJE NOVE PODKATEGORIJE", ""),
         ("1.", f"Otvori sheet '{DD_SHEET}' → kolona B (Podkategorija)"),

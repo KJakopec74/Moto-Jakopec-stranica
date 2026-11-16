@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import modelsData from "@/data/models.json";
-import brandsData from "@/data/brands.json";
+import { brendovi, parametriKategorijaSvih } from "@/lib/sitemap-pomoc";
 import { ADRESA_STRANICE } from "@/lib/stranica";
 
 // =============================================================================
@@ -29,18 +29,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Stranice brendova opreme i dijelova
-  const brendovi = brandsData as { oprema: { brand_id: string }[]; dijelovi: { brand_id: string }[] };
-  const oprema = brendovi.oprema.map((b) => ({
-    url: `${ADRESA_STRANICE}/oprema/${b.brand_id}/`,
-    lastModified: danas,
-    priority: 0.5,
-  }));
-  const dijelovi = brendovi.dijelovi.map((b) => ({
-    url: `${ADRESA_STRANICE}/dijelovi/${b.brand_id}/`,
-    lastModified: danas,
-    priority: 0.5,
-  }));
+  // Stranice kategorija i brendova opreme i dijelova
+  const ostale = [
+    ...parametriKategorijaSvih().map((putanja) => ({ url: `${ADRESA_STRANICE}${putanja}`, lastModified: danas, priority: 0.6 })),
+    ...brendovi().map((putanja) => ({ url: `${ADRESA_STRANICE}${putanja}`, lastModified: danas, priority: 0.5 })),
+  ];
 
-  return [...glavne, ...vozila, ...oprema, ...dijelovi];
+  return [...glavne, ...vozila, ...ostale];
 }

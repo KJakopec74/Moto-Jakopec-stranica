@@ -15,7 +15,8 @@ Kawasaki dealerstvo Samobor, Hrvatska. Katalog motocikala, opreme i dijelova.
 ```
 src/data/
   models.json     ← sva vozila (84 Kawasaki modela, ponuda 2027.)
-  products.json   ← oprema (10 modela) i dijelovi (10 skupina po brendu: klipovi, klipnjače, kvačilo…), cijena na upit
+  products.json   ← 96 proizvoda; subcategory = kategorija (Kacige, Motor…), skupina = skupina unutar nje (Klipovi…)
+  kategorije.json ← redoslijed/opisi kategorija i skupina (čitaju ga stranica i kreiraj_excel_predlozak.py)
   brands.json     ← brendovi { "oprema": [...], "dijelovi": [...] }
 
 public/images/
@@ -52,7 +53,7 @@ public/images/
 
 - `specifikacije`: `Ključ: vrijednost; Ključ: vrijednost` → u JSON-u `specs` (objekt), prikazuje se kao tablica na kartici
 - `price`: broj → "1.234 €", prazno → "Cijena na upit"
-- Zaštita: `proizvodi_excel_to_json.py` odbija raditi ako je products.json noviji od Excela ili Excel nema stupac `specifikacije`; `kreiraj_excel_predlozak.py` tada arhivira stari Excel (`proizvodi_stari.xlsx`) i radi novi iz JSON-a
+- Zaštita: `proizvodi_excel_to_json.py` odbija raditi ako je products.json noviji od Excela ili Excel nema stupac `specifikacije`/`skupina`; `kreiraj_excel_predlozak.py` tada arhivira stari Excel (`proizvodi_stari.xlsx`) i radi novi iz JSON-a
 
 - `category`: mora biti točno `Oprema` ili `Dijelovi`
 - `brand`: brand_id iz sheeta Brendovi_Oprema / Brendovi_Dijelovi (npr. `airoh`, `motul`)
@@ -97,8 +98,11 @@ Početna | Motocikli | Quad | Mule | Jet Ski | Oprema | Dijelovi | Kontakt
 
 - `Quad`, `Mule`, `Jet Ski` → `/motocikli?category=X` (SPECIAL_CATEGORIES u motocikli/page.tsx)
 - `/oprema` → lista s BrandsGrid + filter
-- `/oprema/{brand_id}` → proizvodi jednog brenda grupirani po subcategory
-- `/dijelovi/{brand_id}` → isto za dijelove
+- `/oprema` → pločice kategorija + tražilica + brendovi (PregledKategorija.tsx)
+- `/oprema/{kategorija-slug}` → proizvodi kategorije po skupinama, filter skupina/brend (StranicaKategorije, KategorijaProizvodi)
+- `/oprema/brend/{brand_id}` → svi proizvodi brenda (StranicaBrenda)
+- `/dijelovi/...` → isto za dijelove; logika u `src/lib/kategorije.ts`
+- Brendovi u Excelu: kreiraj_excel_predlozak.py ih čita iz brands.json (postojeći sheetovi brendova se ne prepisuju)
 
 ## Tijek rada — dodavanje proizvoda
 

@@ -3,55 +3,39 @@ import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "@/components/ProductCard";
 import type { Brand, BrandsData } from "@/types/brand";
-import type { Product } from "@/types/product";
 import brandsData from "@/data/brands.json";
-import productsData from "@/data/products.json";
+import { kategorije, proizvodiKategorije, type Vrsta } from "@/lib/kategorije";
+
+// =============================================================================
+// StranicaBrenda — /oprema/brend/<brand_id> i /dijelovi/brend/<brand_id>
+// Svi proizvodi jednog brenda, redom po kategorijama i skupinama.
+// =============================================================================
 
 const allBrands = brandsData as unknown as BrandsData;
-const allProducts = productsData as unknown as Product[];
 
-export function generateStaticParams() {
-  return (allBrands.dijelovi ?? [])
-    .filter(b => b.active)
-    .map(b => ({ brand: b.brand_id }));
+export function parametriBrendova(vrsta: Vrsta) {
+  return (allBrands[vrsta] ?? []).filter(b => b.active).map(b => ({ brand: b.brand_id }));
 }
 
-interface Props {
-  params: { brand: string };
-}
-
-export default function DijeloviBrend({ params }: Props) {
-  const brand: Brand | undefined = (allBrands.dijelovi ?? []).find(
-    b => b.brand_id === params.brand
-  );
-
+export default function StranicaBrenda({ vrsta, brandId }: { vrsta: Vrsta; brandId: string }) {
+  const brand: Brand | undefined = (allBrands[vrsta] ?? []).find(b => b.brand_id === brandId);
   if (!brand) notFound();
 
-  const products = allProducts.filter(
-    p => p.category === "Dijelovi" && p.brand === params.brand
-  );
-
-  // Grupiraj po subcategory
-  const groups = products.reduce<Record<string, Product[]>>((acc, p) => {
-    const key = p.subcategory || "Ostalo";
-    if (!acc[key]) acc[key] = [];
-    acc[key].push(p);
-    return acc;
-  }, {});
-  const subcategories = Object.keys(groups);
+  // Proizvodi brenda redom kategorija (i skupina unutar kategorije)
+  const products = kategorije(vrsta).flatMap(k => proizvodiKategorije(vrsta, k)).filter(p => p.brand === brandId);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Natrag */}
       <Link
-        href="/dijelovi"
+        href={`/${vrsta}`}
         className="inline-flex items-center gap-2 text-sm mb-8 transition-colors hover:underline"
         style={{ color: "var(--muted)" }}
       >
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
-        Svi brendovi
+        {vrsta === "oprema" ? "Sva oprema" : "Svi dijelovi"}
       </Link>
 
       {/* Brand header */}
@@ -97,10 +81,9 @@ export default function DijeloviBrend({ params }: Props) {
           </a>
         </div>
       ) : (
-        // Sve kartice brenda u jednoj mreži (skupina piše na svakoj kartici),
-        // poredane po skupinama kako su upisane u Excelu
+        // Sve kartice brenda u jednoj mreži (kategorija/skupina piše na svakoj kartici)
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {subcategories.flatMap(sub => groups[sub]).map(p => <ProductCard key={p.id} product={p} />)}
+          {products.map(p => <ProductCard key={p.id} product={p} />)}
         </div>
       )}
     </div>

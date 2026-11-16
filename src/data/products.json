@@ -1,193 +1,5 @@
 [
   {
-    "id": 1,
-    "name": "Klipni kompleti",
-    "category": "Dijelovi",
-    "subcategory": "Klipovi",
-    "price": "Cijena na upit",
-    "description": "Zamjenski klipni kompleti u OEM specifikaciji za dvotaktne i četverotaktne motore. Za Nikasil cilindre klip se bira prema izmjeri cilindra.",
-    "image_folder": "prox-klipni-kompleti",
-    "brand": "prox",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "klip, karike, osovinica, osigurači",
-      "Veličine": "A / B / C — u koracima od 0,01 mm",
-      "Kawasaki modeli": "KX65, KX85, KX125, KX250, KX250F, KX450F, KX450, KX450X",
-      "Primjer — KX450 2019–2023": "Ø 95,97–95,99 mm, cilindar 96,00 mm, kompresija 12,5:1",
-      "Primjer — KX250 2021–2022": "Ø 77,96–77,98 mm, cilindar 78,00 mm, kompresija 14,1:1",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Klipnjače",
-    "category": "Dijelovi",
-    "subcategory": "Klipnjače",
-    "price": "Cijena na upit",
-    "description": "Kompleti klipnjače za remont donjeg dijela motora — sve potrebne komponente u jednom pakiranju.",
-    "image_folder": "prox-klipnjace",
-    "brand": "prox",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "klipnjača, osovina koljena (crankpin), ležaj velikog i malog oka, podloške",
-      "Primjer": "KX450 / KX450X 2019–2021 (šifra 03.4419)",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Kvačilo — setovi lamela i opruga",
-    "category": "Dijelovi",
-    "subcategory": "Kvačilo",
-    "price": "Cijena na upit",
-    "description": "Kompletni setovi za zamjenu istrošenog kvačila. Lamele izrađuju vodeće OEM tvornice, uglavnom u Japanu, prema točnim OEM specifikacijama.",
-    "image_folder": "prox-kvacilo",
-    "brand": "prox",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "tarne lamele, čelične lamele, opruge",
-      "Opruge": "oko 10 % tvrđe od serijskih",
-      "Kawasaki modeli": "KX85, KX100, KX112, KX125, KX250, KX250F, KX450F, KX450",
-      "Primjer": "KX450 2019–2020 (šifra 16.CPS44019)",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Ventili i opruge ventila",
-    "category": "Dijelovi",
-    "subcategory": "Ventili",
-    "price": "Cijena na upit",
-    "description": "Čelični ventili s ojačanim oprugama kao izdržljivija zamjena za tvorničke titanske ventile. Ugrađuju se s originalnim držačima i brtvama.",
-    "image_folder": "prox-ventili",
-    "brand": "prox",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "set čeličnih usisnih ili ispušnih ventila + opruge",
-      "Ventili": "čelični, nitrirani (tvrda, glatka površina)",
-      "Opruge": "krom-vanadijev čelik",
-      "Kawasaki modeli": "KX250F, KX450F",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Klipni kompleti",
-    "category": "Dijelovi",
-    "subcategory": "Klipovi",
-    "price": "Cijena na upit",
-    "description": "Kovani klipovi američkog proizvođača Wiseco — kovani i strojno obrađeni u SAD-u (Mentor, Ohio). Standardna i povišena kompresija te natjecateljska Racer Elite linija.",
-    "image_folder": "wiseco-klipni-kompleti",
-    "brand": "wiseco",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "klip, karike, osovinica, osigurači",
-      "Izrada": "kovani aluminij",
-      "Linije": "Forged Series, ArmorGlide, Racer Elite (billet)",
-      "Primjer — KX450 2019–2021": "cilindar 96,00 mm, kompresija 13,5:1",
-      "Primjer — KX250 2021–2022": "cilindar 78,00 mm",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Kvačilo — košare, glavine i kompleti",
-    "category": "Dijelovi",
-    "subcategory": "Kvačilo",
-    "price": "Cijena na upit",
-    "description": "Kovane košare kvačila, unutarnje glavine i potisne ploče, te kompleti lamela i opruga. Košare su tvrdo eloksirane i teflonski premazane protiv trošenja.",
-    "image_folder": "wiseco-kvacilo",
-    "brand": "wiseco",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Ponuda": "košara, unutarnja glavina, potisna ploča, Clutch Pack kit (lamele + opruge), Performance Clutch kit (s kovanom košarom)",
-      "Izrada": "kovano i obrađeno u SAD-u",
-      "Primjer": "KX450F 2006–2018 (Performance Clutch Kit PCK011)",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Klipni kompleti",
-    "category": "Dijelovi",
-    "subcategory": "Klipovi",
-    "price": "Cijena na upit",
-    "description": "Kovani klipovi Vertex u tri linije — replica u originalnom obliku, visoka kompresija i natjecateljska GP Racer's Choice.",
-    "image_folder": "vertex-klipni-kompleti",
-    "brand": "vertex",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj": "klip, karike, osovinica, osigurači",
-      "Linije": "Replica (OE oblik), visoka kompresija (HC), GP Racer's Choice",
-      "Primjer — KX450 2019–2020 (HC)": "Ø 95,97 mm, kompresija 13,5:1",
-      "Primjer — KX250 2021–2022 (GP)": "Ø 77,97 mm, kompresija 15,05:1",
-      "Primjer — KX250F 2015–2016 (Replica)": "Ø 76,97 mm, kovani aluminij 2618",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Kompleti plastike",
-    "category": "Dijelovi",
-    "subcategory": "Plastika",
-    "price": "Cijena na upit",
-    "description": "Talijanski kompleti plastike unaprijed izbušeni za montažu na tvorničke točke s originalnim vijcima. U OEM ili 'works' bojama.",
-    "image_folder": "ufo-kompleti-plastike",
-    "brand": "ufo",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Sadržaj (ovisno o kompletu)": "prednji i stražnji blatobran, maske hladnjaka, bočne tablice, prednja tablica, štitnici vilice",
-      "Kawasaki — primjeri": "KX250/KX450 2019–2024, KX250 2025–2026 i KX450 2024–2026, KX450F 2013–2015",
-      "Proizvodnja": "Italija",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Pojedinačni plastični dijelovi",
-    "category": "Dijelovi",
-    "subcategory": "Plastika",
-    "price": "Cijena na upit",
-    "description": "Zamjenski plastični dijelovi kad ne treba cijeli komplet — unaprijed izbušeni za laku montažu.",
-    "image_folder": "ufo-plasticni-dijelovi",
-    "brand": "ufo",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Ponuda": "prednji blatobran, stražnji blatobran, bočne maske, maske hladnjaka, prednja tablica, štitnici vilice",
-      "Proizvodnja": "Italija",
-      "Dostupnost": "pošaljite upit s modelom i godištem motora"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Guverneri",
-    "category": "Dijelovi",
-    "subcategory": "Guverneri",
-    "price": "Cijena na upit",
-    "description": "Konusni Taper-X guverneri od aluminija 7075-T6, razvijeni s MXGP vozačima, te Pro-Bar guverneri. Taper-X dolazi sa spužvom za prečku.",
-    "image_folder": "wrp-guverneri",
-    "brand": "wrp",
-    "is_new": false,
-    "images": [],
-    "specs": {
-      "Promjer na nosaču": "28,6 mm",
-      "Materijal": "aluminij 7075-T6, anodiziran",
-      "Oblici": "više savijanja, npr. WD-9203 (širina 802 mm, povlačenje 54 mm), WD-9205 (širina 805 mm, visina 93 mm)",
-      "Masa": "oko 0,83–0,84 kg",
-      "Boje": "crna, plava, crvena, titan",
-      "Proizvodnja": "Italija"
-    }
-  },
-  {
     "id": 11,
     "name": "Aviator 3",
     "category": "Oprema",
@@ -253,10 +65,91 @@
     }
   },
   {
+    "id": 21,
+    "name": "UFO offroad kacige",
+    "category": "Oprema",
+    "subcategory": "Kacige",
+    "price": "Cijena na upit",
+    "description": "Lagane offroad kacige za motocross i enduro. Modeli, veličine i grafike na upit.",
+    "image_folder": "ufo-ufo-offroad-kacige",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 22,
+    "name": "JUST1 offroad kacige",
+    "category": "Oprema",
+    "subcategory": "Kacige",
+    "price": "Cijena na upit",
+    "description": "Offroad kacige talijanskog proizvođača JUST1 — od rekreativnih do natjecateljskih modela. Modeli i veličine na upit.",
+    "image_folder": "just1-just1-offroad-kacige",
+    "brand": "just1",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 23,
+    "name": "100% motocross naočale",
+    "category": "Oprema",
+    "subcategory": "Naočale",
+    "price": "Cijena na upit",
+    "description": "Motocross naočale s širokim vidnim poljem; zamjenska stakla i roll-off sustavi na upit.",
+    "image_folder": "100percent-100-motocross-naocale",
+    "brand": "100percent",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Progrip motocross naočale",
+    "category": "Oprema",
+    "subcategory": "Naočale",
+    "price": "Cijena na upit",
+    "description": "Talijanske motocross naočale s pjenom u više slojeva i staklom protiv magljenja. Modeli i stakla na upit.",
+    "image_folder": "progrip-progrip-motocross-naocale",
+    "brand": "progrip",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 25,
+    "name": "UFO motocross naočale",
+    "category": "Oprema",
+    "subcategory": "Naočale",
+    "price": "Cijena na upit",
+    "description": "Naočale za motocross i enduro u više boja. Zamjenska stakla na upit.",
+    "image_folder": "ufo-ufo-motocross-naocale",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
     "id": 14,
     "name": "Skyline dres",
     "category": "Oprema",
     "subcategory": "Dresovi",
+    "skupina": "Dresovi",
     "price": "Cijena na upit",
     "description": "Motocross dres iz Skyline linije od rastezljivog, prozračnog materijala koji drži tijelo suhim.",
     "image_folder": "ufo-skyline-dres",
@@ -273,7 +166,8 @@
     "id": 15,
     "name": "Proton hlače",
     "category": "Oprema",
-    "subcategory": "Hlače",
+    "subcategory": "Dresovi",
+    "skupina": "Hlače",
     "price": "Cijena na upit",
     "description": "Premium motocross hlače otporne na habanje, s rastezljivim umetcima i mrežastim dijelovima za ventilaciju.",
     "image_folder": "ufo-proton-hlace",
@@ -291,7 +185,8 @@
     "id": 16,
     "name": "Skyline rukavice",
     "category": "Oprema",
-    "subcategory": "Rukavice",
+    "subcategory": "Dresovi",
+    "skupina": "Rukavice",
     "price": "Cijena na upit",
     "description": "Lagane rukavice bez šavova na vrhovima prstiju, za maksimalan osjećaj na ručkama.",
     "image_folder": "ufo-skyline-rukavice",
@@ -309,7 +204,8 @@
     "id": 17,
     "name": "Ninja neoprenske rukavice",
     "category": "Oprema",
-    "subcategory": "Rukavice",
+    "subcategory": "Dresovi",
+    "skupina": "Rukavice",
     "price": "Cijena na upit",
     "description": "Rukavice za hladnije dane — izrađene u potpunosti od neoprena koji zadržava toplinu.",
     "image_folder": "ufo-ninja-rukavice",
@@ -323,10 +219,93 @@
     }
   },
   {
+    "id": 26,
+    "name": "Alpinestars dresovi i hlače",
+    "category": "Oprema",
+    "subcategory": "Dresovi",
+    "skupina": "Dresovi",
+    "price": "Cijena na upit",
+    "description": "Motocross kompleti dres + hlače iz aktualnih kolekcija. Veličine i boje na upit.",
+    "image_folder": "alpinestars-alpinestars-dresovi-i-hlace",
+    "brand": "alpinestars",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 27,
+    "name": "THOR dresovi i hlače",
+    "category": "Oprema",
+    "subcategory": "Dresovi",
+    "skupina": "Dresovi",
+    "price": "Cijena na upit",
+    "description": "Motocross kompleti dres + hlače iz aktualnih kolekcija. Veličine i boje na upit.",
+    "image_folder": "thor-thor-dresovi-i-hlace",
+    "brand": "thor",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 28,
+    "name": "UFO motocross čizme",
+    "category": "Oprema",
+    "subcategory": "Čizme",
+    "price": "Cijena na upit",
+    "description": "Čizme za motocross i enduro sa zaštitom gležnja i potkoljenice. Modeli i veličine na upit.",
+    "image_folder": "ufo-ufo-motocross-cizme",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Alpinestars motocross čizme",
+    "category": "Oprema",
+    "subcategory": "Čizme",
+    "price": "Cijena na upit",
+    "description": "Čizme za motocross i enduro sa zaštitom gležnja i potkoljenice. Modeli i veličine na upit.",
+    "image_folder": "alpinestars-alpinestars-motocross-cizme",
+    "brand": "alpinestars",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 30,
+    "name": "THOR motocross čizme",
+    "category": "Oprema",
+    "subcategory": "Čizme",
+    "price": "Cijena na upit",
+    "description": "Čizme za motocross i enduro sa zaštitom gležnja i potkoljenice. Modeli i veličine na upit.",
+    "image_folder": "thor-thor-motocross-cizme",
+    "brand": "thor",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
     "id": 18,
     "name": "X-Concept štitnik prsa",
     "category": "Oprema",
-    "subcategory": "Zaštita",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici prsa",
     "price": "Cijena na upit",
     "description": "Štitnik prsa i leđa bez naramenica, s bočnim osloncima — za zaštitu i udobnost i na dužim vožnjama.",
     "image_folder": "ufo-x-concept",
@@ -343,7 +322,8 @@
     "id": 19,
     "name": "Reactor štitnik prsa",
     "category": "Oprema",
-    "subcategory": "Zaštita",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici prsa",
     "price": "Cijena na upit",
     "description": "Štitnik prsa projektiran za nošenje zajedno s krutim štitnikom vrata (neck brace).",
     "image_folder": "ufo-reactor",
@@ -357,10 +337,147 @@
     }
   },
   {
+    "id": 31,
+    "name": "Alpinestars štitnici prsa",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici prsa",
+    "price": "Cijena na upit",
+    "description": "Štitnici prsa i leđa za motocross i enduro, kompatibilni s ortozama vrata. Modeli na upit.",
+    "image_folder": "alpinestars-alpinestars-stitnici-prsa",
+    "brand": "alpinestars",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 32,
+    "name": "THOR štitnici prsa",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici prsa",
+    "price": "Cijena na upit",
+    "description": "Štitnici prsa i leđa za motocross i enduro. Modeli i veličine na upit.",
+    "image_folder": "thor-thor-stitnici-prsa",
+    "brand": "thor",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Alpinestars štitnici koljena",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici koljena",
+    "price": "Cijena na upit",
+    "description": "Štitnici koljena i potkoljenice za offroad vožnju. Modeli i veličine na upit.",
+    "image_folder": "alpinestars-alpinestars-stitnici-koljena",
+    "brand": "alpinestars",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 34,
+    "name": "EVS štitnici koljena i ortoze",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici koljena",
+    "price": "Cijena na upit",
+    "description": "Štitnici koljena i ortoze koljena za motocross. Modeli i veličine na upit.",
+    "image_folder": "evs-evs-stitnici-koljena-i-ortoze",
+    "brand": "evs",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 35,
+    "name": "UFO štitnici koljena",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici koljena",
+    "price": "Cijena na upit",
+    "description": "Štitnici koljena za motocross i enduro. Veličine na upit.",
+    "image_folder": "ufo-ufo-stitnici-koljena",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 36,
+    "name": "EVS štitnici laktova",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici laktova",
+    "price": "Cijena na upit",
+    "description": "Štitnici laktova za offroad vožnju. Veličine na upit.",
+    "image_folder": "evs-evs-stitnici-laktova",
+    "brand": "evs",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 37,
+    "name": "UFO štitnici laktova",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici laktova",
+    "price": "Cijena na upit",
+    "description": "Štitnici laktova za motocross i enduro. Veličine na upit.",
+    "image_folder": "ufo-ufo-stitnici-laktova",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
+    "id": 38,
+    "name": "THOR štitnici laktova",
+    "category": "Oprema",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Štitnici laktova",
+    "price": "Cijena na upit",
+    "description": "Štitnici laktova za motocross i enduro. Veličine na upit.",
+    "image_folder": "thor-thor-stitnici-laktova",
+    "brand": "thor",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Namjena": "motocross / enduro",
+      "Dostupnost": "pošaljite upit s veličinom i bojom"
+    }
+  },
+  {
     "id": 20,
     "name": "Ultralight Evo Wrap zaštitna majica",
     "category": "Oprema",
-    "subcategory": "Zaštita",
+    "subcategory": "Zaštitna oprema",
+    "skupina": "Zaštitne majice",
     "price": "Cijena na upit",
     "description": "Ultralagana zaštitna majica sa SAS-TEC štitnicima, izrađena od prozračnog Airnet materijala.",
     "image_folder": "ufo-ultralight-evo-wrap",
@@ -374,6 +491,1171 @@
       "Materijal": "Airnet, poliesterska mreža",
       "Održavanje": "štitnici se vade radi pranja",
       "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 1,
+    "name": "Klipni kompleti",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Zamjenski klipni kompleti u OEM specifikaciji za dvotaktne i četverotaktne motore. Za Nikasil cilindre klip se bira prema izmjeri cilindra.",
+    "image_folder": "prox-klipni-kompleti",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "klip, karike, osovinica, osigurači",
+      "Veličine": "A / B / C — u koracima od 0,01 mm",
+      "Kawasaki modeli": "KX65, KX85, KX125, KX250, KX250F, KX450F, KX450, KX450X",
+      "Primjer — KX450 2019–2023": "Ø 95,97–95,99 mm, cilindar 96,00 mm, kompresija 12,5:1",
+      "Primjer — KX250 2021–2022": "Ø 77,96–77,98 mm, cilindar 78,00 mm, kompresija 14,1:1",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Klipni kompleti",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Kovani klipovi američkog proizvođača Wiseco — kovani i strojno obrađeni u SAD-u (Mentor, Ohio). Standardna i povišena kompresija te natjecateljska Racer Elite linija.",
+    "image_folder": "wiseco-klipni-kompleti",
+    "brand": "wiseco",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "klip, karike, osovinica, osigurači",
+      "Izrada": "kovani aluminij",
+      "Linije": "Forged Series, ArmorGlide, Racer Elite (billet)",
+      "Primjer — KX450 2019–2021": "cilindar 96,00 mm, kompresija 13,5:1",
+      "Primjer — KX250 2021–2022": "cilindar 78,00 mm",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Klipni kompleti",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Klipovi",
+    "price": "Cijena na upit",
+    "description": "Kovani klipovi Vertex u tri linije — replica u originalnom obliku, visoka kompresija i natjecateljska GP Racer's Choice.",
+    "image_folder": "vertex-klipni-kompleti",
+    "brand": "vertex",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "klip, karike, osovinica, osigurači",
+      "Linije": "Replica (OE oblik), visoka kompresija (HC), GP Racer's Choice",
+      "Primjer — KX450 2019–2020 (HC)": "Ø 95,97 mm, kompresija 13,5:1",
+      "Primjer — KX250 2021–2022 (GP)": "Ø 77,97 mm, kompresija 15,05:1",
+      "Primjer — KX250F 2015–2016 (Replica)": "Ø 76,97 mm, kovani aluminij 2618",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Klipnjače",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Klipnjače",
+    "price": "Cijena na upit",
+    "description": "Kompleti klipnjače za remont donjeg dijela motora — sve potrebne komponente u jednom pakiranju.",
+    "image_folder": "prox-klipnjace",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "klipnjača, osovina koljena (crankpin), ležaj velikog i malog oka, podloške",
+      "Primjer": "KX450 / KX450X 2019–2021 (šifra 03.4419)",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Hot Rods klipnjače",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Klipnjače",
+    "price": "Cijena na upit",
+    "description": "Kompletne klipnjače (klipnjača, ležaj, osovinica) za dvotaktne i četverotaktne motore.",
+    "image_folder": "hotrods-hot-rods-klipnjace",
+    "brand": "hotrods",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Wiseco radilice",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Radilice",
+    "price": "Cijena na upit",
+    "description": "Kompletne radilice i setovi za obnovu radilice.",
+    "image_folder": "wiseco-wiseco-radilice",
+    "brand": "wiseco",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Hot Rods radilice",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Radilice",
+    "price": "Cijena na upit",
+    "description": "Kompletne radilice spremne za ugradnju.",
+    "image_folder": "hotrods-hot-rods-radilice",
+    "brand": "hotrods",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Pro-X brtve motora",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Brtve",
+    "price": "Cijena na upit",
+    "description": "Kompleti brtvi gornjeg dijela motora i kompletni setovi brtvi.",
+    "image_folder": "prox-pro-x-brtve-motora",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Athena brtve motora",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Brtve",
+    "price": "Cijena na upit",
+    "description": "Setovi brtvi cilindra, glave i kompletni setovi brtvi motora.",
+    "image_folder": "athena-athena-brtve-motora",
+    "brand": "athena",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kvačilo — setovi lamela i opruga",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Kvačilo",
+    "price": "Cijena na upit",
+    "description": "Kompletni setovi za zamjenu istrošenog kvačila. Lamele izrađuju vodeće OEM tvornice, uglavnom u Japanu, prema točnim OEM specifikacijama.",
+    "image_folder": "prox-kvacilo",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "tarne lamele, čelične lamele, opruge",
+      "Opruge": "oko 10 % tvrđe od serijskih",
+      "Kawasaki modeli": "KX85, KX100, KX112, KX125, KX250, KX250F, KX450F, KX450",
+      "Primjer": "KX450 2019–2020 (šifra 16.CPS44019)",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Pro-X sajle gasa i kočnice",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Sajle",
+    "price": "Cijena na upit",
+    "description": "Zamjenske sajle gasa i kočnice u OEM dimenzijama.",
+    "image_folder": "prox-pro-x-sajle-gasa-i-kocnice",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 45,
+    "name": "KOYO ležajevi",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Semeringi i ležajevi",
+    "price": "Cijena na upit",
+    "description": "Ležajevi radilice, mjenjača i kotača.",
+    "image_folder": "koyo-koyo-lezajevi",
+    "brand": "koyo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Pro-X semeringi i ležajevi",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Semeringi i ležajevi",
+    "price": "Cijena na upit",
+    "description": "Semeringi i ležajevi motora, setovi za obnovu.",
+    "image_folder": "prox-pro-x-semeringi-i-lezajevi",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Motul motorna ulja",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ulja",
+    "price": "Cijena na upit",
+    "description": "Ulja za dvotaktne i četverotaktne motore, ulja mjenjača i maziva. Viskoznosti i pakiranja na upit.",
+    "image_folder": "motul-motul-motorna-ulja",
+    "brand": "motul",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s motorom i željenom viskoznošću"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Ipone motorna ulja",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ulja",
+    "price": "Cijena na upit",
+    "description": "Ulja za dvotaktne i četverotaktne motore, ulja mjenjača i maziva. Viskoznosti i pakiranja na upit.",
+    "image_folder": "ipone-ipone-motorna-ulja",
+    "brand": "ipone",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s motorom i željenom viskoznošću"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Castrol motorna ulja",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ulja",
+    "price": "Cijena na upit",
+    "description": "Ulja za dvotaktne i četverotaktne motore, ulja mjenjača i maziva. Viskoznosti i pakiranja na upit.",
+    "image_folder": "castrol-castrol-motorna-ulja",
+    "brand": "castrol",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s motorom i željenom viskoznošću"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Valvoline motorna ulja",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ulja",
+    "price": "Cijena na upit",
+    "description": "Ulja za dvotaktne i četverotaktne motore, ulja mjenjača i maziva. Viskoznosti i pakiranja na upit.",
+    "image_folder": "valvoline-valvoline-motorna-ulja",
+    "brand": "valvoline",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s motorom i željenom viskoznošću"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Originalni (OEM) ventili",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ventili",
+    "price": "Cijena na upit",
+    "description": "Originalni ventili proizvođača motocikla.",
+    "image_folder": "oem-originalni-oem-ventili",
+    "brand": "oem",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Ventili i opruge ventila",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Ventili",
+    "price": "Cijena na upit",
+    "description": "Čelični ventili s ojačanim oprugama kao izdržljivija zamjena za tvorničke titanske ventile. Ugrađuju se s originalnim držačima i brtvama.",
+    "image_folder": "prox-ventili",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj": "set čeličnih usisnih ili ispušnih ventila + opruge",
+      "Ventili": "čelični, nitrirani (tvrda, glatka površina)",
+      "Opruge": "krom-vanadijev čelik",
+      "Kawasaki modeli": "KX250F, KX450F",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Dizne karburatora",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Sistemi goriva i zraka",
+    "price": "Cijena na upit",
+    "description": "Glavne i prazne dizne za podešavanje karburatora.",
+    "image_folder": "dizne-karburatora",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 53,
+    "name": "Setovi za reparaciju karburatora",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Sistemi goriva i zraka",
+    "price": "Cijena na upit",
+    "description": "Setovi brtvi, igala i dizni za obnovu karburatora.",
+    "image_folder": "setovi-za-reparaciju-karburatora",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Filteri zraka",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Sistemi goriva i zraka",
+    "price": "Cijena na upit",
+    "description": "Zračni filteri za offroad motocikle i quadove.",
+    "image_folder": "filteri-zraka",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Pro-X uljni filteri",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Uljni filteri",
+    "price": "Cijena na upit",
+    "description": "Uljni filteri za četverotaktne motore.",
+    "image_folder": "prox-pro-x-uljni-filteri",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 56,
+    "name": "HifloFiltro uljni filteri",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Uljni filteri",
+    "price": "Cijena na upit",
+    "description": "Uljni filteri za četverotaktne motore.",
+    "image_folder": "hiflofiltro-hiflofiltro-uljni-filteri",
+    "brand": "hiflofiltro",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Meiwa uljni filteri",
+    "category": "Dijelovi",
+    "subcategory": "Motor",
+    "skupina": "Uljni filteri",
+    "price": "Cijena na upit",
+    "description": "Uljni filteri za četverotaktne motore.",
+    "image_folder": "meiwa-meiwa-uljni-filteri",
+    "brand": "meiwa",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 58,
+    "name": "FMF ispušni sustavi",
+    "category": "Dijelovi",
+    "subcategory": "Auspusi",
+    "price": "Cijena na upit",
+    "description": "Kompletni ispušni sustavi, prigušivači i ekspanzijske komore za offroad motocikle.",
+    "image_folder": "fmf-fmf-ispusni-sustavi",
+    "brand": "fmf",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 59,
+    "name": "LeoVince ispušni sustavi",
+    "category": "Dijelovi",
+    "subcategory": "Auspusi",
+    "price": "Cijena na upit",
+    "description": "Kompletni ispušni sustavi, prigušivači i ekspanzijske komore za offroad motocikle.",
+    "image_folder": "leovince-leovince-ispusni-sustavi",
+    "brand": "leovince",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Akrapovič ispušni sustavi",
+    "category": "Dijelovi",
+    "subcategory": "Auspusi",
+    "price": "Cijena na upit",
+    "description": "Kompletni ispušni sustavi, prigušivači i ekspanzijske komore za offroad motocikle.",
+    "image_folder": "akrapovic-akrapovic-ispusni-sustavi",
+    "brand": "akrapovic",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 61,
+    "name": "Pro Circuit ispušni sustavi",
+    "category": "Dijelovi",
+    "subcategory": "Auspusi",
+    "price": "Cijena na upit",
+    "description": "Kompletni ispušni sustavi, prigušivači i ekspanzijske komore za offroad motocikle.",
+    "image_folder": "procircuit-pro-circuit-ispusni-sustavi",
+    "brand": "procircuit",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 62,
+    "name": "Polisport stalci za motocikle",
+    "category": "Dijelovi",
+    "subcategory": "Stalci za motocikle",
+    "price": "Cijena na upit",
+    "description": "Stalci za offroad motocikle — za servis, pranje i transport. Modeli na upit.",
+    "image_folder": "polisport-polisport-stalci-za-motocikle",
+    "brand": "polisport",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 63,
+    "name": "UFO stalci za motocikle",
+    "category": "Dijelovi",
+    "subcategory": "Stalci za motocikle",
+    "price": "Cijena na upit",
+    "description": "Stalci za offroad motocikle — za servis, pranje i transport. Modeli na upit.",
+    "image_folder": "ufo-ufo-stalci-za-motocikle",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 64,
+    "name": "BikeTec stalci za motocikle",
+    "category": "Dijelovi",
+    "subcategory": "Stalci za motocikle",
+    "price": "Cijena na upit",
+    "description": "Stalci za offroad motocikle — za servis, pranje i transport. Modeli na upit.",
+    "image_folder": "biketec-biketec-stalci-za-motocikle",
+    "brand": "biketec",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Guverneri",
+    "category": "Dijelovi",
+    "subcategory": "Volani i kontrole",
+    "skupina": "Volani",
+    "price": "Cijena na upit",
+    "description": "Konusni Taper-X guverneri od aluminija 7075-T6, razvijeni s MXGP vozačima, te Pro-Bar guverneri. Taper-X dolazi sa spužvom za prečku.",
+    "image_folder": "wrp-guverneri",
+    "brand": "wrp",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Promjer na nosaču": "28,6 mm",
+      "Materijal": "aluminij 7075-T6, anodiziran",
+      "Oblici": "više savijanja, npr. WD-9203 (širina 802 mm, povlačenje 54 mm), WD-9205 (širina 805 mm, visina 93 mm)",
+      "Masa": "oko 0,83–0,84 kg",
+      "Boje": "crna, plava, crvena, titan",
+      "Proizvodnja": "Italija"
+    }
+  },
+  {
+    "id": 65,
+    "name": "Gripovi (gumene ručke)",
+    "category": "Dijelovi",
+    "subcategory": "Volani i kontrole",
+    "skupina": "Gripovi",
+    "price": "Cijena na upit",
+    "description": "Gumene ručke volana za offroad motocikle.",
+    "image_folder": "gripovi-gumene-rucke",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 66,
+    "name": "Ručice kočnice i kvačila",
+    "category": "Dijelovi",
+    "subcategory": "Volani i kontrole",
+    "skupina": "Ručice kočnice i kvačila",
+    "price": "Cijena na upit",
+    "description": "Zamjenske i preklopne ručice kočnice i kvačila.",
+    "image_folder": "rucice-kocnice-i-kvacila",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 67,
+    "name": "Spužve volana",
+    "category": "Dijelovi",
+    "subcategory": "Volani i kontrole",
+    "skupina": "Spužve volana",
+    "price": "Cijena na upit",
+    "description": "Zaštitne spužve za volane s prečkom i bez prečke.",
+    "image_folder": "spuzve-volana",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 68,
+    "name": "Prekidači za paljenje i gašenje",
+    "category": "Dijelovi",
+    "subcategory": "Volani i kontrole",
+    "skupina": "Prekidači",
+    "price": "Cijena na upit",
+    "description": "Kill-switch i start prekidači na volanu.",
+    "image_folder": "prekidaci-za-paljenje-i-gasenje",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Nogare (footpegs)",
+    "category": "Dijelovi",
+    "subcategory": "Nogare i dodaci",
+    "skupina": "Nogare",
+    "price": "Cijena na upit",
+    "description": "Nogare za offroad motocikle s nazubljenom površinom za bolji oslonac.",
+    "image_folder": "nogare-footpegs",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Poluge zadnje kočnice",
+    "category": "Dijelovi",
+    "subcategory": "Nogare i dodaci",
+    "skupina": "Poluge kočnice i mjenjača",
+    "price": "Cijena na upit",
+    "description": "Zamjenske poluge zadnje kočnice.",
+    "image_folder": "poluge-zadnje-kocnice",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Poluge mjenjača",
+    "category": "Dijelovi",
+    "subcategory": "Nogare i dodaci",
+    "skupina": "Poluge kočnice i mjenjača",
+    "price": "Cijena na upit",
+    "description": "Zamjenske i preklopne poluge mjenjača.",
+    "image_folder": "poluge-mjenjaca",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Kompleti plastike",
+    "category": "Dijelovi",
+    "subcategory": "Plastike",
+    "skupina": "Setovi plastika",
+    "price": "Cijena na upit",
+    "description": "Talijanski kompleti plastike unaprijed izbušeni za montažu na tvorničke točke s originalnim vijcima. U OEM ili 'works' bojama.",
+    "image_folder": "ufo-kompleti-plastike",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Sadržaj (ovisno o kompletu)": "prednji i stražnji blatobran, maske hladnjaka, bočne tablice, prednja tablica, štitnici vilice",
+      "Kawasaki — primjeri": "KX250/KX450 2019–2024, KX250 2025–2026 i KX450 2024–2026, KX450F 2013–2015",
+      "Proizvodnja": "Italija",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Pojedinačni plastični dijelovi",
+    "category": "Dijelovi",
+    "subcategory": "Plastike",
+    "skupina": "Pojedinačne plastike",
+    "price": "Cijena na upit",
+    "description": "Zamjenski plastični dijelovi kad ne treba cijeli komplet — unaprijed izbušeni za laku montažu.",
+    "image_folder": "ufo-plasticni-dijelovi",
+    "brand": "ufo",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Ponuda": "prednji blatobran, stražnji blatobran, bočne maske, maske hladnjaka, prednja tablica, štitnici vilice",
+      "Proizvodnja": "Italija",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 72,
+    "name": "R-Tech setovi plastike",
+    "category": "Dijelovi",
+    "subcategory": "Plastike",
+    "skupina": "Setovi plastika",
+    "price": "Cijena na upit",
+    "description": "Kompletni setovi plastike za offroad motocikle u originalnim i drugim bojama.",
+    "image_folder": "rtech-r-tech-setovi-plastike",
+    "brand": "rtech",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 73,
+    "name": "R-Tech pojedinačne plastike",
+    "category": "Dijelovi",
+    "subcategory": "Plastike",
+    "skupina": "Pojedinačne plastike",
+    "price": "Cijena na upit",
+    "description": "Prednji i stražnji blatobrani, bočne plastike, štitnici vilica i ostali pojedinačni dijelovi.",
+    "image_folder": "rtech-r-tech-pojedinacne-plastike",
+    "brand": "rtech",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 74,
+    "name": "Blackbird navlake sjedala",
+    "category": "Dijelovi",
+    "subcategory": "Sicevi",
+    "price": "Cijena na upit",
+    "description": "Navlake sjedala za offroad motocikle — standardne i s pojačanim prianjanjem, s grafikama ili jednobojne.",
+    "image_folder": "blackbird-blackbird-navlake-sjedala",
+    "brand": "blackbird",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Pro-X lančanici",
+    "category": "Dijelovi",
+    "subcategory": "Lančanici i lanci",
+    "skupina": "Lančanici",
+    "price": "Cijena na upit",
+    "description": "Prednji i stražnji lančanici za offroad motocikle.",
+    "image_folder": "prox-pro-x-lancanici",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 76,
+    "name": "WRP lančanici",
+    "category": "Dijelovi",
+    "subcategory": "Lančanici i lanci",
+    "skupina": "Lančanici",
+    "price": "Cijena na upit",
+    "description": "Prednji i stražnji lančanici za offroad motocikle.",
+    "image_folder": "wrp-wrp-lancanici",
+    "brand": "wrp",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 77,
+    "name": "RK lanci",
+    "category": "Dijelovi",
+    "subcategory": "Lančanici i lanci",
+    "skupina": "Lanci",
+    "price": "Cijena na upit",
+    "description": "Pogonski lanci za offroad motocikle; duljina i korak na upit.",
+    "image_folder": "rk-rk-lanci",
+    "brand": "rk",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 78,
+    "name": "D.I.D lanci",
+    "category": "Dijelovi",
+    "subcategory": "Lančanici i lanci",
+    "skupina": "Lanci",
+    "price": "Cijena na upit",
+    "description": "Pogonski lanci za offroad motocikle; duljina i korak na upit.",
+    "image_folder": "did-d-i-d-lanci",
+    "brand": "did",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 79,
+    "name": "TRW kočioni diskovi",
+    "category": "Dijelovi",
+    "subcategory": "Kočnice",
+    "skupina": "Diskovi",
+    "price": "Cijena na upit",
+    "description": "Prednji i stražnji kočioni diskovi.",
+    "image_folder": "trw-trw-kocioni-diskovi",
+    "brand": "trw",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 80,
+    "name": "TRW kočione pločice",
+    "category": "Dijelovi",
+    "subcategory": "Kočnice",
+    "skupina": "Pločice",
+    "price": "Cijena na upit",
+    "description": "Prednje i stražnje kočione pločice.",
+    "image_folder": "trw-trw-kocione-plocice",
+    "brand": "trw",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 81,
+    "name": "Pro-X kočioni diskovi",
+    "category": "Dijelovi",
+    "subcategory": "Kočnice",
+    "skupina": "Diskovi",
+    "price": "Cijena na upit",
+    "description": "Prednji i stražnji kočioni diskovi.",
+    "image_folder": "prox-pro-x-kocioni-diskovi",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 82,
+    "name": "Pro-X kočione pločice",
+    "category": "Dijelovi",
+    "subcategory": "Kočnice",
+    "skupina": "Pločice",
+    "price": "Cijena na upit",
+    "description": "Prednje i stražnje kočione pločice.",
+    "image_folder": "prox-pro-x-kocione-plocice",
+    "brand": "prox",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 83,
+    "name": "Plews Tyres gume",
+    "category": "Dijelovi",
+    "subcategory": "Kotači",
+    "skupina": "Gume",
+    "price": "Cijena na upit",
+    "description": "Offroad gume za motocross i enduro. Dimenzije na upit.",
+    "image_folder": "plews-plews-tyres-gume",
+    "brand": "plews",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s dimenzijom gume"
+    }
+  },
+  {
+    "id": 84,
+    "name": "Pirelli offroad gume",
+    "category": "Dijelovi",
+    "subcategory": "Kotači",
+    "skupina": "Gume",
+    "price": "Cijena na upit",
+    "description": "Offroad gume za motocross i enduro. Dimenzije na upit.",
+    "image_folder": "pirelli-pirelli-offroad-gume",
+    "brand": "pirelli",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Dostupnost": "pošaljite upit s dimenzijom gume"
+    }
+  },
+  {
+    "id": 85,
+    "name": "Kite žbice",
+    "category": "Dijelovi",
+    "subcategory": "Kotači",
+    "skupina": "Žbice",
+    "price": "Cijena na upit",
+    "description": "Setovi žbica za prednje i stražnje kotače.",
+    "image_folder": "kite-kite-zbice",
+    "brand": "kite",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 86,
+    "name": "Kite kompletni kotači",
+    "category": "Dijelovi",
+    "subcategory": "Kotači",
+    "skupina": "Kompletni kotači",
+    "price": "Cijena na upit",
+    "description": "Kompletni kotači spremni za ugradnju.",
+    "image_folder": "kite-kite-kompletni-kotaci",
+    "brand": "kite",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 87,
+    "name": "Setovi za reparaciju zadnjeg amortizera",
+    "category": "Dijelovi",
+    "subcategory": "Amortizeri",
+    "skupina": "Reparacija zadnjeg amortizera",
+    "price": "Cijena na upit",
+    "description": "Setovi brtvi i semeringa za obnovu zadnjeg amortizera.",
+    "image_folder": "setovi-za-reparaciju-zadnjeg-amortizera",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 88,
+    "name": "Semeringi, brisači i klizači prednjih vilica",
+    "category": "Dijelovi",
+    "subcategory": "Amortizeri",
+    "skupina": "Semeringi i klizači vilica",
+    "price": "Cijena na upit",
+    "description": "Semeringi, brisači prašine i klizne čahure prednjih vilica.",
+    "image_folder": "semeringi-brisaci-i-klizaci-prednjih-vilica",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 89,
+    "name": "Cijevi prednjih vilica",
+    "category": "Dijelovi",
+    "subcategory": "Amortizeri",
+    "skupina": "Cijevi vilica",
+    "price": "Cijena na upit",
+    "description": "Zamjenske unutarnje cijevi prednjih vilica.",
+    "image_folder": "cijevi-prednjih-vilica",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 90,
+    "name": "Ulja za amortizere i vilice",
+    "category": "Dijelovi",
+    "subcategory": "Amortizeri",
+    "skupina": "Ulja za ovjes",
+    "price": "Cijena na upit",
+    "description": "Ulja za prednje vilice i zadnje amortizere u više viskoznosti.",
+    "image_folder": "ulja-za-amortizere-i-vilice",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 91,
+    "name": "Akumulatori",
+    "category": "Dijelovi",
+    "subcategory": "Strujne komponente",
+    "skupina": "Akumulatori",
+    "price": "Cijena na upit",
+    "description": "Akumulatori za motocikle, quadove i vodene skutere.",
+    "image_folder": "akumulatori",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 92,
+    "name": "Regleri napona",
+    "category": "Dijelovi",
+    "subcategory": "Strujne komponente",
+    "skupina": "Regleri",
+    "price": "Cijena na upit",
+    "description": "Regleri / ispravljači napona.",
+    "image_folder": "regleri-napona",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 93,
+    "name": "Bobine",
+    "category": "Dijelovi",
+    "subcategory": "Strujne komponente",
+    "skupina": "Bobine",
+    "price": "Cijena na upit",
+    "description": "Bobine (indukcijski svici) paljenja.",
+    "image_folder": "bobine",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 94,
+    "name": "Svjećice i lule svjećica",
+    "category": "Dijelovi",
+    "subcategory": "Strujne komponente",
+    "skupina": "Svjećice i lule",
+    "price": "Cijena na upit",
+    "description": "Svjećice i kapice (lule) svjećica.",
+    "image_folder": "svjecice-i-lule-svjecica",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 95,
+    "name": "Maske sa svjetlima",
+    "category": "Dijelovi",
+    "subcategory": "Svjetla",
+    "skupina": "Maske sa svjetlima",
+    "price": "Cijena na upit",
+    "description": "Prednje maske sa svjetlom za offroad motocikle.",
+    "image_folder": "maske-sa-svjetlima",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 96,
+    "name": "Žmigavci",
+    "category": "Dijelovi",
+    "subcategory": "Svjetla",
+    "skupina": "Žmigavci",
+    "price": "Cijena na upit",
+    "description": "LED i klasični žmigavci.",
+    "image_folder": "zmigavci",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Stop svjetla",
+    "category": "Dijelovi",
+    "subcategory": "Svjetla",
+    "skupina": "Stop svjetla",
+    "price": "Cijena na upit",
+    "description": "Stražnja i stop svjetla, uključujući kompaktne LED izvedbe.",
+    "image_folder": "stop-svjetla",
+    "brand": "",
+    "is_new": false,
+    "images": [],
+    "specs": {
+      "Kompatibilnost": "Kawasaki i ostale marke — prema modelu i godištu",
+      "Dostupnost": "pošaljite upit s modelom i godištem motora"
     }
   }
 ]

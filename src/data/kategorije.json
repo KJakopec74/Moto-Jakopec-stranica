@@ -1,0 +1,153 @@
+{
+  "oprema": [
+    {
+      "naziv": "Kacige",
+      "opis": "Offroad kacige za motocross i enduro",
+      "skupine": []
+    },
+    {
+      "naziv": "Naočale",
+      "opis": "Motocross naočale, stakla i dodaci",
+      "skupine": []
+    },
+    {
+      "naziv": "Dresovi",
+      "opis": "Dresovi, hlače i rukavice",
+      "skupine": [
+        "Dresovi",
+        "Hlače",
+        "Rukavice"
+      ]
+    },
+    {
+      "naziv": "Čizme",
+      "opis": "Motocross i enduro čizme",
+      "skupine": []
+    },
+    {
+      "naziv": "Zaštitna oprema",
+      "opis": "Štitnici prsa, koljena i laktova",
+      "skupine": [
+        "Štitnici prsa",
+        "Štitnici koljena",
+        "Štitnici laktova",
+        "Zaštitne majice"
+      ]
+    }
+  ],
+  "dijelovi": [
+    {
+      "naziv": "Motor",
+      "opis": "Klipovi, klipnjače, radilice, brtve, kvačilo, ulja, filteri…",
+      "skupine": [
+        "Klipovi",
+        "Klipnjače",
+        "Radilice",
+        "Brtve",
+        "Kvačilo",
+        "Sajle",
+        "Semeringi i ležajevi",
+        "Ulja",
+        "Ventili",
+        "Sistemi goriva i zraka",
+        "Uljni filteri"
+      ]
+    },
+    {
+      "naziv": "Auspusi",
+      "opis": "Ispušni sustavi za offroad motocikle",
+      "skupine": []
+    },
+    {
+      "naziv": "Stalci za motocikle",
+      "opis": "Stalci za servis i transport",
+      "skupine": []
+    },
+    {
+      "naziv": "Volani i kontrole",
+      "opis": "Volani, gripovi, ručice, spužve i prekidači",
+      "skupine": [
+        "Volani",
+        "Gripovi",
+        "Ručice kočnice i kvačila",
+        "Spužve volana",
+        "Prekidači"
+      ]
+    },
+    {
+      "naziv": "Nogare i dodaci",
+      "opis": "Nogare te poluge kočnice i mjenjača",
+      "skupine": [
+        "Nogare",
+        "Poluge kočnice i mjenjača"
+      ]
+    },
+    {
+      "naziv": "Plastike",
+      "opis": "Setovi i pojedinačne plastike za offroad motocikle",
+      "skupine": [
+        "Setovi plastika",
+        "Pojedinačne plastike"
+      ]
+    },
+    {
+      "naziv": "Sicevi",
+      "opis": "Navlake sjedala",
+      "skupine": []
+    },
+    {
+      "naziv": "Lančanici i lanci",
+      "opis": "Prednji i stražnji lančanici, lanci",
+      "skupine": [
+        "Lančanici",
+        "Lanci"
+      ]
+    },
+    {
+      "naziv": "Kočnice",
+      "opis": "Kočioni diskovi i pločice",
+      "skupine": [
+        "Diskovi",
+        "Pločice"
+      ]
+    },
+    {
+      "naziv": "Kotači",
+      "opis": "Gume, žbice i kompletni kotači",
+      "skupine": [
+        "Gume",
+        "Žbice",
+        "Kompletni kotači"
+      ]
+    },
+    {
+      "naziv": "Amortizeri",
+      "opis": "Reparacija amortizera, semeringi, cijevi vilica, ulja",
+      "skupine": [
+        "Reparacija zadnjeg amortizera",
+        "Semeringi i klizači vilica",
+        "Cijevi vilica",
+        "Ulja za ovjes"
+      ]
+    },
+    {
+      "naziv": "Strujne komponente",
+      "opis": "Akumulatori, regleri, bobine, svjećice",
+      "skupine": [
+        "Akumulatori",
+        "Regleri",
+        "Bobine",
+        "Svjećice i lule"
+      ]
+    },
+    {
+      "naziv": "Svjetla",
+      "opis": "Maske sa svjetlima, žmigavci, stop svjetla",
+      "skupine": [
+        "Maske sa svjetlima",
+        "Žmigavci",
+        "Stop svjetla"
+      ]
+    }
+  ]
+}

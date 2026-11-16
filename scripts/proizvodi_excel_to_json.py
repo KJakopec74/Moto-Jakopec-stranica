@@ -182,8 +182,8 @@ def main():
     # Excel mora imati stupac "specifikacije" (novi predložak)
     if "Proizvodi" in wb.sheetnames:
         zaglavlje = [str(c.value).strip() if c.value else "" for c in wb["Proizvodi"][1]]
-        if "specifikacije" not in zaglavlje:
-            print("PAŽNJA: proizvodi.xlsx je stari predložak (nema stupac 'specifikacije').")
+        if "specifikacije" not in zaglavlje or "skupina" not in zaglavlje:
+            print("PAŽNJA: proizvodi.xlsx je stari predložak (nema stupac 'specifikacije' ili 'skupina').")
             print("  Ništa nije prepisano. Pokreni:  py -X utf8 scripts/kreiraj_excel_predlozak.py")
             raise SystemExit(2)
 
@@ -235,7 +235,8 @@ def main():
 
         # category MORA biti pročitan PRIJE get_images()
         category     = parse_val(d.get("category")) or ""
-        subcategory  = parse_val(d.get("subcategory")) or ""
+        subcategory  = parse_val(d.get("subcategory")) or ""   # kategorija na stranici (npr. Motor)
+        skupina      = parse_val(d.get("skupina")) or ""       # skupina unutar nje (npr. Klipovi)
         image_folder = parse_val(d.get("image_folder")) or ""
         kopiraj_slike(parse_val(d.get("slike")), image_folder, category, name)
         brand        = parse_val(d.get("brand")) or ""
@@ -252,6 +253,7 @@ def main():
             "name":         name,
             "category":     category,
             "subcategory":  subcategory,
+            **({"skupina": skupina} if skupina else {}),
             "price":        formatiraj_cijenu(parse_val(d.get("price"))),
             "description":  parse_val(d.get("description")) or "",
             "image_folder": image_folder,

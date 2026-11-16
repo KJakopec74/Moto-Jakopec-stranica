@@ -4,7 +4,8 @@ export interface Product {
   id: number;
   name: string;
   category: ProductCategory;
-  subcategory: string;      // npr. "Kacige", "Jakne", "Gume", "Filteri"...
+  subcategory: string;      // kategorija, npr. "Kacige", "Motor", "Kočnice" (vidi kategorije.json)
+  skupina?: string;         // skupina unutar kategorije, npr. "Klipovi" (Motor) ili "Pločice" (Kočnice)
   price: string;            // npr. "49,90 €" ili "Cijena na upit"
   description: string;
   image_folder: string;
