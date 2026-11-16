@@ -171,3 +171,8 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - Podaci (dimenzije, kompatibilnost, šifre) provjereni u trgovinama/distributerima (studeni 2026.); bez slika — kartica tada prikazuje siluetu loga brenda i "Slika uskoro"
 - Slike: `public/images/{oprema|dijelovi}/{image_folder}/img_01.jpg` → `proizvodi_excel_to_json.py` ih sam pokupi
 - Dijelovi su SKUPINE (npr. Pro-X Klipni kompleti), ne proizvod po modelu motora — modeli i primjeri dimenzija su u specs; kupac šalje upit s modelom
+
+## Specifikacije vozila
+
+- Nazivi i vrijednosti specifikacija u `models.json` ručno su prevedeni sa slovenskog (dks.si) na hrvatski (studeni 2026.).
+- `vozila_scraper_dks.py` daje slovenske nazive — ako se ponovo pokrene, prijevod treba ponoviti (ili ne prepisivati specs).
