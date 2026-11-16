@@ -182,3 +182,9 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - Nakon objave pamti se mtime Excela u `.excel_sinkronizacija.json` (gitignore), a JSON dobije isti mtime.
 - Ako je JSON noviji (stigao s GitHuba), a Excel nije diran → `*_excel_to_json.py` sam napravi Excel iznova (stari → `*_stari.xlsx`) i izađe s 0.
 - Ako su i Excel i JSON mijenjani → SystemExit(2) s uputama. Kad mijenjaš JSON izravno, korisnik ne mora ništa ručno.
+
+## Usklađivanje s kawasaki.eu (studeni 2026.)
+
+- Popis modela, nazivi, boje i A2 oznake usklađeni su s kawasaki.eu (Motorcycles, Jet Ski, Mule, ATV) za modelnu godinu 2027.
+- kawasaki.eu se dohvaća preko WebSearch (allowed_domains kawasaki.eu) + WebFetch; dks.si i kawasaki.eu shell (curl) su blokirani.
+- Specs ključ "Izvor podataka" označava vozila čiji podaci nisu s kawasaki.eu ili su provjereni na kawasaki.eu.
