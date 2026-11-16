@@ -9,7 +9,15 @@
     "image_folder": "airoh-aviator-3",
     "brand": "airoh",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/airoh-aviator-3/aviator31.jpg",
+      "/images/oprema/airoh-aviator-3/aviator32.jpg",
+      "/images/oprema/airoh-aviator-3/aviator33.jpg",
+      "/images/oprema/airoh-aviator-3/aviator34.jpg",
+      "/images/oprema/airoh-aviator-3/aviator35.png",
+      "/images/oprema/airoh-aviator-3/aviator36.jpg",
+      "/images/oprema/airoh-aviator-3/aviator37.png"
+    ],
     "specs": {
       "Školjka": "HPC Carbon",
       "Veličine školjke": "4 (XS–S, M, L, XL–XXL)",
@@ -31,7 +39,17 @@
     "image_folder": "airoh-twist-3",
     "brand": "airoh",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/airoh-twist-3/twist31.webp",
+      "/images/oprema/airoh-twist-3/twist32.webp",
+      "/images/oprema/airoh-twist-3/twist33.png",
+      "/images/oprema/airoh-twist-3/twist34.png",
+      "/images/oprema/airoh-twist-3/twist35.png",
+      "/images/oprema/airoh-twist-3/twist36.png",
+      "/images/oprema/airoh-twist-3/twist37.png",
+      "/images/oprema/airoh-twist-3/twist38.jpg",
+      "/images/oprema/airoh-twist-3/twist39.png"
+    ],
     "specs": {
       "Školjka": "dvoslojni HRT termoplast",
       "Veličine školjke": "2 (XS–M, L–XXL)",
@@ -53,7 +71,16 @@
     "image_folder": "airoh-wraaap",
     "brand": "airoh",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/airoh-wraaap/wraaap1.jpg",
+      "/images/oprema/airoh-wraaap/wraaap2.png",
+      "/images/oprema/airoh-wraaap/wraaap3.png",
+      "/images/oprema/airoh-wraaap/wraaap4.png",
+      "/images/oprema/airoh-wraaap/wraaap5.png",
+      "/images/oprema/airoh-wraaap/wraaap6.png",
+      "/images/oprema/airoh-wraaap/wraaap7.png",
+      "/images/oprema/airoh-wraaap/wraaap8.png"
+    ],
     "specs": {
       "Školjka": "HRT termoplast",
       "Veličine školjke": "3 (XXS–XS, S–M, L–XXL)",
@@ -106,7 +133,20 @@
     "image_folder": "100percent-motocross-naocale",
     "brand": "100percent",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale1.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale2.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale3.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale4.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale5.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale6.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale7.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale8.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale9.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale10.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale11.webp",
+      "/images/oprema/100percent-motocross-naocale/100percent-motocross-naocale12.webp"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
@@ -229,7 +269,16 @@
     "image_folder": "alpinestars-dresovi-i-hlace",
     "brand": "alpinestars",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres1.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres2.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres5.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres6.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres7.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres8.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres9.webp",
+      "/images/oprema/alpinestars-dresovi-i-hlace/alpdres10.webp"
+    ],
     "specs": {
       "Namjena": "motocross / enduro",
       "Dostupnost": "pošaljite upit s veličinom i bojom"
