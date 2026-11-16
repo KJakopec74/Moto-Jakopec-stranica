@@ -14,7 +14,7 @@ Pokreni nakon svake izmjene u Excelu:
 
 import json, os, re
 import openpyxl
-from slike_kopiranje import kopiraj_slike
+from slike_kopiranje import kopiraj_slike, pripremi_mapu
 from excel_sinkronizacija import osvjezi_ako_treba, zapamti
 from vozila_json_to_excel import main as napravi_vozila_excel
 
@@ -52,6 +52,7 @@ def get_images(image_folder: str) -> list:
     folder_path = os.path.join(IMG_DIR, image_folder)
     if not os.path.isdir(folder_path):
         return []
+    pripremi_mapu(folder_path)   # smanji prevelike slike, velike PNG → JPG
     exts = {".jpg", ".jpeg", ".png", ".webp"}
     files = [f for f in os.listdir(folder_path)
              if os.path.splitext(f)[1].lower() in exts]

@@ -23,6 +23,7 @@ ponovno napravi iz najnovijih podataka (kreiraj_excel_predlozak.py).
 
 import json, os, re
 import openpyxl
+from slike_kopiranje import pripremi_mapu
 
 SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR     = os.path.join(SCRIPT_DIR, "..")
@@ -86,6 +87,7 @@ def get_images(image_folder: str, category: str) -> list:
     folder_path = os.path.join(IMG_BASE, sub, image_folder)
     if not os.path.isdir(folder_path):
         return []
+    pripremi_mapu(folder_path)   # smanji prevelike slike, velike PNG → JPG
     files = [f for f in os.listdir(folder_path)
              if os.path.splitext(f)[1].lower() in IMG_EXTS]
     files.sort(key=natural_sort_key)

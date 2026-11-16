@@ -85,3 +85,64 @@ def kopiraj_slike(unos_slika, mapa: str, naziv: str):
         ime = spremi_sliku(izvor, cilj)
         print(f"  Slika: {naziv} ← {os.path.basename(izvor)}  →  {os.path.basename(mapa)}/{ime}")
 
+
+
+# ── Priprema slika ubačenih ravno u mapu proizvoda/vozila ───────────────────
+NAJVECA_STRANICA = 1600          # px
+MALA_DATOTEKA    = 350 * 1024    # manje od ovoga (i ≤ 1600 px) se ne dira
+
+def _ima_prozirnost(slika) -> bool:
+    if slika.mode in ("RGBA", "LA"):
+        return slika.getchannel("A").getextrema()[0] < 255
+    return slika.mode == "P" and "transparency" in slika.info
+
+def pripremi_mapu(mapa: str):
+    """
+    Smanji prevelike slike u mapi (na najviše 1600 px); velike PNG/WebP
+    fotografije bez prozirnosti pretvori u JPG, a velike prozirne PNG u WebP. Male slike ostaju netaknute,
+    pa je ponovno pokretanje brzo. Ime ostaje isto (mijenja se samo nastavak
+    kad PNG/WebP postane JPG).
+    """
+    if not os.path.isdir(mapa):
+        return
+    for ime in os.listdir(mapa):
+        putanja = os.path.join(mapa, ime)
+        osnova, ext = os.path.splitext(ime)
+        ext = ext.lower()
+        if ext not in (".jpg", ".jpeg", ".png", ".webp"):
+            continue
+        try:
+            with Image.open(putanja) as s:
+                prevelika = max(s.size) > NAJVECA_STRANICA
+                # velika PNG/WebP fotografija (bez prozirnosti) → JPG; JPG se dira
+                # samo kad je prevelik (inače bi gubio kvalitetu pri svakoj objavi)
+                if not prevelika and (ext in (".jpg", ".jpeg") or os.path.getsize(putanja) <= MALA_DATOTEKA):
+                    continue
+                slika = s.copy()
+        except Exception:
+            print(f"  UPOZORENJE: '{ime}' nije ispravna slika — preskačem")
+            continue
+
+        prozirna = _ima_prozirnost(slika)
+        if not prevelika and prozirna and ext == ".webp":
+            continue          # prozirni WebP normalne veličine ostaje kakav jest
+        slika.thumbnail((NAJVECA_STRANICA, NAJVECA_STRANICA))
+        if ext in (".png", ".webp") and not prozirna:
+            novo = os.path.join(mapa, osnova + ".jpg")
+            if os.path.exists(novo) and novo != putanja:
+                novo = os.path.join(mapa, osnova + "-1.jpg")
+            slika.convert("RGB").save(novo, "JPEG", quality=KVALITETA_SLIKE, optimize=True, progressive=True)
+            os.remove(putanja)
+        elif ext in (".jpg", ".jpeg"):
+            novo = putanja
+            slika.convert("RGB").save(novo, "JPEG", quality=KVALITETA_SLIKE, optimize=True, progressive=True)
+        else:
+            # prozirna slika → WebP (zadrži prozirnost, a višestruko je manja od PNG-a)
+            novo = os.path.join(mapa, osnova + ".webp")
+            if os.path.exists(novo) and novo != putanja:
+                novo = os.path.join(mapa, osnova + "-1.webp")
+            slika.save(novo, "WEBP", quality=KVALITETA_SLIKE)
+            if novo != putanja:
+                os.remove(putanja)
+        print(f"  Slika smanjena: {os.path.basename(mapa)}/{ime}  →  {os.path.basename(novo)} "
+              f"({os.path.getsize(novo) // 1024} KB)")
