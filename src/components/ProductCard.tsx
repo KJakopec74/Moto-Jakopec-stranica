@@ -12,6 +12,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Galerija from "@/components/Galerija";
 import type { Product } from "@/types/product";
+import Cijena, { OznakaAkcije } from "@/components/Cijena";
+import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 import type { BrandsData } from "@/types/brand";
 import brandsData from "@/data/brands.json";
 
@@ -104,6 +106,7 @@ export default function ProductCard({ product }: Props) {
 
         {/* Oznake */}
         <div className="absolute top-3 left-3 flex gap-2 pointer-events-none">
+          {imaAkciju(product) && <OznakaAkcije postotak={postotakPopusta(product)} />}
           {product.is_new && (
             <span className="text-white text-xs font-bold px-2 py-1 rounded" style={{ background: "var(--green)" }}>
               NOVO
@@ -149,9 +152,7 @@ export default function ProductCard({ product }: Props) {
         )}
 
         <div className="flex items-center justify-between mt-auto pt-3 border-t" style={{ borderColor: "var(--line)" }}>
-          <span className="font-bold text-base" style={{ color: "var(--green-dk)" }}>
-            {product.price || "Cijena na upit"}
-          </span>
+          <Cijena price={product.price} akcijska_cijena={product.akcijska_cijena} velicina="mala" />
           <Link
             href={`/kontakt?model=${encodeURIComponent((brend ? brend.name + " " : "") + product.name)}`}
             className="text-xs font-semibold flex items-center gap-1 px-3 py-1.5 rounded-full transition-colors"

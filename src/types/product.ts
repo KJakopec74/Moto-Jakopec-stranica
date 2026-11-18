@@ -7,6 +7,7 @@ export interface Product {
   subcategory: string;      // kategorija, npr. "Kacige", "Motor", "Kočnice" (vidi kategorije.json)
   skupina?: string;         // skupina unutar kategorije, npr. "Klipovi" (Motor) ili "Pločice" (Kočnice)
   price: string;            // npr. "49,90 €" ili "Cijena na upit"
+  akcijska_cijena?: string; // prazno = nema akcije; inače nova cijena (price se precrta)
   description: string;
   image_folder: string;
   brand?: string;    // brand_id iz brands.json (npr. "airoh", "motul")

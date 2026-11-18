@@ -2,10 +2,35 @@ import Link from "next/link";
 import MotorcycleCard from "@/components/MotorcycleCard";
 import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
+import productsData from "@/data/products.json";
+import ProductCard from "@/components/ProductCard";
+import RabljenoCard from "@/components/RabljenoCard";
+import type { Product } from "@/types/product";
+import { imaAkciju } from "@/lib/cijena";
+import { rabljenaUProdaji } from "@/lib/rabljena";
 
 const models = modelsData as unknown as Motorcycle[];
 
 const FEATURED_COUNT = 6;
+
+// Akcije i rabljena vozila — sekcije se prikazuju samo kad ih ima
+const akcijeVozila = models.filter(imaAkciju);
+const akcijeProizvodi = (productsData as unknown as Product[]).filter(imaAkciju);
+
+// Naslov sekcije s linkom "Pogledaj sve"
+function NaslovSekcije({ naslov, podnaslov, href, link }: { naslov: string; podnaslov: string; href: string; link: string }) {
+  return (
+    <div className="flex items-end justify-between mb-10">
+      <div>
+        <h2 className="section-title">{naslov}</h2>
+        <p className="section-subtitle">{podnaslov}</p>
+      </div>
+      <Link href={href} className="text-sm font-medium flex items-center gap-1" style={{ color: "var(--green-dk)" }}>
+        {link} ›
+      </Link>
+    </div>
+  );
+}
 
 const CATEGORIES_INFO = [
   { name: "Sport",        icon: "🏁", desc: "Supersport & track motocikli" },
@@ -89,6 +114,17 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Akcije (samo dok traje neka akcija) ────────────────────── */}
+      {akcijeVozila.length + akcijeProizvodi.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+          <NaslovSekcije naslov="Akcije" podnaslov="Snižene cijene — dok traju zalihe" href="/akcije" link="Sve akcije" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {akcijeVozila.slice(0, 3).map((bike) => <MotorcycleCard key={bike.id} bike={bike} />)}
+            {akcijeProizvodi.slice(0, Math.max(0, 3 - akcijeVozila.length)).map((p) => <ProductCard key={p.id} product={p} />)}
+          </div>
+        </section>
+      )}
+
       {/* ── Featured bikes ───────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="flex items-end justify-between mb-10">
@@ -110,6 +146,16 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* ── Rabljena vozila (samo kad ih ima u prodaji) ─────────────── */}
+      {rabljenaUProdaji.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
+          <NaslovSekcije naslov="Rabljena vozila" podnaslov="Pregledana vozila u našoj ponudi" href="/rabljena" link="Sva rabljena" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {rabljenaUProdaji.slice(0, 3).map((v) => <RabljenoCard key={v.id} vozilo={v} />)}
+          </div>
+        </section>
+      )}
 
       {/* ── Categories ───────────────────────────────────────────────── */}
       <section className="border-y py-20" style={{ background: "var(--bg2)", borderColor: "var(--line)" }}>

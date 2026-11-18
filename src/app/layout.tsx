@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import modelsData from "@/data/models.json";
+import productsData from "@/data/products.json";
+import { imaAkciju } from "@/lib/cijena";
 import { ADRESA_STRANICE, FIRMA, TELEFONI } from "@/lib/stranica";
 
 const inter = Inter({
@@ -70,7 +73,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(PODACI_ZA_GOOGLE) }}
         />
-        <Header />
+        <Header imaAkcija={[...modelsData, ...productsData].some((x) => imaAkciju(x as { price?: string; akcijska_cijena?: string }))} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

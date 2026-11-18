@@ -17,7 +17,7 @@ EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Fiksni stupci (uvijek prisutni)
-FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "description", "image_folder", "slike"]
+FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike"]
 
 def main():
     with open(JSON_PATH, encoding="utf-8") as f:
@@ -95,6 +95,7 @@ def main():
             "license_category": m.get("license_category", ""),
             "is_new":           m.get("is_new", False),
             "price":            m.get("price", ""),
+            "akcijska_cijena":  m.get("akcijska_cijena", ""),
             "description":      m.get("description", ""),
             "image_folder":     image_folder,
             "slike":            "",   # ovdje se upisuju nove slike (vidi UPUTE.md)
@@ -115,7 +116,7 @@ def main():
     # ── Širina stupaca ────────────────────────────────────────────────
     col_widths = {
         "id": 5, "name": 30, "category": 15, "license_category": 8,
-        "is_new": 8, "price": 14, "description": 50, "image_folder": 22,
+        "is_new": 8, "price": 14, "akcijska_cijena": 15, "description": 50, "image_folder": 22,
     }
     for col_idx, col_name in enumerate(headers, start=1):
         letter = get_column_letter(col_idx)
@@ -138,6 +139,7 @@ def main():
         ("license_category", "Kategorija vozačke (A1, A2 ili prazno za neograničenu)"),
         ("is_new",        "TRUE = novo, FALSE = nije novo (prikazuje se badge NOVO)"),
         ("price",         "Cijena npr: 9.462 € ili: Cijena na upit"),
+        ("akcijska_cijena", "AKCIJA: upiši novu (nižu) cijenu, npr. 8990 → na stranici se stara cijena precrta. Prazno = nema akcije"),
         ("description",   "Kratki opis vozila (1-2 rečenice)"),
         ("image_folder",  "Naziv mape u public/images/vozila/ (npr. 05-ninja-zx-4rr)"),
         ("", ""),

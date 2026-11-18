@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import modelsData from "@/data/models.json";
 import { brendovi, parametriKategorijaSvih } from "@/lib/sitemap-pomoc";
 import { ADRESA_STRANICE } from "@/lib/stranica";
+import { rabljena } from "@/lib/rabljena";
 
 // =============================================================================
 // sitemap.xml — popis svih stranica za Google (generira se pri svakom buildu,
@@ -14,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const danas = new Date();
 
   // Glavne stranice
-  const glavne = ["", "/motocikli/", "/oprema/", "/dijelovi/", "/servis/", "/kontakt/", "/privatnost/"].map(
+  const glavne = ["", "/motocikli/", "/oprema/", "/dijelovi/", "/rabljena/", "/akcije/", "/servis/", "/kontakt/", "/privatnost/"].map(
     (putanja) => ({
       url: `${ADRESA_STRANICE}${putanja}`,
       lastModified: danas,
@@ -35,5 +36,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...brendovi().map((putanja) => ({ url: `${ADRESA_STRANICE}${putanja}`, lastModified: danas, priority: 0.5 })),
   ];
 
-  return [...glavne, ...vozila, ...ostale];
+  // Rabljena vozila u prodaji
+  const rabljenaVozila = rabljena.filter((v) => !v.prodano).map((v) => ({
+    url: `${ADRESA_STRANICE}/rabljena/${v.id}/`, lastModified: danas, priority: 0.6,
+  }));
+
+  return [...glavne, ...vozila, ...rabljenaVozila, ...ostale];
 }

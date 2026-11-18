@@ -12,16 +12,19 @@ const navLinks = [
   { href: "/motocikli?category=Quad",     label: "Quad" },
   { href: "/motocikli?category=Mule",     label: "Mule" },
   { href: "/motocikli?category=Jet+Ski",  label: "Jet Ski" },
+  { href: "/rabljena",                    label: "Rabljena" },
   { href: "/oprema",                      label: "Oprema" },
   { href: "/dijelovi",                    label: "Dijelovi" },
+  { href: "/akcije",                      label: "Akcije" },   // prikazuje se samo dok traje neka akcija
   { href: "/servis",                      label: "Servis" },
   { href: "/kontakt",                     label: "Kontakt" },
 ];
 
-function HeaderInner() {
+function HeaderInner({ imaAkcija }: { imaAkcija: boolean }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [open, setOpen] = useState(false);
+  const linkovi = navLinks.filter((l) => l.href !== "/akcije" || imaAkcija);
 
   function isActive(href: string) {
     if (href === "/") return pathname === "/";
@@ -51,7 +54,7 @@ function HeaderInner() {
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-0.5">
-            {navLinks.map((link) => (
+            {linkovi.filter((l) => l.href !== "/").map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -63,7 +66,7 @@ function HeaderInner() {
                 style={
                   isActive(link.href)
                     ? { color: "var(--green-dk)", background: "rgba(55,182,58,0.1)" }
-                    : { color: "var(--text)" }
+                    : { color: link.href === "/akcije" ? "#d92d20" : "var(--text)" }
                 }
               >
                 {link.label}
@@ -118,7 +121,7 @@ function HeaderInner() {
         {/* Mobile menu */}
         {open && (
           <div className="lg:hidden border-t py-4 space-y-1" style={{borderColor:"var(--line)"}}>
-            {navLinks.map((link) => (
+            {linkovi.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -127,7 +130,7 @@ function HeaderInner() {
                 style={
                   isActive(link.href)
                     ? { color: "var(--green-dk)", background: "rgba(55,182,58,0.1)" }
-                    : { color: "var(--text)" }
+                    : { color: link.href === "/akcije" ? "#d92d20" : "var(--text)" }
                 }
               >
                 {link.label}
@@ -147,10 +150,11 @@ function HeaderInner() {
   );
 }
 
-export default function Header() {
+// imaAkcija: ima li ijedno vozilo/proizvod akcijsku cijenu (računa se u layout.tsx)
+export default function Header({ imaAkcija = false }: { imaAkcija?: boolean }) {
   return (
     <Suspense fallback={null}>
-      <HeaderInner />
+      <HeaderInner imaAkcija={imaAkcija} />
     </Suspense>
   );
 }

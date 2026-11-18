@@ -17,6 +17,8 @@ import modelsData from "@/data/models.json";
 import productsData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
 import { kategorije, proizvodiKategorije, type Vrsta } from "@/lib/kategorije";
+import RabljenoCard from "@/components/RabljenoCard";
+import { rabljena } from "@/lib/rabljena";
 
 const vozila = modelsData as unknown as Motorcycle[];
 const proizvodi = productsData as unknown as Product[];
@@ -53,10 +55,12 @@ function Rezultati() {
         .filter((kat) => proizvodiKategorije(vr, kat).length > 0 &&
           odgovara(`${kat.naziv} ${kat.opis} ${kat.skupine.join(" ")}`, rijeci))
         .map((kat) => ({ vr, kat })));
-    return { v, p, k };
+    const r = rabljena.filter((x) =>
+      odgovara(`${x.name} ${x.brand} ${x.category} ${x.description} ${x.godiste ?? ""} rabljeno rabljena`, rijeci));
+    return { v, p, k, r };
   }, [pojam]);
 
-  const nista = rezultati && rezultati.v.length + rezultati.p.length + rezultati.k.length === 0;
+  const nista = rezultati && rezultati.v.length + rezultati.p.length + rezultati.k.length + rezultati.r.length === 0;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -112,6 +116,14 @@ function Rezultati() {
               <h2 className="text-lg font-bold mb-4" style={{ color: "var(--text)" }}>Vozila ({rezultati.v.length})</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
                 {rezultati.v.map((m) => <MotorcycleCard key={m.id} bike={m} />)}
+              </div>
+            </section>
+          )}
+          {rezultati.r.length > 0 && (
+            <section>
+              <h2 className="text-lg font-bold mb-4" style={{ color: "var(--text)" }}>Rabljena vozila ({rezultati.r.length})</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {rezultati.r.map((x) => <RabljenoCard key={x.id} vozilo={x} />)}
               </div>
             </section>
           )}

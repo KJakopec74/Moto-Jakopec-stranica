@@ -153,6 +153,15 @@ def formatiraj_cijenu(val) -> str:
         return f"{val:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") + " €"
     return str(val)
 
+def formatiraj_akciju(val) -> str:
+    """Akcijska cijena: prazno → "" (nema akcije); 119,90 → "119,90 €"; broj → "1.234 €"."""
+    if val is None or (isinstance(val, str) and not val.strip()):
+        return ""
+    t = formatiraj_cijenu(val)
+    if "€" not in t and any(z.isdigit() for z in t):
+        t = t + " €"
+    return t
+
 # ── Čitanje brendova iz sheeta ───────────────────────────────────────────────
 def read_brands(wb, sheet_name, category_key):
     """Čita sheet brendova i vraća listu dict objekata."""
@@ -285,6 +294,8 @@ def main():
             "subcategory":  subcategory,
             **({"skupina": skupina} if skupina else {}),
             "price":        formatiraj_cijenu(parse_val(d.get("price"))),
+            # Akcija: prazno = nema akcije; inače nova cijena (stara se prikaže precrtana)
+            "akcijska_cijena": formatiraj_akciju(parse_val(d.get("akcijska_cijena"))),
             "description":  parse_val(d.get("description")) or "",
             "image_folder": image_folder,
             "brand":        brand,

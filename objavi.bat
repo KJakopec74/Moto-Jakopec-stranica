@@ -4,7 +4,7 @@ REM ============================================================================
 REM  OBJAVI PROMJENE NA WEB STRANICU
 REM  ---------------------------------------------------------------------------
 REM  Dvoklik na ovu datoteku:
-REM    1. prebaci promjene iz vozila.xlsx i proizvodi.xlsx u podatke stranice
+REM    1. prebaci promjene iz vozila.xlsx, proizvodi.xlsx i rabljena.xlsx u podatke stranice
 REM    2. smanji nove slike
 REM    3. posalje sve na GitHub -> Cloudflare za ~2 minute objavi novu verziju
 REM ============================================================================
@@ -31,6 +31,10 @@ if exist proizvodi.xlsx (
 ) else (
     echo proizvodi.xlsx ne postoji - preskacem.
 )
+
+REM rabljena.xlsx se napravi sam pri prvom pokretanju (prazan, s uputama)
+py -X utf8 scripts\rabljena_excel_to_json.py
+if errorlevel 1 goto greska
 
 echo.
 echo ===== 3/4  Smanjujem nove slike =====

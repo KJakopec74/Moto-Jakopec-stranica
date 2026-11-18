@@ -292,10 +292,10 @@ def ensure_brand_column(ws):
     print(f"  Stupac 'brand' dodan u Proizvodi (kolona {get_column_letter(next_col)})")
 
 # ── Kreira Proizvodi sheet (učita xlsx ili regenerira iz products.json) ────────
-PROD_HEADERS = ["id","name","category","subcategory","skupina","price",
+PROD_HEADERS = ["id","name","category","subcategory","skupina","price","akcijska_cijena",
                 "description","image_folder","slike","is_new","brand","specifikacije"]
 PROD_COL_WIDTHS = {"id":5,"name":35,"category":12,"subcategory":20,"skupina":24,
-                   "price":16,"description":55,"image_folder":25,"is_new":8,"brand":14,
+                   "price":16,"akcijska_cijena":15,"description":55,"image_folder":25,"is_new":8,"brand":14,
                    "specifikacije":90, "slike":40}
 
 def specs_u_tekst(specs) -> str:
@@ -325,6 +325,7 @@ def _fill_from_json(ws, products):
             "subcategory":  p.get("subcategory", ""),
             "skupina":      p.get("skupina", ""),
             "price":        p.get("price", ""),
+            "akcijska_cijena": p.get("akcijska_cijena", ""),
             "description":  p.get("description", ""),
             "image_folder": p.get("image_folder", ""),
             "slike":        "",
@@ -411,6 +412,7 @@ def ensure_upute(wb):
         ("subcategory",  "KATEGORIJA na stranici — padajući izbornik (npr. Kacige, Motor, Kočnice); nova kategorija se može i upisati"),
         ("skupina",      "Skupina unutar kategorije (npr. Klipovi u kategoriji Motor) — može ostati prazno; popis ispod"),
         ("price",        "Cijena npr: 149,90 €  ili  Cijena na upit"),
+        ("akcijska_cijena", "AKCIJA: nova (niža) cijena, npr. 119,90 → stara cijena se na stranici precrta. Prazno = nema akcije"),
         ("description",  "Kratki opis (1-2 rečenice)"),
         ("image_folder", "Naziv mape — slike u public/images/oprema/ ili /dijelovi/"),
         ("slike",        "Preuzete slike: naziv iz mape Preuzimanja (npr. aviator3.png) ili puna putanja; više slika odvoji s ;  — prva je glavna"),

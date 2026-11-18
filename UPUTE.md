@@ -124,14 +124,53 @@ Spremi logo (najbolje `.png` s prozirnom pozadinom ili `.svg`) kao `public\image
 
 ---
 
-## 5. Pregled prije objave (nije obavezno)
+## 5. Akcije (snižene cijene)
+
+1. U `vozila.xlsx` ili `proizvodi.xlsx` u stupac **akcijska_cijena** upiši novu, nižu cijenu (npr. `8990` ili `119,90`).
+   Stupac `price` ostavi kakav jest: to je stara cijena, koja se na stranici prikaže precrtana.
+2. Zatvori Excel i dvoklikni `objavi.bat`.
+
+Na kartici se pojavi crvena oznaka **AKCIJA −10%** (postotak se izračuna sam).
+Vozilo ili proizvod se pojavi i na stranici **Akcije**, a dok traje ijedna akcija, u izborniku se vidi i crveni link **Akcije** i sekcija na početnoj stranici.
+
+**Kraj akcije:** obriši ćeliju `akcijska_cijena` i pokreni `objavi.bat`. Kad nema nijedne akcije, link Akcije sam nestane iz izbornika.
+
+> Ako `vozila.xlsx` / `proizvodi.xlsx` još nema stupac `akcijska_cijena`, samo pokreni `objavi.bat` jednom (dok Excel nije mijenjan): Excel se sam osvježi s novim stupcem.
+
+## 6. Rabljena vozila
+
+Rabljena vozila imaju svoj Excel: **`rabljena.xlsx`**. Napravi se sam kad prvi put pokreneš `objavi.bat` (prazan, s listom **Upute**).
+
+**Dodavanje vozila:**
+1. Otvori `rabljena.xlsx` i u novi red upiši:
+   - `id`: 1, 2, 3 …
+   - `name`: npr. Kawasaki Z900
+   - `marka`
+   - `category`
+   - `godiste`
+   - `kilometri`: samo broj
+   - `price`: broj; prazno znači „Cijena na upit”
+   - `description`: stanje vozila
+2. Slike: preuzete slike upiši u stupac `slike` (npr. `z900_1.jpg; z900_2.jpg`), kao kod novih vozila.
+   Može i ovako: stavi ih ravno u mapu `public/images/rabljena/<image_folder>/`.
+   `image_folder` može ostati prazan, mapa se napravi sama (npr. `01-kawasaki-z900`).
+3. Dodatni podaci (Snaga, Boja, Broj vlasnika, Servisna knjiga, Registriran do …) su po želji, prazno se ne prikazuje.
+   Možeš dodati i svoj stupac: upiši naziv u prvi red.
+4. Zatvori Excel i dvoklikni `objavi.bat`.
+
+**Prodano:** u stupcu `prodano` stavi `DA`. Vozilo ostaje na stranici s oznakom PRODANO, na kraju popisa.
+Ako ga želiš potpuno maknuti, obriši cijeli red.
+
+Dok nema nijednog vozila, stranica Rabljena vozila prikazuje poruku „Trenutno nemamo rabljenih vozila” s gumbom za upit.
+
+## 7. Pregled prije objave (nije obavezno)
 
 Dvoklik na **`pokreni_stranicu.bat`** → otvori se **http://localhost:3000**.
 Stranica se sama osvježava kad nešto promijeniš. Za gašenje zatvori crni prozor.
 
 ---
 
-## 6. Kad nešto ne radi
+## 8. Kad nešto ne radi
 
 | Problem | Rješenje |
 |---------|----------|
@@ -143,7 +182,7 @@ Stranica se sama osvježava kad nešto promijeniš. Za gašenje zatvori crni pro
 
 ---
 
-## 7. Važni računi
+## 9. Važni računi
 
 | Usluga | Čemu služi | Račun |
 |--------|-----------|-------|

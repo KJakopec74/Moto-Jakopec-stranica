@@ -8,6 +8,7 @@ export interface Motorcycle {
   is_new?: boolean;
   description: string;
   price: string;
+  akcijska_cijena?: string;   // prazno = nema akcije; inače nova cijena (price se precrta)
   price_2024?: string;
   price_2025?: string;
   price_2026?: string;

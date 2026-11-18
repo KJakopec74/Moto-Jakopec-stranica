@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 import BikeGallery from "@/components/BikeGallery";
+import Cijena, { OznakaAkcije } from "@/components/Cijena";
+import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 
 const models = modelsData as unknown as Motorcycle[];
 
@@ -22,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Naslov npr. "Kawasaki Z900 — cijena i specifikacije | Moto Jakopec Samobor"
   return {
     title: `${bike.name} — cijena i specifikacije`,
-    description: `${bike.description} Cijena: ${bike.price}. Moto Jakopec, ovlašteni Kawasaki zastupnik u Samoboru.`,
+    description: `${bike.description} Cijena: ${imaAkciju(bike) ? `${bike.akcijska_cijena} (akcija)` : bike.price}. Moto Jakopec, ovlašteni Kawasaki zastupnik u Samoboru.`,
     openGraph: {
       title: bike.name,
       description: bike.description,
@@ -82,8 +84,13 @@ export default async function BikeDetailPage({ params }: Props) {
 
           {/* Price */}
           <div className="card p-5 mb-6">
-            <div className="text-sm mb-1" style={{ color: "var(--muted)" }}>Maloprodajna cijena</div>
-            <div className="text-4xl font-black mb-1" style={{ color: "var(--green-dk)" }}>{bike.price}</div>
+            <div className="flex items-center justify-between gap-3 mb-1">
+              <div className="text-sm" style={{ color: "var(--muted)" }}>
+                {imaAkciju(bike) ? "Akcijska cijena" : "Maloprodajna cijena"}
+              </div>
+              {imaAkciju(bike) && <OznakaAkcije postotak={postotakPopusta(bike)} />}
+            </div>
+            <div className="mb-1"><Cijena price={bike.price} akcijska_cijena={bike.akcijska_cijena} velicina="velika" /></div>
             {bike.price_2025 && bike.price_2025 !== bike.price && (
               <div className="text-xs" style={{ color: "var(--muted)" }}>2025: {bike.price_2025}</div>
             )}

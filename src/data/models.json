@@ -7,6 +7,7 @@
     "license_category": "",
     "is_new": false,
     "price": "59.438 €",
+    "akcijska_cijena": "",
     "description": "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu.",
     "images": [
       "/images/vozila/01-ninja-h2r/img_01.jpg",
@@ -64,6 +65,7 @@
     "license_category": "",
     "is_new": false,
     "price": "30.609 €",
+    "akcijska_cijena": "",
     "description": "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kočnice.",
     "images": [
       "/images/vozila/02-ninja-zx-10rr/img_01.png",
@@ -117,6 +119,7 @@
     "license_category": "",
     "is_new": false,
     "price": "20.510 €",
+    "akcijska_cijena": "",
     "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA.",
     "images": [
       "/images/vozila/03-ninja-zx-10r/img_01.jpg",
@@ -170,6 +173,7 @@
     "license_category": "",
     "is_new": false,
     "price": "13.689 €",
+    "akcijska_cijena": "",
     "description": "Ikonični 636cc supersport — agilan i snažan. Savršen balans između staze i ceste.",
     "images": [
       "/images/vozila/04-ninja-zx-6r/img_01.jpg",
@@ -228,6 +232,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "10.234 €",
+    "akcijska_cijena": "",
     "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz A2 ograničenje snage.",
     "images": [
       "/images/vozila/05-ninja-zx-4rr/img_01.jpg",
@@ -291,6 +296,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "9.462 €",
+    "akcijska_cijena": "",
     "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
     "images": [
       "/images/vozila/06-ninja-zx-4r/img_01.jpg",
@@ -342,6 +348,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "8.449 €",
+    "akcijska_cijena": "",
     "description": "Obnovljena Ninja 650 za 2027.: nove obrnute Showa vilice, radijalne kočnice s 4 klipa, novi 4,3\" TFT zaslon i quickshifter (KQS) kao dodatna oprema. Jak karakter i svakodnevna upotrebljivost.",
     "images": [
       "/images/vozila/12-ninja-650/img_01.jpg",
@@ -406,6 +413,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "7.378 €",
+    "akcijska_cijena": "",
     "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju.",
     "images": [
       "/images/vozila/13-ninja-500-se/img_01.jpg",
@@ -469,6 +477,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "6.857 €",
+    "akcijska_cijena": "",
     "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
     "images": [
       "/images/vozila/14-ninja-500/img_01.jpg",
@@ -519,6 +528,7 @@
     "license_category": "A1",
     "is_new": false,
     "price": "5.549 €",
+    "akcijska_cijena": "",
     "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
     "images": [
       "/images/vozila/15-ninja-125/img_01.jpg",
@@ -581,6 +591,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Ninja H2 vraća se u Europu za 2027. — motor 998 cc s kompresorom i 209 KS, za cestovnu vožnju.",
     "images": [
       "/images/vozila/83-ninja-h2/h21.png",
@@ -628,6 +639,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Ninja H2 Carbon — izvedba s karbonskim dijelovima oplate, motor 998 cc s kompresorom i 209 KS.",
     "images": [
       "/images/vozila/84-ninja-h2-carbon/h2c1.png",
@@ -677,6 +689,7 @@
     "license_category": "",
     "is_new": false,
     "price": "30.386 €",
+    "akcijska_cijena": "",
     "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i vrhunska touring oprema.",
     "images": [
       "/images/vozila/07-ninja-h2sx-se/img_01.jpg",
@@ -742,6 +755,7 @@
     "license_category": "",
     "is_new": false,
     "price": "27.511 €",
+    "akcijska_cijena": "",
     "description": "Supercharged touring s kompresiranim motorom za dugopružne ture.",
     "images": [
       "/images/vozila/08-ninja-h2sx/img_01.jpg",
@@ -801,6 +815,7 @@
     "license_category": "",
     "is_new": true,
     "price": "16.409 €",
+    "akcijska_cijena": "",
     "description": "Sport-tourer sljedeće generacije. Elektronski ovjes i sve što trebate za veliku turu.",
     "images": [
       "/images/vozila/09-ninja-1100sx-se/img_01.jpg",
@@ -861,6 +876,7 @@
     "license_category": "",
     "is_new": true,
     "price": "14.750 €",
+    "akcijska_cijena": "",
     "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom.",
     "images": [
       "/images/vozila/10-ninja-1100sx/img_01.jpg",
@@ -936,6 +952,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Revolucionarni hibridni motocikl — kombinacija 451cc benzinskog i električnog motora.",
     "images": [
       "/images/vozila/11-ninja-7-hybrid/img_01.jpg",
@@ -1023,6 +1040,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "9.095 €",
+    "akcijska_cijena": "",
     "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn.",
     "images": [
       "/images/vozila/16-ninja-e-1/img_01.jpg",
@@ -1101,6 +1119,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Hibridni Z naked — kombinacija benzinskog i električnog motora za urbanu vožnju.",
     "images": [
       "/images/vozila/23-z-7-hybrid/img_01.jpg",
@@ -1198,6 +1217,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "8.492 €",
+    "akcijska_cijena": "",
     "description": "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom.",
     "images": [
       "/images/vozila/29-z-e-1/img_01.jpg",
@@ -1280,6 +1300,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Električni motocross za djecu. Tiha i ekološki prihvatljiva zabava na terenu.",
     "images": [
       "/images/vozila/30-elektrode-20/img_01.jpg",
@@ -1336,6 +1357,7 @@
     "license_category": "",
     "is_new": false,
     "price": "21.940 €",
+    "akcijska_cijena": "",
     "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
     "images": [
       "/images/vozila/17-z-h2-se/img_01.jpg",
@@ -1394,6 +1416,7 @@
     "license_category": "",
     "is_new": false,
     "price": "19.391 €",
+    "akcijska_cijena": "",
     "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "images": [
       "/images/vozila/18-z-h2/img_01.jpg",
@@ -1456,6 +1479,7 @@
     "license_category": "",
     "is_new": true,
     "price": "13.533 €",
+    "akcijska_cijena": "",
     "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
     "images": [
       "/images/vozila/19-z-1100-se/img_01.jpg",
@@ -1509,6 +1533,7 @@
     "license_category": "",
     "is_new": true,
     "price": "11.863 €",
+    "akcijska_cijena": "",
     "description": "Moćan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
     "images": [
       "/images/vozila/20-z-1100/img_01.jpg",
@@ -1560,6 +1585,7 @@
     "license_category": "",
     "is_new": false,
     "price": "12.532 €",
+    "akcijska_cijena": "",
     "description": "Premium naked s elektronskim ovjesom. Z900 na najvišoj razini opreme.",
     "images": [
       "/images/vozila/21-z-900-se/img_01.jpg",
@@ -1620,6 +1646,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "10.451 €",
+    "akcijska_cijena": "",
     "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
     "images": [
       "/images/vozila/22-z-900/img_01.jpg",
@@ -1691,6 +1718,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "7.910 €",
+    "akcijska_cijena": "",
     "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
     "images": [
       "/images/vozila/24-z-650-s/img_01.jpg",
@@ -1764,6 +1792,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "7.812 €",
+    "akcijska_cijena": "",
     "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
     "images": [
       "/images/vozila/25-z-650/img_01.jpg",
@@ -1821,6 +1850,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "7.184 €",
+    "akcijska_cijena": "",
     "description": "Novi Z500SE za A2 kategoriju. Naked karakter uz pristupačno ograničenje snage.",
     "images": [
       "/images/vozila/26-z-500-se/img_01.jpg",
@@ -1878,6 +1908,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "6.785 €",
+    "akcijska_cijena": "",
     "description": "Naked motocikl za A2 kategoriju. Odličan za grad i svakodnevnu vožnju.",
     "images": [
       "/images/vozila/27-z-500/img_01.jpg",
@@ -1945,6 +1976,7 @@
     "license_category": "A1",
     "is_new": false,
     "price": "5.187 €",
+    "akcijska_cijena": "",
     "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
     "images": [
       "/images/vozila/28-z-125/img_01.jpg",
@@ -2004,6 +2036,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "14.055 €",
+    "akcijska_cijena": "",
     "description": "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Spoj tradicije i moderne tehnologije.",
     "images": [
       "/images/vozila/31-z-900rs-se/img_01.jpg",
@@ -2055,6 +2088,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "8.441 €",
+    "akcijska_cijena": "",
     "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju.",
     "images": [
       "/images/vozila/32-z-650rs/img_01.jpg",
@@ -2106,6 +2140,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "9.868 €",
+    "akcijska_cijena": "",
     "description": "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike.",
     "images": [
       "/images/vozila/33-w-800/img_01.jpg",
@@ -2155,6 +2190,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "5.168 €",
+    "akcijska_cijena": "",
     "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil.",
     "images": [
       "/images/vozila/34-w-230/img_01.jpg",
@@ -2222,6 +2258,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "5.795 €",
+    "akcijska_cijena": "",
     "description": "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću.",
     "images": [
       "/images/vozila/35-meguro-s1/img_01.jpg",
@@ -2287,6 +2324,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Z900RS — retro sport s rednim četverocilindrašem 948 cc (116 KS), elektronikom s IMU jedinicom, quickshifterom i tempomatom. Legenda u modernom ruhu.",
     "images": [],
     "specs": {
@@ -2330,6 +2368,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Z900RS Black Ball Edition — posebna crna izvedba Z900RS-a (948 cc, 116 KS) s istom bogatom elektronikom.",
     "images": [],
     "specs": {
@@ -2373,6 +2412,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Z650RS Black Ball Edition — crna posebna izvedba lakog retro modela Z650RS, s izvedbom od 35 kW za A2 dozvolu.",
     "images": [],
     "specs": {
@@ -2418,6 +2458,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": false,
     "price": "8.916 €",
+    "akcijska_cijena": "",
     "description": "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
     "images": [
       "/images/vozila/36-vulcan-s/img_01.jpg",
@@ -2474,6 +2515,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "7.184 €",
+    "akcijska_cijena": "",
     "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
     "images": [
       "/images/vozila/37-eliminator-500-se/img_01.jpg",
@@ -2546,6 +2588,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "6.785 €",
+    "akcijska_cijena": "",
     "description": "Moderni low-seat cruiser za A2 kategoriju.",
     "images": [
       "/images/vozila/38-eliminator-500/img_01.jpg",
@@ -2612,6 +2655,7 @@
     "license_category": "",
     "is_new": false,
     "price": "16.827 €",
+    "akcijska_cijena": "",
     "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "images": [
       "/images/vozila/39-versys-1100-se/img_01.jpg",
@@ -2677,6 +2721,7 @@
     "license_category": "",
     "is_new": false,
     "price": "15.263 €",
+    "akcijska_cijena": "",
     "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "images": [
       "/images/vozila/40-versys-1100-s/img_01.jpg",
@@ -2737,6 +2782,7 @@
     "license_category": "",
     "is_new": false,
     "price": "13.556 €",
+    "akcijska_cijena": "",
     "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
     "images": [
       "/images/vozila/41-versys-1100/img_01.jpg",
@@ -2798,6 +2844,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "8.937 €",
+    "akcijska_cijena": "",
     "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
     "images": [
       "/images/vozila/42-versys-650/img_01.jpg",
@@ -2874,6 +2921,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "7.442 €",
+    "akcijska_cijena": "",
     "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
     "images": [
       "/images/vozila/43-kle-500-se/img_01.jpg",
@@ -2963,6 +3011,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "6.664 €",
+    "akcijska_cijena": "",
     "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
     "images": [
       "/images/vozila/44-kle-500/img_01.jpg",
@@ -3025,6 +3074,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi Versys 900 za 2027. — redni četverocilindraš 948 cc i 122 KS u novom čeličnom rešetkastom okviru, s kotačima od 17\" i spremnikom od 20 litara. Isporuka od travnja 2027.",
     "images": [
       "/images/vozila/79-versys-900/versys900-1.png",
@@ -3068,6 +3118,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Versys 900 SE — bogatija izvedba novog Versysa 900 (948 cc, 122 KS): grijane ručke, LED svjetla za maglu, štitnici ruku, zaštite motora i središnji stalak. Isporuka od travnja 2027.",
     "images": [
       "/images/vozila/80-versys-900-se/versys900se-1.png",
@@ -3116,6 +3167,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi KLE650 za 2027. — adventure motocikl s provjerenim dvocilindričnim motorom 649 cc, za ceste i lakši teren.",
     "images": [
       "/images/vozila/81-kle-650/kle650-1.png",
@@ -3160,6 +3212,7 @@
     "license_category": "A2 (35 kW)",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KLE650 SE — bogatije opremljena izvedba novog KLE650 s motorom 649 cc.",
     "images": [
       "/images/vozila/82-kle-650-se/kle650se-1.png",
@@ -3212,6 +3265,7 @@
     "license_category": "A2",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi KLE500 SE Smartride za 2027. — automatsko kvačilo Smartride (bez stiskanja ručice pri kretanju i zaustavljanju) i žbičasti kotači s tubeless gumama. Za A2 dozvolu.",
     "images": [],
     "specs": {
@@ -3254,6 +3308,7 @@
     "license_category": "",
     "is_new": true,
     "price": "11.449 €",
+    "akcijska_cijena": "",
     "description": "Enduro za cross-country utrke. Dugotrajna off-road snaga i preciznost.",
     "images": [
       "/images/vozila/45-kx-450x/img_01.jpg",
@@ -3306,6 +3361,7 @@
     "license_category": "",
     "is_new": true,
     "price": "10.375 €",
+    "akcijska_cijena": "",
     "description": "Cross-country enduro 250cc za dugotrajne off-road avanture.",
     "images": [
       "/images/vozila/46-kx-250x/img_01.jpg",
@@ -3362,6 +3418,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "4.030 €",
+    "akcijska_cijena": "",
     "description": "Dual-sport enduro za cestu i blato. Pouzdan i lagan za A2 off-road entuzijaste.",
     "images": [
       "/images/vozila/47-klx-230r-s/img_01.jpg",
@@ -3431,6 +3488,7 @@
     "license_category": "",
     "is_new": false,
     "price": "4.355 €",
+    "akcijska_cijena": "",
     "description": "Off-road za mlade i odrasle vozače. Pouzdan, lak za upravljanje i zabavan.",
     "images": [
       "/images/vozila/48-klx-140r/img_01.jpg",
@@ -3480,6 +3538,7 @@
     "license_category": "",
     "is_new": false,
     "price": "3.610 €",
+    "akcijska_cijena": "",
     "description": "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala.",
     "images": [
       "/images/vozila/49-klx-110r/img_01.jpg",
@@ -3530,6 +3589,7 @@
     "license_category": "",
     "is_new": true,
     "price": "11.138 €",
+    "akcijska_cijena": "",
     "description": "Vrhunski motocross natjecatelj. Razvijen za pobjedu na stazi.",
     "images": [
       "/images/vozila/50-kx-450/img_01.jpg",
@@ -3594,6 +3654,7 @@
     "license_category": "",
     "is_new": true,
     "price": "10.275 €",
+    "akcijska_cijena": "",
     "description": "Profesionalni 250cc motocross. Lagan, brz i agresivan.",
     "images": [
       "/images/vozila/51-kx-250/img_01.jpg",
@@ -3652,6 +3713,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "2-taktni motocross za mlađe natjecatelje. Lagan i precizan.",
     "images": [
       "/images/vozila/52-kx-112/img_01.jpg",
@@ -3703,6 +3765,7 @@
     "license_category": "",
     "is_new": false,
     "price": "5.884 €",
+    "akcijska_cijena": "",
     "description": "2-taktni junior motocross Large verzija — za više vozače.",
     "images": [
       "/images/vozila/53-kx-85l/img_01.jpg",
@@ -3747,6 +3810,7 @@
     "license_category": "",
     "is_new": false,
     "price": "5.884 €",
+    "akcijska_cijena": "",
     "description": "2-taktni junior motocross za mlade natjecatelje.",
     "images": [
       "/images/vozila/54-kx-85/img_01.jpg",
@@ -3793,6 +3857,7 @@
     "license_category": "",
     "is_new": false,
     "price": "4.223 €",
+    "akcijska_cijena": "",
     "description": "Motocross za najmlađe natjecatelje. Idealan ulaz u motocross sport.",
     "images": [
       "/images/vozila/55-kx-65/img_01.jpg",
@@ -3842,6 +3907,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi dvotaktni KX327 za 2027. — prvi veliki Kawasakijev dvotaktaš u više od 20 godina: 327 cc, ubrizgavanje goriva, elektropokretač i hidraulično kvačilo, za motocross.",
     "images": [
       "/images/vozila/85-kx-327/kx327-1.png",
@@ -3873,6 +3939,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KX327X — cross-country izvedba novog dvotaktnog KX327: 6 brzina i zaštitna oprema za enduro i cross-country utrke.",
     "images": [
       "/images/vozila/86-kx-327x/kx327x-1.png",
@@ -3902,6 +3969,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KLX230 — lagani dual-sport za cestu i teren: 233 cc, kotači 21\"/18\", dugi hod ovjesa i velika udaljenost od tla. Za A2 dozvolu.",
     "images": [],
     "specs": {
@@ -3940,6 +4008,7 @@
     "license_category": "A2",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KLX230SM — supermoto izvedba KLX230: kotači od 17\" s cestovnim gumama i obrnute vilice 37 mm. Lagan i okretan za grad. Za A2 dozvolu.",
     "images": [],
     "specs": {
@@ -3980,6 +4049,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KLX450R — enduro motocikl za natjecanja i ozbiljan teren: 449 cc, elektropokretač, aluminijski okvir i potpuno podesivi ovjes.",
     "images": [],
     "specs": {
@@ -4016,6 +4086,7 @@
     "license_category": "",
     "is_new": false,
     "price": "16.714 €",
+    "akcijska_cijena": "",
     "description": "Brute Force 750 SE 4x4 — najsnažniji Kawasaki ATV s EPS elektronskim upravljanjem i V-twin motorom.",
     "images": [
       "/images/vozila/56-brute-force-750-se/img_01.png",
@@ -4061,6 +4132,7 @@
     "license_category": "",
     "is_new": false,
     "price": "14.858 €",
+    "akcijska_cijena": "",
     "description": "Brute Force 750 EPS 4x4 — moćni V-twin 749 cc quad s električnim servo upravljanjem (EPS) za svaki teren.",
     "images": [
       "/images/vozila/57-brute-force-750/img_01.jpg",
@@ -4125,6 +4197,7 @@
     "license_category": "",
     "is_new": false,
     "price": "8.644 €",
+    "akcijska_cijena": "",
     "description": "Brute Force 450 EPS 4x4 — snažni ATV s elektronskim upravljanjem za zahtjevne terene.",
     "images": [
       "/images/vozila/58-brute-force-450-eps/img_01.jpg",
@@ -4184,6 +4257,7 @@
     "license_category": "",
     "is_new": false,
     "price": "7.758 €",
+    "akcijska_cijena": "",
     "description": "Brute Force 450 4x4 — provjereni četverocikl za teren, posao i avanturu.",
     "images": [
       "/images/vozila/59-brute-force-450/img_01.jpg",
@@ -4256,6 +4330,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "KFX 90 — sportski ATV za mlade vozače. Automatski mjenjač i zabavni sportski karakter.",
     "images": [
       "/images/vozila/60-kfx-90/img_01.jpg",
@@ -4305,6 +4380,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi Brute Force 300 T-CAT za 2027. — ulazni Brute Force s T-kategorijom (WVTA) za registraciju i vožnju po cesti.",
     "images": [],
     "specs": {
@@ -4320,6 +4396,7 @@
     "license_category": "",
     "is_new": false,
     "price": "23.300 €",
+    "akcijska_cijena": "",
     "description": "Mule PRO-DXT — šestosjedni višenamjenski SxS za najtežu primjenu na farmi i gradilištu.",
     "images": [
       "/images/vozila/61-mule-pro-dxt/img_01.jpg",
@@ -4356,6 +4433,7 @@
     "license_category": "",
     "is_new": false,
     "price": "22.795 €",
+    "akcijska_cijena": "",
     "description": "Mule PRO-DX — robusni radni SxS vozač za najzahtjevnije terenske zadatke.",
     "images": [
       "/images/vozila/62-mule-pro-dx/img_01.jpg",
@@ -4398,6 +4476,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "MULE PRO-FX 1000 HD Edition — snažno radno vozilo s motorom 999 cc, samonivelirajućim stražnjim ovjesom i hidrauličnim podizanjem sanduka od 1,9 m².",
     "images": [
       "/images/vozila/63-mule-pro-fx/img_01.jpg",
@@ -4449,6 +4528,7 @@
     "license_category": "",
     "is_new": false,
     "price": "15.635 €",
+    "akcijska_cijena": "",
     "description": "Mule PRO-MX — kompaktni i moćni radni SxS. Idealan za farme i terenska radilišta.",
     "images": [
       "/images/vozila/64-mule-pro-mx/img_01.jpg",
@@ -4522,6 +4602,7 @@
     "license_category": "",
     "is_new": false,
     "price": "12.928 €",
+    "akcijska_cijena": "",
     "description": "Mule SX 4x4 FI — mali ali moćan. Najpristupačniji Kawasaki SxS za manje radne površine.",
     "images": [
       "/images/vozila/65-mule-sx-4x4-fi/img_01.jpg",
@@ -4566,6 +4647,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi MULE PRO-FXT 1000 LE za 2027. — veliko radno vozilo s Trans Cab sustavom (preklapanje sa 2 na 4 osobe), motorom 999 cc i čeličnim prednjim branikom.",
     "images": [],
     "specs": {
@@ -4606,6 +4688,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi MULE SX 4x4 XC LE za 2027. — kompaktno radno vozilo s aluminijskim kotačima od 12\", gumama od 26\", 4 LED svjetla, krovom i posebnom grafikom.",
     "images": [],
     "specs": {
@@ -4649,6 +4732,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi MULE SX 4x4 XC za 2027. — kompaktni MULE s ubrizgavanjem goriva, kotačima od 12\" i gumama od 26\" za veću udaljenost od tla.",
     "images": [],
     "specs": {
@@ -4691,6 +4775,7 @@
     "license_category": "",
     "is_new": false,
     "price": "26.278 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310LX — luksuzni 3-sjedni vodeni skuter s 310 KS supercharged motorom za vrhunsko iskustvo.",
     "images": [
       "/images/vozila/66-jet-ski-ultra-310lx/img_01.jpg",
@@ -4728,6 +4813,7 @@
     "license_category": "",
     "is_new": false,
     "price": "24.023 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama.",
     "images": [
       "/images/vozila/67-jet-ski-ultra-310lx-s/img_01.jpg",
@@ -4768,6 +4854,7 @@
     "license_category": "",
     "is_new": false,
     "price": "23.049 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310X — sportski jednosjed s 310 KS za maksimalnu adrenalińsku zabavu.",
     "images": [
       "/images/vozila/68-jet-ski-ultra-310x/img_01.jpg",
@@ -4803,6 +4890,7 @@
     "license_category": "",
     "is_new": false,
     "price": "21.616 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "images": [
       "/images/vozila/69-jet-ski-ultra-160lx/img_01.jpg",
@@ -4846,6 +4934,7 @@
     "license_category": "",
     "is_new": false,
     "price": "20.886 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru.",
     "images": [
       "/images/vozila/70-jet-ski-ultra-160lx-s/img_01.jpg",
@@ -4882,6 +4971,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX-S Angler — posebna outdoor verzija s opremom za ribolov i avanturu.",
     "images": [
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_01.jpg",
@@ -4941,6 +5031,7 @@
     "license_category": "",
     "is_new": false,
     "price": "17.038 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski STX 160LX — sportski vodeni skuter s 160 KS za uzbudljivo klizanje valovima.",
     "images": [
       "/images/vozila/72-jet-ski-stx-160lx/img_01.jpg",
@@ -4994,6 +5085,7 @@
     "license_category": "",
     "is_new": false,
     "price": "16.496 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski STX 160R — vrhunski sport jednosjed s 160 KS za trkačke entuzijaste.",
     "images": [
       "/images/vozila/73-jet-ski-stx-160r/img_01.jpg",
@@ -5032,6 +5124,7 @@
     "license_category": "",
     "is_new": false,
     "price": "15.403 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski STX 160X — moćni sport jednosjed za adrenalin na vodi.",
     "images": [
       "/images/vozila/74-jet-ski-stx-160x/img_01.jpg",
@@ -5074,6 +5167,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje.",
     "images": [
       "/images/vozila/75-jet-ski-st-160x/img_01.png",
@@ -5106,6 +5200,7 @@
     "license_category": "",
     "is_new": false,
     "price": "13.539 €",
+    "akcijska_cijena": "",
     "description": "Jet Ski ST 160 — pristupačni ulaz u Kawasaki vodeni sport.",
     "images": [
       "/images/vozila/76-jet-ski-st-160/img_01.jpg",
@@ -5138,6 +5233,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "STX 160LX-S — sportski STX za tri osobe s kamerom za vožnju unatrag, ukrasnim svjetlima i produljenom stražnjom palubom s nosačima za dodatnu opremu.",
     "images": [],
     "specs": {
@@ -5167,6 +5263,7 @@
     "license_category": "",
     "is_new": false,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "SX-R 160 — Jet Ski za stajanje (stand-up) za rekreaciju i utrke: motor 1.498 cc, okretni V-trup i deflektor prskanja (KSD).",
     "images": [],
     "specs": {
@@ -5195,6 +5292,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi STX 310R za 2027. — kompresorski motor od 300 KS u laganom STX trupu: Kawasakijev najbrže ubrzavajući Jet Ski za sjedenje.",
     "images": [],
     "specs": {
@@ -5220,6 +5318,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi STX 310RX za 2027. — kompresorskih 300 KS u STX trupu, uz premium LXury sjedalo.",
     "images": [],
     "specs": {
@@ -5247,6 +5346,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi SX-X 160 za 2027. — Jet Ski za stajanje s fiksnim upravljačem, velikom palubom i aktivnim V-trupom; motor 1.498 cc.",
     "images": [],
     "specs": {
@@ -5272,6 +5372,7 @@
     "license_category": "",
     "is_new": true,
     "price": "Cijena na upit",
+    "akcijska_cijena": "",
     "description": "Novi Ultra 160LX-S Wakesport za 2027. — Ultra trup s dubokim V (22,5°), ugrađeni nosač za wakeboard i pilon za vuču, sjedalo prilagođeno wake sportovima.",
     "images": [],
     "specs": {

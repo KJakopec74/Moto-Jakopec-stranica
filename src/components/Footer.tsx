@@ -36,6 +36,8 @@ export default function Footer() {
                 { href: "/motocikli", label: "Motocikli" },
                 { href: "/oprema",    label: "Oprema" },
                 { href: "/dijelovi",  label: "Dijelovi" },
+                { href: "/rabljena",  label: "Rabljena vozila" },
+                { href: "/akcije",    label: "Akcije" },
                 { href: "/servis",    label: "Servis" },
                 { href: "/trazi",     label: "Pretraživanje" },
                 { href: "/kontakt",   label: "Kontakt" },

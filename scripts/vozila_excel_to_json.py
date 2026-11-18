@@ -25,7 +25,7 @@ JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 FIXED_COLS = {"id", "name", "category", "license_category",
-              "is_new", "price", "description", "image_folder", "slike"}
+              "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike"}
 
 # ── Sortiranje slika ──────────────────────────────────────────────────────────
 def img_sort_key(fname: str) -> str:
@@ -109,6 +109,14 @@ def formatiraj_cijenu(val) -> str:
         return f"{s} €"
 
     return str(val)
+
+
+def formatiraj_akciju(val) -> str:
+    """Akcijska cijena: prazno → "" (nema akcije); 8990 → "8.990 €"; "8.990" → "8.990 €"."""
+    t = formatiraj_cijenu(val)
+    if t and "€" not in t and any(z.isdigit() for z in t):
+        t = t + " €"
+    return t
 
 
 # ── Glavni dio ────────────────────────────────────────────────────────────────
@@ -212,6 +220,8 @@ def main():
             "license_category": parse_value(row_dict.get("license_category")) or "",
             "is_new":           parse_bool(row_dict.get("is_new", False)),
             "price":            formatiraj_cijenu(parse_value(row_dict.get("price"))),
+            # Akcija: prazno = nema akcije; inače nova cijena (stara se prikaže precrtana)
+            "akcijska_cijena":  formatiraj_akciju(parse_value(row_dict.get("akcijska_cijena"))),
             "description":      parse_value(row_dict.get("description")) or "",
             "images":           images,
         }
