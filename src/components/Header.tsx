@@ -14,6 +14,7 @@ const navLinks = [
   { href: "/motocikli?category=Jet+Ski",  label: "Jet Ski" },
   { href: "/oprema",                      label: "Oprema" },
   { href: "/dijelovi",                    label: "Dijelovi" },
+  { href: "/servis",                      label: "Servis" },
   { href: "/kontakt",                     label: "Kontakt" },
 ];
 
@@ -49,12 +50,12 @@ function HeaderInner() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-0.5">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
                   isActive(link.href)
                     ? "font-semibold"
                     : "hover:bg-black/5"
@@ -70,11 +71,11 @@ function HeaderInner() {
             ))}
           </nav>
 
-          {/* Phone + CTA */}
-          <div className="hidden md:flex items-center gap-4">
+          {/* Telefon + tražilica */}
+          <div className="flex items-center gap-2 ml-auto lg:ml-0">
             <a
               href="tel:+38513371059"
-              className="text-sm flex items-center gap-1 transition-colors"
+              className="hidden xl:flex text-sm items-center gap-1 transition-colors mr-2"
               style={{ color: "var(--muted)" }}
               onMouseEnter={e => (e.currentTarget.style.color = "var(--green-dk)")}
               onMouseLeave={e => (e.currentTarget.style.color = "var(--muted)")}
@@ -85,14 +86,19 @@ function HeaderInner() {
               </svg>
               01/3371-059
             </a>
-            <Link href="/motocikli" className="btn-primary text-sm py-2 px-4">
-              Pregledaj ponudu
+            {/* Tražilica za cijelu stranicu (vozila, oprema, dijelovi) */}
+            <Link href="/trazi" aria-label="Pretraživanje" title="Pretraživanje"
+              className="p-2 rounded-lg transition-colors hover:bg-black/5"
+              style={{ color: pathname === "/trazi" ? "var(--green-dk)" : "var(--text)" }}>
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
             </Link>
           </div>
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden p-2 transition-colors"
+            className="lg:hidden p-2 transition-colors"
             style={{ color: "var(--muted)" }}
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
@@ -111,7 +117,7 @@ function HeaderInner() {
 
         {/* Mobile menu */}
         {open && (
-          <div className="md:hidden border-t py-4 space-y-1" style={{borderColor:"var(--line)"}}>
+          <div className="lg:hidden border-t py-4 space-y-1" style={{borderColor:"var(--line)"}}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}

@@ -13,14 +13,7 @@
 
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-
-// Adresa Web3Forms servisa na koju šaljemo podatke iz forme
-const WEB3FORMS_ADRESA = "https://api.web3forms.com/submit";
-
-// Pristupni ključ forme "Upit - Moto Jakopec" na Web3Forms.
-// (Može se nadjačati varijablom okruženja NEXT_PUBLIC_WEB3FORMS_KEY.)
-const PRISTUPNI_KLJUC =
-  process.env.NEXT_PUBLIC_WEB3FORMS_KEY || "d693c9a6-f17a-409d-8098-1a4d7970798f";
+import { PRISTUPNI_KLJUC, posaljiObrazac } from "@/lib/web3forms";
 
 // Moguća stanja forme
 type StanjeForme = "uređivanje" | "slanje" | "poslano" | "greška";
@@ -60,34 +53,20 @@ export default function UpitForma() {
     const forma = dogadaj.currentTarget;
     const podaci = new FormData(forma);
 
-    // 2) Dodajemo podatke koje traži Web3Forms
+    // 2) Šaljemo podatke servisu Web3Forms (vidi src/lib/web3forms.ts)
     const ime = String(podaci.get("ime") || "");
     const model = String(podaci.get("model") || "");
-    podaci.append("access_key", PRISTUPNI_KLJUC);
-    podaci.append("subject", model ? `Novi upit s web stranice: ${model}` : "Novi upit s web stranice");
-    podaci.append("from_name", `Web stranica — ${ime}`);
-
-    // 3) Šaljemo podatke servisu
-    try {
-      const odgovor = await fetch(WEB3FORMS_ADRESA, {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: podaci,
-      });
-      const rezultat = await odgovor.json();
-
-      // 4) Provjeravamo je li slanje uspjelo
-      if (rezultat.success) {
-        postaviStanje("poslano");
-        forma.reset();
-      } else {
-        postaviStanje("greška");
-        postaviPorukuGreske("Slanje nije uspjelo. Pokušajte ponovno ili nas nazovite.");
-      }
-    } catch {
-      // Npr. nema interneta
+    const greska = await posaljiObrazac(
+      podaci,
+      model ? `Novi upit s web stranice: ${model}` : "Novi upit s web stranice",
+      `Web stranica — ${ime}`,
+    );
+    if (greska) {
       postaviStanje("greška");
-      postaviPorukuGreske("Nema veze s poslužiteljem. Provjerite internet i pokušajte ponovno.");
+      postaviPorukuGreske(greska);
+    } else {
+      postaviStanje("poslano");
+      forma.reset();
     }
   }
 

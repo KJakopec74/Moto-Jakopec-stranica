@@ -14,7 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const danas = new Date();
 
   // Glavne stranice
-  const glavne = ["", "/motocikli/", "/oprema/", "/dijelovi/", "/kontakt/", "/privatnost/"].map(
+  const glavne = ["", "/motocikli/", "/oprema/", "/dijelovi/", "/servis/", "/kontakt/", "/privatnost/"].map(
     (putanja) => ({
       url: `${ADRESA_STRANICE}${putanja}`,
       lastModified: danas,

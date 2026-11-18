@@ -9,9 +9,21 @@ interface Props {
   onSearch: (v: string) => void;
   total: number;
   availableCategories?: Category[];
+  // Filtar po vozačkoj dozvoli (prikazuje se samo kad je zadan)
+  vozacka?: Vozacka;
+  onVozacka?: (v: Vozacka) => void;
 }
 
-export default function FilterBar({ active, search, onCategory, onSearch, total, availableCategories }: Props) {
+// Koju vozačku dozvolu kupac ima → koja vozila smije voziti
+export type Vozacka = "Sve" | "A1" | "A2" | "A";
+export const VOZACKE: { kljuc: Vozacka; opis: string }[] = [
+  { kljuc: "Sve", opis: "Sve" },
+  { kljuc: "A1",  opis: "A1 (do 125 cm³)" },
+  { kljuc: "A2",  opis: "A2 (do 35 kW)" },
+  { kljuc: "A",   opis: "A (bez ograničenja)" },
+];
+
+export default function FilterBar({ active, search, onCategory, onSearch, total, availableCategories, vozacka, onVozacka }: Props) {
   const cats = availableCategories ?? CATEGORIES;
 
   return (
@@ -68,6 +80,27 @@ export default function FilterBar({ active, search, onCategory, onSearch, total,
           </button>
         ))}
       </div>
+
+      {/* Vozačka dozvola */}
+      {vozacka && onVozacka && (
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm font-medium mr-1" style={{ color: "var(--muted)" }}>Vozačka dozvola:</span>
+          {VOZACKE.map((v) => (
+            <button
+              key={v.kljuc}
+              onClick={() => onVozacka(v.kljuc)}
+              className="px-3 py-1.5 rounded-full text-xs font-semibold transition-all duration-200"
+              style={
+                vozacka === v.kljuc
+                  ? { background: "var(--text)", color: "white" }
+                  : { background: "var(--surface)", border: "1px solid var(--line)", color: "var(--muted)" }
+              }
+            >
+              {v.opis}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Result count */}
       <p className="text-sm" style={{ color: "var(--muted)" }}>

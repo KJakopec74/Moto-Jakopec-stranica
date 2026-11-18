@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import MotorcycleCard from "@/components/MotorcycleCard";
-import FilterBar from "@/components/FilterBar";
+import FilterBar, { type Vozacka } from "@/components/FilterBar";
 import type { Motorcycle, Category } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 
@@ -14,12 +14,25 @@ const MOTO_CATEGORIES: Category[] = [
   "Sport", "Naked", "Adventure", "Touring", "Classic", "Cruiser", "Offroad", "Električni"
 ];
 
+// Smije li vozač s dozvolom `vozacka` voziti ovo vozilo?
+// A2 dozvola pokriva i A1 vozila; A pokriva sve. license_category je
+// "A1", "A2" ili "A2 (35 kW)" (izvedba smanjena na 35 kW); prazno = treba A.
+function smijeVoziti(vozacka: Vozacka, m: Motorcycle) {
+  const kat = m.license_category ?? "";
+  if (vozacka === "A1") return kat === "A1";
+  if (vozacka === "A2") return kat === "A1" || kat.startsWith("A2");
+  return true;
+}
+
 function MotocikliContent() {
   const searchParams = useSearchParams();
   const urlCategory = searchParams.get("category") as Category | null;
 
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState<Category>(urlCategory ?? "Sve");
+  const [vozacka, setVozacka] = useState<Vozacka>(
+    (["A1", "A2", "A"].includes(searchParams.get("vozacka") ?? "") ? searchParams.get("vozacka") : "Sve") as Vozacka
+  );
 
   useEffect(() => {
     const cat = searchParams.get("category") as Category | null;
@@ -50,9 +63,12 @@ function MotocikliContent() {
         m.category.toLowerCase().includes(q) ||
         m.description.toLowerCase().includes(q);
 
-      return matchesCategory && matchesSearch;
+      // Filtar vozačke vrijedi samo za motocikle (ne za Quad, Mule, Jet Ski)
+      const matchesVozacka = SPECIAL_CATEGORIES.includes(category) || smijeVoziti(vozacka, m);
+
+      return matchesCategory && matchesSearch && matchesVozacka;
     });
-  }, [category, search]);
+  }, [category, search, vozacka]);
 
   // Naslov i podnaslov ovisno o odabranoj kategoriji
   const pageTitle =
@@ -89,6 +105,7 @@ function MotocikliContent() {
           onSearch={setSearch}
           total={filtered.length}
           availableCategories={visibleCategories}
+          {...(SPECIAL_CATEGORIES.includes(category) ? {} : { vozacka, onVozacka: setVozacka })}
         />
       </div>
 
@@ -107,7 +124,7 @@ function MotocikliContent() {
           </svg>
           <p className="text-lg" style={{color:"var(--muted)"}}>Nema rezultata{search ? ` za "${search}"` : ""}</p>
           <button
-            onClick={() => { setSearch(""); setCategory("Sve"); }}
+            onClick={() => { setSearch(""); setCategory("Sve"); setVozacka("Sve"); }}
             className="mt-4 text-sm hover:underline"
             style={{color:"var(--green-dk)"}}
           >

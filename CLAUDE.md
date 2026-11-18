@@ -93,8 +93,12 @@ public/images/
 ## Navigacija (Header.tsx)
 
 ```
-Početna | Motocikli | Quad | Mule | Jet Ski | Oprema | Dijelovi | Kontakt
+Početna | Motocikli | Quad | Mule | Jet Ski | Oprema | Dijelovi | Servis | Kontakt   [🔍 → /trazi]
 ```
+
+- `/trazi?q=...` → tražilica za cijelu stranicu (vozila, proizvodi, kategorije), radi u pregledniku
+- `/servis` → rezervacija servisa (ServisForma.tsx, Web3Forms preko `src/lib/web3forms.ts`; vikend se odbija)
+- `/motocikli` → filtar vozačke dozvole (A1 / A2 / A) iz `license_category`; A2 uključuje A1 i "A2 (35 kW)", prazno = treba A; ne prikazuje se za Quad/Mule/Jet Ski
 
 - `Quad`, `Mule`, `Jet Ski` → `/motocikli?category=X` (SPECIAL_CATEGORIES u motocikli/page.tsx)
 - `/oprema` → lista s BrandsGrid + filter
