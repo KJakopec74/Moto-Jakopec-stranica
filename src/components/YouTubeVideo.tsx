@@ -14,8 +14,10 @@ export function youtubeId(link: string): string | null {
   return m ? m[1] : /^[A-Za-z0-9_-]{11}$/.test(link.trim()) ? link.trim() : null;
 }
 
-export default function YouTubeVideo({ link, naslov }: { link: string; naslov: string }) {
-  const [pokrenut, postaviPokrenut] = useState(false);
+// samPokreni: video kreće sam, bez zvuka (preglednici drugačije ne dopuštaju), i vrti se u krug.
+// Bez toga: kreće na klik, sa zvukom, i također se ponavlja.
+export default function YouTubeVideo({ link, naslov, samPokreni = false }: { link: string; naslov: string; samPokreni?: boolean }) {
+  const [pokrenut, postaviPokrenut] = useState(samPokreni);
   const id = youtubeId(link);
   if (!id) return null;
 
@@ -24,7 +26,8 @@ export default function YouTubeVideo({ link, naslov }: { link: string; naslov: s
       {pokrenut ? (
         <iframe
           className="absolute inset-0 w-full h-full"
-          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`}
+          // loop=1 + playlist=ID = ponavljanje u krug; mute=1 je nužan za samostalno pokretanje
+          src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&loop=1&playlist=${id}&rel=0&playsinline=1${samPokreni ? "&mute=1" : ""}`}
           title={naslov}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

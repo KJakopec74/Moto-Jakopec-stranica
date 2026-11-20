@@ -123,7 +123,7 @@ export default function HomePage() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
             <div className="lg:col-span-3">
-              <YouTubeVideo link={ISTAKNUTI_VIDEO.video} naslov={ISTAKNUTI_VIDEO.naslov} />
+              <YouTubeVideo link={ISTAKNUTI_VIDEO.video} naslov={ISTAKNUTI_VIDEO.naslov} samPokreni />
             </div>
             <div className="lg:col-span-2">
               <h2 className="section-title mb-3">{ISTAKNUTI_VIDEO.naslov}</h2>

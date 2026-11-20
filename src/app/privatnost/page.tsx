@@ -76,8 +76,9 @@ export default function PrivatnostPage() {
               postaviti vlastite kolačiće).
             </li>
             <li>
-              <strong>YouTube</strong> — videi se učitavaju tek kad ih pokrenete (preko
-              youtube-nocookie.com); do tada se prikazuje samo slika videa.
+              <strong>YouTube</strong> — videi se prikazuju preko youtube-nocookie.com (način
+              s pojačanom privatnošću). Istaknuti video na početnoj stranici pokreće se sam,
+              bez zvuka; videi na stranicama vozila učitavaju se tek kad ih pokrenete.
             </li>
           </ul>
         </Odjeljak>
