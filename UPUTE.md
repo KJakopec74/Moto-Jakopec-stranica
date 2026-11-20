@@ -191,7 +191,7 @@ Za svaku akciju u novi red upiši:
 - `slike`: nazivi slika iz Preuzimanja, odvojeni `;`
 - `vrijedi_do`: zadnji dan akcije
 
-Akcija se pojavi na stranici **Akcije** i na početnoj, a u izborniku se pojavi crveni link **Akcije**. Postotak popusta izračuna se sam. Kad prođe datum iz `vrijedi_do`, akcija se sama sakrije. Ako stavku želiš sakriti ranije, u stupac `objavljeno` upiši `NE`.
+Akcija se pojavi na stranici **Akcijska ponuda**, koju otvara crveni link **Akcije** u izborniku ili crveni gumb na početnoj. Prikazuje se i u sekciji „Akcije” na početnoj. Na stranici Akcijska ponuda vide se samo stavke iz `akcije.xlsx`. Postotak popusta izračuna se sam. Kad prođe datum iz `vrijedi_do`, akcija se sama sakrije. Ako stavku želiš sakriti ranije, u stupac `objavljeno` upiši `NE`.
 
 ## 6a. Novosti / obavijesti
 

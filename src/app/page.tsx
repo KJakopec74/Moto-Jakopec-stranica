@@ -2,11 +2,7 @@ import Link from "next/link";
 import MotorcycleCard from "@/components/MotorcycleCard";
 import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
-import productsData from "@/data/products.json";
-import ProductCard from "@/components/ProductCard";
 import RabljenoCard from "@/components/RabljenoCard";
-import type { Product } from "@/types/product";
-import { imaAkciju } from "@/lib/cijena";
 import AkcijaCard from "@/components/AkcijaCard";
 import { posebneAkcije } from "@/lib/akcije";
 import { rabljenaUProdaji } from "@/lib/rabljena";
@@ -19,9 +15,6 @@ const models = modelsData as unknown as Motorcycle[];
 
 const FEATURED_COUNT = 6;
 
-// Akcije i rabljena vozila — sekcije se prikazuju samo kad ih ima
-const akcijeVozila = models.filter(imaAkciju);
-const akcijeProizvodi = (productsData as unknown as Product[]).filter(imaAkciju);
 
 // Naslov sekcije s linkom "Pogledaj sve"
 function NaslovSekcije({ naslov, podnaslov, href, link }: { naslov: string; podnaslov: string; href: string; link: string }) {
@@ -98,6 +91,15 @@ export default function HomePage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </Link>
+              <Link href="/akcije" className="text-base px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 text-white transition-transform hover:scale-105"
+                style={{ background: "#d92d20", boxShadow: "0 8px 20px rgba(217,45,32,.25)" }}>
+                Akcijska ponuda
+                {posebneAkcije.length > 0 && (
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full" style={{ background: "white", color: "#d92d20" }}>
+                    {posebneAkcije.length}
+                  </span>
+                )}
+              </Link>
               <Link href="/kontakt" className="btn-outline text-base px-8 py-4">
                 Kontaktiraj nas
               </Link>
@@ -149,13 +151,11 @@ export default function HomePage() {
       )}
 
       {/* ── Akcije (samo dok traje neka akcija) ────────────────────── */}
-      {posebneAkcije.length + akcijeVozila.length + akcijeProizvodi.length > 0 && (
+      {posebneAkcije.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
-          <NaslovSekcije naslov="Akcije" podnaslov="Snižene cijene — dok traju zalihe" href="/akcije" link="Sve akcije" />
+          <NaslovSekcije naslov="Akcije" podnaslov="Snižene cijene — dok traju zalihe" href="/akcije" link="Cijela akcijska ponuda" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {posebneAkcije.slice(0, 3).map((a) => <AkcijaCard key={`a${a.id}`} akcija={a} />)}
-            {akcijeVozila.slice(0, Math.max(0, 3 - posebneAkcije.length)).map((bike) => <MotorcycleCard key={bike.id} bike={bike} />)}
-            {akcijeProizvodi.slice(0, Math.max(0, 3 - posebneAkcije.length - akcijeVozila.length)).map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
         </section>
       )}

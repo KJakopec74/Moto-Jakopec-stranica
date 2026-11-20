@@ -15,16 +15,16 @@ const navLinks = [
   { href: "/rabljena",                    label: "Rabljena" },
   { href: "/oprema",                      label: "Oprema" },
   { href: "/dijelovi",                    label: "Dijelovi" },
-  { href: "/akcije",                      label: "Akcije" },   // prikazuje se samo dok traje neka akcija
+  { href: "/akcije",                      label: "Akcije" },   // akcijska ponuda (akcije.xlsx), crveno
   { href: "/servis",                      label: "Servis" },
   { href: "/kontakt",                     label: "Kontakt" },
 ];
 
-function HeaderInner({ imaAkcija }: { imaAkcija: boolean }) {
+function HeaderInner() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [open, setOpen] = useState(false);
-  const linkovi = navLinks.filter((l) => l.href !== "/akcije" || imaAkcija);
+  const linkovi = navLinks;
 
   function isActive(href: string) {
     if (href === "/") return pathname === "/";
@@ -150,11 +150,10 @@ function HeaderInner({ imaAkcija }: { imaAkcija: boolean }) {
   );
 }
 
-// imaAkcija: ima li ijedno vozilo/proizvod akcijsku cijenu (računa se u layout.tsx)
-export default function Header({ imaAkcija = false }: { imaAkcija?: boolean }) {
+export default function Header() {
   return (
     <Suspense fallback={null}>
-      <HeaderInner imaAkcija={imaAkcija} />
+      <HeaderInner />
     </Suspense>
   );
 }

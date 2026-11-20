@@ -97,7 +97,7 @@ public/images/
 ```
 
 - `/trazi?q=...` → tražilica za cijelu stranicu (vozila, proizvodi, kategorije), radi u pregledniku
-- `/akcije` → vozila/proizvodi s `akcijska_cijena` (stupac u vozila.xlsx/proizvodi.xlsx; prazno = nema akcije; `price` se precrta). Link Akcije u zaglavlju samo dok postoji akcija (layout.tsx računa `imaAkcija`). Logika u `src/lib/cijena.ts`, prikaz `Cijena.tsx`
+- `/akcije` → vozila/proizvodi s `akcijska_cijena` (stupac u vozila.xlsx/proizvodi.xlsx; prazno = nema akcije; `price` se precrta). Link Akcije je uvijek u zaglavlju; /akcije prikazuje SAMO akcije.xlsx (katalog s akcijskom cijenom ima samo oznaku na kartici). Logika u `src/lib/cijena.ts`, prikaz `Cijena.tsx`
 - `/rabljena`, `/rabljena/{id}` → `src/data/rabljena.json` iz `rabljena.xlsx` (`scripts/rabljena_excel_to_json.py`, sam napravi Excel ako ne postoji; slike `public/images/rabljena/`). Prazan popis → generateStaticParams vraća placeholder `0` (404)
 - `/servis` → rezervacija servisa (ServisForma.tsx, Web3Forms preko `src/lib/web3forms.ts`; vikend se odbija)
 - `/motocikli` → filtar vozačke dozvole (A1 / A2 / A) iz `license_category`; A2 uključuje A1 i "A2 (35 kW)", prazno = treba A; ne prikazuje se za Quad/Mule/Jet Ski
