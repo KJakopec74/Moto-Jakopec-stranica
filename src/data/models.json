@@ -2884,8 +2884,8 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "Digitalni LCD instrumenti, ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, USB utičnica",
       "Paket Performance": "Ispušni sustav Euro 5+, Cafe zatamnjeni vjetrobran s fiksnim nosačem, zaštita spremnika goriva, zaštita motora",
-      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora",
-      "Naziv modela": "EL450BSFNN; BTFNN"
+      "Naziv modela": "EL450BSFNN; BTFNN",
+      "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora"
     }
   },
   {
@@ -2986,6 +2986,7 @@
     "akcijska_cijena": "",
     "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "images": [
+      "/images/vozila/39-versys-1100-se/img.jpg",
       "/images/vozila/39-versys-1100-se/img_01.jpg",
       "/images/vozila/39-versys-1100-se/img_02.jpg",
       "/images/vozila/39-versys-1100-se/img_03.jpg",
@@ -2998,7 +2999,6 @@
       "/images/vozila/39-versys-1100-se/img_10.jpg",
       "/images/vozila/39-versys-1100-se/img_11.jpg",
       "/images/vozila/39-versys-1100-se/img_12.jpg",
-      "/images/vozila/39-versys-1100-se/img_13.jpg",
       "/images/vozila/39-versys-1100-se/img_14.jpg",
       "/images/vozila/39-versys-1100-se/img_15.jpg"
     ],
@@ -3093,6 +3093,7 @@
     "akcijska_cijena": "",
     "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "images": [
+      "/images/vozila/40-versys-1100-s/img.jpg",
       "/images/vozila/40-versys-1100-s/img_01.jpg",
       "/images/vozila/40-versys-1100-s/img_02.jpg",
       "/images/vozila/40-versys-1100-s/img_03.jpg",
@@ -3101,7 +3102,6 @@
       "/images/vozila/40-versys-1100-s/img_06.jpg",
       "/images/vozila/40-versys-1100-s/img_07.jpg",
       "/images/vozila/40-versys-1100-s/img_08.jpg",
-      "/images/vozila/40-versys-1100-s/img_09.jpg",
       "/images/vozila/40-versys-1100-s/img_10.jpg"
     ],
     "paketi": [
@@ -4323,9 +4323,9 @@
     "akcijska_cijena": "",
     "description": "Mini off-road za najmlađe. Automatski mjenjač i niska sjedala.",
     "images": [
+      "/images/vozila/49-klx-110r/img.jpg",
       "/images/vozila/49-klx-110r/img_01.jpg",
       "/images/vozila/49-klx-110r/img_02.jpg",
-      "/images/vozila/49-klx-110r/img_03.jpg",
       "/images/vozila/49-klx-110r/img_04.jpg",
       "/images/vozila/49-klx-110r/img_05.jpg",
       "/images/vozila/49-klx-110r/img_06.jpg",
@@ -4504,8 +4504,8 @@
     "akcijska_cijena": "",
     "description": "Profesionalni 250cc motocross. Lagan, brz i agresivan.",
     "images": [
+      "/images/vozila/51-kx-250/img.jpg",
       "/images/vozila/51-kx-250/img_01.jpg",
-      "/images/vozila/51-kx-250/img_02.jpg",
       "/images/vozila/51-kx-250/img_03.jpg",
       "/images/vozila/51-kx-250/img_04.jpg",
       "/images/vozila/51-kx-250/img_05.jpg",
@@ -4714,6 +4714,7 @@
       "/images/vozila/85-kx-327/kx327-2.png",
       "/images/vozila/85-kx-327/kx327-3.png"
     ],
+    "video": "https://youtu.be/B5lEdu5JyuE",
     "specs": {
       "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
@@ -4729,8 +4730,7 @@
       "Pokretanje": "Elektropokretač",
       "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
       "Masa": "106 kg"
-    },
-    "video": "https://youtu.be/B5lEdu5JyuE"
+    }
   },
   {
     "id": 86,
@@ -4747,6 +4747,7 @@
       "/images/vozila/86-kx-327x/kx327x-2.png",
       "/images/vozila/86-kx-327x/kx327x-3.png"
     ],
+    "video": "https://youtu.be/B5lEdu5JyuE",
     "specs": {
       "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
@@ -4761,8 +4762,7 @@
       "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
       "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)",
       "Napomena": "Kawasaki još nije objavio sve tehničke podatke"
-    },
-    "video": "https://youtu.be/B5lEdu5JyuE"
+    }
   },
   {
     "id": 105,
@@ -4779,6 +4779,7 @@
       "/images/vozila/86-kx-327x/kx327x-2.png",
       "/images/vozila/86-kx-327x/kx327x-3.png"
     ],
+    "video": "https://youtu.be/B5lEdu5JyuE",
     "specs": {
       "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
@@ -4793,8 +4794,7 @@
       "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
       "Homologacija": "L3e — homologiran za cestovnu registraciju",
       "Napomena": "Kawasaki još nije objavio sve tehničke podatke"
-    },
-    "video": "https://youtu.be/B5lEdu5JyuE"
+    }
   },
   {
     "id": 91,
