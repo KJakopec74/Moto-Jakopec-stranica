@@ -74,6 +74,18 @@
       "/images/vozila/03-ninja-zx-10r/img_04.jpg",
       "/images/vozila/03-ninja-zx-10r/img_05.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.669 €",
+        "sadrzaj": [
+          "Akrapovič Carbon SBK Replica ispuh (Euro 5+)",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "ZX1003ATFAN",
       "Boje": "Lime Green / Blue 24, Metallic Flat Spark Black, Metallic Spark Black",
@@ -109,19 +121,7 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji,Turn-by-Turn navigacija*, ECC elektronički tempomat, S-KTRC sportska kontrola proklizavanja, KLCM kontrola pokretanja, KEBC kontrola kočenja motorom, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KIBS inteligentni ABS, KCMF upravljanje u zavojima, ESD elektronički Öhlins amortizer upravljača, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom s glasovnim naredbama*",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran, zaštita zaslona"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.669 €",
-        "sadrzaj": [
-          "Akrapovič Carbon SBK Replica ispuh (Euro 5+)",
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Zatamnjeno vjetrobransko staklo",
-          "Kawasaki privjesak za ključeve"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 4,
@@ -144,6 +144,21 @@
       "/images/vozila/04-ninja-zx-6r/img_08.jpg",
       "/images/vozila/04-ninja-zx-6r/img_09.jpg",
       "/images/vozila/04-ninja-zx-6r/img_10.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.841 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Zatamnjeno vjetrobransko staklo",
+          "Bočni štitnici spremnika (za koljena)",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ZX636JTFAN",
@@ -180,22 +195,7 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, KTRC kontrola proklizavanja, KQS dvosmjerni quickshifter, KIBS inteligentni ABS, KCMF upravljanje u zavojima, 2 načina snage, 4 integrirana načina vožnje, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, povezivost s pametnim telefonom",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.841 €",
-        "sadrzaj": [
-          "Akrapovič karbonski ispuh",
-          "Poklopac suvozačkog sjedala",
-          "Zatamnjeno vjetrobransko staklo",
-          "Bočni štitnici spremnika (za koljena)",
-          "Zaštita spremnika (tank pad)",
-          "Zaštitna folija za zaslon",
-          "Kawasaki privjesak za ključeve"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 5,
@@ -276,6 +276,20 @@
       "/images/vozila/06-ninja-zx-4r/img_02.jpg",
       "/images/vozila/06-ninja-zx-4r/img_03.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.441 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "ZX400PTFNN",
       "Boje": "Metallic Spark Black",
@@ -311,21 +325,7 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, KTRC kontrola proklizavanja, ABS, 2 načina snage, 4 integrirana načina vožnje, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, povezivost s pametnim telefonom",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.441 €",
-        "sadrzaj": [
-          "Akrapovič karbonski ispuh",
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Zatamnjeno vjetrobransko staklo",
-          "Zaštita spremnika (tank pad)",
-          "Zaštitna folija za zaslon",
-          "Kawasaki privjesak za ključeve"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 12,
@@ -353,44 +353,6 @@
       "/images/vozila/12-ninja-650/img_13.jpg",
       "/images/vozila/12-ninja-650/img_14.jpg"
     ],
-    "specs": {
-      "Boje": "Lime Green; Metallic Matte Graphenesteel Gray / Metallic Spark Black; Metallic Flat Spark Black / Metallic Carbon Gray",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
-      "Radni obujam": "649 cm³",
-      "Provrt x hod": "83 x 60 mm",
-      "Kompresijski omjer": "10,8 : 1",
-      "Najveća snaga": "50,2 kW (68 KS) pri 8.000 o/min (35 kW)",
-      "Najveći okretni moment": "64 Nm pri 6.700 o/min",
-      "Najveća brzina": "193 km/h, 180 km/h",
-      "Ventilski sustav": "DOHC, 8 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 36 mm x 2, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
-      "Okvir": "Rešetkasti, čelik",
-      "Prednja guma": "120/70ZR17M/C (58W)",
-      "Stražnja guma": "160/60ZR17M/C (69W)",
-      "Prednji ovjes": "Obrnute vilice Showa SFF-BP 37 mm",
-      "Stražnji ovjes": "Horizontalni Back-Link plinski amortizer, podešavanje predopterećenja",
-      "Prednje kočnice": "Dva diska 300 mm, radijalno montirane čeljusti s 4 klipa",
-      "Stražnje kočnice": "220 mm valoviti disk, jednoklipna čeljust",
-      "D x Š x V": "2.055 x 740 x 1.140 mm",
-      "Međuosovinski razmak": "1.410 mm",
-      "Udaljenost od tla": "130 mm",
-      "Visina sjedala": "785 mm",
-      "Masa spremna za vožnju": "194 kg",
-      "Spremnik goriva": "15 litara",
-      "Potrošnja goriva": "4,3 l/100 km, 4,5 l/100 km",
-      "Emisija CO2": "107 g/km",
-      "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, podesivi vjetrobran, LED prednja svjetla, TFT zaslon u boji, KSC povezivost s pametnim telefonom, Bluetooth, KTRC kontrola proklizavanja",
-      "Paket Performance": "...ispušni lonac Euro 5+ Arrow",
-      "Paket Tourer": "2 x 14 l polumeka kofera s nosačima, zaštita spremnika goriva, štitnici motora, viši vjetrobran, zaštita TFT zaslona",
-      "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zaštita TFT zaslona, viši vjetrobran, nosač telefona",
-      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona",
-      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    },
     "paketi": [
       {
         "naziv": "Posebna boja (izvedba „se”)",
@@ -441,7 +403,45 @@
           "Kawasaki privjesak za ključeve"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Boje": "Lime Green; Metallic Matte Graphenesteel Gray / Metallic Spark Black; Metallic Flat Spark Black / Metallic Carbon Gray",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
+      "Radni obujam": "649 cm³",
+      "Provrt x hod": "83 x 60 mm",
+      "Kompresijski omjer": "10,8 : 1",
+      "Najveća snaga": "50,2 kW (68 KS) pri 8.000 o/min (35 kW)",
+      "Najveći okretni moment": "64 Nm pri 6.700 o/min",
+      "Najveća brzina": "193 km/h, 180 km/h",
+      "Ventilski sustav": "DOHC, 8 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 36 mm x 2, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
+      "Okvir": "Rešetkasti, čelik",
+      "Prednja guma": "120/70ZR17M/C (58W)",
+      "Stražnja guma": "160/60ZR17M/C (69W)",
+      "Prednji ovjes": "Obrnute vilice Showa SFF-BP 37 mm",
+      "Stražnji ovjes": "Horizontalni Back-Link plinski amortizer, podešavanje predopterećenja",
+      "Prednje kočnice": "Dva diska 300 mm, radijalno montirane čeljusti s 4 klipa",
+      "Stražnje kočnice": "220 mm valoviti disk, jednoklipna čeljust",
+      "D x Š x V": "2.055 x 740 x 1.140 mm",
+      "Međuosovinski razmak": "1.410 mm",
+      "Udaljenost od tla": "130 mm",
+      "Visina sjedala": "785 mm",
+      "Masa spremna za vožnju": "194 kg",
+      "Spremnik goriva": "15 litara",
+      "Potrošnja goriva": "4,3 l/100 km, 4,5 l/100 km",
+      "Emisija CO2": "107 g/km",
+      "Emisijski razred (EU)": "Euro 5+",
+      "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, podesivi vjetrobran, LED prednja svjetla, TFT zaslon u boji, KSC povezivost s pametnim telefonom, Bluetooth, KTRC kontrola proklizavanja",
+      "Paket Performance": "...ispušni lonac Euro 5+ Arrow",
+      "Paket Tourer": "2 x 14 l polumeka kofera s nosačima, zaštita spremnika goriva, štitnici motora, viši vjetrobran, zaštita TFT zaslona",
+      "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zaštita TFT zaslona, viši vjetrobran, nosač telefona",
+      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
+    }
   },
   {
     "id": 13,
@@ -470,42 +470,6 @@
       "/images/vozila/13-ninja-500-se/img_14.jpg",
       "/images/vozila/13-ninja-500-se/img_15.jpg"
     ],
-    "specs": {
-      "Oznaka modela": "EX500JTFAN",
-      "Boje": "Lime Green / Ebony, Metallic Matte Graphenesteel Gray, Metallic Spark Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
-      "Radni obujam": "451 cm³",
-      "Provrt x hod": "70 x 58,6 mm",
-      "Kompresijski omjer": "11,3 : 1",
-      "Najveća snaga": "33,4 kW (45,4 KS) pri 9.000 o/min",
-      "Najveći okretni moment": "42,6 Nm pri 6.000 o/min",
-      "Najveća brzina": "179 km/h",
-      "Ventilski sustav": "DOHC, 8 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 32 mm x 2",
-      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
-      "Okvir": "Rešetkasti, čelik",
-      "Prednja guma": "110/70R17 M/C 54H",
-      "Stražnja guma": "150/60R17 M/C 66H",
-      "Prednji ovjes": "Teleskopske vilice 41 mm",
-      "Stražnji ovjes": "Bottom-Link Uni-Trak s plinskim amortizerom, 5 stupnjeva podešavanja predopterećenja opruge",
-      "Prednje kočnice": "310 mm disk, dvoklipna čeljust",
-      "Stražnje kočnice": "220 mm disk, jednoklipna čeljust",
-      "D x Š x V": "1.995 x 730 x 1.120 mm",
-      "Međuosovinski razmak": "1.375 mm",
-      "Udaljenost od tla": "145 mm",
-      "Visina sjedala": "785 mm",
-      "Masa spremna za vožnju": "172 kg",
-      "Spremnik goriva": "14 litara",
-      "Potrošnja goriva": "3,8 l/100 km",
-      "Emisija CO2": "89 g/km",
-      "Tehnologije": "TFT zaslon u boji, KIPASS pametni ključ, ABS, LED prednje svjetlo, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom",
-      "Paket Performance": "... ispuh Euro 5+ Remus (Akrapovič)",
-      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, viši zatamnjeni vjetrobran, zaštita TFT zaslona",
-      "Emisijski razred": "Euro 5+"
-    },
     "paketi": [
       {
         "naziv": "Sport",
@@ -542,7 +506,43 @@
           "Kawasaki privjesak za ključeve"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Oznaka modela": "EX500JTFAN",
+      "Boje": "Lime Green / Ebony, Metallic Matte Graphenesteel Gray, Metallic Spark Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
+      "Radni obujam": "451 cm³",
+      "Provrt x hod": "70 x 58,6 mm",
+      "Kompresijski omjer": "11,3 : 1",
+      "Najveća snaga": "33,4 kW (45,4 KS) pri 9.000 o/min",
+      "Najveći okretni moment": "42,6 Nm pri 6.000 o/min",
+      "Najveća brzina": "179 km/h",
+      "Ventilski sustav": "DOHC, 8 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 32 mm x 2",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
+      "Okvir": "Rešetkasti, čelik",
+      "Prednja guma": "110/70R17 M/C 54H",
+      "Stražnja guma": "150/60R17 M/C 66H",
+      "Prednji ovjes": "Teleskopske vilice 41 mm",
+      "Stražnji ovjes": "Bottom-Link Uni-Trak s plinskim amortizerom, 5 stupnjeva podešavanja predopterećenja opruge",
+      "Prednje kočnice": "310 mm disk, dvoklipna čeljust",
+      "Stražnje kočnice": "220 mm disk, jednoklipna čeljust",
+      "D x Š x V": "1.995 x 730 x 1.120 mm",
+      "Međuosovinski razmak": "1.375 mm",
+      "Udaljenost od tla": "145 mm",
+      "Visina sjedala": "785 mm",
+      "Masa spremna za vožnju": "172 kg",
+      "Spremnik goriva": "14 litara",
+      "Potrošnja goriva": "3,8 l/100 km",
+      "Emisija CO2": "89 g/km",
+      "Tehnologije": "TFT zaslon u boji, KIPASS pametni ključ, ABS, LED prednje svjetlo, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom",
+      "Paket Performance": "... ispuh Euro 5+ Remus (Akrapovič)",
+      "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, viši zatamnjeni vjetrobran, zaštita TFT zaslona",
+      "Emisijski razred": "Euro 5+"
+    }
   },
   {
     "id": 14,
@@ -557,6 +557,37 @@
     "images": [
       "/images/vozila/14-ninja-500/img_01.jpg",
       "/images/vozila/14-ninja-500/img_02.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "298 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.080 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.219 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "EX500GTFNN",
@@ -593,38 +624,7 @@
       "Paket Performance": "... ispuh Euro 5+ Akrapovič",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, viši zatamnjeni vjetrobran",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Sport",
-        "cijena": "298 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Veće zatamnjeno vjetrobransko staklo",
-          "Kawasaki privjesak za ključeve"
-        ]
-      },
-      {
-        "naziv": "Performance Remus",
-        "cijena": "1.080 €",
-        "sadrzaj": [
-          "Remus sportski ispuh",
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Veće zatamnjeno vjetrobransko staklo",
-          "Kawasaki privjesak za ključeve"
-        ]
-      },
-      {
-        "naziv": "Performance Akrapovič",
-        "cijena": "1.219 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh",
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Veće zatamnjeno vjetrobransko staklo",
-          "Kawasaki privjesak za ključeve"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 15,
@@ -651,6 +651,35 @@
       "/images/vozila/15-ninja-125/img_12.jpg",
       "/images/vozila/15-ninja-125/img_13.jpg",
       "/images/vozila/15-ninja-125/img_14.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "114 €",
+        "sadrzaj": [
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "581 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Klizači okvira",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance Arrow",
+        "cijena": "1.363 €",
+        "sadrzaj": [
+          "Arrow sportski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "BX125CTFNN",
@@ -687,36 +716,7 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Arrow",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita motora, zatamnjeni vjetrobran",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Posebna boja (izvedba „se”)",
-        "cijena": "114 €",
-        "sadrzaj": [
-          "Ista oprema kao osnovni model, posebna izvedba boje"
-        ]
-      },
-      {
-        "naziv": "Sport",
-        "cijena": "581 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Klizači okvira",
-          "Zatamnjeno vjetrobransko staklo",
-          "Zaštita spremnika (tank pad)"
-        ]
-      },
-      {
-        "naziv": "Performance Arrow",
-        "cijena": "1.363 €",
-        "sadrzaj": [
-          "Arrow sportski ispuh",
-          "Poklopac suvozačkog sjedala u boji motocikla",
-          "Zatamnjeno vjetrobransko staklo",
-          "Zaštita spremnika (tank pad)"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 83,
@@ -843,6 +843,36 @@
       "/images/vozila/07-ninja-h2sx-se/img_14.jpg",
       "/images/vozila/07-ninja-h2sx-se/img_15.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "1.019 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
+          "Unutarnje torbe za kofere 2 × 28 L"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "2.144 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira"
+        ]
+      },
+      {
+        "naziv": "Performance Tourer",
+        "cijena": "3.162 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "ZX1002RTFNN",
       "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
@@ -880,37 +910,7 @@
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe",
       "Emisijski razred": "Euro 5+",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, ispušni lonac Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran"
-    },
-    "paketi": [
-      {
-        "naziv": "Tourer",
-        "cijena": "1.019 €",
-        "sadrzaj": [
-          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
-          "Unutarnje torbe za kofere 2 × 28 L"
-        ]
-      },
-      {
-        "naziv": "Performance",
-        "cijena": "2.144 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh (Euro 5+)",
-          "Zatamnjeno vjetrobransko staklo",
-          "Klizači okvira"
-        ]
-      },
-      {
-        "naziv": "Performance Tourer",
-        "cijena": "3.162 €",
-        "sadrzaj": [
-          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
-          "Unutarnje torbe za kofere 2 × 28 L",
-          "Akrapovič titanski ispuh (Euro 5+)",
-          "Zatamnjeno vjetrobransko staklo",
-          "Klizači okvira"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 9,
@@ -934,44 +934,6 @@
       "/images/vozila/09-ninja-1100sx-se/img_09.jpg",
       "/images/vozila/09-ninja-1100sx-se/img_10.jpg"
     ],
-    "specs": {
-      "Oznaka modela": "ZX1100JTFAN",
-      "Boje": "Plasma Lime Green, Pearl Stardust White, Metallic Diablo Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
-      "Radni obujam": "1.099 cm³",
-      "Provrt x hod": "77 x 59 mm",
-      "Kompresijski omjer": "11,8 : 1",
-      "Najveća snaga": "100,0 kW (136 KS) pri 9.000 o/min",
-      "Najveći okretni moment": "113 Nm pri 7.600 o/min",
-      "Najveća brzina": "251 km/h",
-      "Ventilski sustav": "DOHC, 16 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
-      "Okvir": "Dvogredni (twin-spar), aluminij",
-      "Prednja guma": "120/70ZR17M/C (58W)",
-      "Stražnja guma": "190/50ZR17M/C (73W)",
-      "Prednji ovjes": "Obrnute vilice 41 mm, bezstupanjsko prigušenje kompresije i prigušenje povrata, podešavanje predopterećenja",
-      "Stražnji ovjes": "Horizontalni Back-Link, OEHLINS S46 plinski amortizer, bezstupanjsko prigušenje povrata, jednostavno podešavanje predopterećenja",
-      "Prednje kočnice": "Dva BREMBO poluplutajuća 300 mm diska, dvije radijalno montirane 4-klipne BREMBO M4.32 monoblock čeljusti, 4 kočione pločice",
-      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
-      "D x Š x V": "2.100 x 805 x 1.190 / 1.225 mm (visoki položaj vjetrobrana)",
-      "Međuosovinski razmak": "1.440 mm",
-      "Udaljenost od tla": "130 mm",
-      "Visina sjedala": "835 mm",
-      "Masa spremna za vožnju": "234 kg",
-      "Spremnik goriva": "19 litara",
-      "Potrošnja goriva": "5,6 l/100km",
-      "Emisija CO2": "126 g/km",
-      "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "TFT zaslon u boji, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, grijane ručke, USB utičnica, podesivi vjetrobran",
-      "Paket Performance": "Zaštita TFT zaslona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
-      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
-      "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
-      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
-    },
     "paketi": [
       {
         "naziv": "Light Tourer",
@@ -1018,7 +980,45 @@
           "Klizači okvira"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Oznaka modela": "ZX1100JTFAN",
+      "Boje": "Plasma Lime Green, Pearl Stardust White, Metallic Diablo Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
+      "Radni obujam": "1.099 cm³",
+      "Provrt x hod": "77 x 59 mm",
+      "Kompresijski omjer": "11,8 : 1",
+      "Najveća snaga": "100,0 kW (136 KS) pri 9.000 o/min",
+      "Najveći okretni moment": "113 Nm pri 7.600 o/min",
+      "Najveća brzina": "251 km/h",
+      "Ventilski sustav": "DOHC, 16 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
+      "Okvir": "Dvogredni (twin-spar), aluminij",
+      "Prednja guma": "120/70ZR17M/C (58W)",
+      "Stražnja guma": "190/50ZR17M/C (73W)",
+      "Prednji ovjes": "Obrnute vilice 41 mm, bezstupanjsko prigušenje kompresije i prigušenje povrata, podešavanje predopterećenja",
+      "Stražnji ovjes": "Horizontalni Back-Link, OEHLINS S46 plinski amortizer, bezstupanjsko prigušenje povrata, jednostavno podešavanje predopterećenja",
+      "Prednje kočnice": "Dva BREMBO poluplutajuća 300 mm diska, dvije radijalno montirane 4-klipne BREMBO M4.32 monoblock čeljusti, 4 kočione pločice",
+      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
+      "D x Š x V": "2.100 x 805 x 1.190 / 1.225 mm (visoki položaj vjetrobrana)",
+      "Međuosovinski razmak": "1.440 mm",
+      "Udaljenost od tla": "130 mm",
+      "Visina sjedala": "835 mm",
+      "Masa spremna za vožnju": "234 kg",
+      "Spremnik goriva": "19 litara",
+      "Potrošnja goriva": "5,6 l/100km",
+      "Emisija CO2": "126 g/km",
+      "Emisijski razred (EU)": "Euro 5+",
+      "Tehnologije": "TFT zaslon u boji, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, grijane ručke, USB utičnica, podesivi vjetrobran",
+      "Paket Performance": "Zaštita TFT zaslona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
+      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
+      "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
+      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
+    }
   },
   {
     "id": 10,
@@ -1057,44 +1057,6 @@
       "/images/vozila/10-ninja-1100sx/img_24.jpg",
       "/images/vozila/10-ninja-1100sx/img_25.jpg"
     ],
-    "specs": {
-      "Oznaka modela": "ZX1100HSFNN; HTFNN",
-      "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
-      "Radni obujam": "1.099 cm³",
-      "Provrt x hod": "77 x 59 mm",
-      "Kompresijski omjer": "11,8 : 1",
-      "Najveća snaga": "100,0 kW (136 KS) pri 9.000 o/min",
-      "Najveći okretni moment": "113 Nm pri 7.600 o/min",
-      "Najveća brzina": "251 km/h",
-      "Ventilski sustav": "DOHC, 16 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
-      "Okvir": "Dvogredni (twin-spar), aluminij",
-      "Prednja guma": "120/70ZR17M/C (58W)",
-      "Stražnja guma": "190/50ZR17M/C (73W)",
-      "Prednji ovjes": "Obrnute vilice 41 mm, bezstupanjsko prigušenje kompresije i prigušenje povrata, podešavanje predopterećenja",
-      "Stražnji ovjes": "Horizontalni Back-Link amortizer, bezstupanjsko prigušenje povrata, jednostavno podešavanje predopterećenja",
-      "Prednje kočnice": "Dva poluplutajuća 300 mm diska, dvije radijalno montirane 4-klipne monoblock čeljusti, 4 kočione pločice",
-      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
-      "D x Š x V": "2.100 x 805 x 1.190 / 1.225 mm (visoki položaj vjetrobrana)",
-      "Međuosovinski razmak": "1.440 mm",
-      "Udaljenost od tla": "130 mm",
-      "Visina sjedala": "835 mm",
-      "Masa spremna za vožnju": "234 kg",
-      "Spremnik goriva": "19 litara",
-      "Potrošnja goriva": "5,6 l/100km",
-      "Emisija CO2": "126 g/km",
-      "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "TFT zaslon u boji, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica, podesivi vjetrobran",
-      "Paket Performance": "Zaštita TFT zaslona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
-      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
-      "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
-      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
-    },
     "paketi": [
       {
         "naziv": "Light Tourer",
@@ -1144,7 +1106,45 @@
           "Klizači okvira"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Oznaka modela": "ZX1100HSFNN; HTFNN",
+      "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
+      "Radni obujam": "1.099 cm³",
+      "Provrt x hod": "77 x 59 mm",
+      "Kompresijski omjer": "11,8 : 1",
+      "Najveća snaga": "100,0 kW (136 KS) pri 9.000 o/min",
+      "Najveći okretni moment": "113 Nm pri 7.600 o/min",
+      "Najveća brzina": "251 km/h",
+      "Ventilski sustav": "DOHC, 16 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
+      "Okvir": "Dvogredni (twin-spar), aluminij",
+      "Prednja guma": "120/70ZR17M/C (58W)",
+      "Stražnja guma": "190/50ZR17M/C (73W)",
+      "Prednji ovjes": "Obrnute vilice 41 mm, bezstupanjsko prigušenje kompresije i prigušenje povrata, podešavanje predopterećenja",
+      "Stražnji ovjes": "Horizontalni Back-Link amortizer, bezstupanjsko prigušenje povrata, jednostavno podešavanje predopterećenja",
+      "Prednje kočnice": "Dva poluplutajuća 300 mm diska, dvije radijalno montirane 4-klipne monoblock čeljusti, 4 kočione pločice",
+      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
+      "D x Š x V": "2.100 x 805 x 1.190 / 1.225 mm (visoki položaj vjetrobrana)",
+      "Međuosovinski razmak": "1.440 mm",
+      "Udaljenost od tla": "130 mm",
+      "Visina sjedala": "835 mm",
+      "Masa spremna za vožnju": "234 kg",
+      "Spremnik goriva": "19 litara",
+      "Potrošnja goriva": "5,6 l/100km",
+      "Emisija CO2": "126 g/km",
+      "Emisijski razred (EU)": "Euro 5+",
+      "Tehnologije": "TFT zaslon u boji, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica, podesivi vjetrobran",
+      "Paket Performance": "Zaštita TFT zaslona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
+      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
+      "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
+      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
+    }
   },
   {
     "id": 11,
@@ -1190,6 +1190,22 @@
       "/images/vozila/11-ninja-7-hybrid/img_31.jpg",
       "/images/vozila/11-ninja-7-hybrid/img_32.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Evolution",
+        "cijena": "1.004 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.177 €",
+        "sadrzaj": [
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Akrapovič titanski ispuh",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "CX500ARFNN",
       "Boje": "Metallic Bright Silver, Metallic Matte Lime Green, Ebony",
@@ -1232,23 +1248,7 @@
       "Ukupni nazivni kapacitet": "27,2 Ah",
       "Ukupna masa baterije": "13 kg",
       "Paket Evolution": "Ispušni lonac Euro 5+ titan Akrapovič, zaštita spremnika goriva, zaštita zaslona, viši zatamnjeni vjetrobran"
-    },
-    "paketi": [
-      {
-        "naziv": "Evolution",
-        "cijena": "1.004 €",
-        "sadrzaj": []
-      },
-      {
-        "naziv": "Performance",
-        "cijena": "1.177 €",
-        "sadrzaj": [
-          "Veće zatamnjeno vjetrobransko staklo",
-          "Akrapovič titanski ispuh",
-          "Zaštitna folija za zaslon"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 16,
@@ -1383,6 +1383,13 @@
       "/images/vozila/23-z-7-hybrid/img_41.jpg",
       "/images/vozila/23-z-7-hybrid/img_42.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Evolution",
+        "cijena": "1.004 €",
+        "sadrzaj": []
+      }
+    ],
     "specs": {
       "Oznaka modela": "CR500ARFNN",
       "Boje": "Metallic Bright Silver, Metallic Matte Lime Green, Ebony, Metallic Matte Graphenesteel Gray, Metallic Graphite Gray",
@@ -1425,14 +1432,7 @@
       "Ukupni nazivni kapacitet": "27,2 Ah",
       "Ukupna masa baterije": "13 kg",
       "Paket Evolution": "Ispušni lonac Euro 5+ titan Akrapovič, zaštita spremnika goriva, zaštita zaslona"
-    },
-    "paketi": [
-      {
-        "naziv": "Evolution",
-        "cijena": "1.004 €",
-        "sadrzaj": []
-      }
-    ]
+    }
   },
   {
     "id": 29,
@@ -1659,6 +1659,18 @@
       "/images/vozila/18-z-h2/img_13.jpg",
       "/images/vozila/18-z-h2/img_14.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.968 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "ZR1000RSFNN; RTFNN",
       "Boje": "Metallic Diablo Black, Metallic Carbon Gray",
@@ -1694,19 +1706,7 @@
       "Tehnologije": "TFT zaslon u boji, ECC elektronički tempomat, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KLCM kontrola pokretanja, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla",
       "Paket Performance": "Ispušni lonac (titan) Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.968 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh (Euro 5+)",
-          "Poklopac suvozačkog sjedala",
-          "Zaštita spremnika (tank pad)",
-          "Zaštitna folija za zaslon"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 19,
@@ -1725,6 +1725,18 @@
       "/images/vozila/19-z-1100-se/img_04.jpg",
       "/images/vozila/19-z-1100-se/img_05.jpg",
       "/images/vozila/19-z-1100-se/img_06.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.731 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ZR1100HTFAN",
@@ -1760,19 +1772,7 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, Turn-by-Turn navigacija* ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, vjetrobran instrumenata"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.731 €",
-        "sadrzaj": [
-          "Akrapovič karbonski ispuh",
-          "Zatamnjeni poklopac instrumenata",
-          "Poklopac suvozačkog sjedala",
-          "Zaštitna folija za zaslon 5\""
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 20,
@@ -1789,6 +1789,19 @@
       "/images/vozila/20-z-1100/img_02.jpg",
       "/images/vozila/20-z-1100/img_03.jpg",
       "/images/vozila/20-z-1100/img_04.png"
+    ],
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.800 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ZR1100GTFNN",
@@ -1824,20 +1837,7 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, Turn-by-Turn navigacija*, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva, vjetrobran instrumenata"
-    },
-    "paketi": [
-      {
-        "naziv": "Performance",
-        "cijena": "1.800 €",
-        "sadrzaj": [
-          "Akrapovič karbonski ispuh",
-          "Zatamnjeni poklopac instrumenata",
-          "Poklopac suvozačkog sjedala",
-          "Zaštita spremnika (tank pad)",
-          "Zaštitna folija za zaslon 5\""
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 21,
@@ -1935,6 +1935,27 @@
       "/images/vozila/22-z-900/img_22.jpg",
       "/images/vozila/22-z-900/img_23.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "262 €",
+        "sadrzaj": [
+          "Boja: crvena ili bijela",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.616 €",
+        "sadrzaj": [
+          "Akrapovič karbonski sportski ispuh s karbonskim toplinskim štitom",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "ZR900STFNN",
       "Boje": "Pearl Blizzard White / Plasma Lime Green; Candy Persimmon Red / Metallic Carbon Gray; Ebony / Metallic Carbon Gray",
@@ -1970,28 +1991,7 @@
       "Tehnologije": "5\" TFT zaslon u boji, Turn-by-Turn navigacija*, ECC elektronički tempomat, KQS dvosmjerni quickshifter od 1.500 o/min, USB utičnica, KTRC trostupanjska kontrola proklizavanja, ABS, 2 načina snage, 3 integrirana načina vožnje, LED svjetla, KSC povezivost s pametnim telefonom s glasovnim naredbama*, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
       "Paket Performance": "Ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, veća zaštita instrumenata od vjetra, zaštita TFT zaslona",
       "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    },
-    "paketi": [
-      {
-        "naziv": "Posebna boja (izvedba „se”)",
-        "cijena": "262 €",
-        "sadrzaj": [
-          "Boja: crvena ili bijela",
-          "Ista oprema kao osnovni model, posebna izvedba boje"
-        ]
-      },
-      {
-        "naziv": "Performance",
-        "cijena": "1.616 €",
-        "sadrzaj": [
-          "Akrapovič karbonski sportski ispuh s karbonskim toplinskim štitom",
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Zaštita spremnika (tank pad)",
-          "Zaštitna folija za zaslon 5\""
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 24,
@@ -2026,6 +2026,38 @@
       "/images/vozila/24-z-650-s/img_20.jpg",
       "/images/vozila/24-z-650-s/img_21.jpg",
       "/images/vozila/24-z-650-s/img_22.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "103 €",
+        "sadrzaj": [
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "522 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "2.162 €",
+        "sadrzaj": [
+          "Akrapovič titanski kompletni ispušni sustav (Euro 5+)",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ER650WTFNN",
@@ -2065,39 +2097,7 @@
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zatamnjeni vjetrobran, zaštita spremnika goriva, zaštita TFT zaslona, nosač telefona",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
       "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    },
-    "paketi": [
-      {
-        "naziv": "Posebna boja (izvedba „se”)",
-        "cijena": "103 €",
-        "sadrzaj": [
-          "Ista oprema kao osnovni model, posebna izvedba boje"
-        ]
-      },
-      {
-        "naziv": "Sport",
-        "cijena": "522 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Zaštita spremnika (tank pad)",
-          "Z privjesak za ključeve",
-          "Zaštitna folija za zaslon"
-        ]
-      },
-      {
-        "naziv": "Performance",
-        "cijena": "2.162 €",
-        "sadrzaj": [
-          "Akrapovič titanski kompletni ispušni sustav (Euro 5+)",
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Zaštita spremnika (tank pad)",
-          "Z privjesak za ključeve",
-          "Zaštitna folija za zaslon"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 26,
@@ -2119,6 +2119,42 @@
       "/images/vozila/26-z-500-se/img_07.jpg",
       "/images/vozila/26-z-500-se/img_08.jpg",
       "/images/vozila/26-z-500-se/img_09.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "285 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.068 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.207 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ER500FTFAN",
@@ -2155,43 +2191,7 @@
       "Paket Performance": "... ispuh Euro 5+ Remus",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Sport",
-        "cijena": "285 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala",
-          "Zaštita spremnika (tank pad)",
-          "Z privjesak za ključeve",
-          "Zaštitna folija za zaslon"
-        ]
-      },
-      {
-        "naziv": "Performance Remus",
-        "cijena": "1.068 €",
-        "sadrzaj": [
-          "Remus sportski ispuh",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Poklopac suvozačkog sjedala",
-          "Zaštita spremnika (tank pad)",
-          "Z privjesak za ključeve",
-          "Zaštitna folija za zaslon"
-        ]
-      },
-      {
-        "naziv": "Performance Akrapovič",
-        "cijena": "1.207 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Poklopac suvozačkog sjedala",
-          "Zaštita spremnika (tank pad)",
-          "Z privjesak za ključeve",
-          "Zaštitna folija za zaslon"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 27,
@@ -2223,6 +2223,37 @@
       "/images/vozila/27-z-500/img_17.jpg",
       "/images/vozila/27-z-500/img_18.jpg",
       "/images/vozila/27-z-500/img_19.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "258 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.040 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.179 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "ER500ETFNN",
@@ -2259,38 +2290,7 @@
       "Paket Performance": "... ispuh Euro 5+ Remus",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Sport",
-        "cijena": "258 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Z privjesak za ključeve"
-        ]
-      },
-      {
-        "naziv": "Performance Remus",
-        "cijena": "1.040 €",
-        "sadrzaj": [
-          "Remus sportski ispuh",
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Z privjesak za ključeve"
-        ]
-      },
-      {
-        "naziv": "Performance Akrapovič",
-        "cijena": "1.179 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh",
-          "Poklopac suvozačkog sjedala",
-          "Veći zatamnjeni poklopac instrumenata",
-          "Z privjesak za ključeve"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 28,
@@ -2314,6 +2314,35 @@
       "/images/vozila/28-z-125/img_09.jpg",
       "/images/vozila/28-z-125/img_10.jpg",
       "/images/vozila/28-z-125/img_11.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "75 €",
+        "sadrzaj": [
+          "Boja: siva",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "399 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Pokazivač stupnja prijenosa s nosačem",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance Arrow",
+        "cijena": "1.124 €",
+        "sadrzaj": [
+          "Arrow sportski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Pokazivač stupnja prijenosa s nosačem",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "BR125MTFNN, MTFAN,",
@@ -2350,36 +2379,7 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Arrow",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, pokazivač brzine s nosačem",
       "Emisijski razred": "Euro 5+"
-    },
-    "paketi": [
-      {
-        "naziv": "Posebna boja (izvedba „se”)",
-        "cijena": "75 €",
-        "sadrzaj": [
-          "Boja: siva",
-          "Ista oprema kao osnovni model, posebna izvedba boje"
-        ]
-      },
-      {
-        "naziv": "Sport",
-        "cijena": "399 €",
-        "sadrzaj": [
-          "Poklopac suvozačkog sjedala",
-          "Pokazivač stupnja prijenosa s nosačem",
-          "Zaštita spremnika (tank pad)"
-        ]
-      },
-      {
-        "naziv": "Performance Arrow",
-        "cijena": "1.124 €",
-        "sadrzaj": [
-          "Arrow sportski ispuh",
-          "Poklopac suvozačkog sjedala",
-          "Pokazivač stupnja prijenosa s nosačem",
-          "Zaštita spremnika (tank pad)"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 31,
@@ -2631,6 +2631,7 @@
     "description": "Z900RS — retro sport s rednim četverocilindrašem 948 cc (116 KS), elektronikom s IMU jedinicom, quickshifterom i tempomatom. Legenda u modernom ruhu.",
     "images": [],
     "specs": {
+      "Boje": "Candytone Greenish Blue",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -2659,8 +2660,7 @@
       "Potrošnja goriva": "5,0 l/100 km",
       "Emisija CO2": "117 g/km",
       "Tehnologije": "IMU, KCMF upravljanje u zavojima, KTRC kontrola proklizavanja, KQS dvosmjerni quickshifter, ABS s IMU, elektronička zaklopka gasa, tempomat, povezivost s pametnim telefonom (RIDEOLOGY), ERGO-FIT",
-      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom",
-      "Boje": "Candytone Greenish Blue"
+      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -2675,6 +2675,7 @@
     "description": "Z900RS Black Ball Edition — posebna crna izvedba Z900RS-a (948 cc, 116 KS) s istom bogatom elektronikom.",
     "images": [],
     "specs": {
+      "Boje": "Ebony",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -2703,8 +2704,7 @@
       "Potrošnja goriva": "5,0 l/100 km",
       "Emisija CO2": "117 g/km",
       "Tehnologije": "IMU, KCMF upravljanje u zavojima, KTRC kontrola proklizavanja, KQS dvosmjerni quickshifter, ABS s IMU, elektronička zaklopka gasa, tempomat, povezivost s pametnim telefonom (RIDEOLOGY), ERGO-FIT",
-      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom",
-      "Boje": "Ebony"
+      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
     }
   },
   {
@@ -2771,44 +2771,6 @@
       "/images/vozila/36-vulcan-s/img_05.jpg",
       "/images/vozila/36-vulcan-s/img_06.jpg"
     ],
-    "specs": {
-      "Boje": "Metallic Carbon Gray, Metallic Bluish Green, Metallic Flat Spark Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
-      "Radni obujam": "649 cm³",
-      "Provrt x hod": "83 x 60 mm",
-      "Kompresijski omjer": "10,8 : 1",
-      "Najveća snaga": "44,7 kW (60,7 KS) pri 7.500 o/min (35kW)",
-      "Najveći okretni moment": "62,4 Nm pri 6.600 o/min (53 Nm)",
-      "Najveća brzina": "176 km/h (162 km/h)",
-      "Ventilski sustav": "DOHC, 8 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm x 2, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Mokra višelamelna, ručna",
-      "Okvir": "Obuhvatni, čelik",
-      "Prednja guma": "120/70R18M/C 59H",
-      "Stražnja guma": "160/6017M/C 69H",
-      "Prednji ovjes": "Teleskopske vilice 41 mm",
-      "Stražnji ovjes": "Bočno postavljen plinski amortizer, podešavanje predopterećenja u 7 stupnjeva",
-      "Prednje kočnice": "300 mm disk, dvoklipna čeljust",
-      "Stražnje kočnice": "250 mm disk, jednoklipna čeljust",
-      "D x Š x V": "2.310 mm x 880 mm x 1.110 mm",
-      "Međuosovinski razmak": "1.575 mm",
-      "Udaljenost od tla": "130 mm",
-      "Visina sjedala": "705 mm",
-      "Masa spremna za vožnju": "229 kg",
-      "Spremnik goriva": "14 litara",
-      "Potrošnja goriva": "4,5 l/100km",
-      "Emisija CO2": "102 g/km (109 g/km)",
-      "Emisijski razred (EU)": "Euro 5/Euro 5+",
-      "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
-      "Paket Performance": "Ispušni sustav Euro 5+ Arrow, fiksni Cafe zatamnjeni vjetrobran s fiksnim nosačem",
-      "Paket Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, veliki vjetrobran s fiksnim nosačima",
-      "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima",
-      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN",
-      "A2 izvedba": "Za A2 dozvolu: komplet za smanjenje snage na 35 kW kod ovlaštenog Kawasaki zastupnika"
-    },
     "paketi": [
       {
         "naziv": "Posebna boja (izvedba „se”)",
@@ -2843,7 +2805,45 @@
           "Café zatamnjeno vjetrobransko staklo s nosačem"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Boje": "Metallic Carbon Gray, Metallic Bluish Green, Metallic Flat Spark Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
+      "Radni obujam": "649 cm³",
+      "Provrt x hod": "83 x 60 mm",
+      "Kompresijski omjer": "10,8 : 1",
+      "Najveća snaga": "44,7 kW (60,7 KS) pri 7.500 o/min (35kW)",
+      "Najveći okretni moment": "62,4 Nm pri 6.600 o/min (53 Nm)",
+      "Najveća brzina": "176 km/h (162 km/h)",
+      "Ventilski sustav": "DOHC, 8 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm x 2, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Mokra višelamelna, ručna",
+      "Okvir": "Obuhvatni, čelik",
+      "Prednja guma": "120/70R18M/C 59H",
+      "Stražnja guma": "160/6017M/C 69H",
+      "Prednji ovjes": "Teleskopske vilice 41 mm",
+      "Stražnji ovjes": "Bočno postavljen plinski amortizer, podešavanje predopterećenja u 7 stupnjeva",
+      "Prednje kočnice": "300 mm disk, dvoklipna čeljust",
+      "Stražnje kočnice": "250 mm disk, jednoklipna čeljust",
+      "D x Š x V": "2.310 mm x 880 mm x 1.110 mm",
+      "Međuosovinski razmak": "1.575 mm",
+      "Udaljenost od tla": "130 mm",
+      "Visina sjedala": "705 mm",
+      "Masa spremna za vožnju": "229 kg",
+      "Spremnik goriva": "14 litara",
+      "Potrošnja goriva": "4,5 l/100km",
+      "Emisija CO2": "102 g/km (109 g/km)",
+      "Emisijski razred (EU)": "Euro 5/Euro 5+",
+      "Tehnologije": "ABS, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
+      "Paket Performance": "Ispušni sustav Euro 5+ Arrow, fiksni Cafe zatamnjeni vjetrobran s fiksnim nosačem",
+      "Paket Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, veliki vjetrobran s fiksnim nosačima",
+      "A2 izvedba": "Za A2 dozvolu: komplet za smanjenje snage na 35 kW kod ovlaštenog Kawasaki zastupnika",
+      "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima",
+      "Naziv modela": "EN650MSFNN; MTFNN, MTFAN"
+    }
   },
   {
     "id": 37,
@@ -2948,6 +2948,28 @@
       "/images/vozila/38-eliminator-500/img_17.jpg",
       "/images/vozila/38-eliminator-500/img_18.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "1.160 €",
+        "sadrzaj": [
+          "Zaštitni okvir motora",
+          "Bočne torbe s brzim skidanjem 2 × 19,5 L",
+          "Café oplata (prednja maska)",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.132 €",
+        "sadrzaj": [
+          "Arrow karbonski sportski ispuh",
+          "Café oplata (prednja maska)",
+          "Klizači okvira",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
+    ],
     "specs": {
       "Boje": "Metallic Imperial Red, Ebony",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
@@ -2983,29 +3005,7 @@
       "Paket Performance": "Ispušni sustav Euro 5+, Cafe zatamnjeni vjetrobran s fiksnim nosačem, zaštita spremnika goriva, zaštita motora",
       "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora",
       "Naziv modela": "EL450ASFNN; ATNN, ATFAN"
-    },
-    "paketi": [
-      {
-        "naziv": "Light Tourer",
-        "cijena": "1.160 €",
-        "sadrzaj": [
-          "Zaštitni okvir motora",
-          "Bočne torbe s brzim skidanjem 2 × 19,5 L",
-          "Café oplata (prednja maska)",
-          "Zaštita spremnika (tank pad)"
-        ]
-      },
-      {
-        "naziv": "Performance",
-        "cijena": "1.132 €",
-        "sadrzaj": [
-          "Arrow karbonski sportski ispuh",
-          "Café oplata (prednja maska)",
-          "Klizači okvira",
-          "Zaštita spremnika (tank pad)"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 39,
@@ -3033,6 +3033,45 @@
       "/images/vozila/39-versys-1100-se/img_13.jpg",
       "/images/vozila/39-versys-1100-se/img_14.jpg",
       "/images/vozila/39-versys-1100-se/img_15.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.122 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer Plus",
+        "cijena": "2.007 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS"
+        ]
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "2.549 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS",
+          "Stražnji kofer (top case) 47 L u boji motocikla",
+          "Unutarnja torba za stražnji kofer",
+          "Jastuk naslona za suvozača na stražnjem koferu"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "KLZ1100CTFNN",
@@ -3071,7 +3110,30 @@
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    },
+    }
+  },
+  {
+    "id": 40,
+    "name": "Kawasaki Versys 1100 S",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "license_category": "",
+    "is_new": false,
+    "price": "16.520 €",
+    "akcijska_cijena": "",
+    "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
+    "images": [
+      "/images/vozila/40-versys-1100-s/img_01.jpg",
+      "/images/vozila/40-versys-1100-s/img_02.jpg",
+      "/images/vozila/40-versys-1100-s/img_03.jpg",
+      "/images/vozila/40-versys-1100-s/img_04.jpg",
+      "/images/vozila/40-versys-1100-s/img_05.jpg",
+      "/images/vozila/40-versys-1100-s/img_06.jpg",
+      "/images/vozila/40-versys-1100-s/img_07.jpg",
+      "/images/vozila/40-versys-1100-s/img_08.jpg",
+      "/images/vozila/40-versys-1100-s/img_09.jpg",
+      "/images/vozila/40-versys-1100-s/img_10.jpg"
+    ],
     "paketi": [
       {
         "naziv": "Light Tourer",
@@ -3110,29 +3172,6 @@
           "Jastuk naslona za suvozača na stražnjem koferu"
         ]
       }
-    ]
-  },
-  {
-    "id": 40,
-    "name": "Kawasaki Versys 1100 S",
-    "brand": "Kawasaki",
-    "category": "Adventure",
-    "license_category": "",
-    "is_new": false,
-    "price": "16.520 €",
-    "akcijska_cijena": "",
-    "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
-    "images": [
-      "/images/vozila/40-versys-1100-s/img_01.jpg",
-      "/images/vozila/40-versys-1100-s/img_02.jpg",
-      "/images/vozila/40-versys-1100-s/img_03.jpg",
-      "/images/vozila/40-versys-1100-s/img_04.jpg",
-      "/images/vozila/40-versys-1100-s/img_05.jpg",
-      "/images/vozila/40-versys-1100-s/img_06.jpg",
-      "/images/vozila/40-versys-1100-s/img_07.jpg",
-      "/images/vozila/40-versys-1100-s/img_08.jpg",
-      "/images/vozila/40-versys-1100-s/img_09.jpg",
-      "/images/vozila/40-versys-1100-s/img_10.jpg"
     ],
     "specs": {
       "Oznaka modela": "KLZ1100BTFNN",
@@ -3171,46 +3210,7 @@
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    },
-    "paketi": [
-      {
-        "naziv": "Light Tourer",
-        "cijena": "917 €",
-        "sadrzaj": []
-      },
-      {
-        "naziv": "Tourer",
-        "cijena": "1.122 €",
-        "sadrzaj": []
-      },
-      {
-        "naziv": "Tourer Plus",
-        "cijena": "2.007 €",
-        "sadrzaj": [
-          "Bočni koferi 2 × 28 L u boji motocikla",
-          "Unutarnje torbe za kofere 2 × 28 L",
-          "LED maglenke",
-          "Zaštita spremnika (tank pad)",
-          "Klizači okvira",
-          "Nosač za GPS"
-        ]
-      },
-      {
-        "naziv": "Grand Tourer",
-        "cijena": "2.549 €",
-        "sadrzaj": [
-          "Bočni koferi 2 × 28 L u boji motocikla",
-          "Unutarnje torbe za kofere 2 × 28 L",
-          "LED maglenke",
-          "Zaštita spremnika (tank pad)",
-          "Klizači okvira",
-          "Nosač za GPS",
-          "Stražnji kofer (top case) 47 L u boji motocikla",
-          "Unutarnja torba za stražnji kofer",
-          "Jastuk naslona za suvozača na stražnjem koferu"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 41,
@@ -3235,44 +3235,6 @@
       "/images/vozila/41-versys-1100/img_10.jpg",
       "/images/vozila/41-versys-1100/img_11.jpg"
     ],
-    "specs": {
-      "Oznaka modela": "KLZ1000ASFNN; ATFNN",
-      "Boje": "Metallic Matte Graphenesteel Gray / Metallic Diablo Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
-      "Radni obujam": "1.099 cm³",
-      "Provrt x hod": "77 x 59 mm",
-      "Kompresijski omjer": "10,3 : 1",
-      "Najveća snaga": "99,0 kW (135 KS) pri 9.000 o/min",
-      "Najveći okretni moment": "112 Nm pri 7.600 o/min",
-      "Najveća brzina": "234 km/h",
-      "Ventilski sustav": "DOHC, 16 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, mokro korito; hladnjak ulja",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
-      "Okvir": "Dvogredni (twin-spar), aluminij",
-      "Prednja guma": "120/70ZR17M/C (58W)",
-      "Stražnja guma": "180/55ZR17M/C (73W)",
-      "Prednji ovjes": "Obrnute vilice 43 mm, prigušenje povrata (desna noga) i podesivo predopterećenje",
-      "Stražnji ovjes": "Horizontal Back-Link, BFRC Lite plinski amortizer, prigušenje povrata i daljinsko podešavanje predopterećenja",
-      "Prednje kočnice": "Dva poluplutajuća 310 mm diska, dvije 4-klipne radijalno montirane monoblock čeljusti",
-      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
-      "D x Š x V": "2.270 mm x 895 mm x 1.400 mm / 1.465 mm (visoki položaj vjetrobrana)",
-      "Međuosovinski razmak": "1.520 mm",
-      "Udaljenost od tla": "150 mm",
-      "Visina sjedala": "840 mm",
-      "Masa spremna za vožnju": "255 kg",
-      "Spremnik goriva": "21 litara",
-      "Potrošnja goriva": "5,6 l/100km",
-      "Emisija CO2": "128 g/km",
-      "Emisijski razred (EU)": "Euro 5+",
-      "Tehnologije": "ETV elektronička zaklopka gasa, ECC elektronički tempomat, LED prednja svjetla, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 12V utičnica, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
-      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, štitnici ruku, viši vjetrobran",
-      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
-      "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
-      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    },
     "paketi": [
       {
         "naziv": "Light Tourer",
@@ -3321,7 +3283,45 @@
           "Jastuk naslona za suvozača na stražnjem koferu"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Oznaka modela": "KLZ1000ASFNN; ATFNN",
+      "Boje": "Metallic Matte Graphenesteel Gray / Metallic Diablo Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
+      "Radni obujam": "1.099 cm³",
+      "Provrt x hod": "77 x 59 mm",
+      "Kompresijski omjer": "10,3 : 1",
+      "Najveća snaga": "99,0 kW (135 KS) pri 9.000 o/min",
+      "Najveći okretni moment": "112 Nm pri 7.600 o/min",
+      "Najveća brzina": "234 km/h",
+      "Ventilski sustav": "DOHC, 16 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 4, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito; hladnjak ulja",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Potpomognuta i protuklizna, mokra višelamelna, ručna",
+      "Okvir": "Dvogredni (twin-spar), aluminij",
+      "Prednja guma": "120/70ZR17M/C (58W)",
+      "Stražnja guma": "180/55ZR17M/C (73W)",
+      "Prednji ovjes": "Obrnute vilice 43 mm, prigušenje povrata (desna noga) i podesivo predopterećenje",
+      "Stražnji ovjes": "Horizontal Back-Link, BFRC Lite plinski amortizer, prigušenje povrata i daljinsko podešavanje predopterećenja",
+      "Prednje kočnice": "Dva poluplutajuća 310 mm diska, dvije 4-klipne radijalno montirane monoblock čeljusti",
+      "Stražnje kočnice": "260 mm disk, jednoklipna čeljust",
+      "D x Š x V": "2.270 mm x 895 mm x 1.400 mm / 1.465 mm (visoki položaj vjetrobrana)",
+      "Međuosovinski razmak": "1.520 mm",
+      "Udaljenost od tla": "150 mm",
+      "Visina sjedala": "840 mm",
+      "Masa spremna za vožnju": "255 kg",
+      "Spremnik goriva": "21 litara",
+      "Potrošnja goriva": "5,6 l/100km",
+      "Emisija CO2": "128 g/km",
+      "Emisijski razred (EU)": "Euro 5+",
+      "Tehnologije": "ETV elektronička zaklopka gasa, ECC elektronički tempomat, LED prednja svjetla, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 12V utičnica, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
+      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, štitnici ruku, viši vjetrobran",
+      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
+      "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
+      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
+    }
   },
   {
     "id": 42,
@@ -3359,46 +3359,6 @@
       "/images/vozila/42-versys-650/img_23.jpg",
       "/images/vozila/42-versys-650/img_24.jpg"
     ],
-    "specs": {
-      "Oznaka modela": "KLE650JSFNN, JSFAN; JTFNN",
-      "Boje": "Candy Lime Green / Metallic Spark Black; Metallic Carbon Gray / Metallic Spark Black",
-      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
-      "Radni obujam": "649 cm³",
-      "Provrt x hod": "83 x 60 mm",
-      "Kompresijski omjer": "10,8 : 1",
-      "Najveća snaga": "49 kW (67 KS) pri 8.500 o/min (35 kW)",
-      "Najveći okretni moment": "61 Nm pri 7.000 o/min (56 Nm)",
-      "Najveća brzina": "185 km/h (156 km/h)",
-      "Ventilski sustav": "DOHC, 8 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 2, dvostruke zaklopke gasa",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Mjenjač": "6 brzina",
-      "Pogon": "Brtvljeni lanac",
-      "Kvačilo": "Mokra višelamelna, ručna",
-      "Okvir": "Dijamantni (motor kao nosivi element), čelik",
-      "Prednja guma": "120/70ZR17M/C (58W)",
-      "Stražnja guma": "160/60ZR17M/C (69W)",
-      "Prednji ovjes": "Obrnute SFF vilice 41 mm s 3-stupanjski podesivim prigušenjem povrata (desna noga) i 20-stupanjski podesivim posedom (lijeva noga)",
-      "Stražnji ovjes": "Bočno postavljen plinski amortizer, jednostavno podešavanje predopterećenja u 24 stupnja",
-      "Prednje kočnice": "Dva poluplutajuća 300 mm valovita diska, dvije dvoklipne čeljusti",
-      "Stražnje kočnice": "250 mm valoviti disk, jednoklipna čeljust",
-      "D x Š x V": "2.165 mm x 840 mm x 1.360 mm / 1.420 mm (visoki položaj vjetrobrana)",
-      "Međuosovinski razmak": "1.415 mm",
-      "Udaljenost od tla": "170 mm",
-      "Visina sjedala": "845 mm",
-      "Masa spremna za vožnju": "219 kg",
-      "Spremnik goriva": "21 litara",
-      "Potrošnja goriva": "4,4 l/100km",
-      "Emisija CO2": "107 g/km",
-      "Tehnologije": "TFT zaslon u boji, KSC povezivost s pametnim telefonom, KTRC kontrola proklizavanja, ABS, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, pokazivač vanjske temperature",
-      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita spremnika goriva, štitnici ruku",
-      "Paket Urban": "Gornji kofer 40 l u boji motocikla, nosiva ploča, nosač telefona, viši vjetrobran",
-      "Emisijski razred": "Euro 5+",
-      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
-      "Paket Tourer +": "... dodatna LED svjetla za maglu",
-      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, unutarnja torba 47 l, nosiva ploča, 12 V utičnica, GPS nosač, viši vjetrobran, USB utičnica",
-      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    },
     "paketi": [
       {
         "naziv": "Light Tourer",
@@ -3446,7 +3406,47 @@
           "Jastuk naslona za suvozača"
         ]
       }
-    ]
+    ],
+    "specs": {
+      "Oznaka modela": "KLE650JSFNN, JSFAN; JTFNN",
+      "Boje": "Candy Lime Green / Metallic Spark Black; Metallic Carbon Gray / Metallic Spark Black",
+      "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
+      "Radni obujam": "649 cm³",
+      "Provrt x hod": "83 x 60 mm",
+      "Kompresijski omjer": "10,8 : 1",
+      "Najveća snaga": "49 kW (67 KS) pri 8.500 o/min (35 kW)",
+      "Najveći okretni moment": "61 Nm pri 7.000 o/min (56 Nm)",
+      "Najveća brzina": "185 km/h (156 km/h)",
+      "Ventilski sustav": "DOHC, 8 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Keihin Ø 38 mm x 2, dvostruke zaklopke gasa",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "6 brzina",
+      "Pogon": "Brtvljeni lanac",
+      "Kvačilo": "Mokra višelamelna, ručna",
+      "Okvir": "Dijamantni (motor kao nosivi element), čelik",
+      "Prednja guma": "120/70ZR17M/C (58W)",
+      "Stražnja guma": "160/60ZR17M/C (69W)",
+      "Prednji ovjes": "Obrnute SFF vilice 41 mm s 3-stupanjski podesivim prigušenjem povrata (desna noga) i 20-stupanjski podesivim posedom (lijeva noga)",
+      "Stražnji ovjes": "Bočno postavljen plinski amortizer, jednostavno podešavanje predopterećenja u 24 stupnja",
+      "Prednje kočnice": "Dva poluplutajuća 300 mm valovita diska, dvije dvoklipne čeljusti",
+      "Stražnje kočnice": "250 mm valoviti disk, jednoklipna čeljust",
+      "D x Š x V": "2.165 mm x 840 mm x 1.360 mm / 1.420 mm (visoki položaj vjetrobrana)",
+      "Međuosovinski razmak": "1.415 mm",
+      "Udaljenost od tla": "170 mm",
+      "Visina sjedala": "845 mm",
+      "Masa spremna za vožnju": "219 kg",
+      "Spremnik goriva": "21 litara",
+      "Potrošnja goriva": "4,4 l/100km",
+      "Emisija CO2": "107 g/km",
+      "Tehnologije": "TFT zaslon u boji, KSC povezivost s pametnim telefonom, KTRC kontrola proklizavanja, ABS, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, pokazivač vanjske temperature",
+      "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita spremnika goriva, štitnici ruku",
+      "Paket Urban": "Gornji kofer 40 l u boji motocikla, nosiva ploča, nosač telefona, viši vjetrobran",
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom",
+      "Emisijski razred": "Euro 5+",
+      "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
+      "Paket Tourer +": "... dodatna LED svjetla za maglu",
+      "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, unutarnja torba 47 l, nosiva ploča, 12 V utičnica, GPS nosač, viši vjetrobran, USB utičnica"
+    }
   },
   {
     "id": 43,
@@ -3500,6 +3500,36 @@
       "/images/vozila/43-kle-500-se/img_39.jpg",
       "/images/vozila/43-kle-500-se/img_40.jpg"
     ],
+    "paketi": [
+      {
+        "naziv": "Top Case",
+        "cijena": "946 €",
+        "sadrzaj": [
+          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      },
+      {
+        "naziv": "Adventure Tourer",
+        "cijena": "1.401 €",
+        "sadrzaj": [
+          "Zaštitni okvir motora",
+          "Bočni koferi 2 × 21 L"
+        ]
+      },
+      {
+        "naziv": "Rally",
+        "cijena": "1.590 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac hladnjaka",
+          "Niže suvozačko sjedalo",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      }
+    ],
     "specs": {
       "Oznaka modela": "KLE500DTFAN",
       "Boje": "Pearl Blizzard White, Pearl Storm Gray, Metallic Bluish Green",
@@ -3536,37 +3566,7 @@
       "Paket Rally": "Ispušni lonac Euro 5+ Akrapovič, niže rally stražnje sjedalo, zaštita hladnjaka, USB-C utičnica",
       "Paket Adventure Tourer": "Bočni koferi 2 x 21 l s nosačima, zaštita motora",
       "Paket Topcase": "Gornji kofer 42 l s nosačem, USB-C utičnica"
-    },
-    "paketi": [
-      {
-        "naziv": "Top Case",
-        "cijena": "946 €",
-        "sadrzaj": [
-          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
-          "USB-C utičnica",
-          "Relej za dodatnu opremu"
-        ]
-      },
-      {
-        "naziv": "Adventure Tourer",
-        "cijena": "1.401 €",
-        "sadrzaj": [
-          "Zaštitni okvir motora",
-          "Bočni koferi 2 × 21 L"
-        ]
-      },
-      {
-        "naziv": "Rally",
-        "cijena": "1.590 €",
-        "sadrzaj": [
-          "Akrapovič titanski ispuh",
-          "Poklopac hladnjaka",
-          "Niže suvozačko sjedalo",
-          "USB-C utičnica",
-          "Relej za dodatnu opremu"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 44,
@@ -3592,6 +3592,40 @@
       "/images/vozila/44-kle-500/img_11.jpg",
       "/images/vozila/44-kle-500/img_12.jpg",
       "/images/vozila/44-kle-500/img_13.jpg"
+    ],
+    "paketi": [
+      {
+        "naziv": "Top Case",
+        "cijena": "946 €",
+        "sadrzaj": [
+          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      },
+      {
+        "naziv": "Adventure Tourer",
+        "cijena": "1.928 €",
+        "sadrzaj": [
+          "Veće prozirno vjetrobransko staklo",
+          "Štitnici za ruke",
+          "Zaštita kartera (skid plate)",
+          "Zaštitni okvir motora",
+          "Bočni koferi 2 × 21 L"
+        ]
+      },
+      {
+        "naziv": "Rally",
+        "cijena": "1.720 €",
+        "sadrzaj": [
+          "Zaštita kartera (skid plate)",
+          "Akrapovič titanski ispuh",
+          "Poklopac hladnjaka",
+          "Niže suvozačko sjedalo",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      }
     ],
     "specs": {
       "Oznaka modela": "KLE500CTFNN",
@@ -3629,41 +3663,7 @@
       "Paket Rally": "Ispušni lonac Euro 5+ Akrapovič, niže rally stražnje sjedalo, zaštita hladnjaka, USB-C utičnica, velika zaštitna ploča motora",
       "Paket Adventure Tourer": "Bočni koferi 2 x 21 l s nosačima, štitnici ruku, viši vjetrobran, veća zaštitna ploča motora, zaštita motora",
       "Paket Topcase": "Gornji kofer 42 l s nosačem, USB-C utičnica"
-    },
-    "paketi": [
-      {
-        "naziv": "Top Case",
-        "cijena": "946 €",
-        "sadrzaj": [
-          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
-          "USB-C utičnica",
-          "Relej za dodatnu opremu"
-        ]
-      },
-      {
-        "naziv": "Adventure Tourer",
-        "cijena": "1.928 €",
-        "sadrzaj": [
-          "Veće prozirno vjetrobransko staklo",
-          "Štitnici za ruke",
-          "Zaštita kartera (skid plate)",
-          "Zaštitni okvir motora",
-          "Bočni koferi 2 × 21 L"
-        ]
-      },
-      {
-        "naziv": "Rally",
-        "cijena": "1.720 €",
-        "sadrzaj": [
-          "Zaštita kartera (skid plate)",
-          "Akrapovič titanski ispuh",
-          "Poklopac hladnjaka",
-          "Niže suvozačko sjedalo",
-          "USB-C utičnica",
-          "Relej za dodatnu opremu"
-        ]
-      }
-    ]
+    }
   },
   {
     "id": 79,
@@ -3683,7 +3683,20 @@
       "/images/vozila/79-versys-900/versys900-5.png",
       "/images/vozila/79-versys-900/versys900-6.png"
     ],
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      }
+    ],
     "specs": {
+      "Boje": "Metallic Spark Black, Pearl Robotic White",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -3705,21 +3718,8 @@
       "Visina sjedala": "825 – 845 mm (podesivo)",
       "Spremnik goriva": "20 litara",
       "Emisijski razred (EU)": "Euro 5+",
-      "Boje": "Metallic Spark Black, Pearl Robotic White",
       "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    },
-    "paketi": [
-      {
-        "naziv": "Tourer",
-        "cijena": "Cijena na upit",
-        "sadrzaj": []
-      },
-      {
-        "naziv": "Grand Tourer",
-        "cijena": "Cijena na upit",
-        "sadrzaj": []
-      }
-    ]
+    }
   },
   {
     "id": 80,
@@ -3743,7 +3743,20 @@
       "/images/vozila/80-versys-900-se/versys900se-8.png",
       "/images/vozila/80-versys-900-se/versys900se-9.png"
     ],
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      }
+    ],
     "specs": {
+      "Boje": "Plasma Lime Green, Firecracker Red, Metallic Spark Black, Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -3765,22 +3778,9 @@
       "Visina sjedala": "825 – 845 mm (podesivo)",
       "Spremnik goriva": "20 litara",
       "Emisijski razred (EU)": "Euro 5+",
-      "Paket SE": "LED svjetla za maglu, štitnici ruku, grijane ručke, zaštita hladnjaka, klizači okvira, donja zaštita motora, središnji stalak",
-      "Boje": "Plasma Lime Green, Firecracker Red, Metallic Spark Black, Metallic Carbon Gray",
-      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    },
-    "paketi": [
-      {
-        "naziv": "Tourer",
-        "cijena": "Cijena na upit",
-        "sadrzaj": []
-      },
-      {
-        "naziv": "Grand Tourer",
-        "cijena": "Cijena na upit",
-        "sadrzaj": []
-      }
-    ]
+      "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom",
+      "Paket SE": "LED svjetla za maglu, štitnici ruku, grijane ručke, zaštita hladnjaka, klizači okvira, donja zaštita motora, središnji stalak"
+    }
   },
   {
     "id": 81,
@@ -3798,6 +3798,7 @@
       "/images/vozila/81-kle-650/kle650-3.png"
     ],
     "specs": {
+      "Boje": "Metallic Matte Graphenesteel Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
       "Provrt x hod": "83 x 60 mm",
@@ -3822,9 +3823,8 @@
       "Visina sjedala": "870 mm (niže sjedalo kao dodatna oprema: 840 mm)",
       "Spremnik goriva": "16 litara",
       "Emisijski razred (EU)": "Euro 5+",
-      "Kotači": "Žbičasti, s zračnicom",
-      "Boje": "Metallic Matte Graphenesteel Gray",
-      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom",
+      "Kotači": "Žbičasti, s zračnicom"
     }
   },
   {
@@ -3850,6 +3850,7 @@
       "/images/vozila/82-kle-650-se/kle650se-9.png"
     ],
     "specs": {
+      "Boje": "Pearl Storm Gray, Pearl Blizzard White",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
       "Provrt x hod": "83 x 60 mm",
@@ -3875,9 +3876,8 @@
       "Masa spremna za vožnju": "212 kg",
       "Spremnik goriva": "16 litara",
       "Emisijski razred (EU)": "Euro 5+",
-      "Kotači": "Žbičasti, bez zračnice (tubeless)",
-      "Boje": "Pearl Storm Gray, Pearl Blizzard White",
-      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
+      "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom",
+      "Kotači": "Žbičasti, bez zračnice (tubeless)"
     }
   },
   {
@@ -3892,6 +3892,7 @@
     "description": "Novi KLE500 SE Smartride za 2027. — automatsko kvačilo Smartride (bez stiskanja ručice pri kretanju i zaustavljanju) i žbičasti kotači s tubeless gumama. Za A2 dozvolu.",
     "images": [],
     "specs": {
+      "Boje": "Pearl Blizzard White",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -3906,7 +3907,6 @@
       "Okvir": "Rešetkasti, čelik visoke čvrstoće",
       "Prednja guma": "90/90-21 M/C 54H",
       "Stražnja guma": "150/70-17 M/C 69H",
-      "Kotači": "Žbičasti 21\"/17\", tubeless",
       "Prednji ovjes": "Obrnute vilice 43 mm, hod 210 mm",
       "Stražnji ovjes": "Uni-Trak, podesivo predopterećenje, hod 200 mm",
       "Prednje kočnice": "Disk 300 mm, dvoklipna čeljust",
@@ -3920,7 +3920,7 @@
       "Potrošnja goriva": "4,0 l/100 km",
       "Emisija CO2": "93 g/km",
       "Tehnologije": "ABS (isključivi), TFT zaslon, povezivost s pametnim telefonom, podesivi vjetrobran, štitnici ruku, velika zaštita motora",
-      "Boje": "Pearl Blizzard White"
+      "Kotači": "Žbičasti 21\"/17\", tubeless"
     }
   },
   {
@@ -3951,28 +3951,28 @@
       "/images/vozila/45-kx-450x/img_15.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,7 : 1",
-      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
-      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
-      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
       "Spremnik goriva": "7,5 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
       "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
       "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
     }
@@ -4005,28 +4005,28 @@
       "/images/vozila/45-kx-450x/img_15.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,7 : 1",
-      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
-      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
-      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
       "Spremnik goriva": "7,5 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
       "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
       "Homologacija": "L3e — homologiran za cestovnu registraciju"
     }
@@ -4059,27 +4059,27 @@
       "/images/vozila/45-kx-450x/img_15.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,7 : 1",
-      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
-      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
       "Spremnik goriva": "7,5 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Pokretanje": "Elektropokretač",
       "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
       "Homologacija": "L3e — homologiran za cestovnu registraciju",
       "Modelna godina": "2026"
@@ -4112,33 +4112,33 @@
       "/images/vozila/46-kx-250x/img_14.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "249 cm³",
       "Provrt x hod": "78 x 52,2 mm",
       "Kompresijski omjer": "14,0 : 1",
-      "Spremnik goriva": "6,2 litara",
-      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
-      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
-      "Međuosovinski razmak": "1.485 mm",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
-      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "90/90-21 54R",
       "Stražnja guma": "140/80-18 70R",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
+      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
       "D x Š x V": "2.185 x 820 x 1.260 mm",
+      "Međuosovinski razmak": "1.485 mm",
       "Udaljenost od tla": "330 mm",
       "Visina sjedala": "950 mm",
       "Masa spremna za vožnju": "111 kg",
+      "Spremnik goriva": "6,2 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
       "Oprema za cross-country": "Kotači 21\"/18\" s enduro gumama Dunlop AT81, bočni stalak",
       "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
     }
@@ -4170,33 +4170,33 @@
       "/images/vozila/46-kx-250x/img_14.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "249 cm³",
       "Provrt x hod": "78 x 52,2 mm",
       "Kompresijski omjer": "14,0 : 1",
-      "Spremnik goriva": "6,2 litara",
-      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
-      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
-      "Međuosovinski razmak": "1.485 mm",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
-      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "90/90-21 54R",
       "Stražnja guma": "140/80-18 70R",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
+      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
       "D x Š x V": "2.185 x 820 x 1.260 mm",
+      "Međuosovinski razmak": "1.485 mm",
       "Udaljenost od tla": "330 mm",
       "Visina sjedala": "950 mm",
       "Masa spremna za vožnju": "111 kg",
+      "Spremnik goriva": "6,2 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
       "Oprema za cross-country": "Kotači 21\"/18\" s enduro gumama Dunlop AT81, bočni stalak",
       "Homologacija": "L3e — homologiran za cestovnu registraciju"
     }
@@ -4443,28 +4443,28 @@
       "/images/vozila/50-kx-450/img_28.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,7 : 1",
-      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
-      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
-      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
-      "Spremnik goriva": "6,2 litara"
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
+      "Spremnik goriva": "6,2 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata"
     }
   },
   {
@@ -4508,27 +4508,27 @@
       "/images/vozila/50-kx-450/img_28.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,7 : 1",
-      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
-      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
       "Spremnik goriva": "6,2 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Pokretanje": "Elektropokretač",
       "Modelna godina": "2026"
     }
   },
@@ -4562,33 +4562,33 @@
       "/images/vozila/51-kx-250/img_17.jpg"
     ],
     "specs": {
-      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
-      "Ventilski sustav": "DOHC, 4 ventila",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
-      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
-      "Pokretanje": "Elektropokretač",
-      "Mjenjač": "5 brzina",
-      "Kvačilo": "Mokra višelamelna, hidraulička",
-      "Pogon": "Lanac",
-      "Okvir": "Obodni (perimetarski), aluminij",
       "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "249 cm³",
       "Provrt x hod": "78 x 52,2 mm",
       "Kompresijski omjer": "14,0 : 1",
-      "Spremnik goriva": "6,2 litara",
-      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
-      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
-      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
-      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
-      "Međuosovinski razmak": "1.485 mm",
-      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
-      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Okvir": "Obodni (perimetarski), aluminij",
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "110/90-19 62M",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
+      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
       "D x Š x V": "2.190 x 820 x 1.265 mm",
+      "Međuosovinski razmak": "1.485 mm",
       "Udaljenost od tla": "340 mm",
       "Visina sjedala": "955 mm",
-      "Masa spremna za vožnju": "110 kg"
+      "Masa spremna za vožnju": "110 kg",
+      "Spremnik goriva": "6,2 litara",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
+      "Pokretanje": "Elektropokretač",
+      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata"
     }
   },
   {
@@ -4796,9 +4796,9 @@
       "Kvačilo": "Hidraulično",
       "Okvir": "Obodni (perimetarski), aluminij",
       "Pokretanje": "Elektropokretač",
-      "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
       "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
-      "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
+      "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)",
+      "Napomena": "Kawasaki još nije objavio sve tehničke podatke"
     }
   },
   {
@@ -4827,9 +4827,9 @@
       "Kvačilo": "Hidraulično",
       "Okvir": "Obodni (perimetarski), aluminij",
       "Pokretanje": "Elektropokretač",
-      "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
       "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
-      "Homologacija": "L3e — homologiran za cestovnu registraciju"
+      "Homologacija": "L3e — homologiran za cestovnu registraciju",
+      "Napomena": "Kawasaki još nije objavio sve tehničke podatke"
     }
   },
   {
@@ -4844,6 +4844,7 @@
     "description": "KLX230 — lagani dual-sport za cestu i teren: 233 cc, kotači 21\"/18\", dugi hod ovjesa i velika udaljenost od tla. Za A2 dozvolu.",
     "images": [],
     "specs": {
+      "Boje": "Lime Green; Battle Gray / Bright White / Ebony",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "233 cm³",
       "Provrt x hod": "67 x 66 mm",
@@ -4854,21 +4855,20 @@
       "Dovod goriva": "Ubrizgavanje goriva: Ø 32 mm",
       "Mjenjač": "6 brzina",
       "Kvačilo": "Mokra višelamelna",
-      "Prednje kočnice": "Disk 290 mm, dvoklipna čeljust",
-      "Stražnje kočnice": "Disk 230 mm, jednoklipna čeljust",
-      "Spremnik goriva": "7,5 litara",
       "Okvir": "Cijevni, poludvostruka kolijevka",
       "Prednja guma": "2.75-21 45P",
       "Stražnja guma": "4.10-18 59P",
       "Prednji ovjes": "Teleskopske vilice 37 mm, hod 220 mm",
       "Stražnji ovjes": "Uni-Trak, hod 223 mm",
+      "Prednje kočnice": "Disk 290 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Disk 230 mm, jednoklipna čeljust",
       "D x Š x V": "2.110 x 830 x 1.150 mm",
       "Međuosovinski razmak": "1.370 mm",
       "Udaljenost od tla": "255 mm",
       "Visina sjedala": "880 mm",
       "Masa spremna za vožnju": "137 kg",
-      "Tehnologije": "ABS na prednjem kotaču (isključivi)",
-      "Boje": "Lime Green; Battle Gray / Bright White / Ebony"
+      "Spremnik goriva": "7,5 litara",
+      "Tehnologije": "ABS na prednjem kotaču (isključivi)"
     }
   },
   {
@@ -4883,6 +4883,7 @@
     "description": "KLX230SM — supermoto izvedba KLX230: kotači od 17\" s cestovnim gumama i obrnute vilice 37 mm. Lagan i okretan za grad. Za A2 dozvolu.",
     "images": [],
     "specs": {
+      "Boje": "Lime Green / Ebony",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "233 cm³",
       "Provrt x hod": "67 x 66 mm",
@@ -4893,23 +4894,22 @@
       "Dovod goriva": "Ubrizgavanje goriva: Ø 32 mm",
       "Mjenjač": "6 brzina",
       "Kvačilo": "Mokra višelamelna",
-      "Prednje kočnice": "Disk 290 mm, dvoklipna čeljust",
-      "Stražnje kočnice": "Disk 230 mm, jednoklipna čeljust",
-      "Spremnik goriva": "7,5 litara",
       "Okvir": "Obodni, čelik visoke čvrstoće",
       "Prednja guma": "110/70-17 M/C 54H",
       "Stražnja guma": "120/80-17 M/C 61P",
       "Prednji ovjes": "Obrnute vilice 37 mm, hod 188 mm",
       "Stražnji ovjes": "Uni-Trak, podesivo predopterećenje, hod 195 mm",
+      "Prednje kočnice": "Disk 290 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Disk 230 mm, jednoklipna čeljust",
       "D x Š x V": "2.030 x 830 x 1.120 mm",
       "Međuosovinski razmak": "1.365 mm",
       "Udaljenost od tla": "230 mm",
       "Visina sjedala": "860 mm",
       "Masa spremna za vožnju": "141 kg",
+      "Spremnik goriva": "7,5 litara",
       "Potrošnja goriva": "2,8 l/100 km",
       "Emisija CO2": "66 g/km",
-      "Tehnologije": "ABS na prednjem kotaču",
-      "Boje": "Lime Green / Ebony"
+      "Tehnologije": "ABS na prednjem kotaču"
     }
   },
   {
@@ -4924,13 +4924,13 @@
     "description": "KLX450R — enduro motocikl za natjecanja i ozbiljan teren: 449 cc, elektropokretač, aluminijski okvir i potpuno podesivi ovjes.",
     "images": [],
     "specs": {
+      "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "449 cm³",
       "Provrt x hod": "96 x 62,1 mm",
       "Kompresijski omjer": "12,0 : 1",
       "Ventilski sustav": "DOHC, 4 ventila",
       "Dovod goriva": "Rasplinjač",
-      "Pokretanje": "Elektropokretač",
       "Mjenjač": "5 brzina",
       "Kvačilo": "Mokra višelamelna",
       "Okvir": "Obodni (perimetarski), aluminij",
@@ -4946,7 +4946,7 @@
       "Visina sjedala": "935 mm",
       "Masa spremna za vožnju": "126 kg",
       "Spremnik goriva": "8 litara",
-      "Boje": "Lime Green"
+      "Pokretanje": "Elektropokretač"
     }
   },
   {
@@ -4976,23 +4976,23 @@
       "Dovod goriva": "Ubrizgavanje goriva: Ø 34 mm x 2",
       "Mjenjač": "Automatski CVT (visoka/niska brzina, neutral, rikverc)",
       "Pogon": "Kardan, 2WD/4WD po izboru, prednja blokada diferencijala s promjenjivom kontrolom",
-      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
-      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
       "Prednja guma": "AT 25 x 8-12",
       "Stražnja guma": "AT 25 x 10-12",
+      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
       "Prednje kočnice": "Dva hidraulička diska 176 mm, dvoklipne čeljusti",
       "Stražnje kočnice": "Zatvorena višelamelna kočnica u uljnoj kupki",
       "D x Š x V": "2.184 x 1.171 x 1.209 mm",
       "Međuosovinski razmak": "1.285 mm",
       "Udaljenost od tla": "229 mm",
       "Visina sjedala": "894 mm",
+      "Masa spremna za vožnju": "349 kg",
       "Spremnik goriva": "19 litara",
+      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
+      "Paket SE": "Prednji zaštitni okvir (brush guard), štitnici ruku, WARN VRX 25-S vitlo",
       "Vučna sila": "567 kg",
       "Nosivost prtljažnika": "40 kg naprijed / 80 kg straga",
-      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
-      "Masa spremna za vožnju": "349 kg",
-      "Paket SE": "Prednji zaštitni okvir (brush guard), štitnici ruku, WARN VRX 25-S vitlo"
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
     }
   },
   {
@@ -5042,22 +5042,22 @@
       "Dovod goriva": "Ubrizgavanje goriva: Ø 34 mm x 2",
       "Mjenjač": "Automatski CVT (visoka/niska brzina, neutral, rikverc)",
       "Pogon": "Kardan, 2WD/4WD po izboru, prednja blokada diferencijala s promjenjivom kontrolom",
-      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
-      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
       "Prednja guma": "AT 25 x 8-12",
       "Stražnja guma": "AT 25 x 10-12",
+      "Prednji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 175 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, podesivo predopterećenje, hod 188 mm",
       "Prednje kočnice": "Dva hidraulička diska 176 mm, dvoklipne čeljusti",
       "Stražnje kočnice": "Zatvorena višelamelna kočnica u uljnoj kupki",
       "D x Š x V": "2.184 x 1.171 x 1.209 mm",
       "Međuosovinski razmak": "1.285 mm",
       "Udaljenost od tla": "229 mm",
       "Visina sjedala": "894 mm",
+      "Masa spremna za vožnju": "332 kg",
       "Spremnik goriva": "19 litara",
+      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
       "Vučna sila": "567 kg",
       "Nosivost prtljažnika": "40 kg naprijed / 80 kg straga",
-      "Tehnologije": "Električni servo upravljač (EPS), TFT zaslon u boji, povezivost s pametnim telefonom (Rideology), KQR nosači",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
-      "Masa spremna za vožnju": "332 kg"
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
     }
   },
   {
@@ -5097,14 +5097,15 @@
       "Kompresijski omjer": "9,1 : 1",
       "Najveća snaga": "24 kW (32 KS) pri 7.000 o/min",
       "Najveći okretni moment": "33 Nm pri 6.500 o/min",
+      "Ventilski sustav": "SOHC, 4 ventila",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm",
       "Mjenjač": "Automatski CVT, 2 brzine i rikverc",
       "Pogon": "Kardan, 2WD/4WD po izboru, prednji diferencijal s dva načina rada",
       "Okvir": "Dvostruka kolijevka, cijevni čelik visoke čvrstoće",
-      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
-      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
       "Prednja guma": "AT 24 x 8-12",
       "Stražnja guma": "AT 24 x 10-12",
+      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
+      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
       "Prednje kočnice": "Dva diska 202 mm",
       "Stražnje kočnice": "Disk 202 mm",
       "D x Š x V": "2.035 x 1.100 x 1.185 mm",
@@ -5112,12 +5113,11 @@
       "Udaljenost od tla": "236 mm",
       "Visina sjedala": "879 mm",
       "Spremnik goriva": "16 litara",
+      "Tehnologije": "Električni servo upravljač (EPS)",
+      "Homologacija": "T3b (traktorska kategorija) — registracija za cestu, najveća brzina na cesti 60 km/h",
       "Vučna sila": "476 kg",
       "Nosivost prtljažnika": "34 kg naprijed / 68 kg straga",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Tehnologije": "Električni servo upravljač (EPS)",
-      "Ventilski sustav": "SOHC, 4 ventila",
-      "Homologacija": "T3b (traktorska kategorija) — registracija za cestu, najveća brzina na cesti 60 km/h"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)"
     }
   },
   {
@@ -5170,27 +5170,27 @@
       "Kompresijski omjer": "9,1 : 1",
       "Najveća snaga": "24 kW (32 KS) pri 7.000 o/min",
       "Najveći okretni moment": "33 Nm pri 6.500 o/min",
+      "Ventilski sustav": "SOHC, 4 ventila",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 38 mm",
       "Mjenjač": "Automatski CVT, 2 brzine i rikverc",
       "Pogon": "Kardan, 2WD/4WD po izboru, prednji diferencijal s dva načina rada",
       "Okvir": "Dvostruka kolijevka, cijevni čelik visoke čvrstoće",
-      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
-      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
       "Prednja guma": "AT 24 x 8-12",
       "Stražnja guma": "AT 24 x 10-12",
+      "Prednji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 193 mm",
+      "Stražnji ovjes": "Dvostruka A-ramena, podesivo predopterećenje, hod 201 mm",
       "Prednje kočnice": "Dva diska 202 mm",
       "Stražnje kočnice": "Disk 202 mm",
       "D x Š x V": "2.035 x 1.100 x 1.185 mm",
       "Međuosovinski razmak": "1.214 mm",
       "Udaljenost od tla": "236 mm",
       "Visina sjedala": "879 mm",
+      "Masa spremna za vožnju": "312 kg",
       "Spremnik goriva": "16 litara",
+      "Homologacija": "T3b (traktorska kategorija) — registracija za cestu, najveća brzina na cesti 60 km/h",
       "Vučna sila": "476 kg",
       "Nosivost prtljažnika": "34 kg naprijed / 68 kg straga",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Masa spremna za vožnju": "312 kg",
-      "Ventilski sustav": "SOHC, 4 ventila",
-      "Homologacija": "T3b (traktorska kategorija) — registracija za cestu, najveća brzina na cesti 60 km/h"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)"
     }
   },
   {
@@ -5224,14 +5224,13 @@
       "Najveća snaga": "4,8 kW (6,5 KS) pri 7.500 o/min",
       "Najveći okretni moment": "6,6 Nm pri 5.500 o/min",
       "Dovod goriva": "Rasplinjač Keihin PTE16",
-      "Pokretanje": "Elektropokretač i nožni pokretač",
       "Mjenjač": "Automatski CVT s centrifugalnim kvačilom",
       "Pogon": "Lanac (2WD)",
       "Okvir": "Dvostruka kolijevka, čelik",
-      "Prednji ovjes": "Jednostruko A-rame s dva amortizera, hod 71 mm",
-      "Stražnji ovjes": "Stražnja vilica s jednim amortizerom, hod 74 mm",
       "Prednja guma": "AT 18 x 7-8",
       "Stražnja guma": "AT 18 x 9-8",
+      "Prednji ovjes": "Jednostruko A-rame s dva amortizera, hod 71 mm",
+      "Stražnji ovjes": "Stražnja vilica s jednim amortizerom, hod 74 mm",
       "Prednje kočnice": "Dva mehanička bubnja",
       "Stražnje kočnice": "Hidraulički disk",
       "D x Š x V": "1.425 x 900 x 925 mm",
@@ -5240,6 +5239,7 @@
       "Visina sjedala": "650 mm",
       "Masa spremna za vožnju": "122 kg",
       "Spremnik goriva": "5,3 litara",
+      "Pokretanje": "Elektropokretač i nožni pokretač",
       "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)"
     }
   },
@@ -5276,6 +5276,7 @@
       "/images/vozila/61-mule-pro-dxt/img_04.jpg"
     ],
     "specs": {
+      "Boje": "Super Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni trocilindrični dizel, OHV",
       "Radni obujam": "993 cm³",
       "Provrt x hod": "74 x 77 mm",
@@ -5288,12 +5289,11 @@
       "Okvir": "Ljestvičasti, cijevni čelik",
       "Prednji ovjes": "Dvostruka poprečna ramena, hod 222 mm",
       "Stražnji ovjes": "Dvostruka poprečna ramena, hod 217–220 mm",
+      "Broj sjedala": "3 ili 6 (preklopni drugi red)",
       "Vučna sila": "907 kg",
       "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
-      "Broj sjedala": "3 ili 6 (preklopni drugi red)",
       "Teretni sanduk (D x Š x V)": "1.085 x 1.363 x 279 mm (3 osobe) / 560 x 1.363 x 279 mm (6 osoba)",
-      "Nosivost sanduka": "453 kg (3 osobe) / 158 kg (6 osoba)",
-      "Boje": "Super Black"
+      "Nosivost sanduka": "453 kg (3 osobe) / 158 kg (6 osoba)"
     }
   },
   {
@@ -5320,6 +5320,7 @@
       "/images/vozila/62-mule-pro-dx/img_11.jpg"
     ],
     "specs": {
+      "Boje": "Timberline Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni trocilindrični dizel, OHV",
       "Radni obujam": "993 cm³",
       "Provrt x hod": "74 x 77 mm",
@@ -5332,11 +5333,10 @@
       "Okvir": "Ljestvičasti, cijevni čelik",
       "Prednji ovjes": "Dvostruka poprečna ramena, hod 222 mm",
       "Stražnji ovjes": "Dvostruka poprečna ramena, hod 217–220 mm",
+      "Broj sjedala": "3",
       "Vučna sila": "907 kg",
       "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
-      "Broj sjedala": "3",
-      "Ukupna nosivost": "714 kg",
-      "Boje": "Timberline Green"
+      "Ukupna nosivost": "714 kg"
     }
   },
   {
@@ -5362,6 +5362,7 @@
       "/images/vozila/63-mule-pro-fx/img_11.jpg"
     ],
     "specs": {
+      "Boje": "Vibrant Blue",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični, DOHC, 4 ventila",
       "Radni obujam": "999 cm³",
       "Provrt x hod": "92 x 75,1 mm",
@@ -5372,23 +5373,22 @@
       "Mjenjač": "Automatski CVT, 2 brzine i rikverc",
       "Pogon": "Kardan, 2WD/4WD po izboru (električno), diferencijal s blokadom",
       "Okvir": "Ljestvičasti, cijevni čelik",
-      "Prednji ovjes": "Dvostruka poprečna ramena, hod 279 mm",
-      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 256 mm",
       "Prednja guma": "26 x 9.00-12 4PR",
       "Stražnja guma": "26 x 11.00-12 4PR",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 279 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 256 mm",
       "Prednje kočnice": "Dva diska 212 mm, dvoklipne čeljusti",
       "Stražnje kočnice": "Dva diska 212 mm, jednoklipne čeljusti",
-      "Međuosovinski razmak": "2.345 mm",
-      "Spremnik goriva": "30 litara",
-      "Nosivost sanduka": "453 kg",
-      "Vučna sila": "907 kg",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "D x Š x V": "3.450 x 1.625 x 2.060 mm",
+      "Međuosovinski razmak": "2.345 mm",
       "Udaljenost od tla": "300 mm",
       "Masa spremna za vožnju": "852 kg",
+      "Spremnik goriva": "30 litara",
+      "Vučna sila": "907 kg",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Nosivost sanduka": "453 kg",
       "Teretni sanduk": "1,9 m², hidraulično podizanje",
-      "Oprema": "Samonivelirajući stražnji ovjes, servo upravljač (EPS) ovisan o brzini, podesivi volan, plastični krov, prostor ispod sjedala",
-      "Boje": "Vibrant Blue"
+      "Oprema": "Samonivelirajući stražnji ovjes, servo upravljač (EPS) ovisan o brzini, podesivi volan, plastični krov, prostor ispod sjedala"
     }
   },
   {
@@ -5435,6 +5435,7 @@
       "/images/vozila/64-mule-pro-mx/img_31.jpg"
     ],
     "specs": {
+      "Boje": "Timberline Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC, 4 ventila",
       "Radni obujam": "695 cm³",
       "Provrt x hod": "102 x 85 mm",
@@ -5445,24 +5446,23 @@
       "Mjenjač": "CVT s centrifugalnim kvačilom, visoka i niska brzina, rikverc",
       "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
       "Okvir": "Ljestvičasti, cijevni čelik",
-      "Prednji ovjes": "Dvostruka poprečna ramena, hod 218 mm",
-      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 232 mm",
       "Prednja guma": "25 x 8-12, radijalna",
       "Stražnja guma": "25 x 10-12, radijalna",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 218 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 232 mm",
       "Prednje kočnice": "Dva diska 212 mm, dvoklipne čeljusti",
       "Stražnje kočnice": "Dva diska 212 mm",
       "D x Š x V": "2.794 x 1.524 x 1.890 mm",
       "Međuosovinski razmak": "2.004 mm",
       "Udaljenost od tla": "269 mm",
-      "Spremnik goriva": "36 litara",
       "Broj sjedala": "2",
+      "Masa spremna za vožnju": "716 kg",
+      "Spremnik goriva": "36 litara",
+      "Vučna sila": "680 kg",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
       "Teretni sanduk (D x Š x V)": "848 x 1.120 x 231 mm",
       "Nosivost sanduka": "317 kg",
-      "Ukupna nosivost": "544 kg",
-      "Vučna sila": "680 kg",
-      "Masa spremna za vožnju": "716 kg",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
-      "Boje": "Timberline Green"
+      "Ukupna nosivost": "544 kg"
     }
   },
   {
@@ -5481,6 +5481,7 @@
       "/images/vozila/65-mule-sx-4x4-fi/img_03.jpg"
     ],
     "specs": {
+      "Boje": "Timberline Green",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
       "Radni obujam": "401 cm³",
       "Provrt x hod": "82 x 76 mm",
@@ -5490,24 +5491,23 @@
       "Dovod goriva": "Ubrizgavanje goriva",
       "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
       "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
-      "Prednji ovjes": "MacPherson, hod 79 mm",
-      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednja guma": "24 x 9-10",
       "Stražnja guma": "24 x 11-10",
+      "Prednji ovjes": "MacPherson, hod 79 mm",
+      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednje kočnice": "Bubanj",
       "Stražnje kočnice": "Bubanj",
       "D x Š x V": "2.710 x 1.336 x 1.801 mm",
       "Međuosovinski razmak": "1.781 mm",
       "Udaljenost od tla": "170 mm",
-      "Spremnik goriva": "16 litara",
       "Broj sjedala": "2",
+      "Masa spremna za vožnju": "468 kg",
+      "Spremnik goriva": "16 litara",
+      "Vučna sila": "500 kg",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Teretni sanduk (D x Š x V)": "1.040 x 905 x 245 mm",
       "Nosivost sanduka": "181 kg",
-      "Ukupna nosivost": "415 kg",
-      "Vučna sila": "500 kg",
-      "Masa spremna za vožnju": "468 kg",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Boje": "Timberline Green"
+      "Ukupna nosivost": "415 kg"
     }
   },
   {
@@ -5522,6 +5522,7 @@
     "description": "Novi MULE PRO-FXT 1000 LE za 2027. — veliko radno vozilo s Trans Cab sustavom (preklapanje sa 2 na 4 osobe), motorom 999 cc i čeličnim prednjim branikom.",
     "images": [],
     "specs": {
+      "Boje": "Metallic Light Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični, DOHC, 4 ventila",
       "Radni obujam": "999 cm³",
       "Provrt x hod": "92 x 75,1 mm",
@@ -5532,23 +5533,22 @@
       "Mjenjač": "Automatski CVT, 2 brzine i rikverc",
       "Pogon": "Kardan, 2WD/4WD po izboru (električno), diferencijal s blokadom",
       "Okvir": "Ljestvičasti, cijevni čelik",
-      "Prednji ovjes": "Dvostruka poprečna ramena, hod 279 mm",
-      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 256 mm",
       "Prednja guma": "26 x 9.00-12 4PR",
       "Stražnja guma": "26 x 11.00-12 4PR",
+      "Prednji ovjes": "Dvostruka poprečna ramena, hod 279 mm",
+      "Stražnji ovjes": "Dvostruka poprečna ramena, hod 256 mm",
       "Prednje kočnice": "Dva diska 212 mm, dvoklipne čeljusti",
       "Stražnje kočnice": "Dva diska 212 mm, jednoklipne čeljusti",
+      "D x Š x V": "3.450 x 1.625 x 2.055 mm",
       "Međuosovinski razmak": "2.345 mm",
+      "Udaljenost od tla": "295 mm",
+      "Broj sjedala": "2 do 4 (Trans Cab)",
+      "Masa spremna za vožnju": "872 kg",
       "Spremnik goriva": "30 litara",
-      "Nosivost sanduka": "453 kg",
       "Vučna sila": "907 kg",
       "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "D x Š x V": "3.450 x 1.625 x 2.055 mm",
-      "Udaljenost od tla": "295 mm",
-      "Masa spremna za vožnju": "872 kg",
-      "Broj sjedala": "2 do 4 (Trans Cab)",
-      "Oprema": "Servo upravljač (EPS) ovisan o brzini, podesivi volan, plastični krov, čelični prednji branik, prostor ispod sjedala vozača",
-      "Boje": "Metallic Light Gray"
+      "Nosivost sanduka": "453 kg",
+      "Oprema": "Servo upravljač (EPS) ovisan o brzini, podesivi volan, plastični krov, čelični prednji branik, prostor ispod sjedala vozača"
     }
   },
   {
@@ -5563,6 +5563,7 @@
     "description": "Novi MULE SX 4x4 XC LE za 2027. — kompaktno radno vozilo s aluminijskim kotačima od 12\", gumama od 26\", 4 LED svjetla, krovom i posebnom grafikom.",
     "images": [],
     "specs": {
+      "Boje": "Metallic Onyx Black",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
       "Radni obujam": "401 cm³",
       "Provrt x hod": "82 x 76 mm",
@@ -5572,26 +5573,25 @@
       "Dovod goriva": "Ubrizgavanje goriva",
       "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
       "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
-      "Prednji ovjes": "MacPherson, hod 79 mm",
-      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednja guma": "26 x 9.00-12",
       "Stražnja guma": "26 x 9.00-12",
+      "Prednji ovjes": "MacPherson, hod 79 mm",
+      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednje kočnice": "Dva hidraulička bubnja",
       "Stražnje kočnice": "Dva hidraulička bubnja",
       "D x Š x V": "2.710 x 1.335 x 1.905 mm",
       "Međuosovinski razmak": "1.780 mm",
       "Udaljenost od tla": "190 mm",
-      "Spremnik goriva": "16 litara",
+      "Visina sjedala": "840 mm",
       "Broj sjedala": "2",
+      "Masa spremna za vožnju": "498 kg",
+      "Spremnik goriva": "16 litara",
+      "Kotači": "12\" lijevani aluminij",
+      "Vučna sila": "500 kg",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Teretni sanduk (D x Š x V)": "1.040 x 905 x 245 mm",
       "Nosivost sanduka": "181 kg",
       "Ukupna nosivost": "415 kg",
-      "Vučna sila": "500 kg",
-      "Masa spremna za vožnju": "498 kg",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Boje": "Metallic Onyx Black",
-      "Visina sjedala": "840 mm",
-      "Kotači": "12\" lijevani aluminij",
       "Oprema": "4 LED prednja svjetla, plastični krov, posebna grafika"
     }
   },
@@ -5607,6 +5607,7 @@
     "description": "Novi MULE SX 4x4 XC za 2027. — kompaktni MULE s ubrizgavanjem goriva, kotačima od 12\" i gumama od 26\" za veću udaljenost od tla.",
     "images": [],
     "specs": {
+      "Boje": "Metallic Sierra Blue",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
       "Radni obujam": "401 cm³",
       "Provrt x hod": "82 x 76 mm",
@@ -5616,26 +5617,25 @@
       "Dovod goriva": "Ubrizgavanje goriva",
       "Mjenjač": "CVT s visokom i niskom brzinom i rikvercom",
       "Pogon": "Kardan, 2WD/4WD po izboru, stražnji diferencijal s blokadom",
-      "Prednji ovjes": "MacPherson, hod 79 mm",
-      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednja guma": "26 x 9.00-12",
       "Stražnja guma": "26 x 9.00-12",
+      "Prednji ovjes": "MacPherson, hod 79 mm",
+      "Stražnji ovjes": "Njihajuća osovina, hod 79 mm",
       "Prednje kočnice": "Dva hidraulička bubnja",
       "Stražnje kočnice": "Dva hidraulička bubnja",
       "D x Š x V": "2.710 x 1.335 x 1.905 mm",
       "Međuosovinski razmak": "1.780 mm",
       "Udaljenost od tla": "190 mm",
-      "Spremnik goriva": "16 litara",
+      "Visina sjedala": "840 mm",
       "Broj sjedala": "2",
+      "Masa spremna za vožnju": "498 kg",
+      "Spremnik goriva": "16 litara",
+      "Kotači": "12\"",
+      "Vučna sila": "500 kg",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Teretni sanduk (D x Š x V)": "1.040 x 905 x 245 mm",
       "Nosivost sanduka": "181 kg",
-      "Ukupna nosivost": "415 kg",
-      "Vučna sila": "500 kg",
-      "Masa spremna za vožnju": "498 kg",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Boje": "Metallic Sierra Blue",
-      "Visina sjedala": "840 mm",
-      "Kotači": "12\""
+      "Ukupna nosivost": "415 kg"
     }
   },
   {
@@ -5654,26 +5654,26 @@
       "/images/vozila/66-jet-ski-ultra-310lx/img_03.jpg"
     ],
     "specs": {
+      "Boje": "Metallic Deep Red / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "8,2 : 1",
-      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
       "Najveći okretni moment": "286 Nm pri 6.000 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Podmazivanje": "Polusuho korito",
       "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
       "D x Š x V": "3.579 x 1.194 x 1.240 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "516 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, audio sustav JETSOUND 4s, kamera za vožnju unatrag, načini snage, launch control, KSRD",
-      "Boje": "Metallic Deep Red / Ebony"
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5695,26 +5695,26 @@
       "/images/vozila/67-jet-ski-ultra-310lx-s/img_06.jpg"
     ],
     "specs": {
+      "Boje": "Riptide Turquoise / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "8,2 : 1",
-      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
       "Najveći okretni moment": "286 Nm pri 6.000 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Podmazivanje": "Polusuho korito",
       "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
       "D x Š x V": "3.579 x 1.194 x 1.240 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "509 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, načini snage, launch control, KSRD",
-      "Boje": "Riptide Turquoise / Ebony"
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5733,24 +5733,24 @@
       "/images/vozila/68-jet-ski-ultra-310x/img_03.jpg"
     ],
     "specs": {
+      "Boje": "Neon Yellow / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "8,2 : 1",
-      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Najveća snaga": "228 kW (310 KS) pri 8.000 o/min",
       "Najveći okretni moment": "286 Nm pri 6.000 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Eaton Roots kompresor, voda-zrak intercooler, tlak do 1,16 bar",
       "Podmazivanje": "Polusuho korito",
       "Pogon": "Mlazna pumpa 160 mm, aksijalna, jednostupanjska",
-      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
       "D x Š x V": "3.579 x 1.194 x 1.240 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
-      "Boje": "Neon Yellow / Ebony"
+      "Spremnik goriva": "80 litara",
+      "Izvor podataka": "Kawasaki, tvornički podaci (europska izvedba može se neznatno razlikovati)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5776,25 +5776,25 @@
       "/images/vozila/69-jet-ski-ultra-160lx/img_10.jpg"
     ],
     "specs": {
+      "Boje": "Metallic Deep Red / Metallic Carbon Gray",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
       "D x Š x V": "3.579 x 1.194 x 1.240 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "467 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, audio sustav JETSOUND 4s, LED ukrasna svjetla, načini snage, pametni rikverc s usporavanjem (KSRD)",
-      "Boje": "Metallic Deep Red / Metallic Carbon Gray"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5813,25 +5813,25 @@
       "/images/vozila/70-jet-ski-ultra-160lx-s/img_03.jpg"
     ],
     "specs": {
+      "Boje": "Riptide Turquoise / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
       "D x Š x V": "3.580 x 1.195 x 1.175 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "456 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, LED ukrasna svjetla",
-      "Boje": "Riptide Turquoise / Ebony"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5873,25 +5873,25 @@
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_26.jpg"
     ],
     "specs": {
+      "Boje": "Crystal White / Timberline Green",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
       "D x Š x V": "3.580 x 1.265 x 1.175 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "502 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, Garmin ploter, oprema za ribolov s hladnjakom, tempomat, launch control, KSRD",
-      "Boje": "Crystal White / Timberline Green"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   },
   {
@@ -5928,24 +5928,24 @@
       "/images/vozila/72-jet-ski-stx-160lx/img_21.jpg"
     ],
     "specs": {
+      "Boje": "Crystal White / Metallic Phantom Silver",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa, aksijalna, jednostupanjska, rotor Ø 155 mm",
       "D x Š x V": "3.420 x 1.185 x 1.145 mm",
+      "Broj sjedala": "3",
       "Masa spremna za vožnju": "443 kg",
       "Spremnik goriva": "78 litara",
-      "Prtljažni prostor": "121,8 litara",
-      "Broj sjedala": "3",
       "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering, audio sustav JETSOUND s Bluetoothom, LED ukrasna svjetla",
-      "Boje": "Crystal White / Metallic Phantom Silver"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "121,8 litara"
     }
   },
   {
@@ -5970,21 +5970,21 @@
       "/images/vozila/73-jet-ski-stx-160r/img_09.jpg"
     ],
     "specs": {
+      "Boje": "Lime Green / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Broj sjedala": "3",
       "D x Š x V": "3.310 x 1.180 x 1.120 mm",
-      "Spremnik goriva": "78 litara",
+      "Broj sjedala": "3",
       "Masa spremna za vožnju": "423 kg",
-      "Boje": "Lime Green / Ebony"
+      "Spremnik goriva": "78 litara",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6011,23 +6011,23 @@
       "/images/vozila/74-jet-ski-stx-160x/img_11.jpg"
     ],
     "specs": {
+      "Boje": "Metallic Surf Blue / Crystal White",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
-      "Masa spremna za vožnju": "425 kg",
-      "Broj sjedala": "3",
-      "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering",
       "D x Š x V": "3.310 x 1.180 x 1.145 mm",
+      "Broj sjedala": "3",
+      "Masa spremna za vožnju": "425 kg",
       "Spremnik goriva": "78 litara",
-      "Boje": "Metallic Surf Blue / Crystal White"
+      "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6048,19 +6048,19 @@
       "/images/vozila/75-jet-ski-st-160x/img_05.png"
     ],
     "specs": {
+      "Boje": "Metallic Bluish Gray / Pearl Neon Yellow",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
       "Tehnologije": "Elektronički tempomat, način 5 mph (bez valova), način za učenje (SLO), Kawasaki Smart Steering",
-      "Boje": "Metallic Bluish Gray / Pearl Neon Yellow"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6082,18 +6082,18 @@
       "/images/vozila/76-jet-ski-st-160/img_06.jpg"
     ],
     "specs": {
+      "Boje": "Riptide Turquoise / Crystal White",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
-      "Boje": "Riptide Turquoise / Crystal White"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6108,22 +6108,22 @@
     "description": "STX 160LX-S — sportski STX za tri osobe s kamerom za vožnju unatrag, ukrasnim svjetlima i produljenom stražnjom palubom s nosačima za dodatnu opremu.",
     "images": [],
     "specs": {
+      "Boje": "Pearl Citrus Yellow / Metallic Matte Twilight Blue",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "D x Š x V": "3.420 x 1.185 x 1.145 mm",
-      "Spremnik goriva": "78 litara",
-      "Masa spremna za vožnju": "438 kg",
       "Broj sjedala": "3",
+      "Masa spremna za vožnju": "438 kg",
+      "Spremnik goriva": "78 litara",
       "Tehnologije": "Elektronički tempomat, električni trim, pametni rikverc s usporavanjem (KSRD), način 5 mph (bez valova), načini snage, način za učenje (SLO), Kawasaki Smart Steering, kamera za vožnju unatrag, LED ukrasna svjetla",
-      "Boje": "Pearl Citrus Yellow / Metallic Matte Twilight Blue"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6138,21 +6138,21 @@
     "description": "SX-R 160 — Jet Ski za stajanje (stand-up) za rekreaciju i utrke: motor 1.498 cc, okretni V-trup i deflektor prskanja (KSD).",
     "images": [],
     "specs": {
+      "Boje": "Lime Green / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "D x Š x V": "2.655 x 765 x 840 mm",
-      "Spremnik goriva": "23 litara",
-      "Masa spremna za vožnju": "250 kg",
       "Broj sjedala": "1 (stajanje)",
-      "Boje": "Lime Green / Ebony"
+      "Masa spremna za vožnju": "250 kg",
+      "Spremnik goriva": "23 litara",
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6167,6 +6167,7 @@
     "description": "Novi STX 310R za 2027. — kompresorski motor od 300 KS u laganom STX trupu: Kawasakijev najbrže ubrzavajući Jet Ski za sjedenje.",
     "images": [],
     "specs": {
+      "Boje": "Lime Green / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
@@ -6177,8 +6178,7 @@
       "D x Š x V": "3.310 x 1.180 x 1.145 mm",
       "Spremnik goriva": "78 litara",
       "Tehnologije": "KSRD pametni rikverc, Kawasaki Smart Steering, električni trim, launch control, načini snage i SLO, tempomat, 7\" TFT s pokazivačem tlaka kompresora, JETSOUND zvučnici, RIDEOLOGY, LED ukrasna svjetla",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Boje": "Lime Green / Ebony"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)"
     }
   },
   {
@@ -6193,6 +6193,7 @@
     "description": "Novi STX 310RX za 2027. — kompresorskih 300 KS u STX trupu, uz premium LXury sjedalo.",
     "images": [],
     "specs": {
+      "Boje": "Metallic Carbon Gray / Lime Green",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
@@ -6201,12 +6202,11 @@
       "Najveći okretni moment": "277 Nm pri 6.000 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
       "D x Š x V": "3.310 x 1.180 x 1.145 mm",
+      "Masa spremna za vožnju": "477 kg",
       "Spremnik goriva": "78 litara",
       "Tehnologije": "KSRD pametni rikverc, Kawasaki Smart Steering, električni trim, launch control, načini snage i SLO, tempomat, 7\" TFT s pokazivačem tlaka kompresora, JETSOUND zvučnici, RIDEOLOGY, LED ukrasna svjetla",
       "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Masa spremna za vožnju": "477 kg",
-      "Sjedalo": "LXury (premium)",
-      "Boje": "Metallic Carbon Gray / Lime Green"
+      "Sjedalo": "LXury (premium)"
     }
   },
   {
@@ -6221,18 +6221,18 @@
     "description": "Novi SX-X 160 za 2027. — Jet Ski za stajanje s fiksnim upravljačem, velikom palubom i aktivnim V-trupom; motor 1.498 cc.",
     "images": [],
     "specs": {
+      "Boje": "Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
+      "Napomena": "Detaljne tehničke podatke javljamo na upit",
       "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Boje": "Ebony",
-      "Napomena": "Detaljne tehničke podatke javljamo na upit"
+      "Hlađenje": "Usisanom vodom"
     }
   },
   {
@@ -6247,26 +6247,26 @@
     "description": "Novi Ultra 160LX-S Wakesport za 2027. — Ultra trup s dubokim V (22,5°), ugrađeni nosač za wakeboard i pilon za vuču, sjedalo prilagođeno wake sportovima.",
     "images": [],
     "specs": {
+      "Boje": "Metallic Stardust White / Riptide Turquoise",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
       "Radni obujam": "1.498 cm³",
       "Provrt x hod": "83 x 69,2 mm",
       "Kompresijski omjer": "10,6 : 1",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
       "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Hlađenje": "Usisanom vodom",
+      "Usisni sustav": "Atmosferski (bez kompresora)",
       "Podmazivanje": "Polusuho korito",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
       "Pogon": "Mlazna pumpa 155 mm, aksijalna, jednostupanjska",
       "D x Š x V": "3.580 x 1.195 x 1.175 mm",
-      "Spremnik goriva": "80 litara",
-      "Prtljažni prostor": "168 litara",
-      "Nosivost": "225 kg",
       "Broj sjedala": "3",
       "Masa spremna za vožnju": "456 kg",
+      "Spremnik goriva": "80 litara",
       "Tehnologije": "TFT zaslon u boji, povezivost s pametnim telefonom, LED ukrasna svjetla",
-      "Boje": "Metallic Stardust White / Riptide Turquoise",
-      "Oprema": "Ugrađeni nosač za wakeboard i pilon za vuču, sjedalo za wake sportove, kamera za vožnju unatrag"
+      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
+      "Oprema": "Ugrađeni nosač za wakeboard i pilon za vuču, sjedalo za wake sportove, kamera za vožnju unatrag",
+      "Hlađenje": "Usisanom vodom",
+      "Prtljažni prostor": "168 litara",
+      "Nosivost": "225 kg"
     }
   }
 ]
