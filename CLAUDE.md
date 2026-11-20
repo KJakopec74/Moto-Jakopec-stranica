@@ -210,3 +210,4 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - `src/lib/podaci-za-google.ts` — schema.org Product s cijenom na stranicama vozila i rabljenih.
 - Novosti: `novosti.xlsx` → `novosti.json` (`scripts/novosti_excel_to_json.py`, u objavi.bat), `/novosti`, istaknute na početnoj.
 - Stari opisi paketa iz dks.si ("Paket Tourer" u specs) prebačeni u `paketi` i maknuti iz specs.
+- Posebne akcije: `akcije.xlsx` → `akcije.json` (`scripts/akcije_excel_to_json.py`, u objavi.bat), `AkcijaCard.tsx`, prikaz na /akcije, početnoj i u tražilici; `vrijedi_do` skriva akciju (pri buildu i u pregledniku).

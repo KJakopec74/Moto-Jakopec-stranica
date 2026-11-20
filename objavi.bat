@@ -45,6 +45,10 @@ if not exist proizvodi.xlsx (
 py -X utf8 scripts\proizvodi_excel_to_json.py
 if errorlevel 1 goto greska
 
+REM akcije.xlsx se napravi sam pri prvom pokretanju (prazan, s uputama)
+py -X utf8 scripts\akcije_excel_to_json.py
+if errorlevel 1 goto greska
+
 REM novosti.xlsx se napravi sam pri prvom pokretanju (prazan, s uputama)
 py -X utf8 scripts\novosti_excel_to_json.py
 if errorlevel 1 goto greska

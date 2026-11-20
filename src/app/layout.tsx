@@ -8,6 +8,7 @@ import TrakaOdabira from "@/components/TrakaOdabira";
 import modelsData from "@/data/models.json";
 import productsData from "@/data/products.json";
 import { imaAkciju } from "@/lib/cijena";
+import { posebneAkcije } from "@/lib/akcije";
 import { ADRESA_STRANICE, FIRMA, TELEFONI, DRUSTVENE_MREZE } from "@/lib/stranica";
 
 const inter = Inter({
@@ -77,7 +78,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(PODACI_ZA_GOOGLE) }}
         />
-        <Header imaAkcija={[...modelsData, ...productsData].some((x) => imaAkciju(x as { price?: string; akcijska_cijena?: string }))} />
+        <Header imaAkcija={posebneAkcije.length > 0 || [...modelsData, ...productsData].some((x) => imaAkciju(x as { price?: string; akcijska_cijena?: string }))} />
         <main className="flex-1">{children}</main>
         <Footer />
         <TrakaOdabira />

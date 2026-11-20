@@ -7,6 +7,8 @@ import type { Product } from "@/types/product";
 import modelsData from "@/data/models.json";
 import productsData from "@/data/products.json";
 import { imaAkciju } from "@/lib/cijena";
+import AkcijaCard from "@/components/AkcijaCard";
+import { posebneAkcije } from "@/lib/akcije";
 
 export const metadata: Metadata = {
   title: "Akcije",
@@ -24,7 +26,7 @@ export default function AkcijePage() {
         <p className="section-subtitle">Vozila, oprema i dijelovi po sniženim cijenama.</p>
       </div>
 
-      {vozila.length + proizvodi.length === 0 ? (
+      {posebneAkcije.length + vozila.length + proizvodi.length === 0 ? (
         <div className="card p-10 text-center max-w-2xl mx-auto">
           <p className="text-lg font-semibold mb-2" style={{ color: "var(--text)" }}>Trenutno nema aktivnih akcija.</p>
           <p className="mb-6" style={{ color: "var(--muted)" }}>Nazovite nas ili pošaljite upit — rado ćemo vam dati ponudu.</p>
@@ -32,6 +34,13 @@ export default function AkcijePage() {
         </div>
       ) : (
         <div className="space-y-12">
+          {posebneAkcije.length > 0 && (
+            <section>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {posebneAkcije.map((a) => <AkcijaCard key={a.id} akcija={a} />)}
+              </div>
+            </section>
+          )}
           {vozila.length > 0 && (
             <section>
               <h2 className="text-xl font-bold mb-4" style={{ color: "var(--text)" }}>Vozila ({vozila.length})</h2>

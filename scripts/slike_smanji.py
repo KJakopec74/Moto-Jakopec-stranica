@@ -29,6 +29,7 @@ MAPE_SA_SLIKAMA = [
     "public/images/dijelovi",
     "public/images/rabljena",
     "public/images/novosti",
+    "public/images/akcije",
 ]
 
 # Kvaliteta JPG-a (1–95). 80 je dobar omjer kvalitete i veličine.

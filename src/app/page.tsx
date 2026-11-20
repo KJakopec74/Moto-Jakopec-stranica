@@ -7,6 +7,8 @@ import ProductCard from "@/components/ProductCard";
 import RabljenoCard from "@/components/RabljenoCard";
 import type { Product } from "@/types/product";
 import { imaAkciju } from "@/lib/cijena";
+import AkcijaCard from "@/components/AkcijaCard";
+import { posebneAkcije } from "@/lib/akcije";
 import { rabljenaUProdaji } from "@/lib/rabljena";
 import KarticaNovosti from "@/components/KarticaNovosti";
 import { istaknuteNovosti } from "@/lib/novosti";
@@ -147,12 +149,13 @@ export default function HomePage() {
       )}
 
       {/* ── Akcije (samo dok traje neka akcija) ────────────────────── */}
-      {akcijeVozila.length + akcijeProizvodi.length > 0 && (
+      {posebneAkcije.length + akcijeVozila.length + akcijeProizvodi.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
           <NaslovSekcije naslov="Akcije" podnaslov="Snižene cijene — dok traju zalihe" href="/akcije" link="Sve akcije" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {akcijeVozila.slice(0, 3).map((bike) => <MotorcycleCard key={bike.id} bike={bike} />)}
-            {akcijeProizvodi.slice(0, Math.max(0, 3 - akcijeVozila.length)).map((p) => <ProductCard key={p.id} product={p} />)}
+            {posebneAkcije.slice(0, 3).map((a) => <AkcijaCard key={`a${a.id}`} akcija={a} />)}
+            {akcijeVozila.slice(0, Math.max(0, 3 - posebneAkcije.length)).map((bike) => <MotorcycleCard key={bike.id} bike={bike} />)}
+            {akcijeProizvodi.slice(0, Math.max(0, 3 - posebneAkcije.length - akcijeVozila.length)).map((p) => <ProductCard key={p.id} product={p} />)}
           </div>
         </section>
       )}

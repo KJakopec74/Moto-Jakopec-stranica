@@ -178,6 +178,21 @@ Ako ga želiš potpuno maknuti, obriši cijeli red.
 
 Dok nema nijednog vozila, stranica Rabljena vozila prikazuje poruku „Trenutno nemamo rabljenih vozila” s gumbom za upit.
 
+### Posebne akcije (akcije.xlsx)
+
+Za sve što želiš staviti na akciju, i kad toga nema u katalogu (npr. komplet ulja, rabljena kaciga, servisni paket), koristi **`akcije.xlsx`**. Napravi se sam pri prvom pokretanju `objavi.bat`.
+
+Za svaku akciju u novi red upiši:
+- `naziv`
+- `kategorija`
+- `cijena`: redovna cijena, prikaže se precrtano
+- `akcijska_cijena`
+- `opis`
+- `slike`: nazivi slika iz Preuzimanja, odvojeni `;`
+- `vrijedi_do`: zadnji dan akcije
+
+Akcija se pojavi na stranici **Akcije** i na početnoj, a u izborniku se pojavi crveni link **Akcije**. Postotak popusta izračuna se sam. Kad prođe datum iz `vrijedi_do`, akcija se sama sakrije. Ako stavku želiš sakriti ranije, u stupac `objavljeno` upiši `NE`.
+
 ## 6a. Novosti / obavijesti
 
 **`novosti.xlsx`** se napravi sam pri prvom pokretanju `objavi.bat`.

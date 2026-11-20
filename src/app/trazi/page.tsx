@@ -19,6 +19,8 @@ import brandsData from "@/data/brands.json";
 import { kategorije, proizvodiKategorije, type Vrsta } from "@/lib/kategorije";
 import RabljenoCard from "@/components/RabljenoCard";
 import { rabljena } from "@/lib/rabljena";
+import AkcijaCard from "@/components/AkcijaCard";
+import { posebneAkcije } from "@/lib/akcije";
 
 const vozila = modelsData as unknown as Motorcycle[];
 const proizvodi = productsData as unknown as Product[];
@@ -57,10 +59,11 @@ function Rezultati() {
         .map((kat) => ({ vr, kat })));
     const r = rabljena.filter((x) =>
       odgovara(`${x.name} ${x.brand} ${x.category} ${x.description} ${x.godiste ?? ""} rabljeno rabljena`, rijeci));
-    return { v, p, k, r };
+    const a = posebneAkcije.filter((x) => odgovara(`${x.naziv} ${x.kategorija} ${x.opis} akcija akcije popust`, rijeci));
+    return { v, p, k, r, a };
   }, [pojam]);
 
-  const nista = rezultati && rezultati.v.length + rezultati.p.length + rezultati.k.length + rezultati.r.length === 0;
+  const nista = rezultati && rezultati.v.length + rezultati.p.length + rezultati.k.length + rezultati.r.length + rezultati.a.length === 0;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -108,6 +111,14 @@ function Rezultati() {
                     {vr === "oprema" ? "Oprema" : "Dijelovi"} → {kat.naziv}
                   </Link>
                 ))}
+              </div>
+            </section>
+          )}
+          {rezultati.a.length > 0 && (
+            <section>
+              <h2 className="text-lg font-bold mb-4" style={{ color: "var(--text)" }}>Akcije ({rezultati.a.length})</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                {rezultati.a.map((x) => <AkcijaCard key={x.id} akcija={x} />)}
               </div>
             </section>
           )}
