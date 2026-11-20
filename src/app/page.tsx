@@ -10,6 +10,8 @@ import { imaAkciju } from "@/lib/cijena";
 import { rabljenaUProdaji } from "@/lib/rabljena";
 import KarticaNovosti from "@/components/KarticaNovosti";
 import { istaknuteNovosti } from "@/lib/novosti";
+import YouTubeVideo from "@/components/YouTubeVideo";
+import { ISTAKNUTI_VIDEO } from "@/lib/stranica";
 
 const models = modelsData as unknown as Motorcycle[];
 
@@ -115,6 +117,24 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Istaknuti video (src/lib/stranica.ts → ISTAKNUTI_VIDEO) ─────── */}
+      {ISTAKNUTI_VIDEO.video && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+            <div className="lg:col-span-3">
+              <YouTubeVideo link={ISTAKNUTI_VIDEO.video} naslov={ISTAKNUTI_VIDEO.naslov} />
+            </div>
+            <div className="lg:col-span-2">
+              <h2 className="section-title mb-3">{ISTAKNUTI_VIDEO.naslov}</h2>
+              <p className="section-subtitle mb-6">{ISTAKNUTI_VIDEO.podnaslov}</p>
+              {ISTAKNUTI_VIDEO.link && (
+                <Link href={ISTAKNUTI_VIDEO.link} className="btn-primary inline-flex">{ISTAKNUTI_VIDEO.gumb}</Link>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── Istaknute novosti (samo kad ih ima) ─────────────────────── */}
       {istaknuteNovosti.length > 0 && (

@@ -25,7 +25,7 @@ JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 FIXED_COLS = {"id", "name", "category", "license_category",
-              "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "paketi"}
+              "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "video", "paketi"}
 
 # ── Sortiranje slika ──────────────────────────────────────────────────────────
 def img_sort_key(fname: str) -> str:
@@ -245,6 +245,9 @@ def main():
             "description":      parse_value(row_dict.get("description")) or "",
             "images":           images,
         }
+        video = parse_value(row_dict.get("video"))
+        if video:
+            model["video"] = str(video).strip()
         paketi = procitaj_pakete(parse_value(row_dict.get("paketi")))
         if paketi:
             model["paketi"] = paketi

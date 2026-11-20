@@ -6,6 +6,7 @@ import modelsData from "@/data/models.json";
 import BikeGallery from "@/components/BikeGallery";
 import Cijena, { OznakaAkcije } from "@/components/Cijena";
 import PaketiOpreme from "@/components/PaketiOpreme";
+import YouTubeVideo from "@/components/YouTubeVideo";
 import { GumbUsporedi, GumbDodajUUpit } from "@/components/GumbiOdabira";
 import { proizvodZaGoogle } from "@/lib/podaci-za-google";
 import { imaAkciju, postotakPopusta } from "@/lib/cijena";
@@ -66,6 +67,11 @@ export default async function BikeDetailPage({ params }: Props) {
         {/* Left — gallery */}
         <div>
           <BikeGallery images={bike.images} name={bike.name} />
+          {bike.video && (
+            <div className="mt-6">
+              <YouTubeVideo link={bike.video} naslov={`${bike.name} — video`} />
+            </div>
+          )}
         </div>
 
         {/* Right — details */}

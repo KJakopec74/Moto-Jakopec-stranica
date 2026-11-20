@@ -13,6 +13,7 @@ export interface Motorcycle {
   price_2025?: string;
   price_2026?: string;
   images: string[];
+  video?: string;            // YouTube link (prikazuje se ispod slika)
   // Paketi opreme (Tourer, Performance…): cijena = nadoplata na cijenu vozila
   paketi?: PaketOpreme[];
   specs: Record<string, string>;

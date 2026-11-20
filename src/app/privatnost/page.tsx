@@ -75,6 +75,10 @@ export default function PrivatnostPage() {
               <strong>Google Maps</strong> — karta na stranici Kontakt (Google pritom može
               postaviti vlastite kolačiće).
             </li>
+            <li>
+              <strong>YouTube</strong> — videi se učitavaju tek kad ih pokrenete (preko
+              youtube-nocookie.com); do tada se prikazuje samo slika videa.
+            </li>
           </ul>
         </Odjeljak>
 

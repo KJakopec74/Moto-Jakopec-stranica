@@ -17,7 +17,7 @@ EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Fiksni stupci (uvijek prisutni)
-FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "paketi"]
+FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "video", "paketi"]
 
 def paketi_u_tekst(paketi) -> str:
     """[{naziv, cijena, sadrzaj}] → jedan paket po retku: "Tourer | 1.460 € | stavka; stavka" """
@@ -107,6 +107,7 @@ def main():
             "description":      m.get("description", ""),
             "image_folder":     image_folder,
             "slike":            "",   # ovdje se upisuju nove slike (vidi UPUTE.md)
+            "video":            m.get("video", ""),
             "paketi":           paketi_u_tekst(m.get("paketi")),
         }
         # Dodaj spec vrijednosti
@@ -148,6 +149,7 @@ def main():
         ("license_category", "Kategorija vozačke (A1, A2 ili prazno za neograničenu)"),
         ("is_new",        "TRUE = novo, FALSE = nije novo (prikazuje se badge NOVO)"),
         ("price",         "Cijena npr: 9.462 € ili: Cijena na upit"),
+        ("video",         "YouTube link videa (npr. https://youtu.be/B5lEdu5JyuE) — prikazuje se ispod slika vozila; prazno = bez videa"),
         ("paketi",        "PAKETI OPREME: jedan paket po retku (Alt+Enter za novi redak u ćeliji): Naziv | nadoplata | stavka; stavka; stavka"),
         ("",              "npr.  Tourer | 1460 | Bočni koferi 2 × 28 L; Grijane ručke     — bez stavki se prikaže 'sadržaj na upit'"),
         ("akcijska_cijena", "AKCIJA: upiši novu (nižu) cijenu, npr. 8990 → na stranici se stara cijena precrta. Prazno = nema akcije"),

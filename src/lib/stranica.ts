@@ -47,3 +47,12 @@ export const DRUSTVENE_MREZE = {
   facebook: "",
   instagram: "",
 };
+
+// Istaknuti video na početnoj stranici (YouTube link). Prazan video = sekcija se ne prikazuje.
+export const ISTAKNUTI_VIDEO = {
+  video: "https://youtu.be/B5lEdu5JyuE",
+  naslov: "Novi Kawasaki KX327",
+  podnaslov: "Prvi Kawasakijev dvotaktni motocross s ubrizgavanjem goriva — sada u ponudi.",
+  link: "/motocikli/85",
+  gumb: "Pogledaj KX 327",
+};
