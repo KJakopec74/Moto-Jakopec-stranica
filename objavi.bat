@@ -17,20 +17,33 @@ echo ===== 1/4  Preuzimam zadnju verziju s GitHuba =====
 git pull --rebase --autostash
 if errorlevel 1 goto greska
 
+REM Zastita: ako je cijela mapa sa slikama slucajno obrisana, vrati je s GitHuba
+REM (inace bi se brisanje poslalo na stranicu i sve slike bi nestale)
+for %%M in (vozila oprema dijelovi brendovi) do (
+    if not exist "public\images\%%M\" (
+        echo Mapa public\images\%%M ne postoji - vracam je s GitHuba...
+        git checkout -- "public/images/%%M"
+    )
+)
+
 echo.
 echo ===== 2/4  Prebacujem podatke iz Excela =====
-if exist vozila.xlsx (
-    py -X utf8 scripts\vozila_excel_to_json.py
+REM Ako Excel ne postoji (obrisan ili preimenovan), napravi se novi iz podataka stranice
+if not exist vozila.xlsx (
+    echo vozila.xlsx ne postoji - radim novi...
+    py -X utf8 scripts\vozila_json_to_excel.py
     if errorlevel 1 goto greska
-) else (
-    echo vozila.xlsx ne postoji - preskacem.
 )
-if exist proizvodi.xlsx (
-    py -X utf8 scripts\proizvodi_excel_to_json.py
+py -X utf8 scripts\vozila_excel_to_json.py
+if errorlevel 1 goto greska
+
+if not exist proizvodi.xlsx (
+    echo proizvodi.xlsx ne postoji - radim novi...
+    py -X utf8 scripts\kreiraj_excel_predlozak.py
     if errorlevel 1 goto greska
-) else (
-    echo proizvodi.xlsx ne postoji - preskacem.
 )
+py -X utf8 scripts\proizvodi_excel_to_json.py
+if errorlevel 1 goto greska
 
 REM rabljena.xlsx se napravi sam pri prvom pokretanju (prazan, s uputama)
 py -X utf8 scripts\rabljena_excel_to_json.py
