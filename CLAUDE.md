@@ -194,3 +194,11 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - Popis modela, nazivi, boje i A2 oznake usklađeni su s kawasaki.eu (Motorcycles, Jet Ski, Mule, ATV) za modelnu godinu 2027.
 - kawasaki.eu se dohvaća preko WebSearch (allowed_domains kawasaki.eu) + WebFetch; dks.si i kawasaki.eu shell (curl) su blokirani.
 - Specs ključ "Izvor podataka" označava vozila čiji podaci nisu s kawasaki.eu ili su provjereni na kawasaki.eu.
+
+## Cijene i paketi (studeni 2026.)
+
+- Cijene vozila = HRVATSKI cjenik DKS (dks.si → Cjenik → Hrvatska, 15.11.2026., MPC s PDV-om i troškovima). Ranije su greškom bile slovenske. Vozila koja nisu u HR cjeniku imaju "Cijena na upit".
+- `paketi` u models.json: [{naziv, cijena (nadoplata), sadrzaj[]}]. Prikaz: `PaketiOpreme.tsx` na stranici vozila. U Excelu stupac `paketi`: "Naziv | nadoplata | stavka; stavka", jedan paket po retku.
+- Sadržaj paketa je s kawasaki.eu (Edition Accessories). Za Light Tourer (1100SX, Versys), Tourer (Versys 1100 S/SE), Evolution (Ninja/Z 7 Hybrid) i pakete Versysa 900 sadržaj nije pronađen → prazno ("Sadržaj na upit").
+- DKS izvedbe „se” (posebne boje) upisane su kao paket "Posebna boja (izvedba „se”)" s nadoplatom.
+- `*.xlsx` je u .gitignore (korisnik je jednom slučajno objavio vozila_moj.xlsx).

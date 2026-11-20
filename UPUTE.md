@@ -137,6 +137,21 @@ Vozilo ili proizvod se pojavi i na stranici **Akcije**, a dok traje ijedna akcij
 
 > Ako `vozila.xlsx` / `proizvodi.xlsx` još nema stupac `akcijska_cijena`, samo pokreni `objavi.bat` jednom (dok Excel nije mijenjan): Excel se sam osvježi s novim stupcem.
 
+### Paketi opreme (Tourer, Performance…)
+
+U `vozila.xlsx`, stupac **paketi**, upisuje se jedan paket po retku. Novi redak u istoj ćeliji dobiješ s **Alt+Enter**.
+
+```
+Tourer | 1460 | Bočni koferi 2 × 28 L; Grijane ručke; Zaštita spremnika (tank pad)
+Performance | 1901 | Akrapovič karbonski ispuh; Klizači okvira
+```
+
+- **Prvi dio** je naziv paketa.
+- **Drugi dio** je nadoplata na cijenu motora. Ako je prazan ili `?`, na stranici piše „Cijena na upit”.
+- **Treći dio** je popis opreme, stavke odvojene s `;`. Ako ga nema, na stranici piše „Sadržaj na upit”.
+
+Na stranici motora prikazuje se nadoplata i ukupna cijena s paketom. Klikom na paket otvara se popis opreme.
+
 ## 6. Rabljena vozila
 
 Rabljena vozila imaju svoj Excel: **`rabljena.xlsx`**. Napravi se sam kad prvi put pokreneš `objavi.bat` (prazan, s listom **Upute**).

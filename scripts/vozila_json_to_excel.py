@@ -17,7 +17,15 @@ EXCEL_PATH = os.path.join(ROOT_DIR, "vozila.xlsx")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 # Fiksni stupci (uvijek prisutni)
-FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike"]
+FIXED_COLS = ["id", "name", "category", "license_category", "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "paketi"]
+
+def paketi_u_tekst(paketi) -> str:
+    """[{naziv, cijena, sadrzaj}] → jedan paket po retku: "Tourer | 1.460 € | stavka; stavka" """
+    redovi = []
+    for p in paketi or []:
+        redovi.append(" | ".join([p.get("naziv", ""), p.get("cijena", ""), "; ".join(p.get("sadrzaj", []))]).rstrip(" |"))
+    return "\n".join(redovi)
+
 
 def main():
     with open(JSON_PATH, encoding="utf-8") as f:
@@ -99,6 +107,7 @@ def main():
             "description":      m.get("description", ""),
             "image_folder":     image_folder,
             "slike":            "",   # ovdje se upisuju nove slike (vidi UPUTE.md)
+            "paketi":           paketi_u_tekst(m.get("paketi")),
         }
         # Dodaj spec vrijednosti
         for k in all_spec_keys:
@@ -109,14 +118,14 @@ def main():
             cell = ws.cell(row=row_idx, column=col_idx, value=val)
             cell.fill   = fill
             cell.border = thin_border
-            cell.alignment = Alignment(vertical="center")
+            cell.alignment = Alignment(vertical="center", wrap_text=(col_name == "paketi"))
 
         ws.row_dimensions[row_idx].height = 18
 
     # ── Širina stupaca ────────────────────────────────────────────────
     col_widths = {
         "id": 5, "name": 30, "category": 15, "license_category": 8,
-        "is_new": 8, "price": 14, "akcijska_cijena": 15, "description": 50, "image_folder": 22,
+        "is_new": 8, "price": 14, "akcijska_cijena": 15, "paketi": 60, "description": 50, "image_folder": 22,
     }
     for col_idx, col_name in enumerate(headers, start=1):
         letter = get_column_letter(col_idx)
@@ -139,6 +148,8 @@ def main():
         ("license_category", "Kategorija vozačke (A1, A2 ili prazno za neograničenu)"),
         ("is_new",        "TRUE = novo, FALSE = nije novo (prikazuje se badge NOVO)"),
         ("price",         "Cijena npr: 9.462 € ili: Cijena na upit"),
+        ("paketi",        "PAKETI OPREME: jedan paket po retku (Alt+Enter za novi redak u ćeliji): Naziv | nadoplata | stavka; stavka; stavka"),
+        ("",              "npr.  Tourer | 1460 | Bočni koferi 2 × 28 L; Grijane ručke     — bez stavki se prikaže 'sadržaj na upit'"),
         ("akcijska_cijena", "AKCIJA: upiši novu (nižu) cijenu, npr. 8990 → na stranici se stara cijena precrta. Prazno = nema akcije"),
         ("description",   "Kratki opis vozila (1-2 rečenice)"),
         ("image_folder",  "Naziv mape u public/images/vozila/ (npr. 05-ninja-zx-4rr)"),

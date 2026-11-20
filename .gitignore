@@ -44,3 +44,6 @@ __pycache__/
 .excel_sinkronizacija.json
 rabljena.xlsx
 rabljena_stari*.xlsx
+
+# svi Excel datoteke su lokalne (i preimenovane kopije, npr. vozila_moj.xlsx)
+*.xlsx

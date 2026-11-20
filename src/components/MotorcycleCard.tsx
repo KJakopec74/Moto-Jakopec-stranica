@@ -71,6 +71,13 @@ export default function MotorcycleCard({ bike }: Props) {
           {bike.description}
         </p>
 
+        {/* Paketi opreme — kratki popis naziva (bez posebne boje) */}
+        {bike.paketi && bike.paketi.some((p) => !p.naziv.startsWith("Posebna boja")) && (
+          <p className="text-xs mb-3 -mt-2" style={{ color: "var(--green-dk)" }}>
+            Paketi: {bike.paketi.filter((p) => !p.naziv.startsWith("Posebna boja")).map((p) => p.naziv).join(" · ")}
+          </p>
+        )}
+
         <div className="flex items-center justify-between mt-auto pt-3 border-t" style={{ borderColor: "var(--line)" }}>
           <Cijena price={bike.price} akcijska_cijena={bike.akcijska_cijena} />
           <span className="text-xs flex items-center gap-1 transition-colors" style={{ color: "var(--muted)" }}>

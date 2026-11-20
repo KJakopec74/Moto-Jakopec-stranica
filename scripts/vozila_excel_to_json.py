@@ -25,7 +25,7 @@ JSON_PATH  = os.path.join(ROOT_DIR, "src", "data", "models.json")
 IMG_DIR    = os.path.join(ROOT_DIR, "public", "images", "vozila")
 
 FIXED_COLS = {"id", "name", "category", "license_category",
-              "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike"}
+              "is_new", "price", "akcijska_cijena", "description", "image_folder", "slike", "paketi"}
 
 # ── Sortiranje slika ──────────────────────────────────────────────────────────
 def img_sort_key(fname: str) -> str:
@@ -109,6 +109,26 @@ def formatiraj_cijenu(val) -> str:
         return f"{s} €"
 
     return str(val)
+
+
+def procitaj_pakete(val) -> list:
+    """
+    Ćelija "paketi" → lista paketa. Jedan paket po retku (ili odvojeni s ||):
+      Tourer | 1460 | Bočni koferi 2 × 28 L; Grijane ručke
+    Cijena je nadoplata na cijenu vozila; prazno ili "?" → "Cijena na upit".
+    """
+    if not val:
+        return []
+    paketi = []
+    for red in str(val).replace("||", "\n").splitlines():
+        dijelovi = [d.strip() for d in red.split("|")]
+        if not dijelovi[0]:
+            continue
+        cijena = dijelovi[1] if len(dijelovi) > 1 else ""
+        cijena = formatiraj_akciju(cijena) if cijena and cijena != "?" else "Cijena na upit"
+        sadrzaj = [s.strip() for s in dijelovi[2].split(";") if s.strip()] if len(dijelovi) > 2 else []
+        paketi.append({"naziv": dijelovi[0], "cijena": cijena, "sadrzaj": sadrzaj})
+    return paketi
 
 
 def formatiraj_akciju(val) -> str:
@@ -225,6 +245,9 @@ def main():
             "description":      parse_value(row_dict.get("description")) or "",
             "images":           images,
         }
+        paketi = procitaj_pakete(parse_value(row_dict.get("paketi")))
+        if paketi:
+            model["paketi"] = paketi
 
         # Specs — samo neprazna polja
         specs = {}

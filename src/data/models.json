@@ -6,7 +6,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "price": "59.438 €",
+    "price": "60.899 €",
     "akcijska_cijena": "",
     "description": "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu.",
     "images": [
@@ -64,7 +64,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "price": "30.609 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Homologirani superbike za stazu i cestu. WorldSBK iskustvo, Ohlins ovjes i Brembo kočnice.",
     "images": [
@@ -118,7 +118,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "price": "20.510 €",
+    "price": "21.264 €",
     "akcijska_cijena": "",
     "description": "Legendarni supersport s 200 KS. Bogata elektronika, IMU platforma i WorldSBK DNA.",
     "images": [
@@ -163,7 +163,19 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji,Turn-by-Turn navigacija*, ECC elektronički tempomat, S-KTRC sportska kontrola proklizavanja, KLCM kontrola pokretanja, KEBC kontrola kočenja motorom, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KIBS inteligentni ABS, KCMF upravljanje u zavojima, ESD elektronički Öhlins amortizer upravljača, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom s glasovnim naredbama*",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran, zaštita zaslona"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.669 €",
+        "sadrzaj": [
+          "Akrapovič Carbon SBK Replica ispuh (Euro 5+)",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -172,7 +184,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": false,
-    "price": "13.689 €",
+    "price": "14.105 €",
     "akcijska_cijena": "",
     "description": "Ikonični 636cc supersport — agilan i snažan. Savršen balans između staze i ceste.",
     "images": [
@@ -222,7 +234,22 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, KTRC kontrola proklizavanja, KQS dvosmjerni quickshifter, KIBS inteligentni ABS, KCMF upravljanje u zavojima, 2 načina snage, 4 integrirana načina vožnje, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, povezivost s pametnim telefonom",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.841 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Zatamnjeno vjetrobransko staklo",
+          "Bočni štitnici spremnika (za koljena)",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -231,7 +258,7 @@
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "price": "10.234 €",
+    "price": "10.639 €",
     "akcijska_cijena": "",
     "description": "4-cilindrični 400cc motor u A2 paketu. Maksimalan sport osjećaj uz A2 ograničenje snage.",
     "images": [
@@ -295,7 +322,7 @@
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "price": "9.462 €",
+    "price": "9.846 €",
     "akcijska_cijena": "",
     "description": "Pristupačniji ulaz u 4-cilindrični sport segment. Pravi Ninja karakter u A2 paketu.",
     "images": [
@@ -338,7 +365,21 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, KTRC kontrola proklizavanja, ABS, 2 načina snage, 4 integrirana načina vožnje, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, povezivost s pametnim telefonom",
       "Paket Performance": "Karbonski ispušni lonac Euro 5+ Akrapovič, poklopac sjedala suvozača u boji motocikla, zatamnjeni vjetrobran"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.441 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 12,
@@ -347,7 +388,7 @@
     "category": "Sport",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "8.449 €",
+    "price": "9.084 €",
     "akcijska_cijena": "",
     "description": "Obnovljena Ninja 650 za 2027.: nove obrnute Showa vilice, radijalne kočnice s 4 klipa, novi 4,3\" TFT zaslon i quickshifter (KQS) kao dodatna oprema. Jak karakter i svakodnevna upotrebljivost.",
     "images": [
@@ -403,7 +444,58 @@
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zaštita TFT zaslona, viši vjetrobran, nosač telefona",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zatamnjeni vjetrobran, zaštita TFT zaslona",
       "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "190 €",
+        "sadrzaj": [
+          "Boja: zelena ili siva",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "466 €",
+        "sadrzaj": [
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.044 €",
+        "sadrzaj": [
+          "Polumeki bočni koferi 2 × 14 L s nosačima",
+          "Veće prozirno vjetrobransko staklo",
+          "Klizači okvira",
+          "Bočni štitnici spremnika (za koljena)",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Arrow",
+        "cijena": "1.946 €",
+        "sadrzaj": [
+          "Arrow kompletni ispušni sustav (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "2.447 €",
+        "sadrzaj": [
+          "Akrapovič titanski kompletni ispušni sustav (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 13,
@@ -412,7 +504,7 @@
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "price": "7.378 €",
+    "price": "7.881 €",
     "akcijska_cijena": "",
     "description": "Novi 500cc parallel-twin u modernom Ninja ruhu. Idealan za A2 kategoriju.",
     "images": [
@@ -467,7 +559,44 @@
       "Paket Performance": "... ispuh Euro 5+ Remus (Akrapovič)",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, viši zatamnjeni vjetrobran, zaštita TFT zaslona",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "326 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.108 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.247 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 14,
@@ -476,7 +605,7 @@
     "category": "Sport",
     "license_category": "A2",
     "is_new": true,
-    "price": "6.857 €",
+    "price": "7.368 €",
     "akcijska_cijena": "",
     "description": "Pristupačni ulaz u Ninja seriju za A2 vozače. Moderan dizajn i pouzdan motor.",
     "images": [
@@ -518,7 +647,38 @@
       "Paket Performance": "... ispuh Euro 5+ Akrapovič",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, viši zatamnjeni vjetrobran",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "298 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.080 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.219 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Kawasaki privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 15,
@@ -527,7 +687,7 @@
     "category": "Sport",
     "license_category": "A1",
     "is_new": false,
-    "price": "5.549 €",
+    "price": "5.705 €",
     "akcijska_cijena": "",
     "description": "125cc Ninja za početnike — pravi dizajn velikog brata uz pristupačnu kategoriju.",
     "images": [
@@ -581,7 +741,36 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Arrow",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita motora, zatamnjeni vjetrobran",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "114 €",
+        "sadrzaj": [
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "581 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Klizači okvira",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance Arrow",
+        "cijena": "1.363 €",
+        "sadrzaj": [
+          "Arrow sportski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
+    ]
   },
   {
     "id": 83,
@@ -590,7 +779,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "33.653 €",
     "akcijska_cijena": "",
     "description": "Ninja H2 vraća se u Europu za 2027. — motor 998 cc s kompresorom i 209 KS, za cestovnu vožnju.",
     "images": [
@@ -638,7 +827,7 @@
     "category": "Sport",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "37.043 €",
     "akcijska_cijena": "",
     "description": "Ninja H2 Carbon — izvedba s karbonskim dijelovima oplate, motor 998 cc s kompresorom i 209 KS.",
     "images": [
@@ -688,7 +877,7 @@
     "category": "Touring",
     "license_category": "",
     "is_new": false,
-    "price": "30.386 €",
+    "price": "31.191 €",
     "akcijska_cijena": "",
     "description": "Supercharged sport-tourer s 200 KS. Elektronski ovjes, adaptivni farovi i vrhunska touring oprema.",
     "images": [
@@ -745,7 +934,37 @@
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe",
       "Emisijski razred": "Euro 5+",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, ispušni lonac Akrapovič Titanium, zaštita motora, zatamnjeni vjetrobran"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "1.019 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
+          "Unutarnje torbe za kofere 2 × 28 L"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "2.144 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira"
+        ]
+      },
+      {
+        "naziv": "Performance Tourer",
+        "cijena": "3.162 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR, jedan ključ)",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira"
+        ]
+      }
+    ]
   },
   {
     "id": 8,
@@ -754,7 +973,7 @@
     "category": "Touring",
     "license_category": "",
     "is_new": false,
-    "price": "27.511 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Supercharged touring s kompresiranim motorom za dugopružne ture.",
     "images": [
@@ -814,7 +1033,7 @@
     "category": "Touring",
     "license_category": "",
     "is_new": true,
-    "price": "16.409 €",
+    "price": "17.553 €",
     "akcijska_cijena": "",
     "description": "Sport-tourer sljedeće generacije. Elektronski ovjes i sve što trebate za veliku turu.",
     "images": [
@@ -866,7 +1085,54 @@
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.460 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "12 V utičnica",
+          "Magnetski nosač za mobitel SP Connect SPC+",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.901 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Tourer",
+        "cijena": "3.115 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "12 V utičnica",
+          "Magnetski nosač za mobitel SP Connect SPC+",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Akrapovič karbonski ispuh",
+          "Klizači okvira"
+        ]
+      }
+    ]
   },
   {
     "id": 10,
@@ -875,7 +1141,7 @@
     "category": "Touring",
     "license_category": "",
     "is_new": true,
-    "price": "14.750 €",
+    "price": "15.988 €",
     "akcijska_cijena": "",
     "description": "Moćan 1100cc sport-tourer s bogatom elektronikom i sportskim karakterom.",
     "images": [
@@ -942,7 +1208,57 @@
       "Paket Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona",
       "Paket Performance Tourer": "2 x 28 l kofera u boji motocikla, unutarnje torbe, grijane ručke, zaštita TFT zaslona, viši zatamnjeni vjetrobran, 12V utičnica, nosač telefona, ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita motora",
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.882 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Grijane ručke",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Nosač za mobitel SP Connect SPC+",
+          "12 V utičnica",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.901 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Zatamnjeno vjetrobransko staklo",
+          "Klizači okvira",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Tourer",
+        "cijena": "3.547 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Grijane ručke",
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Nosač za mobitel SP Connect SPC+",
+          "12 V utičnica",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "Akrapovič karbonski ispuh",
+          "Poklopac suvozačkog sjedala u boji motocikla",
+          "Klizači okvira"
+        ]
+      }
+    ]
   },
   {
     "id": 11,
@@ -951,7 +1267,7 @@
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "14.477 €",
     "akcijska_cijena": "",
     "description": "Revolucionarni hibridni motocikl — kombinacija 451cc benzinskog i električnog motora.",
     "images": [
@@ -1030,16 +1346,32 @@
       "Ukupni nazivni kapacitet": "27,2 Ah",
       "Ukupna masa baterije": "13 kg",
       "Paket Evolution": "Ispušni lonac Euro 5+ titan Akrapovič, zaštita spremnika goriva, zaštita zaslona, viši zatamnjeni vjetrobran"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Evolution",
+        "cijena": "1.004 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.177 €",
+        "sadrzaj": [
+          "Veće zatamnjeno vjetrobransko staklo",
+          "Akrapovič titanski ispuh",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ]
   },
   {
     "id": 16,
     "name": "Kawasaki Ninja e-1",
     "brand": "Kawasaki",
     "category": "Električni",
-    "license_category": "A2",
+    "license_category": "A1",
     "is_new": false,
-    "price": "9.095 €",
+    "price": "9.317 €",
     "akcijska_cijena": "",
     "description": "Električni Ninja za urbanu vožnju. Nulta emisija uz prepoznatljiv Ninja dizajn.",
     "images": [
@@ -1118,7 +1450,7 @@
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "8.549 €",
     "akcijska_cijena": "",
     "description": "Hibridni Z naked — kombinacija benzinskog i električnog motora za urbanu vožnju.",
     "images": [
@@ -1207,16 +1539,23 @@
       "Ukupni nazivni kapacitet": "27,2 Ah",
       "Ukupna masa baterije": "13 kg",
       "Paket Evolution": "Ispušni lonac Euro 5+ titan Akrapovič, zaštita spremnika goriva, zaštita zaslona"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Evolution",
+        "cijena": "1.004 €",
+        "sadrzaj": []
+      }
+    ]
   },
   {
     "id": 29,
     "name": "Kawasaki Z e-1",
     "brand": "Kawasaki",
     "category": "Električni",
-    "license_category": "A2",
+    "license_category": "A1",
     "is_new": false,
-    "price": "8.492 €",
+    "price": "8.701 €",
     "akcijska_cijena": "",
     "description": "Električni Z naked za grad. Tiha i čista vožnja s prepoznatljivim Z karakterom.",
     "images": [
@@ -1299,7 +1638,7 @@
     "category": "Električni",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "2.399 €",
     "akcijska_cijena": "",
     "description": "Električni motocross za djecu. Tiha i ekološki prihvatljiva zabava na terenu.",
     "images": [
@@ -1356,7 +1695,7 @@
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "price": "21.940 €",
+    "price": "22.537 €",
     "akcijska_cijena": "",
     "description": "Supercharged naked — 200 KS bez karoserije. Najsnažniji naked Kawasaki s elektronskim ovjesom.",
     "images": [
@@ -1415,7 +1754,7 @@
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "price": "19.391 €",
+    "price": "19.925 €",
     "akcijska_cijena": "",
     "description": "Supercharged naked s kompresiranim motorom. Brutalna snaga u street paketu.",
     "images": [
@@ -1469,7 +1808,19 @@
       "Tehnologije": "TFT zaslon u boji, ECC elektronički tempomat, KTRC kontrola proklizavanja, KEBC kontrola kočenja motorom, KLCM kontrola pokretanja, KQS dvosmjerni quickshifter, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, 3 načina snage, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, KSC povezivost s pametnim telefonom, LED svjetla",
       "Paket Performance": "Ispušni lonac (titan) Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.968 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh (Euro 5+)",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ]
   },
   {
     "id": 19,
@@ -1478,7 +1829,7 @@
     "category": "Naked",
     "license_category": "",
     "is_new": true,
-    "price": "13.533 €",
+    "price": "14.740 €",
     "akcijska_cijena": "",
     "description": "Novi flagship naked s 1100cc motorom. Agresivan dizajn i bogata elektronika nove generacije.",
     "images": [
@@ -1523,7 +1874,19 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, Turn-by-Turn navigacija* ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, vjetrobran instrumenata"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.731 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
+    ]
   },
   {
     "id": 20,
@@ -1532,7 +1895,7 @@
     "category": "Naked",
     "license_category": "",
     "is_new": true,
-    "price": "11.863 €",
+    "price": "13.029 €",
     "akcijska_cijena": "",
     "description": "Moćan 1100cc naked street fighter. Nasljednik Z1000 s novim motorom i modernom elektronikom.",
     "images": [
@@ -1575,7 +1938,20 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Tehnologije": "TFT zaslon u boji, Turn-by-Turn navigacija*, ETV elektronička zaklopka gasa, ECC elektronički tempomat, KTRC trostupanjska kontrola proklizavanja, IMU inercijska mjerna jedinica, KCMF upravljanje u zavojima, KIBS inteligentni ABS, KQS dvosmjerni quickshifter od 1.500 o/min, KSC povezivost s pametnim telefonom s glasovnim naredbama*, 2 načina snage, LED prednja svjetla, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa, USB utičnica",
       "Paket Performance": "Ispušni lonac Euro 5+ Akrapovič, poklopac sjedala u boji motocikla, zaštita TFT zaslona, zaštita spremnika goriva, vjetrobran instrumenata"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Performance",
+        "cijena": "1.800 €",
+        "sadrzaj": [
+          "Akrapovič karbonski ispuh",
+          "Zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
+    ]
   },
   {
     "id": 21,
@@ -1584,7 +1960,7 @@
     "category": "Naked",
     "license_category": "",
     "is_new": false,
-    "price": "12.532 €",
+    "price": "13.326 €",
     "akcijska_cijena": "",
     "description": "Premium naked s elektronskim ovjesom. Z900 na najvišoj razini opreme.",
     "images": [
@@ -1645,7 +2021,7 @@
     "category": "Naked",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "10.451 €",
+    "price": "11.194 €",
     "akcijska_cijena": "",
     "description": "Ikonični naked street fighter. Agresivan dizajn, 948cc motor i bogata elektronika.",
     "images": [
@@ -1708,7 +2084,28 @@
       "Tehnologije": "5\" TFT zaslon u boji, Turn-by-Turn navigacija*, ECC elektronički tempomat, KQS dvosmjerni quickshifter od 1.500 o/min, USB utičnica, KTRC trostupanjska kontrola proklizavanja, ABS, 2 načina snage, 3 integrirana načina vožnje, LED svjetla, KSC povezivost s pametnim telefonom s glasovnim naredbama*, pokazivač ekonomične vožnje, pokazivač stupnja prijenosa",
       "Paket Performance": "Ispušni lonac (karbon) Akrapovič, poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, veća zaštita instrumenata od vjetra, zaštita TFT zaslona",
       "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "262 €",
+        "sadrzaj": [
+          "Boja: crvena ili bijela",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.616 €",
+        "sadrzaj": [
+          "Akrapovič karbonski sportski ispuh s karbonskim toplinskim štitom",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon 5\""
+        ]
+      }
+    ]
   },
   {
     "id": 24,
@@ -1717,7 +2114,7 @@
     "category": "Naked",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "7.910 €",
+    "price": "8.531 €",
     "akcijska_cijena": "",
     "description": "Novi Z650S s Sport paketom. Sportskiji položaj i osvježen dizajn za urbanu vožnju.",
     "images": [
@@ -1782,7 +2179,39 @@
       "Paket Urban": "30 l gornji kofer u boji motocikla s nosačem, zatamnjeni vjetrobran, zaštita spremnika goriva, zaštita TFT zaslona, nosač telefona",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
       "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "103 €",
+        "sadrzaj": [
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "522 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "2.162 €",
+        "sadrzaj": [
+          "Akrapovič titanski kompletni ispušni sustav (Euro 5+)",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ]
   },
   {
     "id": 25,
@@ -1791,7 +2220,7 @@
     "category": "Naked",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "7.812 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Lagan, agilni i pristupačni naked. Savršen za grad i vikend izlete.",
     "images": [
@@ -1849,7 +2278,7 @@
     "category": "Naked",
     "license_category": "A2",
     "is_new": true,
-    "price": "7.184 €",
+    "price": "7.214 €",
     "akcijska_cijena": "",
     "description": "Novi Z500SE za A2 kategoriju. Naked karakter uz pristupačno ograničenje snage.",
     "images": [
@@ -1898,7 +2327,43 @@
       "Paket Performance": "... ispuh Euro 5+ Remus",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva, zaštita TFT zaslona",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "285 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.068 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.207 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Poklopac suvozačkog sjedala",
+          "Zaštita spremnika (tank pad)",
+          "Z privjesak za ključeve",
+          "Zaštitna folija za zaslon"
+        ]
+      }
+    ]
   },
   {
     "id": 27,
@@ -1907,7 +2372,7 @@
     "category": "Naked",
     "license_category": "A2",
     "is_new": true,
-    "price": "6.785 €",
+    "price": "6.856 €",
     "akcijska_cijena": "",
     "description": "Naked motocikl za A2 kategoriju. Odličan za grad i svakodnevnu vožnju.",
     "images": [
@@ -1966,7 +2431,38 @@
       "Paket Performance": "... ispuh Euro 5+ Remus",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, zaštita spremnika goriva",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Sport",
+        "cijena": "258 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Remus",
+        "cijena": "1.040 €",
+        "sadrzaj": [
+          "Remus sportski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      },
+      {
+        "naziv": "Performance Akrapovič",
+        "cijena": "1.179 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Veći zatamnjeni poklopac instrumenata",
+          "Z privjesak za ključeve"
+        ]
+      }
+    ]
   },
   {
     "id": 28,
@@ -1975,7 +2471,7 @@
     "category": "Naked",
     "license_category": "A1",
     "is_new": false,
-    "price": "5.187 €",
+    "price": "5.329 €",
     "akcijska_cijena": "",
     "description": "Kompaktni Z naked za A1 kategoriju. Pravi Z karakter u urbanom 125cc paketu.",
     "images": [
@@ -2026,7 +2522,36 @@
       "Paket Performance": "... ispušni lonac Euro 5+ Arrow",
       "Paket Sport": "Poklopac sjedala suvozača u boji motocikla, pokazivač brzine s nosačem",
       "Emisijski razred": "Euro 5+"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "75 €",
+        "sadrzaj": [
+          "Boja: siva",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Sport",
+        "cijena": "399 €",
+        "sadrzaj": [
+          "Poklopac suvozačkog sjedala",
+          "Pokazivač stupnja prijenosa s nosačem",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance Arrow",
+        "cijena": "1.124 €",
+        "sadrzaj": [
+          "Arrow sportski ispuh",
+          "Poklopac suvozačkog sjedala",
+          "Pokazivač stupnja prijenosa s nosačem",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
+    ]
   },
   {
     "id": 31,
@@ -2035,7 +2560,7 @@
     "category": "Classic",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "14.055 €",
+    "price": "16.401 €",
     "akcijska_cijena": "",
     "description": "Premium retro s elektronskim ovjesom i zlatnim Ohlins amortizerom. Spoj tradicije i moderne tehnologije.",
     "images": [
@@ -2087,7 +2612,7 @@
     "category": "Classic",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "8.441 €",
+    "price": "9.076 €",
     "akcijska_cijena": "",
     "description": "Retro dizajn inspiriran klasičnim Z-serijom iz 70-ih uz modernu tehnologiju.",
     "images": [
@@ -2139,7 +2664,7 @@
     "category": "Classic",
     "license_category": "A2",
     "is_new": false,
-    "price": "9.868 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Prava retro ikona s paralel-twin motorom. Za ljubitelje klasike.",
     "images": [
@@ -2189,7 +2714,7 @@
     "category": "Classic",
     "license_category": "A2",
     "is_new": true,
-    "price": "5.168 €",
+    "price": "5.428 €",
     "akcijska_cijena": "",
     "description": "Moderan retro u pristupačnom 230cc paketu. Savršen za A2 vozače koji vole klasičan stil.",
     "images": [
@@ -2257,7 +2782,7 @@
     "category": "Classic",
     "license_category": "A2",
     "is_new": true,
-    "price": "5.795 €",
+    "price": "6.070 €",
     "akcijska_cijena": "",
     "description": "Oživljeni Meguro brend u modernom paketu. Elegantni klasik s Kawasaki pouzdanošću.",
     "images": [
@@ -2323,7 +2848,7 @@
     "category": "Classic",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "14.864 €",
     "akcijska_cijena": "",
     "description": "Z900RS — retro sport s rednim četverocilindrašem 948 cc (116 KS), elektronikom s IMU jedinicom, quickshifterom i tempomatom. Legenda u modernom ruhu.",
     "images": [],
@@ -2367,7 +2892,7 @@
     "category": "Classic",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "15.089 €",
     "akcijska_cijena": "",
     "description": "Z900RS Black Ball Edition — posebna crna izvedba Z900RS-a (948 cc, 116 KS) s istom bogatom elektronikom.",
     "images": [],
@@ -2411,7 +2936,7 @@
     "category": "Classic",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "9.282 €",
     "akcijska_cijena": "",
     "description": "Z650RS Black Ball Edition — crna posebna izvedba lakog retro modela Z650RS, s izvedbom od 35 kW za A2 dozvolu.",
     "images": [],
@@ -2457,7 +2982,7 @@
     "category": "Cruiser",
     "license_category": "A2 (35 kW)",
     "is_new": false,
-    "price": "8.916 €",
+    "price": "9.267 €",
     "akcijska_cijena": "",
     "description": "Moderni cruiser s ergonomski prilagodljivom pozicijom vožnje. Stil, udobnost i karakter.",
     "images": [
@@ -2505,7 +3030,42 @@
       "Paket Light Tourer": "Kožne torbe s fiksnim nosačem, naslon suvozača za fiksni nosač, Cafe vjetrobran s fiksnim nosačima",
       "Naziv modela": "EN650MSFNN; MTFNN, MTFAN",
       "A2 izvedba": "Za A2 dozvolu: komplet za smanjenje snage na 35 kW kod ovlaštenog Kawasaki zastupnika"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Posebna boja (izvedba „se”)",
+        "cijena": "338 €",
+        "sadrzaj": [
+          "Boja: siva",
+          "Ista oprema kao osnovni model, posebna izvedba boje"
+        ]
+      },
+      {
+        "naziv": "Light Tourer",
+        "cijena": "976 €",
+        "sadrzaj": [
+          "Bočne torbe s brzim skidanjem 2 × 19,5 L",
+          "Café zatamnjeno vjetrobransko staklo s nosačem"
+        ]
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "2.022 €",
+        "sadrzaj": [
+          "Bočne torbe",
+          "Veliko vjetrobransko staklo",
+          "Naslon za suvozača"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.486 €",
+        "sadrzaj": [
+          "Arrow kompletni ispušni sustav (Euro 5+)",
+          "Café zatamnjeno vjetrobransko staklo s nosačem"
+        ]
+      }
+    ]
   },
   {
     "id": 37,
@@ -2514,7 +3074,7 @@
     "category": "Cruiser",
     "license_category": "A2",
     "is_new": true,
-    "price": "7.184 €",
+    "price": "7.694 €",
     "akcijska_cijena": "",
     "description": "Novi Eliminator u A2 paketu s SE opremom. Low-seat cruiser za svaki dan.",
     "images": [
@@ -2587,7 +3147,7 @@
     "category": "Cruiser",
     "license_category": "A2",
     "is_new": true,
-    "price": "6.785 €",
+    "price": "7.326 €",
     "akcijska_cijena": "",
     "description": "Moderni low-seat cruiser za A2 kategoriju.",
     "images": [
@@ -2645,7 +3205,29 @@
       "Paket Performance": "Ispušni sustav Euro 5+, Cafe zatamnjeni vjetrobran s fiksnim nosačem, zaštita spremnika goriva, zaštita motora",
       "Paket Light Tourer": "Kožne torbe 2 x 19,5 l s fiksnim nosačem, Cafe zatamnjeni vjetrobran s fiksnim nosačima, zaštita spremnika goriva, zaštita motora",
       "Naziv modela": "EL450ASFNN; ATNN, ATFAN"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "1.160 €",
+        "sadrzaj": [
+          "Zaštitni okvir motora",
+          "Bočne torbe s brzim skidanjem 2 × 19,5 L",
+          "Café oplata (prednja maska)",
+          "Zaštita spremnika (tank pad)"
+        ]
+      },
+      {
+        "naziv": "Performance",
+        "cijena": "1.132 €",
+        "sadrzaj": [
+          "Arrow karbonski sportski ispuh",
+          "Café oplata (prednja maska)",
+          "Klizači okvira",
+          "Zaštita spremnika (tank pad)"
+        ]
+      }
+    ]
   },
   {
     "id": 39,
@@ -2654,7 +3236,7 @@
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "price": "16.827 €",
+    "price": "18.124 €",
     "akcijska_cijena": "",
     "description": "Ultimativni adventure-tourer s elektronskim ovjesom i kompletnom touring opremom.",
     "images": [
@@ -2711,7 +3293,46 @@
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.122 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer Plus",
+        "cijena": "2.007 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS"
+        ]
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "2.549 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS",
+          "Stražnji kofer (top case) 47 L u boji motocikla",
+          "Unutarnja torba za stražnji kofer",
+          "Jastuk naslona za suvozača na stražnjem koferu"
+        ]
+      }
+    ]
   },
   {
     "id": 40,
@@ -2720,7 +3341,7 @@
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "price": "15.263 €",
+    "price": "16.520 €",
     "akcijska_cijena": "",
     "description": "Moćan 1100cc adventure-tourer. Sportski karakter i touring udobnost u jednom.",
     "images": [
@@ -2772,7 +3393,46 @@
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.122 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer Plus",
+        "cijena": "2.007 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS"
+        ]
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "2.549 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "LED maglenke",
+          "Zaštita spremnika (tank pad)",
+          "Klizači okvira",
+          "Nosač za GPS",
+          "Stražnji kofer (top case) 47 L u boji motocikla",
+          "Unutarnja torba za stražnji kofer",
+          "Jastuk naslona za suvozača na stražnjem koferu"
+        ]
+      }
+    ]
   },
   {
     "id": 41,
@@ -2781,7 +3441,7 @@
     "category": "Adventure",
     "license_category": "",
     "is_new": false,
-    "price": "13.556 €",
+    "price": "14.683 €",
     "akcijska_cijena": "",
     "description": "Klasični Versys recept uz 1100cc snagu. Svestran, udoban i pouzdan za duge ture.",
     "images": [
@@ -2834,7 +3494,56 @@
       "Paket Light Tourer": "2 x 28 l kofera u boji motocikla",
       "Paket Tourer +": "... dodatna LED svjetla za maglu, štitnici motora, GPS nosač",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, nosiva ploča, unutarnja torba 47 l"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.444 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR)",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Veće prozirno vjetrobransko staklo",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Nosač za GPS"
+        ]
+      },
+      {
+        "naziv": "Tourer Plus",
+        "cijena": "2.329 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR)",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Veće prozirno vjetrobransko staklo",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Nosač za GPS",
+          "LED maglenke"
+        ]
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "2.871 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla (KQR)",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Veće prozirno vjetrobransko staklo",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Nosač za GPS",
+          "LED maglenke",
+          "Stražnji kofer (top case) 47 L u boji motocikla",
+          "Klizači okvira",
+          "Unutarnja torba za stražnji kofer",
+          "Jastuk naslona za suvozača na stražnjem koferu"
+        ]
+      }
+    ]
   },
   {
     "id": 42,
@@ -2843,7 +3552,7 @@
     "category": "Adventure",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "8.937 €",
+    "price": "9.592 €",
     "akcijska_cijena": "",
     "description": "Najpristupačniji adventure-tourer. Udoban, svestran i ekonomičan za svakodnevnu vožnju.",
     "images": [
@@ -2911,7 +3620,55 @@
       "Paket Tourer +": "... dodatna LED svjetla za maglu",
       "Paket Grand Tourer": "... gornji kofer 47 l u boji motocikla, unutarnja torba 47 l, nosiva ploča, 12 V utičnica, GPS nosač, viši vjetrobran, USB utičnica",
       "A2 izvedba": "Dostupna izvedba od 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Light Tourer",
+        "cijena": "917 €",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Tourer",
+        "cijena": "1.127 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon"
+        ]
+      },
+      {
+        "naziv": "Tourer Plus",
+        "cijena": "1.747 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "LED maglenke (s relejem)"
+        ]
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "2.842 €",
+        "sadrzaj": [
+          "Bočni koferi 2 × 28 L u boji motocikla",
+          "Unutarnje torbe za kofere 2 × 28 L",
+          "Štitnici za ruke",
+          "Zaštita spremnika (tank pad)",
+          "Zaštitna folija za zaslon",
+          "LED maglenke (s relejem)",
+          "Stražnji kofer (top case) 47 L u boji motocikla",
+          "Veće prozirno vjetrobransko staklo s nosačem za visoki položaj",
+          "USB utičnica",
+          "Nosač za GPS",
+          "Unutarnja torba za stražnji kofer",
+          "Jastuk naslona za suvozača"
+        ]
+      }
+    ]
   },
   {
     "id": 43,
@@ -2920,7 +3677,7 @@
     "category": "Adventure",
     "license_category": "A2",
     "is_new": true,
-    "price": "7.442 €",
+    "price": "7.948 €",
     "akcijska_cijena": "",
     "description": "Novi KLE500 SE — pravi mali adventure u A2 paketu s bogatom opremom.",
     "images": [
@@ -3001,7 +3758,37 @@
       "Paket Rally": "Ispušni lonac Euro 5+ Akrapovič, niže rally stražnje sjedalo, zaštita hladnjaka, USB-C utičnica",
       "Paket Adventure Tourer": "Bočni koferi 2 x 21 l s nosačima, zaštita motora",
       "Paket Topcase": "Gornji kofer 42 l s nosačem, USB-C utičnica"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Top Case",
+        "cijena": "946 €",
+        "sadrzaj": [
+          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      },
+      {
+        "naziv": "Adventure Tourer",
+        "cijena": "1.401 €",
+        "sadrzaj": [
+          "Zaštitni okvir motora",
+          "Bočni koferi 2 × 21 L"
+        ]
+      },
+      {
+        "naziv": "Rally",
+        "cijena": "1.590 €",
+        "sadrzaj": [
+          "Akrapovič titanski ispuh",
+          "Poklopac hladnjaka",
+          "Niže suvozačko sjedalo",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      }
+    ]
   },
   {
     "id": 44,
@@ -3010,7 +3797,7 @@
     "category": "Adventure",
     "license_category": "A2",
     "is_new": true,
-    "price": "6.664 €",
+    "price": "7.151 €",
     "akcijska_cijena": "",
     "description": "Ulazni adventure motocikl za A2 kategoriju. Robusni dizajn i pouzdan motor.",
     "images": [
@@ -3064,7 +3851,41 @@
       "Paket Rally": "Ispušni lonac Euro 5+ Akrapovič, niže rally stražnje sjedalo, zaštita hladnjaka, USB-C utičnica, velika zaštitna ploča motora",
       "Paket Adventure Tourer": "Bočni koferi 2 x 21 l s nosačima, štitnici ruku, viši vjetrobran, veća zaštitna ploča motora, zaštita motora",
       "Paket Topcase": "Gornji kofer 42 l s nosačem, USB-C utičnica"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Top Case",
+        "cijena": "946 €",
+        "sadrzaj": [
+          "Stražnji nosač s koferom 42 L (otključava se ključem motocikla)",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      },
+      {
+        "naziv": "Adventure Tourer",
+        "cijena": "1.928 €",
+        "sadrzaj": [
+          "Veće prozirno vjetrobransko staklo",
+          "Štitnici za ruke",
+          "Zaštita kartera (skid plate)",
+          "Zaštitni okvir motora",
+          "Bočni koferi 2 × 21 L"
+        ]
+      },
+      {
+        "naziv": "Rally",
+        "cijena": "1.720 €",
+        "sadrzaj": [
+          "Zaštita kartera (skid plate)",
+          "Akrapovič titanski ispuh",
+          "Poklopac hladnjaka",
+          "Niže suvozačko sjedalo",
+          "USB-C utičnica",
+          "Relej za dodatnu opremu"
+        ]
+      }
+    ]
   },
   {
     "id": 79,
@@ -3073,7 +3894,7 @@
     "category": "Adventure",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "13.722 €",
     "akcijska_cijena": "",
     "description": "Novi Versys 900 za 2027. — redni četverocilindraš 948 cc i 122 KS u novom čeličnom rešetkastom okviru, s kotačima od 17\" i spremnikom od 20 litara. Isporuka od travnja 2027.",
     "images": [
@@ -3108,7 +3929,19 @@
       "Emisijski razred (EU)": "Euro 5+",
       "Boje": "Metallic Spark Black, Pearl Robotic White",
       "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      }
+    ]
   },
   {
     "id": 80,
@@ -3117,7 +3950,7 @@
     "category": "Adventure",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "14.601 €",
     "akcijska_cijena": "",
     "description": "Versys 900 SE — bogatija izvedba novog Versysa 900 (948 cc, 122 KS): grijane ručke, LED svjetla za maglu, štitnici ruku, zaštite motora i središnji stalak. Isporuka od travnja 2027.",
     "images": [
@@ -3157,7 +3990,19 @@
       "Paket SE": "LED svjetla za maglu, štitnici ruku, grijane ručke, zaštita hladnjaka, klizači okvira, donja zaštita motora, središnji stalak",
       "Boje": "Plasma Lime Green, Firecracker Red, Metallic Spark Black, Metallic Carbon Gray",
       "A2 izvedba": "Dostupna izvedba od 70 kW koja se može ograničiti na 35 kW za vozače s A2 dozvolom"
-    }
+    },
+    "paketi": [
+      {
+        "naziv": "Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      },
+      {
+        "naziv": "Grand Tourer",
+        "cijena": "Cijena na upit",
+        "sadrzaj": []
+      }
+    ]
   },
   {
     "id": 81,
@@ -3166,7 +4011,7 @@
     "category": "Adventure",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "9.444 €",
     "akcijska_cijena": "",
     "description": "Novi KLE650 za 2027. — adventure motocikl s provjerenim dvocilindričnim motorom 649 cc, za ceste i lakši teren.",
     "images": [
@@ -3211,7 +4056,7 @@
     "category": "Adventure",
     "license_category": "A2 (35 kW)",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "10.968 €",
     "akcijska_cijena": "",
     "description": "KLE650 SE — bogatije opremljena izvedba novog KLE650 s motorom 649 cc.",
     "images": [
@@ -3264,7 +4109,7 @@
     "category": "Adventure",
     "license_category": "A2",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "8.461 €",
     "akcijska_cijena": "",
     "description": "Novi KLE500 SE Smartride za 2027. — automatsko kvačilo Smartride (bez stiskanja ručice pri kretanju i zaustavljanju) i žbičasti kotači s tubeless gumama. Za A2 dozvolu.",
     "images": [],
@@ -3307,7 +4152,7 @@
     "category": "Offroad",
     "license_category": "",
     "is_new": true,
-    "price": "11.449 €",
+    "price": "11.439 €",
     "akcijska_cijena": "",
     "description": "Enduro za cross-country utrke. Dugotrajna off-road snaga i preciznost.",
     "images": [
@@ -3350,7 +4195,116 @@
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
       "Spremnik goriva": "7,5 litara",
-      "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke"
+      "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
+      "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Kawasaki KX 450FX (homologiran)",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "A2",
+    "is_new": false,
+    "price": "13.981 €",
+    "akcijska_cijena": "",
+    "description": "Cestovno homologirana izvedba KX 450FX enduro motocikla — može se registrirati i voziti po cesti.",
+    "images": [
+      "/images/vozila/45-kx-450x/img_01.jpg",
+      "/images/vozila/45-kx-450x/img_02.jpg",
+      "/images/vozila/45-kx-450x/img_03.jpg",
+      "/images/vozila/45-kx-450x/img_04.jpg",
+      "/images/vozila/45-kx-450x/img_05.jpg",
+      "/images/vozila/45-kx-450x/img_06.jpg",
+      "/images/vozila/45-kx-450x/img_07.jpg",
+      "/images/vozila/45-kx-450x/img_08.jpg",
+      "/images/vozila/45-kx-450x/img_09.jpg",
+      "/images/vozila/45-kx-450x/img_10.jpg",
+      "/images/vozila/45-kx-450x/img_11.jpg",
+      "/images/vozila/45-kx-450x/img_12.jpg",
+      "/images/vozila/45-kx-450x/img_13.jpg",
+      "/images/vozila/45-kx-450x/img_14.jpg",
+      "/images/vozila/45-kx-450x/img_15.jpg"
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "5 brzina",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Pogon": "Lanac",
+      "Okvir": "Obodni (perimetarski), aluminij",
+      "Boje": "Lime Green",
+      "Radni obujam": "449 cm³",
+      "Provrt x hod": "96 x 62,1 mm",
+      "Kompresijski omjer": "12,7 : 1",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Novo za 2027.": "Jača snaga u srednjem i visokom području okretaja, novi aluminijski okvir s duljim međuosovinskim razmakom, nove Brembo kočnice, nove postavke ovjesa, nova oplata",
+      "Prednja guma": "80/100-21 51M",
+      "Stražnja guma": "120/80-19 63M",
+      "Spremnik goriva": "7,5 litara",
+      "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
+      "Homologacija": "L3e — homologiran za cestovnu registraciju"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Kawasaki KX 450X (2026.)",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "A2",
+    "is_new": false,
+    "price": "13.309 €",
+    "akcijska_cijena": "",
+    "description": "KX 450X modelne godine 2026., cestovno homologiran — iz zaliha, do prodaje.",
+    "images": [
+      "/images/vozila/45-kx-450x/img_01.jpg",
+      "/images/vozila/45-kx-450x/img_02.jpg",
+      "/images/vozila/45-kx-450x/img_03.jpg",
+      "/images/vozila/45-kx-450x/img_04.jpg",
+      "/images/vozila/45-kx-450x/img_05.jpg",
+      "/images/vozila/45-kx-450x/img_06.jpg",
+      "/images/vozila/45-kx-450x/img_07.jpg",
+      "/images/vozila/45-kx-450x/img_08.jpg",
+      "/images/vozila/45-kx-450x/img_09.jpg",
+      "/images/vozila/45-kx-450x/img_10.jpg",
+      "/images/vozila/45-kx-450x/img_11.jpg",
+      "/images/vozila/45-kx-450x/img_12.jpg",
+      "/images/vozila/45-kx-450x/img_13.jpg",
+      "/images/vozila/45-kx-450x/img_14.jpg",
+      "/images/vozila/45-kx-450x/img_15.jpg"
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "5 brzina",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Pogon": "Lanac",
+      "Okvir": "Obodni (perimetarski), aluminij",
+      "Boje": "Lime Green",
+      "Radni obujam": "449 cm³",
+      "Provrt x hod": "96 x 62,1 mm",
+      "Kompresijski omjer": "12,7 : 1",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Prednja guma": "80/100-21 51M",
+      "Stražnja guma": "120/80-19 63M",
+      "Spremnik goriva": "7,5 litara",
+      "Oprema za cross-country": "Štitnik motora i poluge ovjesa, štitnici ruku, enduro gume, brtvljeni lanac, bočni stalak, štitnik stražnjeg diska, ODI ručke",
+      "Homologacija": "L3e — homologiran za cestovnu registraciju",
+      "Modelna godina": "2026"
     }
   },
   {
@@ -3407,7 +4361,66 @@
       "Udaljenost od tla": "330 mm",
       "Visina sjedala": "950 mm",
       "Masa spremna za vožnju": "111 kg",
-      "Oprema za cross-country": "Kotači 21\"/18\" s enduro gumama Dunlop AT81, bočni stalak"
+      "Oprema za cross-country": "Kotači 21\"/18\" s enduro gumama Dunlop AT81, bočni stalak",
+      "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Kawasaki KX 250FX (homologiran)",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "A2",
+    "is_new": false,
+    "price": "12.574 €",
+    "akcijska_cijena": "",
+    "description": "Cestovno homologirana izvedba KX 250FX enduro motocikla — može se registrirati i voziti po cesti.",
+    "images": [
+      "/images/vozila/46-kx-250x/img_01.jpg",
+      "/images/vozila/46-kx-250x/img_02.jpg",
+      "/images/vozila/46-kx-250x/img_03.jpg",
+      "/images/vozila/46-kx-250x/img_04.jpg",
+      "/images/vozila/46-kx-250x/img_05.jpg",
+      "/images/vozila/46-kx-250x/img_06.jpg",
+      "/images/vozila/46-kx-250x/img_07.jpg",
+      "/images/vozila/46-kx-250x/img_08.jpg",
+      "/images/vozila/46-kx-250x/img_09.jpg",
+      "/images/vozila/46-kx-250x/img_10.jpg",
+      "/images/vozila/46-kx-250x/img_11.jpg",
+      "/images/vozila/46-kx-250x/img_12.jpg",
+      "/images/vozila/46-kx-250x/img_13.jpg",
+      "/images/vozila/46-kx-250x/img_14.jpg"
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "5 brzina",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Pogon": "Lanac",
+      "Okvir": "Obodni (perimetarski), aluminij",
+      "Boje": "Lime Green",
+      "Radni obujam": "249 cm³",
+      "Provrt x hod": "78 x 52,2 mm",
+      "Kompresijski omjer": "14,0 : 1",
+      "Spremnik goriva": "6,2 litara",
+      "Prednje kočnice": "Poluplutajući valoviti disk 270 mm, dvoklipna čeljust",
+      "Stražnje kočnice": "Valoviti disk 240 mm, jednoklipna čeljust",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata, hod 305 mm",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko prigušenje kompresije, prigušenje povrata i predopterećenje, hod 307 mm",
+      "Međuosovinski razmak": "1.485 mm",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 razine), 2 mape motora (prekidač na upravljaču), launch control, ERGO-FIT, RIDEOLOGY THE APP KX",
+      "Novo za 2027.": "Jača snaga u cijelom području okretaja, poboljšano hidrauličko kvačilo, kraći i lakši prigušivač, nove postavke ovjesa, lakša prednja oplata",
+      "Prednja guma": "90/90-21 54R",
+      "Stražnja guma": "140/80-18 70R",
+      "D x Š x V": "2.185 x 820 x 1.260 mm",
+      "Udaljenost od tla": "330 mm",
+      "Visina sjedala": "950 mm",
+      "Masa spremna za vožnju": "111 kg",
+      "Oprema za cross-country": "Kotači 21\"/18\" s enduro gumama Dunlop AT81, bočni stalak",
+      "Homologacija": "L3e — homologiran za cestovnu registraciju"
     }
   },
   {
@@ -3417,7 +4430,7 @@
     "category": "Offroad",
     "license_category": "A2",
     "is_new": false,
-    "price": "4.030 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Dual-sport enduro za cestu i blato. Pouzdan i lagan za A2 off-road entuzijaste.",
     "images": [
@@ -3490,6 +4503,106 @@
     "price": "4.355 €",
     "akcijska_cijena": "",
     "description": "Off-road za mlade i odrasle vozače. Pouzdan, lak za upravljanje i zabavan.",
+    "images": [
+      "/images/vozila/48-klx-140r/img_01.jpg",
+      "/images/vozila/48-klx-140r/img_02.jpg",
+      "/images/vozila/48-klx-140r/img_03.jpg",
+      "/images/vozila/48-klx-140r/img_04.jpg",
+      "/images/vozila/48-klx-140r/img_05.jpg",
+      "/images/vozila/48-klx-140r/img_06.jpg",
+      "/images/vozila/48-klx-140r/img_07.jpg",
+      "/images/vozila/48-klx-140r/img_08.jpg"
+    ],
+    "specs": {
+      "Oznaka modela": "KLX140ATFNN, BTFNN, CTFNN",
+      "Boje": "Lime Green",
+      "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
+      "Radni obujam": "144 cm³",
+      "Provrt x hod": "58,0 x 54,4 mm",
+      "Kompresijski omjer": "9,5 : 1",
+      "Najveća snaga": "Nema podatka",
+      "Najveći okretni moment": "Nema podatka",
+      "Ventilski sustav": "SOHC, 2 ventila",
+      "Dovod goriva": "Rasplinjač: PB20 (Keihin)",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, centrifugalna",
+      "Okvir": "Jednogredni (backbone), čelik",
+      "Prednja guma": "70/100-17 40M (KLX140R) 70/100-19 42M (KLX140R L) 2,75-21 45M (KLX140R F)",
+      "Stražnja guma": "90/100-14 49M (KLX140R) 90/100-16 52M (KLX140R L) 4,10-18 59M (KLX140R F)",
+      "Prednji ovjes": "Teleskopske vilice",
+      "Stražnji ovjes": "Uni-Trak stražnja vilica",
+      "Prednje kočnice": "192 mm valoviti disk, dvoklipna čeljust",
+      "Stražnje kočnice": "150 mm valoviti disk, jednoklipna čeljust",
+      "D x Š x V": "1.820 mm x 790 mm x 1.050 mm (KLX140R) 1.895 mm x 790 mm x 1.075 mm (KLX140R L) 2.005 mm x 790 mm x 1.135 mm (KLX140R F)",
+      "Međuosovinski razmak": "1.260 mm (KLX140R) 1.285 mm (KLX140R L) 1.330 mm (KLX140R F)",
+      "Udaljenost od tla": "235 mm (KLX140R) 255 mm (KLX140R L) 315 mm (KLX140R F)",
+      "Visina sjedala": "780 mm (KLX140R) 800 mm (KLX140R L) 860 mm (KLX140R F)",
+      "Masa spremna za vožnju": "93 kg (KLX140R) 95 kg (KLX140R L) 99 kg (KLX140R F)",
+      "Spremnik goriva": "5,8 litara"
+    }
+  },
+  {
+    "id": 109,
+    "name": "Kawasaki KLX 140R L",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "",
+    "is_new": false,
+    "price": "4.656 €",
+    "akcijska_cijena": "",
+    "description": "KLX 140R L — izvedba s većim kotačima i višim sjedalom za odrasle i više vozače.",
+    "images": [
+      "/images/vozila/48-klx-140r/img_01.jpg",
+      "/images/vozila/48-klx-140r/img_02.jpg",
+      "/images/vozila/48-klx-140r/img_03.jpg",
+      "/images/vozila/48-klx-140r/img_04.jpg",
+      "/images/vozila/48-klx-140r/img_05.jpg",
+      "/images/vozila/48-klx-140r/img_06.jpg",
+      "/images/vozila/48-klx-140r/img_07.jpg",
+      "/images/vozila/48-klx-140r/img_08.jpg"
+    ],
+    "specs": {
+      "Oznaka modela": "KLX140ATFNN, BTFNN, CTFNN",
+      "Boje": "Lime Green",
+      "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
+      "Radni obujam": "144 cm³",
+      "Provrt x hod": "58,0 x 54,4 mm",
+      "Kompresijski omjer": "9,5 : 1",
+      "Najveća snaga": "Nema podatka",
+      "Najveći okretni moment": "Nema podatka",
+      "Ventilski sustav": "SOHC, 2 ventila",
+      "Dovod goriva": "Rasplinjač: PB20 (Keihin)",
+      "Podmazivanje": "Tlačno podmazivanje, mokro korito",
+      "Mjenjač": "5 brzina",
+      "Pogon": "Lanac",
+      "Kvačilo": "Mokra višelamelna, centrifugalna",
+      "Okvir": "Jednogredni (backbone), čelik",
+      "Prednja guma": "70/100-17 40M (KLX140R) 70/100-19 42M (KLX140R L) 2,75-21 45M (KLX140R F)",
+      "Stražnja guma": "90/100-14 49M (KLX140R) 90/100-16 52M (KLX140R L) 4,10-18 59M (KLX140R F)",
+      "Prednji ovjes": "Teleskopske vilice",
+      "Stražnji ovjes": "Uni-Trak stražnja vilica",
+      "Prednje kočnice": "192 mm valoviti disk, dvoklipna čeljust",
+      "Stražnje kočnice": "150 mm valoviti disk, jednoklipna čeljust",
+      "D x Š x V": "1.820 mm x 790 mm x 1.050 mm (KLX140R) 1.895 mm x 790 mm x 1.075 mm (KLX140R L) 2.005 mm x 790 mm x 1.135 mm (KLX140R F)",
+      "Međuosovinski razmak": "1.260 mm (KLX140R) 1.285 mm (KLX140R L) 1.330 mm (KLX140R F)",
+      "Udaljenost od tla": "235 mm (KLX140R) 255 mm (KLX140R L) 315 mm (KLX140R F)",
+      "Visina sjedala": "780 mm (KLX140R) 800 mm (KLX140R L) 860 mm (KLX140R F)",
+      "Masa spremna za vožnju": "93 kg (KLX140R) 95 kg (KLX140R L) 99 kg (KLX140R F)",
+      "Spremnik goriva": "5,8 litara"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Kawasaki KLX 140R F",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "",
+    "is_new": false,
+    "price": "4.974 €",
+    "akcijska_cijena": "",
+    "description": "KLX 140R F — najveća izvedba KLX 140 s kotačima 21\"/18\" i najvišim sjedalom.",
     "images": [
       "/images/vozila/48-klx-140r/img_01.jpg",
       "/images/vozila/48-klx-140r/img_02.jpg",
@@ -3644,6 +4757,71 @@
       "Prednja guma": "80/100-21 51M",
       "Stražnja guma": "120/80-19 63M",
       "Spremnik goriva": "6,2 litara"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Kawasaki KX 450 (2026.)",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "",
+    "is_new": false,
+    "price": "10.375 €",
+    "akcijska_cijena": "",
+    "description": "Motocross KX 450 modelne godine 2026. — iz zaliha, do prodaje.",
+    "images": [
+      "/images/vozila/50-kx-450/img_01.jpg",
+      "/images/vozila/50-kx-450/img_02.jpg",
+      "/images/vozila/50-kx-450/img_03.jpg",
+      "/images/vozila/50-kx-450/img_04.jpg",
+      "/images/vozila/50-kx-450/img_05.jpg",
+      "/images/vozila/50-kx-450/img_06.jpg",
+      "/images/vozila/50-kx-450/img_07.jpg",
+      "/images/vozila/50-kx-450/img_08.jpg",
+      "/images/vozila/50-kx-450/img_09.jpg",
+      "/images/vozila/50-kx-450/img_10.jpg",
+      "/images/vozila/50-kx-450/img_11.jpg",
+      "/images/vozila/50-kx-450/img_12.jpg",
+      "/images/vozila/50-kx-450/img_13.jpg",
+      "/images/vozila/50-kx-450/img_14.jpg",
+      "/images/vozila/50-kx-450/img_15.jpg",
+      "/images/vozila/50-kx-450/img_16.jpg",
+      "/images/vozila/50-kx-450/img_17.jpg",
+      "/images/vozila/50-kx-450/img_18.jpg",
+      "/images/vozila/50-kx-450/img_19.jpg",
+      "/images/vozila/50-kx-450/img_20.jpg",
+      "/images/vozila/50-kx-450/img_21.jpg",
+      "/images/vozila/50-kx-450/img_22.jpg",
+      "/images/vozila/50-kx-450/img_23.jpg",
+      "/images/vozila/50-kx-450/img_24.jpg",
+      "/images/vozila/50-kx-450/img_25.jpg",
+      "/images/vozila/50-kx-450/img_26.jpg",
+      "/images/vozila/50-kx-450/img_27.jpg",
+      "/images/vozila/50-kx-450/img_28.jpg"
+    ],
+    "specs": {
+      "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
+      "Ventilski sustav": "DOHC, 4 ventila",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 44 mm x 1",
+      "Podmazivanje": "Tlačno podmazivanje, polusuho korito",
+      "Pokretanje": "Elektropokretač",
+      "Mjenjač": "5 brzina",
+      "Kvačilo": "Mokra višelamelna, hidraulička",
+      "Pogon": "Lanac",
+      "Okvir": "Obodni (perimetarski), aluminij",
+      "Boje": "Lime Green",
+      "Radni obujam": "449 cm³",
+      "Provrt x hod": "96 x 62,1 mm",
+      "Kompresijski omjer": "12,7 : 1",
+      "Prednje kočnice": "Dva poluplutajuća valovita diska 270 mm, Brembo dvoklipne čeljusti",
+      "Stražnje kočnice": "Valoviti disk 240 mm, Brembo jednoklipna čeljust",
+      "Prednji ovjes": "Obrnute vilice 49 mm, podesivo prigušenje kompresije i povrata",
+      "Stražnji ovjes": "Uni-Trak, podesivo dvostupanjsko (brzo/sporo) prigušenje kompresije, prigušenje povrata i predopterećenje",
+      "Tehnologije": "KTRC kontrola proklizavanja (2 načina), 2 mape motora, launch control, ERGO-FIT, povezivost s pametnim telefonom i GPS (RIDEOLOGY THE APP KX2)",
+      "Prednja guma": "80/100-21 51M",
+      "Stražnja guma": "120/80-19 63M",
+      "Spremnik goriva": "6,2 litara",
+      "Modelna godina": "2026"
     }
   },
   {
@@ -3809,7 +4987,7 @@
     "category": "Offroad",
     "license_category": "",
     "is_new": false,
-    "price": "5.884 €",
+    "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "2-taktni junior motocross za mlade natjecatelje.",
     "images": [
@@ -3906,7 +5084,7 @@
     "category": "Offroad",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "10.598 €",
     "akcijska_cijena": "",
     "description": "Novi dvotaktni KX327 za 2027. — prvi veliki Kawasakijev dvotaktaš u više od 20 godina: 327 cc, ubrizgavanje goriva, elektropokretač i hidraulično kvačilo, za motocross.",
     "images": [
@@ -3938,7 +5116,7 @@
     "category": "Offroad",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "10.994 €",
     "akcijska_cijena": "",
     "description": "KX327X — cross-country izvedba novog dvotaktnog KX327: 6 brzina i zaštitna oprema za enduro i cross-country utrke.",
     "images": [
@@ -3958,7 +5136,39 @@
       "Okvir": "Obodni (perimetarski), aluminij",
       "Pokretanje": "Elektropokretač",
       "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
-      "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak"
+      "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
+      "Homologacija": "Ne — natjecateljska izvedba (za cestu vidi homologiranu izvedbu)"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Kawasaki KX 327X (homologiran)",
+    "brand": "Kawasaki",
+    "category": "Offroad",
+    "license_category": "A2",
+    "is_new": false,
+    "price": "13.423 €",
+    "akcijska_cijena": "",
+    "description": "Cestovno homologirana izvedba dvotaktnog KX 327X enduro motocikla — može se registrirati.",
+    "images": [
+      "/images/vozila/86-kx-327x/kx327x-1.png",
+      "/images/vozila/86-kx-327x/kx327x-2.png",
+      "/images/vozila/86-kx-327x/kx327x-3.png"
+    ],
+    "specs": {
+      "Boje": "Lime Green",
+      "Tip motora": "Tekućinom hlađen, 2-taktni jednocilindrični",
+      "Radni obujam": "327 cm³",
+      "Dovod goriva": "Ubrizgavanje goriva: Ø 39 mm, dvije brizgaljke",
+      "Usisni sustav": "Membranski usisni ventil (reed ventil)",
+      "Podmazivanje": "Mješavina (gorivo i ulje)",
+      "Mjenjač": "6 brzina",
+      "Kvačilo": "Hidraulično",
+      "Okvir": "Obodni (perimetarski), aluminij",
+      "Pokretanje": "Elektropokretač",
+      "Napomena": "Kawasaki još nije objavio sve tehničke podatke",
+      "Oprema za cross-country": "Štitnici ruku, štitnik motora, štitnik poluge ovjesa, štitnik stražnjeg diska, bočni stalak",
+      "Homologacija": "L3e — homologiran za cestovnu registraciju"
     }
   },
   {
@@ -3968,7 +5178,7 @@
     "category": "Offroad",
     "license_category": "A2",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "3.725 €",
     "akcijska_cijena": "",
     "description": "KLX230 — lagani dual-sport za cestu i teren: 233 cc, kotači 21\"/18\", dugi hod ovjesa i velika udaljenost od tla. Za A2 dozvolu.",
     "images": [],
@@ -4007,7 +5217,7 @@
     "category": "Offroad",
     "license_category": "A2",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "4.030 €",
     "akcijska_cijena": "",
     "description": "KLX230SM — supermoto izvedba KLX230: kotači od 17\" s cestovnim gumama i obrnute vilice 37 mm. Lagan i okretan za grad. Za A2 dozvolu.",
     "images": [],
@@ -4379,7 +5589,7 @@
     "category": "Quad",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "5.645 €",
     "akcijska_cijena": "",
     "description": "Novi Brute Force 300 T-CAT za 2027. — ulazni Brute Force s T-kategorijom (WVTA) za registraciju i vožnju po cesti.",
     "images": [],
@@ -4475,7 +5685,7 @@
     "category": "Mule",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "25.246 €",
     "akcijska_cijena": "",
     "description": "MULE PRO-FX 1000 HD Edition — snažno radno vozilo s motorom 999 cc, samonivelirajućim stražnjim ovjesom i hidrauličnim podizanjem sanduka od 1,9 m².",
     "images": [
@@ -4812,7 +6022,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "24.023 €",
+    "price": "22.705 €",
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310LX-S — sport-luksuzna verzija Ultra serije s dodatnim performansama.",
     "images": [
@@ -4853,7 +6063,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "23.049 €",
+    "price": "21.785 €",
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310X — sportski jednosjed s 310 KS za maksimalnu adrenalińsku zabavu.",
     "images": [
@@ -4889,7 +6099,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "21.616 €",
+    "price": "20.941 €",
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "images": [
@@ -4933,7 +6143,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "20.886 €",
+    "price": "19.076 €",
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru.",
     "images": [
@@ -5030,7 +6240,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "17.038 €",
+    "price": "16.634 €",
     "akcijska_cijena": "",
     "description": "Jet Ski STX 160LX — sportski vodeni skuter s 160 KS za uzbudljivo klizanje valovima.",
     "images": [
@@ -5232,7 +6442,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "16.496 €",
     "akcijska_cijena": "",
     "description": "STX 160LX-S — sportski STX za tri osobe s kamerom za vožnju unatrag, ukrasnim svjetlima i produljenom stražnjom palubom s nosačima za dodatnu opremu.",
     "images": [],
@@ -5262,7 +6472,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": false,
-    "price": "Cijena na upit",
+    "price": "11.961 €",
     "akcijska_cijena": "",
     "description": "SX-R 160 — Jet Ski za stajanje (stand-up) za rekreaciju i utrke: motor 1.498 cc, okretni V-trup i deflektor prskanja (KSD).",
     "images": [],
@@ -5291,7 +6501,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "19.208 €",
     "akcijska_cijena": "",
     "description": "Novi STX 310R za 2027. — kompresorski motor od 300 KS u laganom STX trupu: Kawasakijev najbrže ubrzavajući Jet Ski za sjedenje.",
     "images": [],
@@ -5317,7 +6527,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "20.536 €",
     "akcijska_cijena": "",
     "description": "Novi STX 310RX za 2027. — kompresorskih 300 KS u STX trupu, uz premium LXury sjedalo.",
     "images": [],
@@ -5345,7 +6555,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "11.961 €",
     "akcijska_cijena": "",
     "description": "Novi SX-X 160 za 2027. — Jet Ski za stajanje s fiksnim upravljačem, velikom palubom i aktivnim V-trupom; motor 1.498 cc.",
     "images": [],
@@ -5371,7 +6581,7 @@
     "category": "Jet Ski",
     "license_category": "",
     "is_new": true,
-    "price": "Cijena na upit",
+    "price": "20.886 €",
     "akcijska_cijena": "",
     "description": "Novi Ultra 160LX-S Wakesport za 2027. — Ultra trup s dubokim V (22,5°), ugrađeni nosač za wakeboard i pilon za vuču, sjedalo prilagođeno wake sportovima.",
     "images": [],

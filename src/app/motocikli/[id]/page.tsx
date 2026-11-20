@@ -5,6 +5,7 @@ import type { Motorcycle } from "@/types/motorcycle";
 import modelsData from "@/data/models.json";
 import BikeGallery from "@/components/BikeGallery";
 import Cijena, { OznakaAkcije } from "@/components/Cijena";
+import PaketiOpreme from "@/components/PaketiOpreme";
 import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 
 const models = modelsData as unknown as Motorcycle[];
@@ -113,6 +114,15 @@ export default async function BikeDetailPage({ params }: Props) {
               Nazovi nas
             </a>
           </div>
+
+          {/* Paketi opreme (Tourer, Performance…) */}
+          {bike.paketi && bike.paketi.length > 0 && (
+            <PaketiOpreme
+              paketi={bike.paketi}
+              cijenaVozila={imaAkciju(bike) ? bike.akcijska_cijena! : bike.price}
+              nazivVozila={bike.name}
+            />
+          )}
 
           {/* Specs */}
           {hasSpecs && (
