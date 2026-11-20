@@ -6,7 +6,7 @@ Pokreni: py -X utf8 scripts/json_to_excel.py
 
 import json, os, re
 import openpyxl
-from excel_sinkronizacija import zapamti
+from excel_sinkronizacija import zapamti, arhiviraj
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
@@ -174,18 +174,10 @@ def main():
     ws2.column_dimensions["A"].width = 25
     ws2.column_dimensions["B"].width = 70
 
-    # Postojeći Excel ne briši — sačuvaj ga kao vozila_stari.xlsx (ili _stari2 ...)
-    if os.path.exists(EXCEL_PATH):
-        baza = EXCEL_PATH.replace(".xlsx", "_stari")
-        novo_ime, broj = baza + ".xlsx", 2
-        while os.path.exists(novo_ime):
-            novo_ime, broj = f"{baza}{broj}.xlsx", broj + 1
-        try:
-            os.replace(EXCEL_PATH, novo_ime)
-        except PermissionError:
-            print("ZATVORI vozila.xlsx pa pokreni skriptu ponovo.")
-            raise SystemExit(1)
-        print(f"Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
+    # Postojeći Excel se ne briše — ostaje kao vozila_stari.xlsx (samo jedna, zadnja kopija)
+    kopija = arhiviraj(EXCEL_PATH)
+    if kopija:
+        print(f"Stari Excel sačuvan kao: {kopija}")
 
     wb.save(EXCEL_PATH)
     zapamti(EXCEL_PATH, JSON_PATH)   # Excel i models.json su sada usklađeni

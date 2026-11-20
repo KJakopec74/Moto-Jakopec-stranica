@@ -11,7 +11,7 @@ Kad objavi.bat povuče s GitHuba promijenjeni JSON (npr. novi modeli):
     skripta staje da se ništa ne izgubi (ovo se događa vrlo rijetko).
 """
 
-import json, os
+import glob, json, os
 
 ROOT_DIR   = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 STAMP_PATH = os.path.join(ROOT_DIR, ".excel_sinkronizacija.json")
@@ -65,3 +65,25 @@ def osvjezi_ako_treba(excel_path, json_path, napravi_excel, ime_excela):
     if zapamceno is None:
         print("  Ako si u Excelu nešto mijenjao, a NISI objavio, prepiši to iz *_stari.xlsx.")
     return True
+
+
+def arhiviraj(excel_path):
+    """
+    Spremi postojeći Excel kao *_stari.xlsx (čuva se samo JEDNA, zadnja kopija)
+    i obriši starije kopije (*_stari2.xlsx, *_stari3.xlsx …) koje su se prije gomilale.
+    Vraća ime spremljene kopije ili None ako Excel nije postojao.
+    """
+    if not os.path.exists(excel_path):
+        return None
+    baza = excel_path[:-5] + "_stari"
+    for visak in glob.glob(baza + "[0-9]*.xlsx"):
+        try:
+            os.remove(visak)
+        except OSError:
+            pass
+    try:
+        os.replace(excel_path, baza + ".xlsx")
+    except PermissionError:
+        print(f"ZATVORI {os.path.basename(excel_path)} (i {os.path.basename(baza)}.xlsx) pa pokreni ponovo.")
+        raise SystemExit(1)
+    return os.path.basename(baza + ".xlsx")

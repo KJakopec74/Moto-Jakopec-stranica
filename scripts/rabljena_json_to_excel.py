@@ -10,7 +10,7 @@ import openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
-from excel_sinkronizacija import zapamti
+from excel_sinkronizacija import zapamti, arhiviraj
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR   = os.path.join(SCRIPT_DIR, "..")
@@ -124,18 +124,10 @@ def main():
     wu.column_dimensions["A"].width = 26
     wu.column_dimensions["B"].width = 95
 
-    # Postojeći Excel se ne briše — ostaje kao rabljena_stari.xlsx
-    if os.path.exists(EXCEL_PATH):
-        baza = EXCEL_PATH.replace(".xlsx", "_stari")
-        novo, n = baza + ".xlsx", 2
-        while os.path.exists(novo):
-            novo, n = f"{baza}{n}.xlsx", n + 1
-        try:
-            os.replace(EXCEL_PATH, novo)
-        except PermissionError:
-            print("ZATVORI rabljena.xlsx pa pokreni ponovo.")
-            raise SystemExit(1)
-        print(f"Stari Excel sačuvan kao: {os.path.basename(novo)}")
+    # Postojeći Excel se ne briše — ostaje kao rabljena_stari.xlsx (samo jedna, zadnja kopija)
+    kopija = arhiviraj(EXCEL_PATH)
+    if kopija:
+        print(f"Stari Excel sačuvan kao: {kopija}")
 
     wb.save(EXCEL_PATH)
     zapamti(EXCEL_PATH, JSON_PATH)

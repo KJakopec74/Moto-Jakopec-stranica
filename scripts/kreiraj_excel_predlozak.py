@@ -15,7 +15,7 @@ NAPOMENA o padajućim izbornicima:
 
 import os, json
 import openpyxl
-from excel_sinkronizacija import zapamti
+from excel_sinkronizacija import zapamti, arhiviraj
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
@@ -340,20 +340,11 @@ def _fill_from_json(ws, products):
         ws.row_dimensions[row_idx].height = 18
 
 def stari_excel_u_arhivu(razlog):
-    """Preimenuje postojeći Excel u proizvodi_stari.xlsx (ili _stari2, _stari3...)."""
-    baza = EXCEL_PATH.replace(".xlsx", "_stari")
-    novo_ime = baza + ".xlsx"
-    broj = 2
-    while os.path.exists(novo_ime):
-        novo_ime = f"{baza}{broj}.xlsx"
-        broj += 1
-    try:
-        os.replace(EXCEL_PATH, novo_ime)
-    except PermissionError:
-        print("ZATVORI proizvodi.xlsx pa pokreni ponovo.")
-        raise SystemExit(1)
+    """Spremi postojeći Excel kao proizvodi_stari.xlsx (samo jedna, zadnja kopija)."""
+    kopija = arhiviraj(EXCEL_PATH)
     print(f"  {razlog}")
-    print(f"  Stari Excel sačuvan kao: {os.path.basename(novo_ime)}")
+    if kopija:
+        print(f"  Stari Excel sačuvan kao: {kopija}")
 
 def ensure_workbook():
     # Ako postojeći Excel nema stupac "specifikacije" ili je stariji od
