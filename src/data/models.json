@@ -10,8 +10,8 @@
     "akcijska_cijena": "",
     "description": "Najsnažniji serijski motocikl na svijetu. Supercharged motor od 310 KS, karbon karoserija i aerodinamički dodaci za stazu.",
     "images": [
+      "/images/vozila/01-ninja-h2r/img.jpg",
       "/images/vozila/01-ninja-h2r/img_01.jpg",
-      "/images/vozila/01-ninja-h2r/img_02.jpg",
       "/images/vozila/01-ninja-h2r/img_03.jpg",
       "/images/vozila/01-ninja-h2r/img_04.jpg",
       "/images/vozila/01-ninja-h2r/img_05.jpg",
@@ -2602,7 +2602,11 @@
     "price": "14.864 €",
     "akcijska_cijena": "",
     "description": "Z900RS — retro sport s rednim četverocilindrašem 948 cc (116 KS), elektronikom s IMU jedinicom, quickshifterom i tempomatom. Legenda u modernom ruhu.",
-    "images": [],
+    "images": [
+      "/images/vozila/87-z-900rs/z900rs-01.png",
+      "/images/vozila/87-z-900rs/z900rs-02.png",
+      "/images/vozila/87-z-900rs/z900rs-03.png"
+    ],
     "specs": {
       "Boje": "Candytone Greenish Blue",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
@@ -2646,7 +2650,11 @@
     "price": "15.089 €",
     "akcijska_cijena": "",
     "description": "Z900RS Black Ball Edition — posebna crna izvedba Z900RS-a (948 cc, 116 KS) s istom bogatom elektronikom.",
-    "images": [],
+    "images": [
+      "/images/vozila/88-z-900rs-black-ball-edition/z900rs-BB-01.png",
+      "/images/vozila/88-z-900rs-black-ball-edition/z900rs-BB-02.png",
+      "/images/vozila/88-z-900rs-black-ball-edition/z900rs-BB-03.png"
+    ],
     "specs": {
       "Boje": "Ebony",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
@@ -2690,7 +2698,11 @@
     "price": "9.282 €",
     "akcijska_cijena": "",
     "description": "Z650RS Black Ball Edition — crna posebna izvedba lakog retro modela Z650RS, s izvedbom od 35 kW za A2 dozvolu.",
-    "images": [],
+    "images": [
+      "/images/vozila/89-z-650rs-black-ball-edition/z650rs-BB-01.png",
+      "/images/vozila/89-z-650rs-black-ball-edition/z650rs-BB-02.png",
+      "/images/vozila/89-z-650rs-black-ball-edition/z650rs-BB-03.png"
+    ],
     "specs": {
       "Boje": "Ebony / Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
@@ -3851,7 +3863,11 @@
     "price": "8.461 €",
     "akcijska_cijena": "",
     "description": "Novi KLE500 SE Smartride za 2027. — automatsko kvačilo Smartride (bez stiskanja ručice pri kretanju i zaustavljanju) i žbičasti kotači s tubeless gumama. Za A2 dozvolu.",
-    "images": [],
+    "images": [
+      "/images/vozila/90-kle-500-se-smartride/KLE50_SE_SR_01.png",
+      "/images/vozila/90-kle-500-se-smartride/KLE50_SE_SR_02.png",
+      "/images/vozila/90-kle-500-se-smartride/KLE50_SE_SR_03.png"
+    ],
     "specs": {
       "Boje": "Pearl Blizzard White",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
@@ -4806,7 +4822,11 @@
     "price": "3.725 €",
     "akcijska_cijena": "",
     "description": "KLX230 — lagani dual-sport za cestu i teren: 233 cc, kotači 21\"/18\", dugi hod ovjesa i velika udaljenost od tla. Za A2 dozvolu.",
-    "images": [],
+    "images": [
+      "/images/vozila/91-klx-230/KLX230_01.png",
+      "/images/vozila/91-klx-230/KLX230_02.png",
+      "/images/vozila/91-klx-230/KLX230_03.png"
+    ],
     "specs": {
       "Boje": "Lime Green; Battle Gray / Bright White / Ebony",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
@@ -4845,7 +4865,11 @@
     "price": "4.030 €",
     "akcijska_cijena": "",
     "description": "KLX230SM — supermoto izvedba KLX230: kotači od 17\" s cestovnim gumama i obrnute vilice 37 mm. Lagan i okretan za grad. Za A2 dozvolu.",
-    "images": [],
+    "images": [
+      "/images/vozila/92-klx-230sm/KLX230_SM_01.png",
+      "/images/vozila/92-klx-230sm/KLX230_SM_02.png",
+      "/images/vozila/92-klx-230sm/KLX230_SM_03.png"
+    ],
     "specs": {
       "Boje": "Lime Green / Ebony",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični",
@@ -4886,7 +4910,11 @@
     "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "KLX450R — enduro motocikl za natjecanja i ozbiljan teren: 449 cc, elektropokretač, aluminijski okvir i potpuno podesivi ovjes.",
-    "images": [],
+    "images": [
+      "/images/vozila/93-klx-450r/KLX450_01.png",
+      "/images/vozila/93-klx-450r/KLX450_02.png",
+      "/images/vozila/93-klx-450r/KLX450_03.png"
+    ],
     "specs": {
       "Boje": "Lime Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
