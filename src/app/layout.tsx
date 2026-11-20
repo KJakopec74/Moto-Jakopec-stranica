@@ -3,10 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BrzaPoruka from "@/components/BrzaPoruka";
+import TrakaOdabira from "@/components/TrakaOdabira";
 import modelsData from "@/data/models.json";
 import productsData from "@/data/products.json";
 import { imaAkciju } from "@/lib/cijena";
-import { ADRESA_STRANICE, FIRMA, TELEFONI } from "@/lib/stranica";
+import { ADRESA_STRANICE, FIRMA, TELEFONI, DRUSTVENE_MREZE } from "@/lib/stranica";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -45,6 +47,8 @@ const PODACI_ZA_GOOGLE = {
     "@type": "ContactPoint", telephone: t.poziv, contactType: "sales",
   })),
   email: FIRMA.email,
+  // Profili na društvenim mrežama (ako su upisani u stranica.ts)
+  sameAs: Object.values(DRUSTVENE_MREZE).filter(Boolean),
   brand: { "@type": "Brand", name: "Kawasaki" },
   address: {
     "@type": "PostalAddress",
@@ -76,6 +80,8 @@ export default function RootLayout({
         <Header imaAkcija={[...modelsData, ...productsData].some((x) => imaAkciju(x as { price?: string; akcijska_cijena?: string }))} />
         <main className="flex-1">{children}</main>
         <Footer />
+        <TrakaOdabira />
+        <BrzaPoruka />
       </body>
     </html>
   );

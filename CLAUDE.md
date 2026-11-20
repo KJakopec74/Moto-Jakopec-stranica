@@ -202,3 +202,11 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - Sadržaj paketa je s kawasaki.eu (Edition Accessories). Za Light Tourer (1100SX, Versys), Tourer (Versys 1100 S/SE), Evolution (Ninja/Z 7 Hybrid) i pakete Versysa 900 sadržaj nije pronađen → prazno ("Sadržaj na upit").
 - DKS izvedbe „se” (posebne boje) upisane su kao paket "Posebna boja (izvedba „se”)" s nadoplatom.
 - `*.xlsx` je u .gitignore (korisnik je jednom slučajno objavio vozila_moj.xlsx).
+
+## Usporedba, košarica upita, novosti, WhatsApp (studeni 2026.)
+
+- `src/lib/odabir.ts` — popisi u localStorage: "usporedba" (id-evi vozila, max 3) i "upit" (nazivi artikala). Gumbi: `GumbiOdabira.tsx`; traka dolje: `TrakaOdabira.tsx`; `/usporedba?v=1,2,3`; košarica se prikazuje u `UpitForma` (polje `artikli`).
+- `BrzaPoruka.tsx` — plutajući WhatsApp/Viber/poziv; broj u `BRZE_PORUKE` (stranica.ts). `DRUSTVENE_MREZE` prazno = skriveno.
+- `src/lib/podaci-za-google.ts` — schema.org Product s cijenom na stranicama vozila i rabljenih.
+- Novosti: `novosti.xlsx` → `novosti.json` (`scripts/novosti_excel_to_json.py`, u objavi.bat), `/novosti`, istaknute na početnoj.
+- Stari opisi paketa iz dks.si ("Paket Tourer" u specs) prebačeni u `paketi` i maknuti iz specs.

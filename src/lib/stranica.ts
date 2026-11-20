@@ -31,3 +31,19 @@ export const RADNO_VRIJEME = [
   { dani: "Utorak, četvrtak i petak",    sati: "8:00 – 16:00" },
   { dani: "Subota i nedjelja",           sati: "ne radimo" },
 ];
+
+// Brze poruke (plutajući gumb dolje desno): WhatsApp i Viber na ovaj mobitel.
+// Broj u međunarodnom obliku BEZ + i razmaka. Za isključivanje stavi false.
+export const BRZE_PORUKE = {
+  broj: "385915551655",        // 091/555-1655
+  prikaz: "091/555-1655",
+  whatsapp: true,
+  viber: true,
+};
+
+// Društvene mreže — upiši punu adresu profila (npr. "https://www.facebook.com/motojakopec").
+// Prazno = ikona se ne prikazuje.
+export const DRUSTVENE_MREZE = {
+  facebook: "",
+  instagram: "",
+};

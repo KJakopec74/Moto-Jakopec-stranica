@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Motorcycle } from "@/types/motorcycle";
 import Cijena, { OznakaAkcije } from "@/components/Cijena";
+import { GumbUsporedi } from "@/components/GumbiOdabira";
 import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 
 interface Props {
@@ -80,11 +81,14 @@ export default function MotorcycleCard({ bike }: Props) {
 
         <div className="flex items-center justify-between mt-auto pt-3 border-t" style={{ borderColor: "var(--line)" }}>
           <Cijena price={bike.price} akcijska_cijena={bike.akcijska_cijena} />
-          <span className="text-xs flex items-center gap-1 transition-colors" style={{ color: "var(--muted)" }}>
-            Više detalja
+          <span className="flex items-center gap-2">
+            <GumbUsporedi id={bike.id} mali />
+            <span className="text-xs flex items-center gap-1 transition-colors" style={{ color: "var(--muted)" }}>
+            Detalji
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
+          </span>
           </span>
         </div>
       </div>

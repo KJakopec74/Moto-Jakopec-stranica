@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { TELEFONI, RADNO_VRIJEME } from "@/lib/stranica";
+import { TELEFONI, RADNO_VRIJEME, DRUSTVENE_MREZE } from "@/lib/stranica";
 import Image from "next/image";
 
 export default function Footer() {
@@ -25,6 +25,23 @@ export default function Footer() {
               Ovlašteni Kawasaki zastupnik za Hrvatsku. Prodaja novih motocikala,
               servis, rezervni dijelovi i oprema.
             </p>
+            {/* Društvene mreže — prikazuju se samo ako su upisane u src/lib/stranica.ts */}
+            {(DRUSTVENE_MREZE.facebook || DRUSTVENE_MREZE.instagram) && (
+              <div className="flex gap-3 mt-4">
+                {DRUSTVENE_MREZE.facebook && (
+                  <a href={DRUSTVENE_MREZE.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                    className="w-9 h-9 rounded-full flex items-center justify-center text-white" style={{ background: "#1877F2" }}>
+                    <svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor"><path d="M14 8h3V4h-3c-2.8 0-5 2.2-5 5v2H7v4h2v7h4v-7h3l1-4h-4V9c0-.6.4-1 1-1z" /></svg>
+                  </a>
+                )}
+                {DRUSTVENE_MREZE.instagram && (
+                  <a href={DRUSTVENE_MREZE.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                    className="w-9 h-9 rounded-full flex items-center justify-center text-white" style={{ background: "linear-gradient(45deg,#F58529,#DD2A7B,#8134AF)" }}>
+                    <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2}><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" /></svg>
+                  </a>
+                )}
+              </div>
+            )}
           </div>
 
           {/* Links */}
@@ -38,6 +55,8 @@ export default function Footer() {
                 { href: "/dijelovi",  label: "Dijelovi" },
                 { href: "/rabljena",  label: "Rabljena vozila" },
                 { href: "/akcije",    label: "Akcije" },
+                { href: "/novosti",   label: "Novosti" },
+                { href: "/usporedba", label: "Usporedba modela" },
                 { href: "/servis",    label: "Servis" },
                 { href: "/trazi",     label: "Pretraživanje" },
                 { href: "/kontakt",   label: "Kontakt" },

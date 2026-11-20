@@ -6,6 +6,8 @@ import modelsData from "@/data/models.json";
 import BikeGallery from "@/components/BikeGallery";
 import Cijena, { OznakaAkcije } from "@/components/Cijena";
 import PaketiOpreme from "@/components/PaketiOpreme";
+import { GumbUsporedi, GumbDodajUUpit } from "@/components/GumbiOdabira";
+import { proizvodZaGoogle } from "@/lib/podaci-za-google";
 import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 
 const models = modelsData as unknown as Motorcycle[];
@@ -44,6 +46,11 @@ export default async function BikeDetailPage({ params }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      {/* Podaci za Google (naziv, slika, cijena) */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(proizvodZaGoogle({
+        naziv: bike.name, opis: bike.description, slike: bike.images ?? [], putanja: `/motocikli/${bike.id}/`,
+        cijena: imaAkciju(bike) ? bike.akcijska_cijena : bike.price, sifra: bike.specs?.["Oznaka modela"],
+      })) }} />
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm mb-8" style={{ color: "var(--muted)" }}>
@@ -113,6 +120,12 @@ export default async function BikeDetailPage({ params }: Props) {
               </svg>
               Nazovi nas
             </a>
+          </div>
+
+          {/* Usporedba i zajednički upit */}
+          <div className="flex flex-wrap gap-2 -mt-4 mb-8">
+            <GumbUsporedi id={bike.id} />
+            <GumbDodajUUpit naziv={bike.name} />
           </div>
 
           {/* Paketi opreme (Tourer, Performance…) */}

@@ -178,6 +178,27 @@ Ako ga želiš potpuno maknuti, obriši cijeli red.
 
 Dok nema nijednog vozila, stranica Rabljena vozila prikazuje poruku „Trenutno nemamo rabljenih vozila” s gumbom za upit.
 
+## 6a. Novosti / obavijesti
+
+**`novosti.xlsx`** se napravi sam pri prvom pokretanju `objavi.bat`.
+
+**Dodavanje obavijesti:** dodaj red i popuni stupce:
+- `datum`, npr. 20.11.2026
+- `naslov`
+- `tekst` (novi red u ćeliji: Alt+Enter)
+- `slika` (po želji): naziv slike iz Preuzimanja
+- `link` (po želji), npr. `/akcije`
+- `istaknuto`: `DA` znači da se obavijest prikazuje i na početnoj stranici (najviše 3 najnovije)
+- `objavljeno`: `NE` znači da je obavijest skrivena, ali ostaje u Excelu
+
+Zatim zatvori Excel i dvoklikni `objavi.bat`.
+
+## 6b. WhatsApp, Viber i društvene mreže
+
+U datoteci `src/lib/stranica.ts`:
+- **`BRZE_PORUKE`**: broj za WhatsApp i Viber (sada 091/555-1655). `whatsapp: false` ili `viber: false` isključuje gumb.
+- **`DRUSTVENE_MREZE`**: upiši adresu Facebook i Instagram profila. Ikone se pojave u podnožju.
+
 ## 7. Pregled prije objave (nije obavezno)
 
 Dvoklik na **`pokreni_stranicu.bat`** → otvori se **http://localhost:3000**.

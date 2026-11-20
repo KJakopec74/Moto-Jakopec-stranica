@@ -8,6 +8,8 @@ import RabljenoCard from "@/components/RabljenoCard";
 import type { Product } from "@/types/product";
 import { imaAkciju } from "@/lib/cijena";
 import { rabljenaUProdaji } from "@/lib/rabljena";
+import KarticaNovosti from "@/components/KarticaNovosti";
+import { istaknuteNovosti } from "@/lib/novosti";
 
 const models = modelsData as unknown as Motorcycle[];
 
@@ -113,6 +115,16 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ── Istaknute novosti (samo kad ih ima) ─────────────────────── */}
+      {istaknuteNovosti.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+          <NaslovSekcije naslov="Novosti" podnaslov="Obavijesti iz salona" href="/novosti" link="Sve novosti" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {istaknuteNovosti.map((n) => <KarticaNovosti key={n.id} novost={n} kratko />)}
+          </div>
+        </section>
+      )}
 
       {/* ── Akcije (samo dok traje neka akcija) ────────────────────── */}
       {akcijeVozila.length + akcijeProizvodi.length > 0 && (

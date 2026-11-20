@@ -5,6 +5,7 @@ import BikeGallery from "@/components/BikeGallery";
 import { rabljena } from "@/lib/rabljena";
 import { tisucice } from "@/lib/cijena";
 import { TELEFONI } from "@/lib/stranica";
+import { proizvodZaGoogle } from "@/lib/podaci-za-google";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -45,6 +46,10 @@ export default async function RabljenoDetaljiPage({ params }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(proizvodZaGoogle({
+        naziv: naziv, opis: v.description, slike: v.images ?? [], putanja: `/rabljena/${v.id}/`,
+        cijena: v.price, marka: v.brand, rabljeno: true, prodano: v.prodano,
+      })) }} />
       <nav className="flex items-center gap-2 text-sm mb-8" style={{ color: "var(--muted)" }}>
         <Link href="/" className="hover:underline">Početna</Link>
         <span>/</span>

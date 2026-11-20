@@ -13,6 +13,7 @@ import Image from "next/image";
 import Galerija from "@/components/Galerija";
 import type { Product } from "@/types/product";
 import Cijena, { OznakaAkcije } from "@/components/Cijena";
+import { GumbDodajUUpit } from "@/components/GumbiOdabira";
 import { imaAkciju, postotakPopusta } from "@/lib/cijena";
 import type { BrandsData } from "@/types/brand";
 import brandsData from "@/data/brands.json";
@@ -153,16 +154,19 @@ export default function ProductCard({ product }: Props) {
 
         <div className="flex items-center justify-between mt-auto pt-3 border-t" style={{ borderColor: "var(--line)" }}>
           <Cijena price={product.price} akcijska_cijena={product.akcijska_cijena} velicina="mala" />
+          <span className="flex items-center gap-1.5">
+          <GumbDodajUUpit naziv={(brend ? brend.name + " " : "") + product.name} mali />
           <Link
             href={`/kontakt?model=${encodeURIComponent((brend ? brend.name + " " : "") + product.name)}`}
             className="text-xs font-semibold flex items-center gap-1 px-3 py-1.5 rounded-full transition-colors"
             style={{ background: "var(--green)", color: "white" }}
           >
-            Pošalji upit
+            Upit
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>
+          </span>
         </div>
       </div>
 

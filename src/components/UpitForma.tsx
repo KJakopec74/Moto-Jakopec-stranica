@@ -14,6 +14,7 @@
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { PRISTUPNI_KLJUC, posaljiObrazac } from "@/lib/web3forms";
+import { usePopis, makni, isprazni } from "@/lib/odabir";
 
 // Moguća stanja forme
 type StanjeForme = "uređivanje" | "slanje" | "poslano" | "greška";
@@ -31,6 +32,9 @@ export default function UpitForma() {
   // Ako je kupac došao s kartice vozila/proizvoda, naziv je u adresi: /kontakt?model=...
   const parametri = useSearchParams();
   const pocetniModel = parametri.get("model") || "";
+
+  // Artikli koje je kupac skupio gumbom "+ U upit" (košarica upita)
+  const artikli = usePopis("upit");
 
   const [stanje, postaviStanje] = useState<StanjeForme>("uređivanje");
   const [porukaGreske, postaviPorukuGreske] = useState("");
@@ -56,9 +60,15 @@ export default function UpitForma() {
     // 2) Šaljemo podatke servisu Web3Forms (vidi src/lib/web3forms.ts)
     const ime = String(podaci.get("ime") || "");
     const model = String(podaci.get("model") || "");
+    if (artikli.length) {
+      podaci.append("artikli", artikli.map((a, i) => `${i + 1}. ${a}`).join("\n"));
+    }
+    const naslov = artikli.length
+      ? `Novi upit s web stranice: ${artikli.length} ${artikli.length === 1 ? "artikl" : artikli.length < 5 ? "artikla" : "artikala"}`
+      : model ? `Novi upit s web stranice: ${model}` : "Novi upit s web stranice";
     const greska = await posaljiObrazac(
       podaci,
-      model ? `Novi upit s web stranice: ${model}` : "Novi upit s web stranice",
+      naslov,
       `Web stranica — ${ime}`,
     );
     if (greska) {
@@ -67,6 +77,7 @@ export default function UpitForma() {
     } else {
       postaviStanje("poslano");
       forma.reset();
+      isprazni("upit");
     }
   }
 
@@ -113,8 +124,29 @@ export default function UpitForma() {
           className={KLASA_POLJA} style={STIL_POLJA} />
       </div>
 
+      {/* Košarica upita — sve što je kupac dodao gumbom "+ U upit" */}
+      {artikli.length > 0 && (
+        <div className="rounded-lg p-3" style={{ background: "var(--bg2)", border: "1px solid var(--line)" }}>
+          <div className="text-sm font-semibold mb-2" style={{ color: "var(--text)" }}>
+            Upit za ({artikli.length}):
+          </div>
+          <ul className="space-y-1">
+            {artikli.map((a) => (
+              <li key={a} className="flex items-center justify-between gap-2 text-sm" style={{ color: "var(--text)" }}>
+                <span>• {a}</span>
+                <button type="button" onClick={() => makni("upit", a)} className="text-xs hover:underline" style={{ color: "var(--muted)" }}>
+                  makni
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div>
-        <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>Model / proizvod koji vas zanima</label>
+        <label className="block text-sm mb-1.5" style={{ color: "var(--muted)" }}>
+          {artikli.length ? "Još nešto što vas zanima (nije obavezno)" : "Model / proizvod koji vas zanima"}
+        </label>
         <input name="model" type="text" defaultValue={pocetniModel} placeholder="npr. Kawasaki Z900"
           className={KLASA_POLJA} style={STIL_POLJA} />
       </div>

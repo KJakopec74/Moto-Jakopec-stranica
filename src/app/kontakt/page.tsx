@@ -121,7 +121,7 @@ export default function KontaktPage() {
         </div>
 
         {/* Contact form */}
-        <div className="card p-6">
+        <div id="upit" className="card p-6 scroll-mt-24">
           <h2 className="font-bold text-xl mb-6" style={{ color: "var(--text)" }}>Pošalji upit</h2>
           {/* Forma je klijentska komponenta; Suspense je potreban jer čita ?model= iz adrese */}
           <Suspense fallback={null}>
