@@ -4952,10 +4952,10 @@
     "akcijska_cijena": "",
     "description": "Brute Force 750 SE 4x4 — najsnažniji Kawasaki ATV s EPS elektronskim upravljanjem i V-twin motorom.",
     "images": [
+      "/images/vozila/56-brute-force-750-se/img.png",
       "/images/vozila/56-brute-force-750-se/img_01.png",
       "/images/vozila/56-brute-force-750-se/img_02.png",
       "/images/vozila/56-brute-force-750-se/img_03.png",
-      "/images/vozila/56-brute-force-750-se/img_04.png",
       "/images/vozila/56-brute-force-750-se/img_05.png"
     ],
     "specs": {
@@ -4998,9 +4998,9 @@
     "akcijska_cijena": "",
     "description": "Brute Force 750 EPS 4x4 — moćni V-twin 749 cc quad s električnim servo upravljanjem (EPS) za svaki teren.",
     "images": [
+      "/images/vozila/57-brute-force-750/img.jpg",
       "/images/vozila/57-brute-force-750/img_01.jpg",
       "/images/vozila/57-brute-force-750/img_02.jpg",
-      "/images/vozila/57-brute-force-750/img_03.jpg",
       "/images/vozila/57-brute-force-750/img_04.jpg",
       "/images/vozila/57-brute-force-750/img_05.jpg",
       "/images/vozila/57-brute-force-750/img_06.jpg",
@@ -5245,7 +5245,14 @@
     "price": "5.645 €",
     "akcijska_cijena": "",
     "description": "Novi Brute Force 300 T-CAT za 2027. — ulazni Brute Force s T-kategorijom (WVTA) za registraciju i vožnju po cesti.",
-    "images": [],
+    "images": [
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_01.png",
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_02.png",
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_03.png",
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_04.png",
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_05.png",
+      "/images/vozila/103-brute-force-300-t-cat/BRUTE_FORCE_300_06.png"
+    ],
     "specs": {
       "Homologacija": "T-kategorija (WVTA), registracija za cestu",
       "Napomena": "Tehničke podatke javljamo na upit"
@@ -5512,7 +5519,11 @@
     "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Novi MULE PRO-FXT 1000 LE za 2027. — veliko radno vozilo s Trans Cab sustavom (preklapanje sa 2 na 4 osobe), motorom 999 cc i čeličnim prednjim branikom.",
-    "images": [],
+    "images": [
+      "/images/vozila/100-mule-pro-fxt-1000-le/MULE_PRO-FXT_1000_LE_01.png",
+      "/images/vozila/100-mule-pro-fxt-1000-le/MULE_PRO-FXT_1000_LE_02.png",
+      "/images/vozila/100-mule-pro-fxt-1000-le/MULE_PRO-FXT_1000_LE_03.png"
+    ],
     "specs": {
       "Boje": "Metallic Light Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični, DOHC, 4 ventila",
@@ -5553,7 +5564,11 @@
     "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Novi MULE SX 4x4 XC LE za 2027. — kompaktno radno vozilo s aluminijskim kotačima od 12\", gumama od 26\", 4 LED svjetla, krovom i posebnom grafikom.",
-    "images": [],
+    "images": [
+      "/images/vozila/101-mule-sx-4x4-xc-le/MULE SX 4x4 XC LE_01.png",
+      "/images/vozila/101-mule-sx-4x4-xc-le/MULE SX 4x4 XC LE_02.png",
+      "/images/vozila/101-mule-sx-4x4-xc-le/MULE SX 4x4 XC LE_03.png"
+    ],
     "specs": {
       "Boje": "Metallic Onyx Black",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
@@ -5597,7 +5612,11 @@
     "price": "Cijena na upit",
     "akcijska_cijena": "",
     "description": "Novi MULE SX 4x4 XC za 2027. — kompaktni MULE s ubrizgavanjem goriva, kotačima od 12\" i gumama od 26\" za veću udaljenost od tla.",
-    "images": [],
+    "images": [
+      "/images/vozila/102-mule-sx-4x4-xc/MULE SX 4x4 XC_01.png",
+      "/images/vozila/102-mule-sx-4x4-xc/MULE SX 4x4 XC_02.png",
+      "/images/vozila/102-mule-sx-4x4-xc/MULE SX 4x4 XC_03.png"
+    ],
     "specs": {
       "Boje": "Metallic Sierra Blue",
       "Tip motora": "Zrakom hlađen, 4-taktni jednocilindrični, OHV",
@@ -5756,16 +5775,12 @@
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "images": [
-      "/images/vozila/69-jet-ski-ultra-160lx/img_01.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_02.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_03.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_04.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_05.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_06.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_07.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_08.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_09.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/img_10.jpg"
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_01.png",
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_02.png",
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_03.png",
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_04.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_05.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_06.jpg"
     ],
     "specs": {
       "Boje": "Metallic Deep Red / Metallic Carbon Gray",
@@ -5837,8 +5852,8 @@
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX-S Angler — posebna outdoor verzija s opremom za ribolov i avanturu.",
     "images": [
+      "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_01.jpg",
-      "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_02.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_03.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_04.jpg",
       "/images/vozila/71-jet-ski-ultra-160lx-s-angler/img_05.jpg",
@@ -6033,11 +6048,9 @@
     "akcijska_cijena": "",
     "description": "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje.",
     "images": [
-      "/images/vozila/75-jet-ski-st-160x/img_01.png",
-      "/images/vozila/75-jet-ski-st-160x/img_02.png",
-      "/images/vozila/75-jet-ski-st-160x/img_03.png",
-      "/images/vozila/75-jet-ski-st-160x/img_04.png",
-      "/images/vozila/75-jet-ski-st-160x/img_05.png"
+      "/images/vozila/75-jet-ski-st-160x/ST160_01.png",
+      "/images/vozila/75-jet-ski-st-160x/ST160_02.png",
+      "/images/vozila/75-jet-ski-st-160x/ST160_03.png"
     ],
     "specs": {
       "Boje": "Metallic Bluish Gray / Pearl Neon Yellow",
