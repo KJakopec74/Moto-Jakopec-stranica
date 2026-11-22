@@ -88,7 +88,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX1003ATFAN",
-      "Boje": "Lime Green / Blue 24, Metallic Flat Spark Black, Metallic Spark Black",
+      "Boje": "Lime Green / Blue 24; Metallic Flat Spark Black / Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -161,7 +161,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX636JTFAN",
-      "Boje": "Lime Green, Metallic Spark Black, Metallic Flat Spark Black, Metallic Matte Carbon Gray",
+      "Boje": "Lime Green; Metallic Spark Black / Metallic Flat Spark Black; Metallic Matte Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "636 cm³",
       "Provrt x hod": "67 x 45,1 mm",
@@ -224,7 +224,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX400STFAN",
-      "Boje": "Metallic Matte Carbon Gray, Lime Green, Metallic Matte Graphenesteel Gray, Metallic Spark Black",
+      "Boje": "Lime Green; Metallic Matte Carbon Gray; Metallic Matte Graphenesteel Gray / Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "399 cm³",
       "Provrt x hod": "57 x 39,1 mm",
@@ -502,7 +502,7 @@
     ],
     "specs": {
       "Oznaka modela": "EX500JTFAN",
-      "Boje": "Lime Green / Ebony, Metallic Matte Graphenesteel Gray, Metallic Spark Black",
+      "Boje": "Lime Green / Ebony; Metallic Matte Graphenesteel Gray / Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -582,7 +582,7 @@
     ],
     "specs": {
       "Oznaka modela": "EX500GTFNN",
-      "Boje": "Metallic Flat Spark Black, Metallic Spark Black",
+      "Boje": "Metallic Flat Spark Black / Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -672,7 +672,7 @@
     ],
     "specs": {
       "Oznaka modela": "BX125CTFNN",
-      "Boje": "Lime Green, Metallic Graphite Gray, Metallic Spark Black, Ebony, Metallic Carbon Gray",
+      "Boje": "Lime Green; Metallic Graphite Gray / Metallic Spark Black; Ebony / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "124 cm³",
       "Provrt x hod": "58 x 47,2 mm",
@@ -862,7 +862,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX1002RTFNN",
-      "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
+      "Boje": "Metallic Carbon Gray / Metallic Diablo Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -969,7 +969,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX1100JTFAN",
-      "Boje": "Plasma Lime Green, Pearl Stardust White, Metallic Diablo Black",
+      "Boje": "Plasma Lime Green / Metallic Diablo Black; Pearl Stardust White / Metallic Diablo Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -1093,7 +1093,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZX1100HSFNN; HTFNN",
-      "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
+      "Boje": "Metallic Carbon Gray / Metallic Diablo Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -1193,7 +1193,7 @@
     ],
     "specs": {
       "Oznaka modela": "CX500ARFNN",
-      "Boje": "Metallic Bright Silver, Metallic Matte Lime Green, Ebony",
+      "Boje": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -1278,7 +1278,7 @@
     ],
     "specs": {
       "Oznaka modela": "NX011ARFNN",
-      "Boje": "Metallic Bright Silver, Metallic Matte Lime Green, Ebony",
+      "Boje": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony",
       "Tip motora": "Zrakom hlađen, unutarnji sinkroni motor s trajnim magnetima",
       "Najveća snaga": "9,0 kW (12 KS) pri 2.600 - 4.000 o/min",
       "Najveći okretni moment": "40,7 Nm pri 0 - 1.600 o/min",
@@ -1380,7 +1380,7 @@
     ],
     "specs": {
       "Oznaka modela": "CR500ARFNN",
-      "Boje": "Metallic Bright Silver, Metallic Matte Lime Green, Ebony, Metallic Matte Graphenesteel Gray, Metallic Graphite Gray",
+      "Boje": "Metallic Bright Silver / Metallic Matte Lime Green / Ebony; Metallic Matte Graphenesteel Gray / Ebony / Metallic Graphite Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -1585,7 +1585,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZR1000RTFNN",
-      "Boje": "Metallic Matte Graphenesteel Gray, Metallic Matte Carbon Gray",
+      "Boje": "Metallic Matte Graphenesteel Gray / Metallic Matte Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -1660,7 +1660,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZR1000RSFNN; RTFNN",
-      "Boje": "Metallic Diablo Black, Metallic Carbon Gray",
+      "Boje": "Metallic Diablo Black / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "998 cm³",
       "Provrt x hod": "76 x 55 mm",
@@ -1726,7 +1726,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZR1100HTFAN",
-      "Boje": "Metallic Matte Graphenesteel Gray, Metallic Matte Carbon Gray",
+      "Boje": "Metallic Matte Graphenesteel Gray / Metallic Matte Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -1790,7 +1790,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZR1100GTFNN",
-      "Boje": "Ebony, Metallic Carbon Gray",
+      "Boje": "Ebony / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -1850,7 +1850,7 @@
     ],
     "specs": {
       "Oznaka modela": "ZR900TTFNN",
-      "Boje": "Metallic Matte Graphenesteel Gray, Metallic Matte Carbon Gray",
+      "Boje": "Metallic Matte Graphenesteel Gray / Metallic Matte Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -2044,7 +2044,7 @@
     ],
     "specs": {
       "Oznaka modela": "ER650WTFNN",
-      "Boje": "Pearl Blizzard White, Candy Lime Green, Candy Persimmon Red, Metallic Carbon Gray, Ebony",
+      "Boje": "Pearl Blizzard White / Candy Lime Green; Candy Persimmon Red / Metallic Carbon Gray; Ebony / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
       "Provrt x hod": "83 x 60 mm",
@@ -2321,7 +2321,7 @@
     ],
     "specs": {
       "Oznaka modela": "BR125MTFNN, MTFAN,",
-      "Boje": "Pearl Storm Gray, Ebony, Metallic Spark Black",
+      "Boje": "Pearl Storm Gray / Ebony; Metallic Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični",
       "Radni obujam": "125 cm³",
       "Provrt x hod": "58 x 47,2 mm",
@@ -2792,7 +2792,7 @@
       }
     ],
     "specs": {
-      "Boje": "Metallic Carbon Gray, Metallic Bluish Green, Metallic Flat Spark Black",
+      "Boje": "Metallic Carbon Gray / Metallic Bluish Green; Metallic Flat Spark Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "649 cm³",
       "Provrt x hod": "83 x 60 mm",
@@ -2864,7 +2864,7 @@
       "/images/vozila/37-eliminator-500-se/img_24.jpg"
     ],
     "specs": {
-      "Boje": "Metallic Matte Graphenesteel Gray, Flat Ebony, Candy Emerald Green",
+      "Boje": "Metallic Matte Graphenesteel Gray / Flat Ebony; Candy Emerald Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -2953,7 +2953,7 @@
       }
     ],
     "specs": {
-      "Boje": "Metallic Imperial Red, Ebony",
+      "Boje": "Metallic Imperial Red / Ebony; Ebony",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni dvocilindrični",
       "Radni obujam": "451 cm³",
       "Provrt x hod": "70 x 58,6 mm",
@@ -3061,7 +3061,7 @@
     ],
     "specs": {
       "Oznaka modela": "KLZ1100CTFNN",
-      "Boje": "Plasma Lime Green, Metallic Diablo Black, Metallic Deep Blue, Metallic Carbon Gray",
+      "Boje": "Plasma Lime Green / Metallic Diablo Black; Metallic Deep Blue / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -3163,7 +3163,7 @@
     ],
     "specs": {
       "Oznaka modela": "KLZ1100BTFNN",
-      "Boje": "Metallic Carbon Gray, Metallic Diablo Black",
+      "Boje": "Metallic Carbon Gray / Metallic Diablo Black",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "1.099 cm³",
       "Provrt x hod": "77 x 59 mm",
@@ -3729,7 +3729,7 @@
       }
     ],
     "specs": {
-      "Boje": "Plasma Lime Green, Firecracker Red, Metallic Spark Black, Metallic Carbon Gray",
+      "Boje": "Plasma Lime Green / Metallic Spark Black; Firecracker Red / Metallic Carbon Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni redni četverocilindrični",
       "Radni obujam": "948 cm³",
       "Provrt x hod": "73,4 x 56 mm",
@@ -4959,6 +4959,7 @@
       "/images/vozila/56-brute-force-750-se/img_05.png"
     ],
     "specs": {
+      "Boje": "Metallic Gold Sparkle Deep Green",
       "Tip motora": "Tekućinom hlađen, 4-taktni V2, SOHC",
       "Radni obujam": "749 cm³",
       "Provrt x hod": "85 x 66 mm",
@@ -5025,6 +5026,7 @@
       "/images/vozila/57-brute-force-750/img_25.jpg"
     ],
     "specs": {
+      "Boje": "Smoky Gray",
       "Tip motora": "Tekućinom hlađen, 4-taktni V2, SOHC",
       "Radni obujam": "749 cm³",
       "Provrt x hod": "85 x 66 mm",
@@ -5083,6 +5085,7 @@
       "/images/vozila/58-brute-force-450-eps/img_18.jpg"
     ],
     "specs": {
+      "Boje": "Grayish Blue, Firecracker Red",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC",
       "Radni obujam": "443 cm³",
       "Provrt x hod": "89 x 71,2 mm",
@@ -5157,6 +5160,7 @@
       "/images/vozila/59-brute-force-450/img_31.jpg"
     ],
     "specs": {
+      "Boje": "Grayish Blue, Firecracker Red",
       "Tip motora": "Tekućinom hlađen, 4-taktni jednocilindrični, SOHC",
       "Radni obujam": "443 cm³",
       "Provrt x hod": "89 x 71,2 mm",
