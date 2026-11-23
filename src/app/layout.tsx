@@ -34,6 +34,8 @@ const PODACI_ZA_GOOGLE = {
   "@context": "https://schema.org",
   "@type": "MotorcycleDealer",
   name: FIRMA.naziv,
+  legalName: FIRMA.pravniNaziv,
+  taxID: FIRMA.oib,
   description: FIRMA.opis,
   url: ADRESA_STRANICE,
   logo: `${ADRESA_STRANICE}/logo-jakopec.png`,

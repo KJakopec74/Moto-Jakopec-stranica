@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { FIRMA } from "@/lib/stranica";
 
 // =============================================================================
 // Politika privatnosti — objašnjava kupcima što radimo s podacima iz forme
-// za upit (GDPR). Tekst je opći predložak; prije objave ga treba provjeriti
-// i po potrebi dopuniti (npr. puni naziv obrta/tvrtke i OIB).
+// za upit i rezervaciju servisa (GDPR). Naziv obrta i OIB su u src/lib/stranica.ts.
 // =============================================================================
 
 export const metadata: Metadata = {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 // Datum zadnje izmjene teksta — promijeniti kad se tekst mijenja
-const DATUM_IZMJENE = "14. studenoga 2026.";
+const DATUM_IZMJENE = "23. studenoga 2026.";
 
 export default function PrivatnostPage() {
   return (
@@ -26,23 +26,26 @@ export default function PrivatnostPage() {
       <div className="card p-6 sm:p-8 space-y-8 leading-relaxed" style={{ color: "var(--text)" }}>
         <Odjeljak naslov="1. Tko obrađuje vaše podatke">
           <p>
-            Voditelj obrade osobnih podataka je <strong>Moto Jakopec</strong>, Eugena Kvaternika 4,
-            10430 Samobor. Za sva pitanja o vašim podacima javite nam se na{" "}
+            Voditelj obrade osobnih podataka je <strong>{FIRMA.pravniNaziv}</strong>, Eugena Kvaternika 4,
+            10430 Samobor, OIB {FIRMA.oib}. Za sva pitanja o vašim podacima javite nam se na{" "}
             <a href="mailto:moto.jakopec@gmail.com" className="underline">moto.jakopec@gmail.com</a>{" "}
             ili na telefon <a href="tel:+38513371059" className="underline">01/3371-059</a>.
           </p>
         </Odjeljak>
 
         <Odjeljak naslov="2. Koje podatke prikupljamo">
-          <p>Kada nam pošaljete upit putem forme na stranici Kontakt, prikupljamo:</p>
+          <p>Kada nam pošaljete upit (stranica Kontakt) ili zahtjev za servis (stranica Servis), prikupljamo:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>ime i prezime,</li>
             <li>email adresu,</li>
-            <li>broj telefona (ako ga upišete),</li>
-            <li>model ili proizvod koji vas zanima te sadržaj poruke.</li>
+            <li>broj telefona,</li>
+            <li>vozila, proizvode ili artikle koji vas zanimaju te sadržaj poruke,</li>
+            <li>kod rezervacije servisa: podatke o vozilu (model, godište, kilometri) i željeni termin.</li>
           </ul>
           <p>
             Stranica ne koristi kolačiće za praćenje ni oglašavanje i ne zahtijeva registraciju.
+            Popis vozila za usporedbu i artikala za upit pamti se samo u vašem pregledniku
+            (lokalna pohrana) i ne šalje nam se dok sami ne pošaljete upit.
           </p>
         </Odjeljak>
 

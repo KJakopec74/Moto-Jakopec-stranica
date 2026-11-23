@@ -9,6 +9,8 @@ export const ADRESA_STRANICE = "https://www.moto-jakopec.com";
 
 export const FIRMA = {
   naziv: "Moto Jakopec",
+  pravniNaziv: "Moto-Jakopec, obrt za trgovinu i popravke",   // puni naziv obrta
+  oib: "21785544982",
   opis: "Ovlašteni Kawasaki zastupnik u Samoboru. Prodaja novih motocikala, quadova, Mule vozila i Jet Ski skutera, servis, rezervni dijelovi i oprema.",
   ulica: "Eugena Kvaternika 4",
   postanskiBroj: "10430",

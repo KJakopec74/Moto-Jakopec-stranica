@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { TELEFONI, RADNO_VRIJEME, DRUSTVENE_MREZE } from "@/lib/stranica";
+import { TELEFONI, RADNO_VRIJEME, DRUSTVENE_MREZE, FIRMA } from "@/lib/stranica";
 import Image from "next/image";
 
 export default function Footer() {
@@ -118,7 +118,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs border-t" style={{ color: "var(--muted)", borderColor: "var(--line)" }}>
-          <p>© {new Date().getFullYear()} Moto Jakopec. Sva prava pridržana.</p>
+          <p>© {new Date().getFullYear()} {FIRMA.pravniNaziv} · OIB {FIRMA.oib}</p>
           <div className="flex items-center gap-4">
             <Link href="/privatnost" className="hover:underline">Politika privatnosti</Link>
             <span>Ovlašteni Kawasaki zastupnik</span>
