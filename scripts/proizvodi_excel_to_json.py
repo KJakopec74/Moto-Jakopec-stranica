@@ -36,13 +36,18 @@ BRENDOVI_DIR = os.path.join(ROOT_DIR, "public", "images", "brendovi")
 LOGO_EXTS = [".svg", ".png", ".jpg", ".jpeg", ".ico", ".webp"]
 
 def find_logo_path(logo_folder: str) -> str:
-    """Pronađi stvarnu putanju loga — provjeri koji fajl postoji."""
-    if not logo_folder:
+    """
+    Pronađi logo (bez obzira na velika/mala slova) i vrati putanju MALIM slovima.
+    Web poslužitelj razlikuje velika i mala slova, a Windows ne — zato se pri svakom
+    buildu nazivi logotipa ionako pretvore u mala slova (scripts/pripremi_build.mjs).
+    """
+    if not logo_folder or not os.path.isdir(BRENDOVI_DIR):
         return ""
-    for ext in LOGO_EXTS:
-        path = os.path.join(BRENDOVI_DIR, f"{logo_folder}{ext}")
-        if os.path.exists(path):
-            return f"/images/brendovi/{logo_folder}{ext}"
+    trazeno = logo_folder.lower()
+    for datoteka in os.listdir(BRENDOVI_DIR):
+        ime, ext = os.path.splitext(datoteka)
+        if ime.lower() == trazeno and ext.lower() in LOGO_EXTS:
+            return f"/images/brendovi/{datoteka.lower()}"
     # Logo ne postoji → prazno (stranica tada prikaže naziv brenda)
     return ""
 
@@ -56,8 +61,9 @@ def pronadi_logo(brand_id: str, naziv: str, logo_folder: str) -> str:
       1. datoteka iz stupca logo_folder (npr. airoh.png)
       2. datoteka nazvana po brand_id (npr. thor.png)
       3. datoteka nazvana slično brendu, npr. "RK Chains.png", "UFO plast.png",
-         "Kite.png" — takva se automatski preimenuje u brand_id (rk.png, ufo.png,
-         kite.png), jer web poslužitelj razlikuje velika i mala slova.
+         "Kite.png" — takva se automatski preimenuje u brand_id (rk.png, ufo.png).
+         (Ako se naziv razlikuje samo u velikim/malim slovima, ne preimenuje se —
+          to riješi pripremi_build.mjs pri svakom buildu.)
     """
     nadeno = find_logo_path(logo_folder) or find_logo_path(brand_id)
     if nadeno or not os.path.isdir(BRENDOVI_DIR):
