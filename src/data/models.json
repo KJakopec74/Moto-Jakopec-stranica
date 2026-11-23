@@ -5680,7 +5680,18 @@
     "images": [
       "/images/vozila/66-jet-ski-ultra-310lx/img_01.jpg",
       "/images/vozila/66-jet-ski-ultra-310lx/img_02.jpg",
-      "/images/vozila/66-jet-ski-ultra-310lx/img_03.jpg"
+      "/images/vozila/66-jet-ski-ultra-310lx/img_03.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_04.png",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_05.png",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_06.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_07.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_08.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_09.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_10.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_12.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_13.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_14.jpg",
+      "/images/vozila/66-jet-ski-ultra-310lx/img_15.jpg"
     ],
     "specs": {
       "Boje": "Metallic Deep Red / Ebony",
@@ -5715,14 +5726,7 @@
     "price": "22.705 €",
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 310LX-S za 2027. — sport-luksuzna verzija Ultra serije, sada s 12,3\" zaslonom osjetljivim na dodir i 1080p kamerom za vožnju unatrag.",
-    "images": [
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_01.jpg",
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_02.jpg",
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_03.jpg",
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_04.jpg",
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_05.jpg",
-      "/images/vozila/67-jet-ski-ultra-310lx-s/img_06.jpg"
-    ],
+    "images": [],
     "specs": {
       "Boje": "Riptide Turquoise / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
@@ -5759,7 +5763,15 @@
     "images": [
       "/images/vozila/68-jet-ski-ultra-310x/img_01.jpg",
       "/images/vozila/68-jet-ski-ultra-310x/img_02.jpg",
-      "/images/vozila/68-jet-ski-ultra-310x/img_03.jpg"
+      "/images/vozila/68-jet-ski-ultra-310x/img_03.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_04.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_05.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_06.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_07.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_08.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_09.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_10.jpg",
+      "/images/vozila/68-jet-ski-ultra-310x/img_11.jpg"
     ],
     "specs": {
       "Boje": "Neon Yellow / Ebony",
@@ -5793,12 +5805,18 @@
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX — luksuzni 3-sjedni vodeni skuter za dugačke vodene ture.",
     "images": [
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_01.png",
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_02.png",
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_03.png",
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_04.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_05.jpg",
-      "/images/vozila/69-jet-ski-ultra-160lx/Ultra 160LX_06.jpg"
+      "/images/vozila/69-jet-ski-ultra-160lx/img_01.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_02.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_03.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_04.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_05.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_06.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_07.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_08.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_09.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_10.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_11.jpg",
+      "/images/vozila/69-jet-ski-ultra-160lx/img_12.jpg"
     ],
     "specs": {
       "Boje": "Metallic Deep Red / Metallic Carbon Gray",
@@ -5833,9 +5851,21 @@
     "akcijska_cijena": "",
     "description": "Jet Ski Ultra 160LX-S — kombinacija sporta i luksuza u vodenom skuteru.",
     "images": [
-      "/images/vozila/70-jet-ski-ultra-160lx-s/img_01.jpg",
-      "/images/vozila/70-jet-ski-ultra-160lx-s/img_02.jpg",
-      "/images/vozila/70-jet-ski-ultra-160lx-s/img_03.jpg"
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_01.png",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_02.png",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_03.png",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_04.png",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_05.png",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_06.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_07.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_08.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_09.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_10.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_11.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_12.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_13.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_14.jpg",
+      "/images/vozila/70-jet-ski-ultra-160lx-s/img_15.jpg"
     ],
     "specs": {
       "Boje": "Riptide Turquoise / Ebony",
@@ -6066,12 +6096,9 @@
     "akcijska_cijena": "",
     "description": "Jet Ski ST 160 — pristupačni ulaz u Kawasaki vodeni sport.",
     "images": [
-      "/images/vozila/76-jet-ski-st-160/img_01.jpg",
-      "/images/vozila/76-jet-ski-st-160/img_02.jpg",
-      "/images/vozila/76-jet-ski-st-160/img_03.jpg",
-      "/images/vozila/76-jet-ski-st-160/img_04.jpg",
-      "/images/vozila/76-jet-ski-st-160/img_05.jpg",
-      "/images/vozila/76-jet-ski-st-160/img_06.jpg"
+      "/images/vozila/76-jet-ski-st-160/ST160 2.png",
+      "/images/vozila/76-jet-ski-st-160/ST160 3.png",
+      "/images/vozila/76-jet-ski-st-160/ST160.png"
     ],
     "specs": {
       "Boje": "Riptide Turquoise / Crystal White",
@@ -6098,7 +6125,15 @@
     "price": "16.496 €",
     "akcijska_cijena": "",
     "description": "STX 160LX-S — sportski STX za tri osobe s kamerom za vožnju unatrag, ukrasnim svjetlima i produljenom stražnjom palubom s nosačima za dodatnu opremu.",
-    "images": [],
+    "images": [
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_01.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_02.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_03.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_04.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_05.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_06.jpg",
+      "/images/vozila/94-jet-ski-stx-160lx-s/img_07.jpg"
+    ],
     "specs": {
       "Boje": "Pearl Citrus Yellow / Metallic Matte Twilight Blue",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
@@ -6128,7 +6163,13 @@
     "price": "11.961 €",
     "akcijska_cijena": "",
     "description": "SX-R 160 — Jet Ski za stajanje (stand-up) za rekreaciju i utrke: motor 1.498 cc, okretni V-trup i deflektor prskanja (KSD).",
-    "images": [],
+    "images": [
+      "/images/vozila/95-jet-ski-sx-r-160/img_01.png",
+      "/images/vozila/95-jet-ski-sx-r-160/img_02.png",
+      "/images/vozila/95-jet-ski-sx-r-160/img_03.png",
+      "/images/vozila/95-jet-ski-sx-r-160/img_04.png",
+      "/images/vozila/95-jet-ski-sx-r-160/img_10.jpg"
+    ],
     "specs": {
       "Boje": "Lime Green / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
@@ -6157,7 +6198,24 @@
     "price": "19.208 €",
     "akcijska_cijena": "",
     "description": "Novi STX 310R za 2027. — kompresorski motor od 300 KS u laganom STX trupu: Kawasakijev najbrže ubrzavajući Jet Ski za sjedenje.",
-    "images": [],
+    "images": [
+      "/images/vozila/96-jet-ski-stx-310r/img_01.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_02.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_03.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_04.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_05.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_06.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_07.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_08.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_09.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_10.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_11.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_12.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_13.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_14.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_15.jpg",
+      "/images/vozila/96-jet-ski-stx-310r/img_16.jpg"
+    ],
     "specs": {
       "Boje": "Lime Green / Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
@@ -6183,7 +6241,24 @@
     "price": "20.536 €",
     "akcijska_cijena": "",
     "description": "Novi STX 310RX za 2027. — kompresorskih 300 KS u STX trupu, uz premium LXury sjedalo.",
-    "images": [],
+    "images": [
+      "/images/vozila/97-jet-ski-stx-310rx/1STX 310RX.png",
+      "/images/vozila/97-jet-ski-stx-310rx/SRX 310RX 2.png",
+      "/images/vozila/97-jet-ski-stx-310rx/STX 310RX 3.png",
+      "/images/vozila/97-jet-ski-stx-310rx/STX 310RX 4.png",
+      "/images/vozila/97-jet-ski-stx-310rx/STX 310RX 5.png",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (0).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (10).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (11).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (4).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (5).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/STX310RX (7).jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/timg_01.jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/timg_02.jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/timg_03.jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/timg_04.jpg",
+      "/images/vozila/97-jet-ski-stx-310rx/timg_05.jpg"
+    ],
     "specs": {
       "Boje": "Metallic Carbon Gray / Lime Green",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila, kompresor s hladnjakom zraka",
@@ -6211,7 +6286,23 @@
     "price": "11.961 €",
     "akcijska_cijena": "",
     "description": "Novi SX-X 160 za 2027. — Jet Ski za stajanje s fiksnim upravljačem, velikom palubom i aktivnim V-trupom; motor 1.498 cc.",
-    "images": [],
+    "images": [
+      "/images/vozila/98-jet-ski-sx-x-160/img_01.png",
+      "/images/vozila/98-jet-ski-sx-x-160/img_02.png",
+      "/images/vozila/98-jet-ski-sx-x-160/img_03.png",
+      "/images/vozila/98-jet-ski-sx-x-160/img_04.png",
+      "/images/vozila/98-jet-ski-sx-x-160/img_05.png",
+      "/images/vozila/98-jet-ski-sx-x-160/img_06.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_07.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_08.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_09.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_10.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_11.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_12.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_13.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_14.jpg",
+      "/images/vozila/98-jet-ski-sx-x-160/img_15.jpg"
+    ],
     "specs": {
       "Boje": "Ebony",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
@@ -6237,7 +6328,23 @@
     "price": "20.886 €",
     "akcijska_cijena": "",
     "description": "Novi Ultra 160LX-S Wakesport za 2027. — Ultra trup s dubokim V (22,5°), ugrađeni nosač za wakeboard i pilon za vuču, sjedalo prilagođeno wake sportovima.",
-    "images": [],
+    "images": [
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_01.png",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_02.png",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_03.png",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_04.png",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_05.png",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_06.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_07.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_08.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_09.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_10.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_11.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_12.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_13.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_14.jpg",
+      "/images/vozila/99-jet-ski-ultra-160lx-s-wakesport/img_15.jpg"
+    ],
     "specs": {
       "Boje": "Metallic Stardust White / Riptide Turquoise",
       "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
