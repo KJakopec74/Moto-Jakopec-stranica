@@ -224,5 +224,12 @@ Automatska provjera kawasaki.eu ih NE smije vratiti kao "nove modele", čak ni a
 - Kawasaki KLX 230R S
 - Kawasaki KX 85 (KX 85L ostaje)
 - Kawasaki Jet Ski ST 160X (ST 160 ostaje)
+- Kawasaki KX 112
+- Kawasaki KLX 450R
+- Kawasaki KFX 90
+- Kawasaki Mule PRO-FXT 1000 LE
+- Kawasaki Mule SX 4x4 XC LE
+- Kawasaki Mule SX 4x4 XC (Mule SX 4x4 ostaje)
+- Kawasaki Jet Ski Ultra 160LX-S Angler (Ultra 160LX-S i Wakesport ostaju)
 
 Novi model dodaj samo ako ga nema u models.json I nije na ovom popisu.
