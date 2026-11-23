@@ -211,3 +211,18 @@ Amber (`#f59e0b`) se koristi za hover efekte na brendovima.
 - Novosti: `novosti.xlsx` → `novosti.json` (`scripts/novosti_excel_to_json.py`, u objavi.bat), `/novosti`, istaknute na početnoj.
 - Stari opisi paketa iz dks.si ("Paket Tourer" u specs) prebačeni u `paketi` i maknuti iz specs.
 - Posebne akcije: `akcije.xlsx` → `akcije.json` (`scripts/akcije_excel_to_json.py`, u objavi.bat), `AkcijaCard.tsx`, prikaz na /akcije, početnoj i u tražilici; `vrijedi_do` skriva akciju (pri buildu i u pregledniku).
+
+## ⛔ Namjerno uklonjena vozila — NE dodavati ponovno
+
+Vlasnik je ova vozila namjerno maknuo s ponude (nema ih u hrvatskom cjeniku / ne prodaje ih).
+Automatska provjera kawasaki.eu ih NE smije vratiti kao "nove modele", čak ni ako su na kawasaki.eu:
+
+- Kawasaki Ninja ZX-10RR
+- Kawasaki Ninja H2SX (bez SE; Ninja H2SX SE ostaje)
+- Kawasaki Z 650 (Z 650 S ostaje)
+- Kawasaki W 800
+- Kawasaki KLX 230R S
+- Kawasaki KX 85 (KX 85L ostaje)
+- Kawasaki Jet Ski ST 160X (ST 160 ostaje)
+
+Novi model dodaj samo ako ga nema u models.json I nije na ovom popisu.
