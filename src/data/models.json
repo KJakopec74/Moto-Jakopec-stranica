@@ -6056,37 +6056,6 @@
     }
   },
   {
-    "id": 75,
-    "name": "Kawasaki Jet Ski ST 160X",
-    "brand": "Kawasaki",
-    "category": "Jet Ski",
-    "license_category": "",
-    "is_new": false,
-    "price": "Cijena na upit",
-    "akcijska_cijena": "",
-    "description": "Jet Ski ST 160X — ulazni sport jednosjed za adrenalinsko klizanje.",
-    "images": [
-      "/images/vozila/75-jet-ski-st-160x/ST160_01.png",
-      "/images/vozila/75-jet-ski-st-160x/ST160_02.png",
-      "/images/vozila/75-jet-ski-st-160x/ST160_03.png"
-    ],
-    "specs": {
-      "Boje": "Metallic Bluish Gray / Pearl Neon Yellow",
-      "Tip motora": "4-taktni redni četverocilindrični, DOHC, 16 ventila",
-      "Radni obujam": "1.498 cm³",
-      "Provrt x hod": "83 x 69,2 mm",
-      "Kompresijski omjer": "10,6 : 1",
-      "Najveća snaga": "112 kW (152 KS) pri 7.500 o/min",
-      "Dovod goriva": "Ubrizgavanje goriva: Ø 60 mm",
-      "Usisni sustav": "Atmosferski (bez kompresora)",
-      "Podmazivanje": "Polusuho korito",
-      "Pogon": "Mlazna pumpa 148 mm, aksijalna, jednostupanjska",
-      "Tehnologije": "Elektronički tempomat, način 5 mph (bez valova), način za učenje (SLO), Kawasaki Smart Steering",
-      "Izvor podataka": "Kawasaki Europe (kawasaki.eu)",
-      "Hlađenje": "Usisanom vodom"
-    }
-  },
-  {
     "id": 76,
     "name": "Kawasaki Jet Ski ST 160",
     "brand": "Kawasaki",
