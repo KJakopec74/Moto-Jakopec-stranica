@@ -5,7 +5,7 @@ export default function DijeloviPage() {
     <PregledKategorija
       vrsta="dijelovi"
       naslov="Dijelovi"
-      podnaslov="Dijelovi za sve offroad marke (motocross, enduro, quad) — motor, auspusi, plastike, kočnice, kotači i sve ostalo"
+      podnaslov="Dijelovi za cestovne i offroad motocikle svih marki — motor, auspusi, lanci, kočnice, ovjes, električni dijelovi, plastike, kotači i sve ostalo"
     />
   );
 }

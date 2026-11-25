@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     default: "Rezervni dijelovi za motocikle",
     template: "%s | Moto Jakopec Samobor",
   },
-  description: "Rezervni dijelovi za sve offroad marke — motocross, enduro i quad: Pro-X, Wiseco, Vertex, FMF, WRP, RK, D.I.D, TRW i drugi. Moto Jakopec, Samobor.",
+  description: "Rezervni dijelovi za cestovne i offroad motocikle svih marki: Pro-X, Wiseco, Vertex, Akrapovič, LeoVince, FMF, RK, D.I.D, TRW i drugi. Moto Jakopec, Samobor.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
