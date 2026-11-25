@@ -634,7 +634,11 @@
     "image_folder": "wiseco-klipni-kompleti",
     "brand": "wiseco",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/wiseco-klipni-kompleti/img_01.jpg",
+      "/images/dijelovi/wiseco-klipni-kompleti/img_02.jpg",
+      "/images/dijelovi/wiseco-klipni-kompleti/img_03.jpg"
+    ],
     "specs": {
       "Sadržaj": "klip, karike, osovinica, osigurači",
       "Izrada": "kovani aluminij",
@@ -655,7 +659,12 @@
     "image_folder": "vertex-klipni-kompleti",
     "brand": "vertex",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/vertex-klipni-kompleti/img_01.jpg",
+      "/images/dijelovi/vertex-klipni-kompleti/img_02.jpg",
+      "/images/dijelovi/vertex-klipni-kompleti/img_03.jpg",
+      "/images/dijelovi/vertex-klipni-kompleti/img_04.jpg"
+    ],
     "specs": {
       "Sadržaj": "klip, karike, osovinica, osigurači",
       "Linije": "Replica (OE oblik), visoka kompresija (HC), GP Racer's Choice",
@@ -712,7 +721,11 @@
     "image_folder": "wiseco-radilice",
     "brand": "wiseco",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/wiseco-radilice/img_01.jpg",
+      "/images/dijelovi/wiseco-radilice/img_02.jpg",
+      "/images/dijelovi/wiseco-radilice/img_03.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -912,7 +925,10 @@
     "image_folder": "valvoline-motorna-ulja",
     "brand": "valvoline",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/valvoline-motorna-ulja/img_01.jpg",
+      "/images/dijelovi/valvoline-motorna-ulja/img_02.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s motorom i željenom viskoznošću"
@@ -987,7 +1003,12 @@
     "image_folder": "setovi-za-reparaciju-karburatora",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/setovi-za-reparaciju-karburatora/IMG_01.jpg",
+      "/images/dijelovi/setovi-za-reparaciju-karburatora/IMG_02.jpg",
+      "/images/dijelovi/setovi-za-reparaciju-karburatora/IMG_03.jpg",
+      "/images/dijelovi/setovi-za-reparaciju-karburatora/IMG_04.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1161,7 +1182,10 @@
     "image_folder": "ufo-stalci-za-motocikle",
     "brand": "ufo",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/ufo-stalci-za-motocikle/img_01.jpg",
+      "/images/dijelovi/ufo-stalci-za-motocikle/img_02.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Offroad motocikli svih marki (motocross, enduro) — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1196,7 +1220,12 @@
     "image_folder": "wrp-guverneri",
     "brand": "wrp",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/wrp-guverneri/img_01.jpg",
+      "/images/dijelovi/wrp-guverneri/img_02.jpg",
+      "/images/dijelovi/wrp-guverneri/img_03.jpg",
+      "/images/dijelovi/wrp-guverneri/img_04.jpg"
+    ],
     "specs": {
       "Promjer na nosaču": "28,6 mm",
       "Materijal": "aluminij 7075-T6, anodiziran",
@@ -1237,7 +1266,13 @@
     "image_folder": "rucice-kocnice-i-kvacila",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/rucice-kocnice-i-kvacila/IMG_01.jpg",
+      "/images/dijelovi/rucice-kocnice-i-kvacila/IMG_02.jpg",
+      "/images/dijelovi/rucice-kocnice-i-kvacila/IMG_03.jpg",
+      "/images/dijelovi/rucice-kocnice-i-kvacila/IMG_04.jpg",
+      "/images/dijelovi/rucice-kocnice-i-kvacila/IMG_05.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1255,7 +1290,15 @@
     "image_folder": "spuzve-volana",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/spuzve-volana/IMG_01.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_02.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_03.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_04.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_05.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_06.jpg",
+      "/images/dijelovi/spuzve-volana/IMG_07.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Offroad motocikli svih marki (motocross, enduro) — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1345,7 +1388,15 @@
     "image_folder": "ufo-kompleti-plastike",
     "brand": "ufo",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/ufo-kompleti-plastike/img_01.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_02.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_03.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_04.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_05.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_06.jpg",
+      "/images/dijelovi/ufo-kompleti-plastike/img_07.jpg"
+    ],
     "specs": {
       "Sadržaj (ovisno o kompletu)": "prednji i stražnji blatobran, maske hladnjaka, bočne tablice, prednja tablica, štitnici vilice",
       "Proizvodnja": "Italija",
@@ -1365,7 +1416,20 @@
     "image_folder": "ufo-pojedinacni-plasticni-dijelovi",
     "brand": "ufo",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_01.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_02.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_03.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_04.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_05.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_07.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_08.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_09.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_10.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_11.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_12.jpg",
+      "/images/dijelovi/ufo-pojedinacni-plasticni-dijelovi/IMG_13.jpg"
+    ],
     "specs": {
       "Ponuda": "prednji blatobran, stražnji blatobran, bočne maske, maske hladnjaka, prednja tablica, štitnici vilice",
       "Proizvodnja": "Italija",
@@ -1385,7 +1449,13 @@
     "image_folder": "r-tech-setovi-plastike",
     "brand": "rtech",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/r-tech-setovi-plastike/IMG_01.jpg",
+      "/images/dijelovi/r-tech-setovi-plastike/IMG_02.jpg",
+      "/images/dijelovi/r-tech-setovi-plastike/IMG_03.jpg",
+      "/images/dijelovi/r-tech-setovi-plastike/IMG_04.jpg",
+      "/images/dijelovi/r-tech-setovi-plastike/IMG_05.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Offroad motocikli svih marki (motocross, enduro) — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1403,7 +1473,13 @@
     "image_folder": "r-tech-pojedinacne-plastike",
     "brand": "rtech",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/r-tech-pojedinacne-plastike/IMG_01.jpg",
+      "/images/dijelovi/r-tech-pojedinacne-plastike/IMG_02.JPG",
+      "/images/dijelovi/r-tech-pojedinacne-plastike/IMG_03.JPG",
+      "/images/dijelovi/r-tech-pojedinacne-plastike/IMG_04.JPG",
+      "/images/dijelovi/r-tech-pojedinacne-plastike/IMG_05.JPG"
+    ],
     "specs": {
       "Kompatibilnost": "Offroad motocikli svih marki (motocross, enduro) — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1456,7 +1532,11 @@
     "image_folder": "wrp-lancanici",
     "brand": "wrp",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/wrp-lancanici/img_01.jpg",
+      "/images/dijelovi/wrp-lancanici/img_02.jpg",
+      "/images/dijelovi/wrp-lancanici/img_03.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1474,7 +1554,12 @@
     "image_folder": "rk-lanci",
     "brand": "rk",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/rk-lanci/IMG_01.jpg",
+      "/images/dijelovi/rk-lanci/IMG_02.jpg",
+      "/images/dijelovi/rk-lanci/IMG_03.jpg",
+      "/images/dijelovi/rk-lanci/IMG_04.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1510,7 +1595,12 @@
     "image_folder": "trw-kocioni-diskovi",
     "brand": "trw",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/trw-kocioni-diskovi/IMG_01.jpg",
+      "/images/dijelovi/trw-kocioni-diskovi/IMG_02.jpg",
+      "/images/dijelovi/trw-kocioni-diskovi/IMG_03.jpg",
+      "/images/dijelovi/trw-kocioni-diskovi/IMG_04.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1528,7 +1618,12 @@
     "image_folder": "trw-kocione-plocice",
     "brand": "trw",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/trw-kocione-plocice/IMG_01.jpg",
+      "/images/dijelovi/trw-kocione-plocice/IMG_02.jpg",
+      "/images/dijelovi/trw-kocione-plocice/IMG_03.jpg",
+      "/images/dijelovi/trw-kocione-plocice/IMG_04.png"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1654,7 +1749,11 @@
     "image_folder": "setovi-za-reparaciju-zadnjeg-amortizera",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/setovi-za-reparaciju-zadnjeg-amortizera/IMG_01.jpg",
+      "/images/dijelovi/setovi-za-reparaciju-zadnjeg-amortizera/IMG_02.jpg",
+      "/images/dijelovi/setovi-za-reparaciju-zadnjeg-amortizera/IMG_03.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1672,7 +1771,14 @@
     "image_folder": "semeringi-brisaci-i-klizaci-prednjih-vilica",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_01.jpg",
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_02.jpg",
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_03.jpg",
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_04.jpg",
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_05.jpg",
+      "/images/dijelovi/semeringi-brisaci-i-klizaci-prednjih-vilica/IMG_06.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1708,7 +1814,18 @@
     "image_folder": "ulja-za-amortizere-i-vilice",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_01.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_02.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_03.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_04.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_05.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_06.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_07.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_08.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_09.jpg",
+      "/images/dijelovi/ulja-za-amortizere-i-vilice/img_10.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1780,7 +1897,13 @@
     "image_folder": "svjecice-i-lule-svjecica",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/svjecice-i-lule-svjecica/IMG_01.jpg",
+      "/images/dijelovi/svjecice-i-lule-svjecica/IMG_02.jpg",
+      "/images/dijelovi/svjecice-i-lule-svjecica/IMG_03.jpg",
+      "/images/dijelovi/svjecice-i-lule-svjecica/IMG_04.jpg",
+      "/images/dijelovi/svjecice-i-lule-svjecica/IMG_05.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1816,7 +1939,10 @@
     "image_folder": "zmigavci",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/zmigavci/img_01.jpg",
+      "/images/dijelovi/zmigavci/img_02.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
@@ -1834,7 +1960,10 @@
     "image_folder": "stop-svjetla",
     "brand": "",
     "is_new": false,
-    "images": [],
+    "images": [
+      "/images/dijelovi/stop-svjetla/IMG_01.jpg",
+      "/images/dijelovi/stop-svjetla/IMG_02.jpg"
+    ],
     "specs": {
       "Kompatibilnost": "Cestovni i offroad motocikli svih marki — prema modelu i godištu",
       "Dostupnost": "pošaljite upit s modelom i godištem motora"
